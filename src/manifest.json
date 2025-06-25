@@ -1,22 +1,31 @@
 {
-    "name": "Final Fantasy Archipelago",
+    "name": "FF1 Randomizer AP",
     "game_name": "Final Fantasy",
+    "platform": "nes",
     "package_version": "0.0.1",
-    "package_uid": "final fantasy_ap",
-    "author": "builder_script",
+    "package_uid": "ff1r_ap",
+    "author": "Llisandur",
+    "min_poptracker_version": "0.27.0",
+    "target_poptracker_version": "0.32.0",
+    "versions_url": "https://raw.githubusercontent.com/Llisandur/FF1-Randomizer-PopTracker-pack/refs/heads/master/versions.json",
     "variants": {
-        "Map Tracker": {
+        "standard": {
             "display_name": "Map Tracker",
             "flags": [
                 "ap"
             ]
         },
-        "Items Only": {
+        "var_dungeonrouting": {
+            "display_name": "Map Tracker w/ Dungeon Routing",
+            "flags": [
+                "ap"
+            ]
+        },
+        "var_itemsonly": {
             "display_name": "Items Only",
             "flags": [
                 "ap"
             ]
         }
-    },
-    "min_poptracker_version": "0.27.0"
+    }
 }
