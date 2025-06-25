@@ -1,0 +1,200 @@
+[
+    {
+        "name": "Dwarf Cave Locations",
+        "access_rules": [ "airship", "ship,canal" ],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Entrance 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 439,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Entrance 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 439,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Treasury 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 134,
+                        "y": 663
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Smith"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 200,
+                        "y": 82
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Nerrick"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 342,
+                        "y": 773
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Treasury 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 150,
+                        "y": 663
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Treasury 3"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 214,
+                        "y": 711
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Treasury 4"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 230,
+                        "y": 711
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Treasury 5"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 246,
+                        "y": 711
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Treasury 6"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 310,
+                        "y": 711
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Treasury 7"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 326,
+                        "y": 711
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Dwarf Cave/Treasury 8"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "dwarf_cave",
+                        "x": 342,
+                        "y": 711
+                    }
+                ]
+            }
+        ]
+    }
+]

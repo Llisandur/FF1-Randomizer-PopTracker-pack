@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Astos",
+        "type": "toggle",
+        "img": "images/checks/astos.png",
+        "codes": "astos"
+    },
+    {
+        "name": "Bikke",
+        "type": "toggle",
+        "img": "images/checks/bikke.png",
+        "codes": "bikke"
+    },
+    {
+        "name": "Chaos",
+        "type": "toggle",
+        "img": "images/checks/chaos.png",
+        "codes": "chaos"
+    },
+    {
+        "name": "Coneria Locked Incentive Chest",
+        "type": "toggle",
+        "img": "images/checks/coneriaLocked.png",
+        "codes": "coneriaIncentive"
+    },
+    {
+        "name": "Earth Cave Incentive",
+        "type": "toggle",
+        "img": "images/checks/earth.png",
+        "codes": "earthCaveIncentive"
+    },
+    {
+        "name": "Fairy",
+        "type": "toggle",
+        "img": "images/checks/fairy.png",
+        "codes": "fairy"
+    },
+    {
+        "name": "Garland",
+        "type": "toggle",
+        "img": "images/checks/garland.png",
+        "codes": "garland"
+    },
+    {
+        "name": "Shop Item",
+        "type": "toggle",
+        "img": "images/checks/gil_shop_item.png",
+        "codes": "shopItem"
+    },
+    {
+        "name": "Ice Cave Incentive Chest",
+        "type": "toggle",
+        "img": "images/checks/iceCave.png",
+        "codes": "iceCaveIncentive"
+    },
+    {
+        "name": "King of Coneria",
+        "type": "toggle",
+        "img": "images/checks/king.png",
+        "codes": "king"
+    },
+    {
+        "name": "Lefein",
+        "type": "toggle",
+        "img": "images/checks/lefein.png",
+        "codes": "lefein"
+    },
+    {
+        "name": "Marsh Cave Incentive Chest",
+        "type": "toggle",
+        "img": "images/checks/marsh.png",
+        "codes": "marshIncentive"
+    },
+    {
+        "name": "Marsh Cave Locked Incentive Chest",
+        "type": "toggle",
+        "img": "images/checks/marshLocked.png",
+        "codes": "marshLockedIncentive"
+    },
+    {
+        "name": "Matoya",
+        "type": "toggle",
+        "img": "images/checks/matoya.png",
+        "codes": "matoya"
+    },
+    {
+        "name": "Nerrick",
+        "type": "toggle",
+        "img": "images/checks/nerrick.png",
+        "codes": "nerrick"
+    },
+    {
+        "name": "Castle of Ordeals Incentive Chest",
+        "type": "toggle",
+        "img": "images/checks/ordeals.png",
+        "codes": "castleOfOrdealsIncentive"
+    },
+    {
+        "name": "Elf Prince",
+        "type": "toggle",
+        "img": "images/checks/prince.png",
+        "codes": "elfprince"
+    },
+    {
+        "name": "Gurgu Volcano Incentive Chest",
+        "type": "toggle",
+        "img": "images/checks/redD.png",
+        "codes": "volcanoIncentive"
+    },
+    {
+        "name": "Canoe Sage",
+        "type": "toggle",
+        "img": "images/checks/sage.png",
+        "codes": "sages"
+    },
+    {
+        "name": "Sara",
+        "type": "toggle",
+        "img": "images/checks/sara.png",
+        "codes": "sara"
+    },
+    {
+        "name": "Sarda",
+        "type": "toggle",
+        "img": "images/checks/sarda.png",
+        "codes": "sarda"
+    },
+    {
+        "name": "Sea Shrine Incentive Chest",
+        "type": "toggle",
+        "img": "images/checks/seaShrine.png",
+        "codes": "seaShrineIncentive"
+    },
+    {
+        "name": "Sky Fortress Incentive Chest",
+        "type": "toggle",
+        "img": "images/checks/skyPalace.png",
+        "codes": "skyFortressIncentive"
+    },
+    {
+        "name": "Smith",
+        "type": "toggle",
+        "img": "images/checks/smith.png",
+        "codes": "smith"
+    },
+    {
+        "name": "Titan's Trove",
+        "type": "toggle",
+        "img": "images/checks/titan.png",
+        "codes": "titansTrove"
+    },
+    {
+        "name": "Dr. Unne",
+        "type": "toggle",
+        "img": "images/checks/unne.png",
+        "codes": "unne,slabTranslated"
+    },
+    {
+        "name": "Waterfall Robot",
+        "type": "toggle",
+        "img": "images/checks/waterfall.png",
+        "codes": "robot"
+    },
+    {
+        "name": "Cardia Isle Incentive Chest",
+        "type": "toggle",
+        "img": "images/flags/cardiaIncentive.png",
+        "codes": "cardiaIncentive"
+    }
+]

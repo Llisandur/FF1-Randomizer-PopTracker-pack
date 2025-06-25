@@ -1,0 +1,432 @@
+[
+    {
+        "name": "Earth Cave B1",
+        "access_rules": [ "airship", "ship,canal" ],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Giant's Floor (B1) - Single"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b1",
+                        "x": 488,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Giant's Floor (B1) - Appendix 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b1",
+                        "x": 409,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Giant's Floor (B1) - Appendix 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b1",
+                        "x": 425,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Giant's Floor (B1) - Side Path 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b1",
+                        "x": 585,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Giant's Floor (B1) - Side Path 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b1",
+                        "x": 601,
+                        "y": 616
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Earth Cave B2",
+        "access_rules": [ "airship", "ship,canal" ],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/(B2) - Side Room 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b2",
+                        "x": 520,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/(B2) - Side Room 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b2",
+                        "x": 536,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/(B2) - Side Room 3"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b2",
+                        "x": 568,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/(B2) - Guarded 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b2",
+                        "x": 232,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/(B2) - Guarded 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b2",
+                        "x": 248,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/(B2) - Guarded 3"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b2",
+                        "x": 280,
+                        "y": 584
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Earth Cave B3",
+        "access_rules": [ "airship", "ship,canal" ],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Vampire Floor (B3) - Side Room"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b3",
+                        "x": 680,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Vampire Floor (B3) - TFC"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b3",
+                        "x": 680,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Vampire Floor (B3) - Asher Trunk"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b3",
+                        "x": 376,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Vampire Floor (B3) - Vampire's Closet"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b3",
+                        "x": 152,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Vampire Floor (B3) - Incentive"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b3",
+                        "x": 264,
+                        "y": 488
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Earth Cave B4",
+        "access_rules": [ "airship,rod", "ship,canal,rod" ],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Rod Locked Floor (B4) - Armory 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b4",
+                        "x": 488,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Rod Locked Floor (B4) - Armory 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b4",
+                        "x": 504,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Rod Locked Floor (B4) - Armory 3"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b4",
+                        "x": 488,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Rod Locked Floor (B4) - Armory 4"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b4",
+                        "x": 568,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Rod Locked Floor (B4) - Armory 5"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b4",
+                        "x": 600,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Rod Locked Floor (B4) - Lich's Closet 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b4",
+                        "x": 168,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Rod Locked Floor (B4) - Lich's Closet 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b4",
+                        "x": 200,
+                        "y": 504
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Rod Locked Floor (B4) - Lich's Closet 3"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b4",
+                        "x": 152,
+                        "y": 536
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Earth Cave B5",
+        "access_rules": [ "airship,rod", "ship,canal,rod" ],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Melmond Continent/Earth Cave/Earth Orb"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "earth_cave_b5",
+                        "x": 88,
+                        "y": 296
+                    }
+                ]
+            }
+        ]
+    }
+]

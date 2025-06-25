@@ -1,0 +1,626 @@
+[
+    {
+        "name": "Gurgu Volcano B2",
+        "access_rules": [
+            "airship",
+            "openProgression,canoe",
+            "extendedOpen,canoe",
+            "ship,canoe" ],
+        "children":
+        [
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Guarded"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 440,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Center"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 424,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Hairpins"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 312,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Shortpins"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 504,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Vertpins 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 184,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Vertpins 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 200,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 120,
+                        "y": 456
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 104,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 3"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 120,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 4"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 168,
+                        "y": 456
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 5"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 184,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 6"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 152,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 7"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 168,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 8"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 184,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 9"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 200,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 10"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 184,
+                        "y": 456
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 11"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 184,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections":
+                [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Armory Floor (B2) - Armory 12"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b2",
+                        "x": 136,
+                        "y": 440
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gurgu Volcano B4",
+        "access_rules": [
+            "airship",
+            "openProgression,canoe",
+            "extendedOpen,canoe",
+            "ship,canoe" ],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Entrance 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 520,
+                        "y": 40
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Entrance 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 568,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - First Greed"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 296,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Worm Room 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 56,
+                        "y": 40
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Worm Room 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 40,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "(Trapped)",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Worm Room 3"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 88,
+                        "y": 40
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Worm Room 4"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 88,
+                        "y": 56
+                    },
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 792,
+                        "y": 216
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Worm Room 5"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 88,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Second Greed 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 536,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Second Greed 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 568,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Side Room 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 744,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Side Room 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 760,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Grind Room 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 792,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Grind Room 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b4",
+                        "x": 792,
+                        "y": 536
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gurgu Volcano B5",
+        "access_rules": [
+            "airship",
+            "openProgression,canoe",
+            "extendedOpen,canoe",
+            "ship,canoe" ],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Kary Floor (B5) - Incentive"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b5",
+                        "x": 104,
+                        "y": 536
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Agama Floor (B4) - Entrance 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b5",
+                        "x": 872,
+                        "y": 56
+                    },
+                    {
+                        "map": "gurgu_volcano_b5",
+                        "x": 824,
+                        "y": 536
+                    },
+                    {
+                        "map": "gurgu_volcano_b5",
+                        "x": 888,
+                        "y": 824
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Crescent Lake Area/Gurgu Volcano/Fire Orb"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "gurgu_volcano_b5",
+                        "x": 72,
+                        "y": 808
+                    }
+                ]
+            }
+        ]
+    }
+]

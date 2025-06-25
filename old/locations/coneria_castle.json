@@ -1,0 +1,135 @@
+[
+    {
+        "name": "Coneria Castle Locations",
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Coneria Castle/Treasury 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "coneria_castle_f1",
+                        "x": 248,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Coneria Castle/Treasury 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "coneria_castle_f1",
+                        "x": 264,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Coneria Castle/Treasury Major"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "coneria_castle_f1",
+                        "x": 280,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Coneria Castle/Treasury 3"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "coneria_castle_f1",
+                        "x": 328,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Coneria Castle/Treasury 4"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "coneria_castle_f1",
+                        "x": 344,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Coneria Castle/Treasury 5"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "coneria_castle_f1",
+                        "x": 360,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Coneria Castle/King"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "coneria_castle_f2",
+                        "x": 215,
+                        "y": 53
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Coneria Castle/Princess Sara"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "coneria_castle_f2",
+                        "x": 199,
+                        "y": 69
+                    }
+                ]
+            }
+        ]
+    }
+]

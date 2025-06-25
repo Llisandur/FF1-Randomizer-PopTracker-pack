@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Elfland Castle Locations",
+        "access_rules": [ "airship", "ship,canal" ],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Elfland Castle/Elf Prince"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "elfland_castle",
+                        "x": 168,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Elfland Castle/Treasury 1"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "elfland_castle",
+                        "x": 376,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Elfland Castle/Treasury 2"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "elfland_castle",
+                        "x": 392,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Elfland Castle/Treasury 3"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "elfland_castle",
+                        "x": 408,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Aldi Sea/Elfland Castle/Treasury 4"
+                    }
+                ],
+                "map_locations":
+                [
+                    {
+                        "map": "elfland_castle",
+                        "x": 424,
+                        "y": 72
+                    }
+                ]
+            }
+        ]
+    }
+]

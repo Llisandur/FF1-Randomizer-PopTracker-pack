@@ -1,0 +1,442 @@
+[
+    {
+        "name": "Sky Fortress F1",
+        "children": [
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Plus (1F) - Four-Pack 1" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f1",
+                        "x": 56,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Plus (1F) - Four-Pack 2" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f1",
+                        "x": 72,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Plus (1F) - Four-Pack 3" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f1",
+                        "x": 88,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Plus (1F) - Four-Pack 4" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f1",
+                        "x": 104,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Plus (1F) - Solo" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f1",
+                        "x": 328,
+                        "y": 632
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Plus (1F) - Five-Pack 1" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f1",
+                        "x": 552,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Plus (1F) - Five-Pack 2" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f1",
+                        "x": 568,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Plus (1F) - Five-Pack 3" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f1",
+                        "x": 584,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Plus (1F) - Five-Pack 4" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f1",
+                        "x": 600,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Plus (1F) - Five-Pack 5" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f1",
+                        "x": 616,
+                        "y": 376
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sky Fortress F2",
+        "children": [
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Spider (2F) - Cheap Room 1" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f2",
+                        "x": 152,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Spider (2F) - Cheap Room 2" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f2",
+                        "x": 200,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Spider (2F) - Gauntlet Room" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f2",
+                        "x": 456,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Spider (2F) - Vault 1" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f2",
+                        "x": 40,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Spider (2F) - Vault 2" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f2",
+                        "x": 88,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Spider (2F) - Ribbon Room 1" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f2",
+                        "x": 584,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Spider (2F) - Ribbon Room 2" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f2",
+                        "x": 600,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Spider (2F) - Incentive" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f2",
+                        "x": 184,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Spider (2F) - Wardrobe 1" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f2",
+                        "x": 456,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Spider (2F) - Wardrobe 2" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f2",
+                        "x": 472,
+                        "y": 552
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sky Fortress F3",
+        "children": [
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - CC's Gambit 1" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 280,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - CC's Gambit 2" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 280,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Trapped",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - CC's Gambit 3" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 312,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - CC's Gambit 4" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 312,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - Greed 1" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 72,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - Greed 2" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 88,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - Greed 3" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 104,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - Greed 4" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 120,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - Six-Pack 1" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 632,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - Six-Pack 2" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 632,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - Six-Pack 3" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 632,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - Six-Pack 4" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 664,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - Six-Pack 5" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 664,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Provides (3F) - Six-Pack 6" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f3",
+                        "x": 664,
+                        "y": 312
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sky Fortress F5",
+        "children": [
+            {
+                "name": "",
+                "sections": [ { "ref": "Bird Continent/Sky Fortress/Air Orb" } ],
+                "map_locations":
+                [
+                    {
+                        "map": "sky_castle_f5",
+                        "x": 136,
+                        "y": 101
+                    }
+                ]
+            }
+        ]
+    }
+]

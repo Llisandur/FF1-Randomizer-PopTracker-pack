@@ -1,0 +1,332 @@
+[
+    {
+        "name": "overworld",
+        "location_size": 60,
+        "location_border_thickness": 4,
+        "img": "images/maps/overworld.png"
+    },
+    {
+        "name": "cardia_islands",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/cardia_islands/cardiaislands.png"
+    },
+    {
+        "name": "castle_of_ordeals_f1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/castle_of_ordeals/castleofordeals_f1.png"
+    },
+    {
+        "name": "castle_of_ordeals_f2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/castle_of_ordeals/castleofordeals_f2.png"
+    },
+    {
+        "name": "castle_of_ordeals_f3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/castle_of_ordeals/castleofordeals_f3.png"
+    },
+    {
+        "name": "coneria_castle_f1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/coneria_castle/coneriacastle_f1.png"
+    },
+    {
+        "name": "coneria_castle_f2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/coneria_castle/coneriacastle_f2.png"
+    },
+    {
+        "name": "dwarf_cave",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/dwarf_cave/dwarfcave.png"
+    },
+    {
+        "name": "earth_cave_b1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/earth_cave/earthcave_b1.png"
+    },
+    {
+        "name": "earth_cave_b2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/earth_cave/earthcave_b2.png"
+    },
+    {
+        "name": "earth_cave_b3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/earth_cave/earthcave_b3.png"
+    },
+    {
+        "name": "earth_cave_b4",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/earth_cave/earthcave_b4.png"
+    },
+    {
+        "name": "earth_cave_b5",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/earth_cave/earthcave_b5.png"
+    },
+    {
+        "name": "elfland_castle",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/elfland_castle/elflandcastle.png"
+    },
+    {
+        "name": "gurgu_volcano_b1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/gurgu_volcano/gurguvolcano_b1.png"
+    },
+    {
+        "name": "gurgu_volcano_b2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/gurgu_volcano/gurguvolcano_b2.png"
+    },
+    {
+        "name": "gurgu_volcano_b3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/gurgu_volcano/gurguvolcano_b3.png"
+    },
+    {
+        "name": "gurgu_volcano_b4",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/gurgu_volcano/gurguvolcano_b4.png"
+    },
+    {
+        "name": "gurgu_volcano_b5",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/gurgu_volcano/gurguvolcano_b5.png"
+    },
+    {
+        "name": "ice_cave_b2_hallway",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_cave/icecave_b2_hallway.png"
+    },
+    {
+        "name": "ice_cave_b1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_cave/icecave_b1.png"
+    },
+    {
+        "name": "ice_cave_b3_stairs",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_cave/icecave_b3_stairs.png"
+    },
+    {
+        "name": "ice_cave_b2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_cave/icecave_b2.png"
+    },
+    {
+        "name": "ice_cave_b3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_cave/icecave_b3.png"
+    },
+    {
+        "name": "marsh_cave_b1_middle",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/marsh_cave/marshcave_b1_middle.png"
+    },
+    {
+        "name": "marsh_cave_b1_top",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/marsh_cave/marshcave_b1_top.png"
+    },
+    {
+        "name": "marsh_cave_b2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/marsh_cave/marshcave_b2.png"
+    },
+    {
+        "name": "marsh_cave_f1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/marsh_cave/marshcave_f1.png"
+    },
+    {
+        "name": "matoyas_cave",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/matoyas_cave/matoyascave.png"
+    },
+    {
+        "name": "mirage_tower_f1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mirage_tower/miragetower_f1.png"
+    },
+    {
+        "name": "mirage_tower_f2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mirage_tower/miragetower_f2.png"
+    },
+    {
+        "name": "mirage_tower_f3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mirage_tower/miragetower_f3.png"
+    },
+    {
+        "name": "northwest_castle",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/northwest_castle/northwestcastle.png"
+    },
+    {
+        "name": "sardas_cave",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sardas_cave/sardascave.png"
+    },
+    {
+        "name": "sea_shrine_b1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sea_shrine/seashrine_b1.png"
+    },
+    {
+        "name": "sea_shrine_b2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sea_shrine/seashrine_b2.png"
+    },
+    {
+        "name": "sea_shrine_b3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sea_shrine/seashrine_b3.png"
+    },
+    {
+        "name": "sea_shrine_b4",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sea_shrine/seashrine_b4.png"
+    },
+    {
+        "name": "sea_shrine_b5",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sea_shrine/seashrine_b5.png"
+    },
+    {
+        "name": "sky_castle_f1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sky_castle/skycastle_f1.png"
+    },
+    {
+        "name": "sky_castle_f2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sky_castle/skycastle_f2.png"
+    },
+    {
+        "name": "sky_castle_f3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sky_castle/skycastle_f3.png"
+    },
+    {
+        "name": "sky_castle_f4",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sky_castle/skycastle_f4.png"
+    },
+    {
+        "name": "sky_castle_f5",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/sky_castle/skycastle_f5.png"
+    },
+    {
+        "name": "temple_of_fiends_past_b1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/temple_of_fiends_past/templeoffiends_past_b1.png"
+    },
+    {
+        "name": "temple_of_fiends_past_b2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/temple_of_fiends_past/templeoffiends_past_b2.png"
+    },
+    {
+        "name": "temple_of_fiends_past_b3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/temple_of_fiends_past/templeoffiends_past_b3.png"
+    },
+    {
+        "name": "temple_of_fiends_past_b4",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/temple_of_fiends_past/templeoffiends_past_b4.png"
+    },
+    {
+        "name": "temple_of_fiends_past_b5",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/temple_of_fiends_past/templeoffiends_past_b5.png"
+    },
+    {
+        "name": "temple_of_fiends_past_f1",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/temple_of_fiends_past/templeoffiends_past_f1.png"
+    },
+    {
+        "name": "temple_of_fiends_past_f2",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/temple_of_fiends_past/templeoffiends_past_f2.png"
+    },
+    {
+        "name": "temple_of_fiends_past_f3",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/temple_of_fiends_past/templeoffiends_past_f3.png"
+    },
+    {
+        "name": "temple_of_fiends_present",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/temple_of_fiends_present/templeoffiends_present.png"
+    },
+    {
+        "name": "titans_cave",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/titans_cave/titanscave.png"
+    },
+    {
+        "name": "waterfall",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/waterfall/waterfall.png"
+    }
+]
