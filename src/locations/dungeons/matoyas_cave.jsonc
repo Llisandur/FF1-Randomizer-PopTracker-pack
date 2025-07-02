@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Matoya's Cave",
+    "access_rules": [
+      "bridge",
+      "ship",
+      "airship",
+      "extendedOpen,canoe",
+      "openProgression,canoe"
+    ],
+    "children": [
+      {
+        "name": "Matoya",
+        "map_locations": [{"map": "matoyas_cave", "x": 152, "y": 37}],
+        "sections": [{
+          "name": "",
+          "access_rules": [ "crystal" ],
+          "hosted_item": "matoya"
+        }]
+      },
+      {
+        "name": "Chest 1",
+        "map_locations": [{"map": "matoyas_cave", "x": 40, "y": 88}],
+        "sections": [{
+          "name": "",
+          "visibility_rules": ["$checkLocationVisible|BASE_LOCATION_ID + 043", "showAllChests"]
+        }]
+      },
+      {
+        "name": "Chest 2",
+        "map_locations": [{"map": "matoyas_cave", "x": 40, "y": 104}],
+        "sections": [{
+          "name": "",
+          "visibility_rules": ["$checkLocationVisible|BASE_LOCATION_ID + 045", "showAllChests"]
+        }]
+      },
+      {
+        "name": "Chest 3",
+        "map_locations":[{"map": "matoyas_cave", "x": 40, "y": 136}],
+        "sections": [{
+          "name": "",
+          "visibility_rules": ["$checkLocationVisible|BASE_LOCATION_ID + 044", "showAllChests"]
+        }]
+      }
+    ]
+  }
+]

@@ -9,7 +9,7 @@ IS_ITEMS_ONLY = variant:find("itemsonly")
 print("-- FF1 Randomizer Tracker --")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then
-    print("Debug logging is enabled!")
+  print("Debug logging is enabled!")
 end
 
 -- Utility Script for helper functions etc.
@@ -25,20 +25,24 @@ ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Items
 Tracker:AddItems("items/items.jsonc")
+Tracker:AddItems("items/checks.jsonc")
+Tracker:AddItems("items/settings.jsonc")
+Tracker:AddItems("items/locations.jsonc")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
-    -- Maps
-    Tracker:AddMaps("maps/maps.jsonc")
-    -- Locations
-    Tracker:AddLocations("locations/locations.jsonc")
+  -- Maps
+  Tracker:AddMaps("maps/maps.jsonc")
+  -- Locations
+  Tracker:AddLocations("locations/locations.jsonc")
+  Tracker:AddLocations("locations/dungeons/matoyas_cave.jsonc")
 end
 
 -- Layout
 Tracker:AddLayouts("layouts/items.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
-Tracker:AddLayouts("layouts/broadcast.jsonc")
+--Tracker:AddLayouts("layouts/broadcast.jsonc")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.26.0" then
-    ScriptHost:LoadScript("scripts/autotracking.lua")
+  ScriptHost:LoadScript("scripts/autotracking.lua")
 end

@@ -1,0 +1,156 @@
+[
+    {
+        "name": "Adamant",
+        "type": "toggle",
+        "img": "images/items/adamant.png",
+        "codes": "adamant"
+    },
+    {
+        "name": "Bottle",
+        "type": "toggle",
+        "img": "images/items/bottle.png",
+        "codes": "bottle"
+    },
+    {
+        "name": "Bridge",
+        "type": "toggle",
+        "img": "images/items/bridge.png",
+        "codes": "bridge"
+    },
+    {
+        "name": "Canal",
+        "type": "toggle",
+        "img": "images/items/canal.png",
+        "codes": "canal"
+    },
+    {
+        "name": "Canoe",
+        "type": "toggle",
+        "img": "images/items/canoe.png",
+        "codes": "canoe"
+    },
+    {
+        "name": "Chime",
+        "type": "toggle",
+        "img": "images/items/chime.png",
+        "codes": "chime"
+    },
+    {
+        "name": "Crown",
+        "type": "toggle",
+        "img": "images/items/crown.png",
+        "codes": "crown"
+    },
+    {
+        "name": "Crystal",
+        "type": "toggle",
+        "img": "images/items/crystal.png",
+        "codes": "crystal"
+    },
+    {
+        "name": "Cube",
+        "type": "toggle",
+        "img": "images/items/cube.png",
+        "codes": "cube"
+    },
+    {
+        "name": "Floater",
+        "type": "toggle",
+        "img": "images/items/floater.png",
+        "codes": "floater,inactiveFloater,airship"
+    },
+    {
+        "name": "Herb",
+        "type": "toggle",
+        "img": "images/items/herb.png",
+        "codes": "herb"
+    },
+    {
+        "name": "Mystic Key",
+        "type": "toggle",
+        "img": "images/items/key.png",
+        "codes": "key"
+    },
+    {
+        "name": "Lute",
+        "type": "toggle",
+        "img": "images/items/lute.png",
+        "codes": "lute"
+    },
+    {
+        "name": "Air Orb",
+        "type": "toggle",
+        "img": "images/items/orb-air-yes.png",
+        "disabled_img": "images/items/orb-air-no.png",
+        "codes": "airorb"
+    },
+    {
+        "name": "Earth Orb",
+        "type": "toggle",
+        "img": "images/items/orb-earth-yes.png",
+        "disabled_img": "images/items/orb-earth-no.png",
+        "codes": "earthorb"
+    },
+    {
+        "name": "Fire Orb",
+        "type": "toggle",
+        "img": "images/items/orb-fire-yes.png",
+        "disabled_img": "images/items/orb-fire-no.png",
+        "codes": "fireorb"
+    },
+    {
+        "name": "Water Orb",
+        "type": "toggle",
+        "img": "images/items/orb-water-yes.png",
+        "disabled_img": "images/items/orb-water-no.png",
+        "codes": "waterorb"
+    },
+    {
+        "name": "Oxyale",
+        "type": "toggle",
+        "img": "images/items/oxyale.png",
+        "codes": "oxyale"
+    },
+    {
+        "name": "Rod",
+        "type": "toggle",
+        "img": "images/items/rod.png",
+        "codes": "rod"
+    },
+    {
+        "name": "Ruby",
+        "type": "toggle",
+        "img": "images/items/ruby.png",
+        "codes": "ruby,titan"
+    },
+    {
+        "name": "Ship",
+        "type": "toggle",
+        "img": "images/items/ship.png",
+        "codes": "ship"
+    },
+    {
+        "name": "Slab",
+        "type": "toggle",
+        "img": "images/items/slab-found.png",
+        "codes": "slab"
+    },
+    {
+        "name": "Tail",
+        "type": "toggle",
+        "img": "images/items/tail.png",
+        "codes": "tail"
+    },
+    {
+        "name": "TNT",
+        "type": "toggle",
+        "img": "images/items/tnt.png",
+        "codes": "tnt"
+    },
+    {
+        "name" : "Bahamut - Class Change",
+        "type" : "toggle",
+        "img" : "images/checks/bahamut.png",
+        "codes" : "bahamut"
+    }
+]
