@@ -131,10 +131,10 @@
                     }
                   },
                   {
-                    "title": "Elfland Castle",
+                    "title": "Elf Castle",
                     "content": {
                       "type": "map",
-                      "maps": [ "elfland_castle" ]
+                      "maps": [ "elf_castle" ]
                     }
                   },
                   {

@@ -245,6 +245,7 @@ function onLocation(location_id, location_name)
       print(string.format("onLocation: skipping empty location_table"))
     end
   end
+  updateOverworld()
 end
 
 function GetHighlightFromStatus(status)

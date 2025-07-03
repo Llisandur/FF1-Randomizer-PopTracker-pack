@@ -17,6 +17,7 @@
           },
           {
             "name": "Chests",
+            "visibility_rules": [ "MatoyasCave_Chest1","MatoyasCave_Chest2","MatoyasCave_Chest3" ],
             "clear_as_group": true,
             "item_count": 3
           }
@@ -36,11 +37,13 @@
           },
           {
             "name": "Entrance",
+            "visibility_rules": [ "DwarfCave_Entrance1","DwarfCave_Entrance2" ],
             "clear_as_group": true,
             "item_count": 2
           },
           {
             "name": "Treasury",
+            "visibility_rules": [ "DwarfCave_Treasury1","DwarfCave_Treasury2","DwarfCave_Treasury3","DwarfCave_Treasury4","DwarfCave_Treasury5","DwarfCave_Treasury6","DwarfCave_Treasury7","DwarfCave_Treasury8" ],
             "clear_as_group": true,
             "item_count": 8,
             "access_rules": [ "key" ]
@@ -60,6 +63,7 @@
           },
           {
             "name": "Treasury",
+            "visibility_rules": [ "ConeriaCastle_Treasury1","ConeriaCastle_Treasury2","ConeriaCastle_Treasury3","ConeriaCastle_Treasury4","ConeriaCastle_Treasury5" ],
             "access_rules": [ "key" ],
             "clear_as_group": true,
             "item_count": 5
@@ -70,6 +74,23 @@
           }
         ],
         "map_locations": [{"map": "overworld", "x": 2448, "y": 2542}]
+      },
+      {"name": "Elf Castle",
+        "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
+        "sections": [
+          {
+            "name": "Elf Prince",
+            "ref": "Elf Castle/Elf Prince/"
+          },
+          {
+            "name": "Treasury",
+            "visibility_rules": [ "ElflandCastle_Treasury1","ElflandCastle_Treasury2","ElflandCastle_Treasury3","ElflandCastle_Treasury4" ],
+            "access_rules": [ "key" ],
+            "clear_as_group": true,
+            "item_count": 4
+          }
+        ],
+        "map_locations": [{"map": "overworld", "x": 2176, "y": 3540}]
       },
       {"name": "Temple of Fiends",
         "sections": [
@@ -160,37 +181,6 @@
           }
         ],
         "map_locations": [{"map": "overworld", "x": 3368, "y": 2408}]
-      },
-      {"name": "Elfland Castle",
-        "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
-        "sections": [
-          {
-            "name": "Elf Prince",
-            "access_rules": [ "herb" ],
-            "hosted_item": "elfprince"
-          },
-          {
-            "name": "Treasury 1",
-            "visibility_rules": ["ElflandCastle_Treasury1"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 2",
-            "visibility_rules": ["ElflandCastle_Treasury2"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 3",
-            "visibility_rules": ["ElflandCastle_Treasury3"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 4",
-            "visibility_rules": ["ElflandCastle_Treasury4"],
-            "access_rules": [ "key" ]
-          }
-        ],
-        "map_locations": [{"map": "overworld", "x": 2176, "y": 3540}]
       },
       {"name": "Marsh Cave",
         "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],

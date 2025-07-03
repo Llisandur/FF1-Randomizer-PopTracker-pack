@@ -78,10 +78,10 @@
         "img": "images/maps/dungeons/earthcave_b5.png"
     },
     {
-        "name": "elfland_castle",
+        "name": "elf_castle",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/elflandcastle.png"
+        "img": "images/maps/dungeons/elf_castle.png"
     },
     {
         "name": "gurgu_volcano_b1",

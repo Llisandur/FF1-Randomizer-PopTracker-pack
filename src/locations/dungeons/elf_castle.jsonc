@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Elf Castle",
+    "access_rules": [ "airship", "ship,canal" ],
+    "children": [
+      {
+        "name": "Elf Prince",
+        "sections": [{
+          "access_rules": [ "herb" ],
+          "hosted_item": "elfprince"
+        }],
+        "map_locations": [{"map": "elf_castle", "x": 168, "y": 150}]
+      },
+      {
+        "name": "Treasury 1",
+        "sections": [{
+          "visibility_rules": ["ElflandCastle_Treasury1"],
+          "access_rules": [ "key" ]
+        }],
+        "map_locations": [{"map": "elf_castle", "x": 376, "y": 72}]
+      },
+      {
+        "name": "Treasury 2",
+        "sections": [{
+          "visibility_rules": ["ElflandCastle_Treasury2"],
+          "access_rules": [ "key" ]
+        }],
+        "map_locations": [{"map": "elf_castle", "x": 392, "y": 72}]
+      },
+      {
+        "name": "Treasury 3",
+        "sections": [{
+          "visibility_rules": ["ElflandCastle_Treasury3"],
+          "access_rules": [ "key" ]
+        }],
+        "map_locations": [{"map": "elf_castle", "x": 408, "y": 72}]
+      },
+      {
+        "name": "Treasury 4",
+        "sections": [{
+          "visibility_rules": ["ElflandCastle_Treasury4"],
+          "access_rules": [ "key" ]
+        }],
+        "map_locations": [{"map": "elf_castle", "x": 424, "y": 72}]
+      }
+    ]
+  }
+]
