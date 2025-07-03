@@ -2,1202 +2,1442 @@
     {
         "name": "",
         "type": "toggle",
-        "codes": "ConeriaCastle_Treasury1"
+        "codes": "ConeriaCastle_Treasury1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "ConeriaCastle_Treasury2"
+        "codes": "ConeriaCastle_Treasury2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "ConeriaCastle_TreasuryMajor"
+        "codes": "ConeriaCastle_TreasuryMajor",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "ConeriaCastle_Treasury3"
+        "codes": "ConeriaCastle_Treasury3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "ConeriaCastle_Treasury4"
+        "codes": "ConeriaCastle_Treasury4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "ConeriaCastle_Treasury5"
+        "codes": "ConeriaCastle_Treasury5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiends_UnlockedDuo1"
+        "codes": "TempleOfFiends_UnlockedDuo1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiends_UnlockedDuo2"
+        "codes": "TempleOfFiends_UnlockedDuo2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiends_UnlockedSingle"
+        "codes": "TempleOfFiends_UnlockedSingle",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiends_LockedSingle"
+        "codes": "TempleOfFiends_LockedSingle",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiends_LockedDuo1"
+        "codes": "TempleOfFiends_LockedDuo1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiends_LockedDuo2"
+        "codes": "TempleOfFiends_LockedDuo2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "ElflandCastle_Treasury1"
+        "codes": "ElflandCastle_Treasury1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "ElflandCastle_Treasury2"
+        "codes": "ElflandCastle_Treasury2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "ElflandCastle_Treasury3"
+        "codes": "ElflandCastle_Treasury3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "ElflandCastle_Treasury4"
+        "codes": "ElflandCastle_Treasury4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "NorthwestCastle_Treasury1"
+        "codes": "NorthwestCastle_Treasury1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "NorthwestCastle_Treasury3"
+        "codes": "NorthwestCastle_Treasury3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "NorthwestCastle_Treasury2"
+        "codes": "NorthwestCastle_Treasury2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Bottom_B2_Distant"
+        "codes": "MarshCave_Bottom_B2_Distant",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Bottom_B2_TetrisZFirst"
+        "codes": "MarshCave_Bottom_B2_TetrisZFirst",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Bottom_B2_TetrisZMiddle1"
+        "codes": "MarshCave_Bottom_B2_TetrisZMiddle1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Bottom_B2_TetrisZLast"
+        "codes": "MarshCave_Bottom_B2_TetrisZLast",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Top_B1_Duo2"
+        "codes": "MarshCave_Top_B1_Duo2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Top_B1_Duo1"
+        "codes": "MarshCave_Top_B1_Duo1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Top_B1_Corner"
+        "codes": "MarshCave_Top_B1_Corner",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Top_B1_Single"
+        "codes": "MarshCave_Top_B1_Single",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Bottom_B2_TetrisZIncentive"
+        "codes": "MarshCave_Bottom_B2_TetrisZIncentive",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Bottom_B2_TetrisZMiddle2"
+        "codes": "MarshCave_Bottom_B2_TetrisZMiddle2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Bottom_B2_LockedCorner"
+        "codes": "MarshCave_Bottom_B2_LockedCorner",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Bottom_B2_LockedMiddle"
+        "codes": "MarshCave_Bottom_B2_LockedMiddle",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MarshCave_Bottom_B2_LockedIncentive"
+        "codes": "MarshCave_Bottom_B2_LockedIncentive",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "DwarfCave_Entrance1"
+        "codes": "DwarfCave_Entrance1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "DwarfCave_Entrance2"
+        "codes": "DwarfCave_Entrance2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "DwarfCave_Treasury1"
+        "codes": "DwarfCave_Treasury1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "DwarfCave_Treasury2"
+        "codes": "DwarfCave_Treasury2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "DwarfCave_Treasury4"
+        "codes": "DwarfCave_Treasury4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "DwarfCave_Treasury5"
+        "codes": "DwarfCave_Treasury5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "DwarfCave_Treasury3"
+        "codes": "DwarfCave_Treasury3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "DwarfCave_Treasury6"
+        "codes": "DwarfCave_Treasury6",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "DwarfCave_Treasury7"
+        "codes": "DwarfCave_Treasury7",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "DwarfCave_Treasury8"
+        "codes": "DwarfCave_Treasury8",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MatoyasCave_Chest1"
+        "codes": "MatoyasCave_Chest1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MatoyasCave_Chest3"
+        "codes": "MatoyasCave_Chest3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MatoyasCave_Chest2"
+        "codes": "MatoyasCave_Chest2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_GiantsFloor_B1_Appendix1"
+        "codes": "EarthCave_GiantsFloor_B1_Appendix1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_GiantsFloor_B1_Appendix2"
+        "codes": "EarthCave_GiantsFloor_B1_Appendix2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_GiantsFloor_B1_SidePath1"
+        "codes": "EarthCave_GiantsFloor_B1_SidePath1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_GiantsFloor_B1_SidePath2"
+        "codes": "EarthCave_GiantsFloor_B1_SidePath2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_GiantsFloor_B1_Single"
+        "codes": "EarthCave_GiantsFloor_B1_Single",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_B2_SideRoom1"
+        "codes": "EarthCave_B2_SideRoom1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_B2_SideRoom2"
+        "codes": "EarthCave_B2_SideRoom2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_B2_SideRoom3"
+        "codes": "EarthCave_B2_SideRoom3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_B2_Guarded1"
+        "codes": "EarthCave_B2_Guarded1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_B2_Guarded2"
+        "codes": "EarthCave_B2_Guarded2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_B2_Guarded3"
+        "codes": "EarthCave_B2_Guarded3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_VampireFloor_B3_VampiresCloset"
+        "codes": "EarthCave_VampireFloor_B3_VampiresCloset",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_VampireFloor_B3_AsherTrunk"
+        "codes": "EarthCave_VampireFloor_B3_AsherTrunk",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_VampireFloor_B3_SideRoom"
+        "codes": "EarthCave_VampireFloor_B3_SideRoom",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_VampireFloor_B3_TFC"
+        "codes": "EarthCave_VampireFloor_B3_TFC",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_VampireFloor_B3_Incentive"
+        "codes": "EarthCave_VampireFloor_B3_Incentive",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_RodLockedFloor_B4_LichsCloset1"
+        "codes": "EarthCave_RodLockedFloor_B4_LichsCloset1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_RodLockedFloor_B4_LichsCloset2"
+        "codes": "EarthCave_RodLockedFloor_B4_LichsCloset2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_RodLockedFloor_B4_LichsCloset3"
+        "codes": "EarthCave_RodLockedFloor_B4_LichsCloset3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_RodLockedFloor_B4_Armory1"
+        "codes": "EarthCave_RodLockedFloor_B4_Armory1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_RodLockedFloor_B4_Armory2"
+        "codes": "EarthCave_RodLockedFloor_B4_Armory2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_RodLockedFloor_B4_Armory4"
+        "codes": "EarthCave_RodLockedFloor_B4_Armory4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_RodLockedFloor_B4_Armory5"
+        "codes": "EarthCave_RodLockedFloor_B4_Armory5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "EarthCave_RodLockedFloor_B4_Armory3"
+        "codes": "EarthCave_RodLockedFloor_B4_Armory3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TitansTunnel_Major"
+        "codes": "TitansTunnel_Major",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TitansTunnel_Chest1"
+        "codes": "TitansTunnel_Chest1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TitansTunnel_Chest2"
+        "codes": "TitansTunnel_Chest2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TitansTunnel_Chest3"
+        "codes": "TitansTunnel_Chest3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory2"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory3"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory6"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory6",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory7"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory7",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory8"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory8",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory5"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory10"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory10",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory4"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory1"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory12"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory12",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory11"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory11",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Armory9"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Armory9",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Vertpins1"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Vertpins1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Vertpins2"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Vertpins2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Hairpins"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Hairpins",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Shortpins"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Shortpins",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Guarded"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Guarded",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_ArmoryFloor_B2_Center"
+        "codes": "GurguVolcano_ArmoryFloor_B2_Center",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_Entrance2"
+        "codes": "GurguVolcano_AgamaFloor_B4_Entrance2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_Entrance1"
+        "codes": "GurguVolcano_AgamaFloor_B4_Entrance1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_FirstGreed"
+        "codes": "GurguVolcano_AgamaFloor_B4_FirstGreed",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_GrindRoom1"
+        "codes": "GurguVolcano_AgamaFloor_B4_GrindRoom1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_GrindRoom2"
+        "codes": "GurguVolcano_AgamaFloor_B4_GrindRoom2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_SecondGreed1"
+        "codes": "GurguVolcano_AgamaFloor_B4_SecondGreed1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_SecondGreed2"
+        "codes": "GurguVolcano_AgamaFloor_B4_SecondGreed2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_SideRoom1"
+        "codes": "GurguVolcano_AgamaFloor_B4_SideRoom1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_SideRoom2"
+        "codes": "GurguVolcano_AgamaFloor_B4_SideRoom2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_WormRoom4"
+        "codes": "GurguVolcano_AgamaFloor_B4_WormRoom4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_WormRoom5"
+        "codes": "GurguVolcano_AgamaFloor_B4_WormRoom5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_WormRoom2"
+        "codes": "GurguVolcano_AgamaFloor_B4_WormRoom2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_WormRoom3"
+        "codes": "GurguVolcano_AgamaFloor_B4_WormRoom3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_AgamaFloor_B4_WormRoom1"
+        "codes": "GurguVolcano_AgamaFloor_B4_WormRoom1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "GurguVolcano_KaryFloor_B5_Incentive"
+        "codes": "GurguVolcano_KaryFloor_B5_Incentive",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_ExitFloor_B1_GreedsChecks1"
+        "codes": "IceCave_ExitFloor_B1_GreedsChecks1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_ExitFloor_B1_GreedsChecks2"
+        "codes": "IceCave_ExitFloor_B1_GreedsChecks2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_ExitFloor_B1_DropRoom1"
+        "codes": "IceCave_ExitFloor_B1_DropRoom1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_ExitFloor_B1_DropRoom2"
+        "codes": "IceCave_ExitFloor_B1_DropRoom2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_ExitFloor_B1_DropRoom3"
+        "codes": "IceCave_ExitFloor_B1_DropRoom3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_IncentiveFloor_B2_Chest1"
+        "codes": "IceCave_IncentiveFloor_B2_Chest1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_IncentiveFloor_B2_Chest2"
+        "codes": "IceCave_IncentiveFloor_B2_Chest2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_IncentiveFloor_B2_Major"
+        "codes": "IceCave_IncentiveFloor_B2_Major",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_Bottom_B3_SixPack1"
+        "codes": "IceCave_Bottom_B3_SixPack1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_Bottom_B3_SixPack2"
+        "codes": "IceCave_Bottom_B3_SixPack2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_Bottom_B3_SixPack4"
+        "codes": "IceCave_Bottom_B3_SixPack4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_Bottom_B3_SixPack5"
+        "codes": "IceCave_Bottom_B3_SixPack5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_Bottom_B3_SixPack3"
+        "codes": "IceCave_Bottom_B3_SixPack3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_Bottom_B3_SixPack6"
+        "codes": "IceCave_Bottom_B3_SixPack6",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_Bottom_B3_IceDRoom1"
+        "codes": "IceCave_Bottom_B3_IceDRoom1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "IceCave_Bottom_B3_IceDRoom2"
+        "codes": "IceCave_Bottom_B3_IceDRoom2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CastleOfOrdeals_TopFloor_3F_FourPack1"
+        "codes": "CastleOfOrdeals_TopFloor_3F_FourPack1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CastleOfOrdeals_TopFloor_3F_FourPack2"
+        "codes": "CastleOfOrdeals_TopFloor_3F_FourPack2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CastleOfOrdeals_TopFloor_3F_FourPack3"
+        "codes": "CastleOfOrdeals_TopFloor_3F_FourPack3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CastleOfOrdeals_TopFloor_3F_FourPack4"
+        "codes": "CastleOfOrdeals_TopFloor_3F_FourPack4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CastleOfOrdeals_TopFloor_3F_ThreePack1"
+        "codes": "CastleOfOrdeals_TopFloor_3F_ThreePack1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CastleOfOrdeals_TopFloor_3F_ThreePack2"
+        "codes": "CastleOfOrdeals_TopFloor_3F_ThreePack2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CastleOfOrdeals_TopFloor_3F_ThreePack3"
+        "codes": "CastleOfOrdeals_TopFloor_3F_ThreePack3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CastleOfOrdeals_TopFloor_3F_Single"
+        "codes": "CastleOfOrdeals_TopFloor_3F_Single",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CastleOfOrdeals_TopFloor_3F_Incentive"
+        "codes": "CastleOfOrdeals_TopFloor_3F_Incentive",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaForestIsland_Entrance2"
+        "codes": "CardiaForestIsland_Entrance2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaForestIsland_Entrance1"
+        "codes": "CardiaForestIsland_Entrance1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaForestIsland_Entrance3"
+        "codes": "CardiaForestIsland_Entrance3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaForestIsland_IncentiveMajor"
+        "codes": "CardiaForestIsland_IncentiveMajor",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaForestIsland_Incentive3"
+        "codes": "CardiaForestIsland_Incentive3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaSwampIsland_Chest1"
+        "codes": "CardiaSwampIsland_Chest1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaSwampIsland_Chest3"
+        "codes": "CardiaSwampIsland_Chest3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaSwampIsland_Chest2"
+        "codes": "CardiaSwampIsland_Chest2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaGrassIsland_DuoRoom1"
+        "codes": "CardiaGrassIsland_DuoRoom1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaGrassIsland_DuoRoom2"
+        "codes": "CardiaGrassIsland_DuoRoom2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaGrassIsland_Entrance"
+        "codes": "CardiaGrassIsland_Entrance",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaForestIsland_Incentive2"
+        "codes": "CardiaForestIsland_Incentive2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "CardiaForestIsland_Incentive1"
+        "codes": "CardiaForestIsland_Incentive1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SharknadoFloor_B4_GreedRoom1"
+        "codes": "SeaShrine_SharknadoFloor_B4_GreedRoom1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SharknadoFloor_B4_GreedRoom2"
+        "codes": "SeaShrine_SharknadoFloor_B4_GreedRoom2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SharknadoFloor_B4_GreedRoom3"
+        "codes": "SeaShrine_SharknadoFloor_B4_GreedRoom3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SharknadoFloor_B4_GreedRoom4"
+        "codes": "SeaShrine_SharknadoFloor_B4_GreedRoom4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SharknadoFloor_B4_Dengbait1"
+        "codes": "SeaShrine_SharknadoFloor_B4_Dengbait1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SharknadoFloor_B4_Dengbait2"
+        "codes": "SeaShrine_SharknadoFloor_B4_Dengbait2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SharknadoFloor_B4_SideCorner1"
+        "codes": "SeaShrine_SharknadoFloor_B4_SideCorner1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SharknadoFloor_B4_SideCorner2"
+        "codes": "SeaShrine_SharknadoFloor_B4_SideCorner2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SharknadoFloor_B4_SideCorner3"
+        "codes": "SeaShrine_SharknadoFloor_B4_SideCorner3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SharknadoFloor_B4_Exit"
+        "codes": "SeaShrine_SharknadoFloor_B4_Exit",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SplitFloor_B3_KrakenSide"
+        "codes": "SeaShrine_SplitFloor_B3_KrakenSide",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_SplitFloor_B3_MermaidSide"
+        "codes": "SeaShrine_SplitFloor_B3_MermaidSide",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_GreedFloor_B3_Chest2"
+        "codes": "SeaShrine_GreedFloor_B3_Chest2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_GreedFloor_B3_Chest1"
+        "codes": "SeaShrine_GreedFloor_B3_Chest1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_TFCFloor_B2_SideCorner"
+        "codes": "SeaShrine_TFCFloor_B2_SideCorner",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_TFCFloor_B2_TFCNorth"
+        "codes": "SeaShrine_TFCFloor_B2_TFCNorth",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_TFCFloor_B2_TFC"
+        "codes": "SeaShrine_TFCFloor_B2_TFC",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_TFCFloor_B2_FirstGreed"
+        "codes": "SeaShrine_TFCFloor_B2_FirstGreed",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_TFCFloor_B2_SecondGreed"
+        "codes": "SeaShrine_TFCFloor_B2_SecondGreed",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_Entrance1"
+        "codes": "SeaShrine_Mermaids_B1_Entrance1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_Entrance2"
+        "codes": "SeaShrine_Mermaids_B1_Entrance2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_Entrance3"
+        "codes": "SeaShrine_Mermaids_B1_Entrance3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_Passby"
+        "codes": "SeaShrine_Mermaids_B1_Passby",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_Bubbles1"
+        "codes": "SeaShrine_Mermaids_B1_Bubbles1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_Bubbles2"
+        "codes": "SeaShrine_Mermaids_B1_Bubbles2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_FourCornerFirst"
+        "codes": "SeaShrine_Mermaids_B1_FourCornerFirst",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_FourCornerSecond"
+        "codes": "SeaShrine_Mermaids_B1_FourCornerSecond",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_FourCornerThird"
+        "codes": "SeaShrine_Mermaids_B1_FourCornerThird",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_FourCornerFourth"
+        "codes": "SeaShrine_Mermaids_B1_FourCornerFourth",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_Incentive1"
+        "codes": "SeaShrine_Mermaids_B1_Incentive1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_Incentive2"
+        "codes": "SeaShrine_Mermaids_B1_Incentive2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SeaShrine_Mermaids_B1_IncentiveMajor"
+        "codes": "SeaShrine_Mermaids_B1_IncentiveMajor",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "WaterfallCave_Chest1"
+        "codes": "WaterfallCave_Chest1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "WaterfallCave_Chest2"
+        "codes": "WaterfallCave_Chest2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "WaterfallCave_Chest3"
+        "codes": "WaterfallCave_Chest3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "WaterfallCave_Chest4"
+        "codes": "WaterfallCave_Chest4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "WaterfallCave_Chest5"
+        "codes": "WaterfallCave_Chest5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "WaterfallCave_Chest6"
+        "codes": "WaterfallCave_Chest6",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_1F_Chest2"
+        "codes": "MirageTower_1F_Chest2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_1F_Chest3"
+        "codes": "MirageTower_1F_Chest3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_1F_Chest5"
+        "codes": "MirageTower_1F_Chest5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_1F_Chest4"
+        "codes": "MirageTower_1F_Chest4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_1F_Chest1"
+        "codes": "MirageTower_1F_Chest1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_1F_Chest7"
+        "codes": "MirageTower_1F_Chest7",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_1F_Chest8"
+        "codes": "MirageTower_1F_Chest8",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_1F_Chest6"
+        "codes": "MirageTower_1F_Chest6",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_2F_Greater1"
+        "codes": "MirageTower_2F_Greater1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_2F_Greater2"
+        "codes": "MirageTower_2F_Greater2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_2F_Greater3"
+        "codes": "MirageTower_2F_Greater3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_2F_Greater4"
+        "codes": "MirageTower_2F_Greater4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_2F_Greater5"
+        "codes": "MirageTower_2F_Greater5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_2F_Lesser5"
+        "codes": "MirageTower_2F_Lesser5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_2F_Lesser4"
+        "codes": "MirageTower_2F_Lesser4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_2F_Lesser3"
+        "codes": "MirageTower_2F_Lesser3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_2F_Lesser2"
+        "codes": "MirageTower_2F_Lesser2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "MirageTower_2F_Lesser1"
+        "codes": "MirageTower_2F_Lesser1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Plus_1F_FourPack1"
+        "codes": "SkyFortress_Plus_1F_FourPack1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Plus_1F_FourPack2"
+        "codes": "SkyFortress_Plus_1F_FourPack2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Plus_1F_FourPack3"
+        "codes": "SkyFortress_Plus_1F_FourPack3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Plus_1F_FourPack4"
+        "codes": "SkyFortress_Plus_1F_FourPack4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Plus_1F_FivePack1"
+        "codes": "SkyFortress_Plus_1F_FivePack1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Plus_1F_FivePack2"
+        "codes": "SkyFortress_Plus_1F_FivePack2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Plus_1F_FivePack3"
+        "codes": "SkyFortress_Plus_1F_FivePack3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Plus_1F_FivePack4"
+        "codes": "SkyFortress_Plus_1F_FivePack4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Plus_1F_FivePack5"
+        "codes": "SkyFortress_Plus_1F_FivePack5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Plus_1F_Solo"
+        "codes": "SkyFortress_Plus_1F_Solo",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Spider_2F_Wardrobe1"
+        "codes": "SkyFortress_Spider_2F_Wardrobe1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Spider_2F_Wardrobe2"
+        "codes": "SkyFortress_Spider_2F_Wardrobe2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Spider_2F_RibbonRoom1"
+        "codes": "SkyFortress_Spider_2F_RibbonRoom1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Spider_2F_GauntletRoom"
+        "codes": "SkyFortress_Spider_2F_GauntletRoom",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Spider_2F_RibbonRoom2"
+        "codes": "SkyFortress_Spider_2F_RibbonRoom2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Spider_2F_CheapRoom1"
+        "codes": "SkyFortress_Spider_2F_CheapRoom1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Spider_2F_CheapRoom2"
+        "codes": "SkyFortress_Spider_2F_CheapRoom2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Spider_2F_Vault1"
+        "codes": "SkyFortress_Spider_2F_Vault1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Spider_2F_Vault2"
+        "codes": "SkyFortress_Spider_2F_Vault2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Spider_2F_Incentive"
+        "codes": "SkyFortress_Spider_2F_Incentive",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_Greed2"
+        "codes": "SkyFortress_Provides_3F_Greed2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_Greed1"
+        "codes": "SkyFortress_Provides_3F_Greed1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_Greed3"
+        "codes": "SkyFortress_Provides_3F_Greed3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_Greed4"
+        "codes": "SkyFortress_Provides_3F_Greed4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_SixPack3"
+        "codes": "SkyFortress_Provides_3F_SixPack3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_SixPack2"
+        "codes": "SkyFortress_Provides_3F_SixPack2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_SixPack5"
+        "codes": "SkyFortress_Provides_3F_SixPack5",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_SixPack4"
+        "codes": "SkyFortress_Provides_3F_SixPack4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_SixPack1"
+        "codes": "SkyFortress_Provides_3F_SixPack1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_SixPack6"
+        "codes": "SkyFortress_Provides_3F_SixPack6",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_CCsGambit1"
+        "codes": "SkyFortress_Provides_3F_CCsGambit1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_CCsGambit2"
+        "codes": "SkyFortress_Provides_3F_CCsGambit2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_CCsGambit3"
+        "codes": "SkyFortress_Provides_3F_CCsGambit3",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "SkyFortress_Provides_3F_CCsGambit4"
+        "codes": "SkyFortress_Provides_3F_CCsGambit4",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiendsRevisited_TiamatFloor_8F_MasamuneChest"
+        "codes": "TempleOfFiendsRevisited_TiamatFloor_8F_MasamuneChest",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiendsRevisited_KaryFloor_6F_Vault"
+        "codes": "TempleOfFiendsRevisited_KaryFloor_6F_Vault",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiendsRevisited_KaryFloor_6F_KatanaChest"
+        "codes": "TempleOfFiendsRevisited_KaryFloor_6F_KatanaChest",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks1"
+        "codes": "TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks1",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks2"
+        "codes": "TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks2",
+        "initial_active_state": true
     },
     {
         "name": "",
         "type": "toggle",
-        "codes": "TempleOfFiendsRevisited_3F_Validation1"
+        "codes": "TempleOfFiendsRevisited_3F_Validation1",
+        "initial_active_state": true
     },
     {
         "name": "",

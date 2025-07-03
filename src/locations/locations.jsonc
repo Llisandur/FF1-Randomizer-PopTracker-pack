@@ -17,138 +17,59 @@
           },
           {
             "name": "Chests",
-            "clear_as_group": false,
+            "clear_as_group": true,
             "item_count": 3
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 2696,
-            "y": 1876
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 2696, "y": 1876}]
       },
       {"name": "Dwarf Cave",
         "access_rules": [ "openProgression", "ship", "airship", "extendedOpen" ],
         "sections": [
           {
             "name": "Nerrick",
-            "access_rules": [ "tnt" ],
-            "hosted_item": "nerrick"
+            "ref": "Dwarf Cave/Nerrick/"
           },
           {
             "name": "Smith",
-            "access_rules": [ "adamant" ],
-            "hosted_item": "smith"
+            "ref": "Dwarf Cave/Smith/"
           },
           {
-            "name": "Entrance 1",
-            "visibility_rules": ["DwarfCave_Entrance1", "showAllChests"]
+            "name": "Entrance",
+            "clear_as_group": true,
+            "item_count": 2
           },
           {
-            "name": "Entrance 2",
-            "visibility_rules": ["DwarfCave_Entrance2", "showAllChests"]
-          },
-          {
-            "name": "Treasury 1",
-            "visibility_rules": ["DwarfCave_Treasury1", "showAllChests"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 2",
-            "visibility_rules": ["DwarfCave_Treasury2", "showAllChests"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 3",
-            "visibility_rules": ["DwarfCave_Treasury3", "showAllChests"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 4",
-            "visibility_rules": ["DwarfCave_Treasury4", "showAllChests"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 5",
-            "visibility_rules": ["DwarfCave_Treasury5", "showAllChests"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 6",
-            "visibility_rules": ["DwarfCave_Treasury6", "showAllChests"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 7",
-            "visibility_rules": ["DwarfCave_Treasury7", "showAllChests"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 8",
-            "visibility_rules": ["DwarfCave_Treasury8", "showAllChests"],
+            "name": "Treasury",
+            "clear_as_group": true,
+            "item_count": 8,
             "access_rules": [ "key" ]
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 1608,
-            "y": 2488
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 1608, "y": 2488}]
       },
       {"name": "Coneria Castle",
         "sections": [
           {
             "name": "King",
-            "hosted_item": "king"
+            "ref": "Coneria Castle/King/"
           },
           {
             "name": "Princess Sara",
-            "access_rules": [ "garland" ],
-            "hosted_item": "sara"
+            "ref": "Coneria Castle/Princess Sara/"
           },
           {
-            "name": "Treasury 1",
-            "visibility_rules": ["ConeriaCastle_Treasury1", "showAllChests"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 2",
-            "visibility_rules": ["ConeriaCastle_Treasury2", "showAllChests"],
-            "access_rules": [ "key" ]
+            "name": "Treasury",
+            "access_rules": [ "key" ],
+            "clear_as_group": true,
+            "item_count": 5
           },
           {
             "name": "Treasury Major",
-            "visibility_rules": ["ConeriaCastle_TreasuryMajor", "showAllChests"],
-            "access_rules": [ "key" ],
-            "hosted_item": "coneriaIncentive"
-          },
-          {
-            "name": "Treasury 3",
-            "visibility_rules": ["ConeriaCastle_Treasury3", "showAllChests"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 4",
-            "visibility_rules": ["ConeriaCastle_Treasury4", "showAllChests"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Treasury 5",
-            "visibility_rules": ["ConeriaCastle_Treasury5", "showAllChests"],
-            "access_rules": [ "key" ]
+            "ref": "Coneria Castle/Treasury Major/"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 2448,
-            "y": 2542
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 2448, "y": 2542}]
       },
       {"name": "Temple of Fiends",
         "sections": [
@@ -158,83 +79,71 @@
           },
           {
             "name": "Unlocked Single",
-            "visibility_rules": ["TempleOfFiends_UnlockedSingle", "showAllChests"]
+            "visibility_rules": ["TempleOfFiends_UnlockedSingle"]
           },
           {
             "name": "Unlocked Duo 1",
-            "visibility_rules": ["TempleOfFiends_UnlockedDuo1", "showAllChests"]
+            "visibility_rules": ["TempleOfFiends_UnlockedDuo1"]
           },
           {
             "name": "Unlocked Duo 2",
-            "visibility_rules": ["TempleOfFiends_UnlockedDuo2", "showAllChests"]
+            "visibility_rules": ["TempleOfFiends_UnlockedDuo2"]
           },
           {
             "name": "Locked Single",
-            "visibility_rules": ["TempleOfFiends_LockedSingle", "showAllChests"],
+            "visibility_rules": ["TempleOfFiends_LockedSingle"],
             "access_rules": [ "key" ]
           },
           {
             "name": "Locked Duo 1",
-            "visibility_rules": ["TempleOfFiends_LockedDuo1", "showAllChests"],
+            "visibility_rules": ["TempleOfFiends_LockedDuo1"],
             "access_rules": [ "key" ]
           },
           {
             "name": "Locked Duo 2",
-            "visibility_rules": ["TempleOfFiends_LockedDuo2", "showAllChests"],
+            "visibility_rules": ["TempleOfFiends_LockedDuo2"],
             "access_rules": [ "key" ]
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 2080,
-            "y": 1970
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 2080, "y": 1970}]
       },
       {"name": "Temple of Fiends Revisited",
         "access_rules": [ "$canBreakOrb,lute,key" ],
         "sections": [
           {
             "name": "(3F) - Validation 1",
-            "visibility_rules": ["TempleOfFiendsRevisited_3F_Validation1", "showAllChests"]
+            "visibility_rules": ["TempleOfFiendsRevisited_3F_Validation1"]
           },
           {
             "name": "(3F) - Validation 2",
-            "visibility_rules": ["TempleOfFiendsRevisited_3F_Validation2", "showAllChests"]
+            "visibility_rules": ["TempleOfFiendsRevisited_3F_Validation2"]
           },
           {
             "name": "Kary Floor (6F) - Vault",
-            "visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_Vault", "showAllChests"]
+            "visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_Vault"]
           },
           {
             "name": "Kary Floor (6F) - Katana Chest",
-            "visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_KatanaChest", "showAllChests"]
+            "visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_KatanaChest"]
           },
           {
             "name": "Kary Floor (6F) - Greed Checks 1",
-            "visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks1", "showAllChests"]
+            "visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks1"]
           },
           {
             "name": "Kary Floor (6F) - Greed Checks 2",
-            "visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks2", "showAllChests"]
+            "visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks2"]
           },
           {
             "name": "Tiamat Floor (8F) - Masamune Chest",
-            "visibility_rules": ["TempleOfFiendsRevisited_TiamatFloor_8F_MasamuneChest", "showAllChests"]
+            "visibility_rules": ["TempleOfFiendsRevisited_TiamatFloor_8F_MasamuneChest"]
           },
           {
             "name": "Chaos",
             "hosted_item": "chaos"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 2080,
-            "y": 1925
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 2080, "y": 1925}]
       },
       {"name": "Pravoka",
         "access_rules": [
@@ -250,13 +159,7 @@
             "hosted_item": "bikke"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 3368,
-            "y": 2408
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 3368, "y": 2408}]
       },
       {"name": "Elfland Castle",
         "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
@@ -268,101 +171,89 @@
           },
           {
             "name": "Treasury 1",
-            "visibility_rules": ["ElflandCastle_Treasury1", "showAllChests"],
+            "visibility_rules": ["ElflandCastle_Treasury1"],
             "access_rules": [ "key" ]
           },
           {
             "name": "Treasury 2",
-            "visibility_rules": ["ElflandCastle_Treasury2", "showAllChests"],
+            "visibility_rules": ["ElflandCastle_Treasury2"],
             "access_rules": [ "key" ]
           },
           {
             "name": "Treasury 3",
-            "visibility_rules": ["ElflandCastle_Treasury3", "showAllChests"],
+            "visibility_rules": ["ElflandCastle_Treasury3"],
             "access_rules": [ "key" ]
           },
           {
             "name": "Treasury 4",
-            "visibility_rules": ["ElflandCastle_Treasury4", "showAllChests"],
+            "visibility_rules": ["ElflandCastle_Treasury4"],
             "access_rules": [ "key" ]
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 2176,
-            "y": 3540
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 2176, "y": 3540}]
       },
       {"name": "Marsh Cave",
         "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
         "sections": [
           {
             "name": "Top (B1) - Single",
-            "visibility_rules": ["MarshCave_Top_B1_Single", "showAllChests"]
+            "visibility_rules": ["MarshCave_Top_B1_Single"]
           },
           {
             "name": "Top (B1) - Corner",
-            "visibility_rules": ["MarshCave_Top_B1_Corner", "showAllChests"]
+            "visibility_rules": ["MarshCave_Top_B1_Corner"]
           },
           {
             "name": "Top (B1) - Duo 1",
-            "visibility_rules": ["MarshCave_Top_B1_Duo1", "showAllChests"]
+            "visibility_rules": ["MarshCave_Top_B1_Duo1"]
           },
           {
             "name": "Top (B1) - Duo 2",
-            "visibility_rules": ["MarshCave_Top_B1_Duo2", "showAllChests"]
+            "visibility_rules": ["MarshCave_Top_B1_Duo2"]
           },
           {
             "name": "Bottom (B2) - Tetris-Z First",
-            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZFirst", "showAllChests"]
+            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZFirst"]
           },
           {
             "name": "Bottom (B2) - Tetris-Z Middle 1",
-            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZMiddle1", "showAllChests"]
+            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZMiddle1"]
           },
           {
             "name": "Bottom (B2) - Tetris-Z Middle 2",
-            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZMiddle2", "showAllChests"]
+            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZMiddle2"]
           },
           {
             "name": "Bottom (B2) - Tetris-Z Incentive",
-            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZIncentive", "showAllChests"],
+            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZIncentive"],
             "hosted_item": "marshIncentive"
           },
           {
             "name": "Bottom (B2) - Tetris-Z Last",
-            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZLast", "showAllChests"]
+            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZLast"]
           },
           {
             "name": "Bottom (B2) - Distant",
-            "visibility_rules": ["MarshCave_Bottom_B2_Distant", "showAllChests"]
+            "visibility_rules": ["MarshCave_Bottom_B2_Distant"]
           },
           {
             "name": "Bottom (B2) - Locked Corner",
-            "visibility_rules": ["MarshCave_Bottom_B2_LockedCorner", "showAllChests"],
+            "visibility_rules": ["MarshCave_Bottom_B2_LockedCorner"],
             "access_rules": [ "key" ]
           },
           {
             "name": "Bottom (B2) - Locked Middle",
-            "visibility_rules": ["MarshCave_Bottom_B2_LockedMiddle", "showAllChests"],
+            "visibility_rules": ["MarshCave_Bottom_B2_LockedMiddle"],
             "access_rules": [ "key" ]
           },
           {
             "name": "Bottom (B2) - Locked Incentive",
-            "visibility_rules": ["MarshCave_Bottom_B2_LockedIncentive", "showAllChests"],
+            "visibility_rules": ["MarshCave_Bottom_B2_LockedIncentive"],
             "access_rules": [ "key" ],
             "hosted_item": "marshLockedIncentive"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 1640,
-            "y": 3784
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 1640, "y": 3784}]
       },
       {"name": "Northwest Castle",
         "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
@@ -374,27 +265,21 @@
           },
           {
             "name": "Treasury 1",
-            "visibility_rules": ["NorthwestCastle_Treasury1", "showAllChests"],
+            "visibility_rules": ["NorthwestCastle_Treasury1"],
             "access_rules": [ "key" ]
           },
           {
             "name": "Treasury 2",
-            "visibility_rules": ["NorthwestCastle_Treasury2", "showAllChests"],
+            "visibility_rules": ["NorthwestCastle_Treasury2"],
             "access_rules": [ "key" ]
           },
           {
             "name": "Treasury 3",
-            "visibility_rules": ["NorthwestCastle_Treasury3", "showAllChests"],
+            "visibility_rules": ["NorthwestCastle_Treasury3"],
             "access_rules": [ "key" ]
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 1648,
-            "y": 2978
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 1648, "y": 2978}]
       }
     ]
   },
@@ -407,107 +292,107 @@
         "sections": [
           {
             "name": "Giant's Floor (B1) - Single",
-            "visibility_rules": ["EarthCave_GiantsFloor_B1_Single", "showAllChests"]
+            "visibility_rules": ["EarthCave_GiantsFloor_B1_Single"]
           },
           {
             "name": "Giant's Floor (B1) - Appendix 1",
-            "visibility_rules": ["EarthCave_GiantsFloor_B1_Appendix1", "showAllChests"]
+            "visibility_rules": ["EarthCave_GiantsFloor_B1_Appendix1"]
           },
           {
             "name": "Giant's Floor (B1) - Appendix 2",
-            "visibility_rules": ["EarthCave_GiantsFloor_B1_Appendix2", "showAllChests"]
+            "visibility_rules": ["EarthCave_GiantsFloor_B1_Appendix2"]
           },
           {
             "name": "Giant's Floor (B1) - Side Path 1",
-            "visibility_rules": ["EarthCave_GiantsFloor_B1_SidePath1", "showAllChests"]
+            "visibility_rules": ["EarthCave_GiantsFloor_B1_SidePath1"]
           },
           {
             "name": "Giant's Floor (B1) - Side Path 2",
-            "visibility_rules": ["EarthCave_GiantsFloor_B1_SidePath2", "showAllChests"]
+            "visibility_rules": ["EarthCave_GiantsFloor_B1_SidePath2"]
           },
           {
             "name": "(B2) - Side Room 1",
-            "visibility_rules": ["EarthCave_B2_SideRoom1", "showAllChests"]
+            "visibility_rules": ["EarthCave_B2_SideRoom1"]
           },
           {
             "name": "(B2) - Side Room 2",
-            "visibility_rules": ["EarthCave_B2_SideRoom2", "showAllChests"]
+            "visibility_rules": ["EarthCave_B2_SideRoom2"]
           },
           {
             "name": "(B2) - Side Room 3",
-            "visibility_rules": ["EarthCave_B2_SideRoom3", "showAllChests"]
+            "visibility_rules": ["EarthCave_B2_SideRoom3"]
           },
           {
             "name": "(B2) - Guarded 1",
-            "visibility_rules": ["EarthCave_B2_Guarded1", "showAllChests"]
+            "visibility_rules": ["EarthCave_B2_Guarded1"]
           },
           {
             "name": "(B2) - Guarded 2",
-            "visibility_rules": ["EarthCave_B2_Guarded2", "showAllChests"]
+            "visibility_rules": ["EarthCave_B2_Guarded2"]
           },
           {
             "name": "(B2) - Guarded 3",
-            "visibility_rules": ["EarthCave_B2_Guarded3", "showAllChests"]
+            "visibility_rules": ["EarthCave_B2_Guarded3"]
           },
           {
             "name": "Vampire Floor (B3) - Side Room",
-            "visibility_rules": ["EarthCave_VampireFloor_B3_SideRoom", "showAllChests"]
+            "visibility_rules": ["EarthCave_VampireFloor_B3_SideRoom"]
           },
           {
             "name": "Vampire Floor (B3) - TFC",
-            "visibility_rules": ["EarthCave_VampireFloor_B3_TFC", "showAllChests"]
+            "visibility_rules": ["EarthCave_VampireFloor_B3_TFC"]
           },
           {
             "name": "Vampire Floor (B3) - Asher Trunk",
-            "visibility_rules": ["EarthCave_VampireFloor_B3_AsherTrunk", "showAllChests"]
+            "visibility_rules": ["EarthCave_VampireFloor_B3_AsherTrunk"]
           },
           {
             "name": "Vampire Floor (B3) - Vampire's Closet",
-            "visibility_rules": ["EarthCave_VampireFloor_B3_VampiresCloset", "showAllChests"]
+            "visibility_rules": ["EarthCave_VampireFloor_B3_VampiresCloset"]
           },
           {
             "name": "Vampire Floor (B3) - Incentive",
-            "visibility_rules": ["EarthCave_VampireFloor_B3_Incentive", "showAllChests"],
+            "visibility_rules": ["EarthCave_VampireFloor_B3_Incentive"],
             "hosted_item": "earthCaveIncentive"
           },
           {
             "name": "Rod Locked Floor (B4) - Lich's Closet 1",
-            "visibility_rules": ["EarthCave_RodLockedFloor_B4_LichsCloset1", "showAllChests"],
+            "visibility_rules": ["EarthCave_RodLockedFloor_B4_LichsCloset1"],
             "access_rules": [ "rod" ]
           },
           {
             "name": "Rod Locked Floor (B4) - Lich's Closet 2",
-            "visibility_rules": ["EarthCave_RodLockedFloor_B4_LichsCloset2", "showAllChests"],
+            "visibility_rules": ["EarthCave_RodLockedFloor_B4_LichsCloset2"],
             "access_rules": [ "rod" ]
           },
           {
             "name": "Rod Locked Floor (B4) - Lich's Closet 3",
-            "visibility_rules": ["EarthCave_RodLockedFloor_B4_LichsCloset3", "showAllChests"],
+            "visibility_rules": ["EarthCave_RodLockedFloor_B4_LichsCloset3"],
             "access_rules": [ "rod" ]
           },
           {
             "name": "Rod Locked Floor (B4) - Armory 1",
-            "visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory1", "showAllChests"],
+            "visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory1"],
             "access_rules": [ "rod" ]
           },
           {
             "name": "Rod Locked Floor (B4) - Armory 2",
-            "visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory2", "showAllChests"],
+            "visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory2"],
             "access_rules": [ "rod" ]
           },
           {
             "name": "Rod Locked Floor (B4) - Armory 3",
-            "visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory3", "showAllChests"],
+            "visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory3"],
             "access_rules": [ "rod" ]
           },
           {
             "name": "Rod Locked Floor (B4) - Armory 4",
-            "visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory4", "showAllChests"],
+            "visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory4"],
             "access_rules": [ "rod" ]
           },
           {
             "name": "Rod Locked Floor (B4) - Armory 5",
-            "visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory5", "showAllChests"],
+            "visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory5"],
             "access_rules": [ "rod" ]
           },
           {
@@ -516,13 +401,7 @@
             "hosted_item": "earthorb"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 1048,
-            "y": 2982
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 1048, "y": 2982}]
       },
       {
         "name": "Titan's Tunnel",
@@ -530,20 +409,20 @@
         "sections": [
           {
             "name": "Major",
-            "visibility_rules": ["TitansTunnel_Major", "showAllChests"],
+            "visibility_rules": ["TitansTunnel_Major"],
             "hosted_item": "titansTrove"
           },
           {
             "name": "Chest 1",
-            "visibility_rules": ["TitansTunnel_Chest1", "showAllChests"]
+            "visibility_rules": ["TitansTunnel_Chest1"]
           },
           {
             "name": "Chest 2",
-            "visibility_rules": ["TitansTunnel_Chest2", "showAllChests"]
+            "visibility_rules": ["TitansTunnel_Chest2"]
           },
           {
             "name": "Chest 3",
-            "visibility_rules": ["TitansTunnel_Chest3", "showAllChests"]
+            "visibility_rules": ["TitansTunnel_Chest3"]
           }
         ],
         "map_locations": [
@@ -568,13 +447,7 @@
             "hosted_item": "sarda"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 488,
-            "y": 3048
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 488, "y": 3048}]
       },
       {
         "name": "Melmond",
@@ -585,13 +458,7 @@
             "hosted_item": "slabTranslated"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 1310,
-            "y": 2560
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 1310, "y": 2560}]
       }
     ]
   },
@@ -613,13 +480,7 @@
             "hosted_item": "sages"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 3512,
-            "y": 3480
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 3512, "y": 3480}]
       },
       {
         "name": "Gurgu Volcano",
@@ -632,135 +493,135 @@
         "sections": [
           {
             "name": "Armory Floor (B2) - Guarded",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Guarded", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Guarded"]
           },
           {
             "name": "Armory Floor (B2) - Center",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Center", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Center"]
           },
           {
             "name": "Armory Floor (B2) - Hairpins",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Hairpins", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Hairpins"]
           },
           {
             "name": "Armory Floor (B2) - Shortpins",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Shortpins", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Shortpins"]
           },
           {
             "name": "Armory Floor (B2) - Vertpins 1",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Vertpins1", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Vertpins1"]
           },
           {
             "name": "Armory Floor (B2) - Vertpins 2",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Vertpins2", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Vertpins2"]
           },
           {
             "name": "Armory Floor (B2) - Armory 1",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory1", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory1"]
           },
           {
             "name": "Armory Floor (B2) - Armory 2",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory2", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory2"]
           },
           {
             "name": "Armory Floor (B2) - Armory 3",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory3", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory3"]
           },
           {
             "name": "Armory Floor (B2) - Armory 4",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory4", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory4"]
           },
           {
             "name": "Armory Floor (B2) - Armory 5",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory5", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory5"]
           },
           {
             "name": "Armory Floor (B2) - Armory 6",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory6", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory6"]
           },
           {
             "name": "Armory Floor (B2) - Armory 7",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory7", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory7"]
           },
           {
             "name": "Armory Floor (B2) - Armory 8",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory8", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory8"]
           },
           {
             "name": "Armory Floor (B2) - Armory 9",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory9", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory9"]
           },
           {
             "name": "Armory Floor (B2) - Armory 10",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory10", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory10"]
           },
           {
             "name": "Armory Floor (B2) - Armory 11",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory11", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory11"]
           },
           {
             "name": "Armory Floor (B2) - Armory 12",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory12", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory12"]
           },
           {
             "name": "Agama Floor (B4) - Entrance 1",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_Entrance1", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_Entrance1"]
           },
           {
             "name": "Agama Floor (B4) - Entrance 2",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_Entrance2", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_Entrance2"]
           },
           {
             "name": "Agama Floor (B4) - First Greed",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_FirstGreed", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_FirstGreed"]
           },
           {
             "name": "Agama Floor (B4) - Worm Room 1",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom1", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom1"]
           },
           {
             "name": "Agama Floor (B4) - Worm Room 2",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom2", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom2"]
           },
           {
             "name": "Agama Floor (B4) - Worm Room 3",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom3", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom3"]
           },
           {
             "name": "Agama Floor (B4) - Worm Room 4",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom4", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom4"]
           },
           {
             "name": "Agama Floor (B4) - Worm Room 5",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom5", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom5"]
           },
           {
             "name": "Agama Floor (B4) - Second Greed 1",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SecondGreed1", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SecondGreed1"]
           },
           {
             "name": "Agama Floor (B4) - Second Greed 2",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SecondGreed2", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SecondGreed2"]
           },
           {
             "name": "Agama Floor (B4) - Side Room 1",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SideRoom1", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SideRoom1"]
           },
           {
             "name": "Agama Floor (B4) - Side Room 2",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SideRoom2", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SideRoom2"]
           },
           {
             "name": "Agama Floor (B4) - Grind Room 1",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_GrindRoom1", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_GrindRoom1"]
           },
           {
             "name": "Agama Floor (B4) - Grind Room 2",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_GrindRoom2", "showAllChests"]
+            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_GrindRoom2"]
           },
           {
             "name": "Kary Floor (B5) - Incentive",
-            "visibility_rules": ["GurguVolcano_KaryFloor_B5_Incentive", "showAllChests"],
+            "visibility_rules": ["GurguVolcano_KaryFloor_B5_Incentive"],
             "hosted_item": "volcanoIncentive"
           },
           {
@@ -768,13 +629,7 @@
             "hosted_item": "fireorb"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 3024,
-            "y": 3260
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 3024, "y": 3260}]
       },
       {
         "name": "Ice Cave",
@@ -788,95 +643,77 @@
         "sections": [
           {
             "name": "Incentive Floor (B2) - Chest 1",
-            "visibility_rules": ["IceCave_IncentiveFloor_B2_Chest1", "showAllChests"]
+            "visibility_rules": ["IceCave_IncentiveFloor_B2_Chest1"]
           },
           {
             "name": "Incentive Floor (B2) - Chest 2",
-            "visibility_rules": ["IceCave_IncentiveFloor_B2_Chest2", "showAllChests"]
+            "visibility_rules": ["IceCave_IncentiveFloor_B2_Chest2"]
           },
           {
             "name": "Incentive Floor (B2) - Major",
-            "visibility_rules": ["IceCave_IncentiveFloor_B2_Major", "showAllChests"],
+            "visibility_rules": ["IceCave_IncentiveFloor_B2_Major"],
             "hosted_item": "iceCaveIncentive"
           },
           {
             "name": "Bottom (B3) - IceD Room 1",
-            "visibility_rules": ["IceCave_Bottom_B3_IceDRoom1", "showAllChests"]
+            "visibility_rules": ["IceCave_Bottom_B3_IceDRoom1"]
           },
           {
             "name": "Bottom (B3) - IceD Room 2",
-            "visibility_rules": ["IceCave_Bottom_B3_IceDRoom2", "showAllChests"]
+            "visibility_rules": ["IceCave_Bottom_B3_IceDRoom2"]
           },
           {
             "name": "Bottom (B3) - Six-Pack 1",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack1", "showAllChests"]
+            "visibility_rules": ["IceCave_Bottom_B3_SixPack1"]
           },
           {
             "name": "Bottom (B3) - Six-Pack 2",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack2", "showAllChests"]
+            "visibility_rules": ["IceCave_Bottom_B3_SixPack2"]
           },
           {
             "name": "Bottom (B3) - Six-Pack 3",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack3", "showAllChests"]
+            "visibility_rules": ["IceCave_Bottom_B3_SixPack3"]
           },
           {
             "name": "Bottom (B3) - Six-Pack 4",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack4", "showAllChests"]
+            "visibility_rules": ["IceCave_Bottom_B3_SixPack4"]
           },
           {
             "name": "Bottom (B3) - Six-Pack 5",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack5", "showAllChests"]
+            "visibility_rules": ["IceCave_Bottom_B3_SixPack5"]
           },
           {
             "name": "Bottom (B3) - Six-Pack 6",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack6", "showAllChests"]
+            "visibility_rules": ["IceCave_Bottom_B3_SixPack6"]
           },
           {
             "name": "Exit Floor (B1) - Greeds Checks 1",
-            "visibility_rules": ["IceCave_ExitFloor_B1_GreedsChecks1", "showAllChests"]
+            "visibility_rules": ["IceCave_ExitFloor_B1_GreedsChecks1"]
           },
           {
             "name": "Exit Floor (B1) - Greeds Checks 2",
-            "visibility_rules": ["IceCave_ExitFloor_B1_GreedsChecks2", "showAllChests"]
+            "visibility_rules": ["IceCave_ExitFloor_B1_GreedsChecks2"]
           },
           {
             "name": "Exit Floor (B1) - Drop Room 1",
-            "visibility_rules": ["IceCave_ExitFloor_B1_DropRoom1", "showAllChests"]
+            "visibility_rules": ["IceCave_ExitFloor_B1_DropRoom1"]
           },
           {
             "name": "Exit Floor (B1) - Drop Room 2",
-            "visibility_rules": ["IceCave_ExitFloor_B1_DropRoom2", "showAllChests"]
+            "visibility_rules": ["IceCave_ExitFloor_B1_DropRoom2"]
           },
           {
             "name": "Exit Floor (B1) - Drop Room 3",
-            "visibility_rules": ["IceCave_ExitFloor_B1_DropRoom3", "showAllChests"]
+            "visibility_rules": ["IceCave_ExitFloor_B1_DropRoom3"]
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 3160,
-            "y": 2934
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 3160, "y": 2934}]
       },
       {
         "name": "Ryukahn Desert",
         "access_rules": [ "canoe,openProgression", "ship,canoe", "canoe,extendedOpen" ],
-        "sections": [
-          {
-            "name": "Floater Turn In",
-            "access_rules": [ "inactiveFloater" ],
-            "hosted_item": "airship"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 3530,
-            "y": 3786
-          }
-        ]
+        "sections": [{"name": "Floater Turn In", "access_rules": [ "inactiveFloater" ], "hosted_item": "airship"}],
+        "map_locations": [{"map": "overworld", "x": 3530, "y": 3786}]
       }
     ]
   },
@@ -899,13 +736,7 @@
             "hosted_item" : "cardiaIncentive"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 1544,
-            "y": 826
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 1544, "y": 826}]
       },
       {
         "name": "Cardia Grass Island",
@@ -913,24 +744,18 @@
         "sections": [
           {
             "name": "Entrance",
-            "visibility_rules": ["CardiaGrassIsland_Entrance", "showAllChests"]
+            "visibility_rules": ["CardiaGrassIsland_Entrance"]
           },
           {
             "name": "Duo Room 1",
-            "visibility_rules": ["CardiaGrassIsland_DuoRoom1", "showAllChests"]
+            "visibility_rules": ["CardiaGrassIsland_DuoRoom1"]
           },
           {
             "name": "Duo Room 2",
-            "visibility_rules": ["CardiaGrassIsland_DuoRoom2", "showAllChests"]
+            "visibility_rules": ["CardiaGrassIsland_DuoRoom2"]
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 1272,
-            "y": 794
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 1272, "y": 794}]
       },
       {
         "name": "Cardia Swamp Island",
@@ -938,24 +763,18 @@
         "sections": [
           {
             "name": "Chest 1",
-            "visibility_rules": ["CardiaSwampIsland_Chest1", "showAllChests"]
+            "visibility_rules": ["CardiaSwampIsland_Chest1"]
           },
           {
             "name": "Chest 2",
-            "visibility_rules": ["CardiaSwampIsland_Chest2", "showAllChests"]
+            "visibility_rules": ["CardiaSwampIsland_Chest2"]
           },
           {
             "name": "Chest 3",
-            "visibility_rules": ["CardiaSwampIsland_Chest3", "showAllChests"]
+            "visibility_rules": ["CardiaSwampIsland_Chest3"]
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 1496,
-            "y": 938
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 1496, "y": 938}]
       },
       {
         "name": "Cardia Forest Island",
@@ -963,41 +782,35 @@
         "sections": [
           {
             "name": "Entrance 1",
-            "visibility_rules": ["CardiaForestIsland_Entrance1", "showAllChests"]
+            "visibility_rules": ["CardiaForestIsland_Entrance1"]
           },
           {
             "name": "Entrance 2",
-            "visibility_rules": ["CardiaForestIsland_Entrance2", "showAllChests"]
+            "visibility_rules": ["CardiaForestIsland_Entrance2"]
           },
           {
             "name": "Entrance 3",
-            "visibility_rules": ["CardiaForestIsland_Entrance3", "showAllChests"]
+            "visibility_rules": ["CardiaForestIsland_Entrance3"]
           },
           {
             "name": "Incentive 1",
-            "visibility_rules": ["CardiaForestIsland_Incentive1", "showAllChests"]
+            "visibility_rules": ["CardiaForestIsland_Incentive1"]
           },
           {
             "name": "Incentive 2",
-            "visibility_rules": ["CardiaForestIsland_Incentive2", "showAllChests"]
+            "visibility_rules": ["CardiaForestIsland_Incentive2"]
           },
           {
             "name": "Incentive 3",
-            "visibility_rules": ["CardiaForestIsland_Incentive3", "showAllChests"]
+            "visibility_rules": ["CardiaForestIsland_Incentive3"]
           },
           {
             "name": "Incentive Major",
-            "visibility_rules": ["CardiaForestIsland_IncentiveMajor", "showAllChests"],
+            "visibility_rules": ["CardiaForestIsland_IncentiveMajor"],
             "hosted_item": "cardiaIncentive"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 1864,
-            "y": 1066
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 1864, "y": 1066}]
       }
     ]
   },
@@ -1007,38 +820,14 @@
       {
         "name": "Gaia",
         "access_rules": [ "airship","gaiaMountain,ship,canoe,lefeinRiver,canal" ],
-        "sections": [
-          {
-            "name": "Fairy",
-            "access_rules": [ "bottle" ],
-            "hosted_item": "fairy"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 3560,
-            "y": 448
-          }
-        ]
+        "sections": [{"name": "Fairy", "access_rules": [ "bottle" ], "hosted_item": "fairy"}],
+        "map_locations": [{"map": "overworld", "x": 3560, "y": 448}]
       },
       {
         "name": "Lefein",
         "access_rules": [ "airship","lefeinRiver,canoe,ship,canal" ],
-        "sections": [
-          {
-            "name": "Incentive",
-            "access_rules": [ "slabTranslated" ],
-            "hosted_item": "lefein"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 3768,
-            "y": 1586
-          }
-        ]
+        "sections": [{"name": "Incentive", "access_rules": [ "slabTranslated" ], "hosted_item": "lefein"}],
+        "map_locations": [{"map": "overworld", "x": 3768, "y": 1586}]
       },
       {
         "name": "Castle of Ordeals",
@@ -1046,49 +835,43 @@
         "sections": [
           {
             "name": "Top Floor (3F) - Single",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Single", "showAllChests"]
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Single"]
           },
           {
             "name": "Top Floor (3F) - Three-Pack 1",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack1", "showAllChests"]
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack1"]
           },
           {
             "name": "Top Floor (3F) - Three-Pack 2",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack2", "showAllChests"]
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack2"]
           },
           {
             "name": "Top Floor (3F) - Three-Pack 3",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack3", "showAllChests"]
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack3"]
           },
           {
             "name": "Top Floor (3F) - Four-Pack 1",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack1", "showAllChests"]
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack1"]
           },
           {
             "name": "Top Floor (3F) - Four-Pack 2",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack2", "showAllChests"]
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack2"]
           },
           {
             "name": "Top Floor (3F) - Four-Pack 3",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack3", "showAllChests"]
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack3"]
           },
           {
             "name": "Top Floor (3F) - Four-Pack 4",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack4", "showAllChests"]
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack4"]
           },
           {
             "name": "Top Floor (3F) - Incentive",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Incentive", "showAllChests"],
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Incentive"],
             "hosted_item": "castleOfOrdealsIncentive"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 2080,
-            "y": 724
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 2080, "y": 724}]
       },
       {
         "name": "Mirage Tower",
@@ -1096,84 +879,78 @@
         "sections": [
           {
             "name": "(1F) - Chest 1",
-            "visibility_rules": ["MirageTower_1F_Chest1", "showAllChests"]
+            "visibility_rules": ["MirageTower_1F_Chest1"]
           },
           {
             "name": "(1F) - Chest 2",
-            "visibility_rules": ["MirageTower_1F_Chest2", "showAllChests"]
+            "visibility_rules": ["MirageTower_1F_Chest2"]
           },
           {
             "name": "(1F) - Chest 3",
-            "visibility_rules": ["MirageTower_1F_Chest3", "showAllChests"]
+            "visibility_rules": ["MirageTower_1F_Chest3"]
           },
           {
             "name": "(1F) - Chest 4",
-            "visibility_rules": ["MirageTower_1F_Chest4", "showAllChests"]
+            "visibility_rules": ["MirageTower_1F_Chest4"]
           },
           {
             "name": "(1F) - Chest 5",
-            "visibility_rules": ["MirageTower_1F_Chest5", "showAllChests"]
+            "visibility_rules": ["MirageTower_1F_Chest5"]
           },
           {
             "name": "(1F) - Chest 6",
-            "visibility_rules": ["MirageTower_1F_Chest6", "showAllChests"]
+            "visibility_rules": ["MirageTower_1F_Chest6"]
           },
           {
             "name": "(1F) - Chest 7",
-            "visibility_rules": ["MirageTower_1F_Chest7", "showAllChests"]
+            "visibility_rules": ["MirageTower_1F_Chest7"]
           },
           {
             "name": "(1F) - Chest 8",
-            "visibility_rules": ["MirageTower_1F_Chest8", "showAllChests"]
+            "visibility_rules": ["MirageTower_1F_Chest8"]
           },
           {
             "name": "(2F) - Greater 1",
-            "visibility_rules": ["MirageTower_2F_Greater1", "showAllChests"]
+            "visibility_rules": ["MirageTower_2F_Greater1"]
           },
           {
             "name": "(2F) - Greater 2",
-            "visibility_rules": ["MirageTower_2F_Greater2", "showAllChests"]
+            "visibility_rules": ["MirageTower_2F_Greater2"]
           },
           {
             "name": "(2F) - Greater 3",
-            "visibility_rules": ["MirageTower_2F_Greater3", "showAllChests"]
+            "visibility_rules": ["MirageTower_2F_Greater3"]
           },
           {
             "name": "(2F) - Greater 4",
-            "visibility_rules": ["MirageTower_2F_Greater4", "showAllChests"]
+            "visibility_rules": ["MirageTower_2F_Greater4"]
           },
           {
             "name": "(2F) - Greater 5",
-            "visibility_rules": ["MirageTower_2F_Greater5", "showAllChests"]
+            "visibility_rules": ["MirageTower_2F_Greater5"]
           },
           {
             "name": "(2F) - Lesser 1",
-            "visibility_rules": ["MirageTower_2F_Lesser1", "showAllChests"]
+            "visibility_rules": ["MirageTower_2F_Lesser1"]
           },
           {
             "name": "(2F) - Lesser 2",
-            "visibility_rules": ["MirageTower_2F_Lesser2", "showAllChests"]
+            "visibility_rules": ["MirageTower_2F_Lesser2"]
           },
           {
             "name": "(2F) - Lesser 3",
-            "visibility_rules": ["MirageTower_2F_Lesser3", "showAllChests"]
+            "visibility_rules": ["MirageTower_2F_Lesser3"]
           },
           {
             "name": "(2F) - Lesser 4",
-            "visibility_rules": ["MirageTower_2F_Lesser4", "showAllChests"]
+            "visibility_rules": ["MirageTower_2F_Lesser4"]
           },
           {
             "name": "(2F) - Lesser 5",
-            "visibility_rules": ["MirageTower_2F_Lesser5", "showAllChests"]
+            "visibility_rules": ["MirageTower_2F_Lesser5"]
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 3110,
-            "y": 950
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 3110, "y": 950}]
       },
       {
         "name": "Sky Fortress",
@@ -1181,153 +958,147 @@
         "sections": [
           {
             "name": "Plus (1F) - Four-Pack 1",
-            "visibility_rules": ["SkyFortress_Plus_1F_FourPack1", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Plus_1F_FourPack1"]
           },
           {
             "name": "Plus (1F) - Four-Pack 2",
-            "visibility_rules": ["SkyFortress_Plus_1F_FourPack2", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Plus_1F_FourPack2"]
           },
           {
             "name": "Plus (1F) - Four-Pack 3",
-            "visibility_rules": ["SkyFortress_Plus_1F_FourPack3", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Plus_1F_FourPack3"]
           },
           {
             "name": "Plus (1F) - Four-Pack 4",
-            "visibility_rules": ["SkyFortress_Plus_1F_FourPack4", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Plus_1F_FourPack4"]
           },
           {
             "name": "Plus (1F) - Five-Pack 1",
-            "visibility_rules": ["SkyFortress_Plus_1F_FivePack1", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Plus_1F_FivePack1"]
           },
           {
             "name": "Plus (1F) - Five-Pack 2",
-            "visibility_rules": ["SkyFortress_Plus_1F_FivePack2", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Plus_1F_FivePack2"]
           },
           {
             "name": "Plus (1F) - Five-Pack 3",
-            "visibility_rules": ["SkyFortress_Plus_1F_FivePack3", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Plus_1F_FivePack3"]
           },
           {
             "name": "Plus (1F) - Five-Pack 4",
-            "visibility_rules": ["SkyFortress_Plus_1F_FivePack4", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Plus_1F_FivePack4"]
           },
           {
             "name": "Plus (1F) - Five-Pack 5",
-            "visibility_rules": ["SkyFortress_Plus_1F_FivePack5", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Plus_1F_FivePack5"]
           },
           {
             "name": "Plus (1F) - Solo",
-            "visibility_rules": ["SkyFortress_Plus_1F_Solo", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Plus_1F_Solo"]
           },
           {
             "name": "Spider (2F) - Wardrobe 1",
-            "visibility_rules": ["SkyFortress_Spider_2F_Wardrobe1", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Spider_2F_Wardrobe1"]
           },
           {
             "name": "Spider (2F) - Wardrobe 2",
-            "visibility_rules": ["SkyFortress_Spider_2F_Wardrobe2", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Spider_2F_Wardrobe2"]
           },
           {
             "name": "Spider (2F) - Ribbon Room 1",
-            "visibility_rules": ["SkyFortress_Spider_2F_RibbonRoom1", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Spider_2F_RibbonRoom1"]
           },
           {
             "name": "Spider (2F) - Ribbon Room 2",
-            "visibility_rules": ["SkyFortress_Spider_2F_RibbonRoom2", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Spider_2F_RibbonRoom2"]
           },
           {
             "name": "Spider (2F) - Gauntlet Room",
-            "visibility_rules": ["SkyFortress_Spider_2F_GauntletRoom", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Spider_2F_GauntletRoom"]
           },
           {
             "name": "Spider (2F) - Cheap Room 1",
-            "visibility_rules": ["SkyFortress_Spider_2F_CheapRoom1", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Spider_2F_CheapRoom1"]
           },
           {
             "name": "Spider (2F) - Cheap Room 2",
-            "visibility_rules": ["SkyFortress_Spider_2F_CheapRoom2", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Spider_2F_CheapRoom2"]
           },
           {
             "name": "Spider (2F) - Vault 1",
-            "visibility_rules": ["SkyFortress_Spider_2F_Vault1", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Spider_2F_Vault1"]
           },
           {
             "name": "Spider (2F) - Vault 2",
-            "visibility_rules": ["SkyFortress_Spider_2F_Vault2", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Spider_2F_Vault2"]
           },
           {
             "name": "Spider (2F) - Incentive",
-            "visibility_rules": ["SkyFortress_Spider_2F_Incentive", "showAllChests"],
+            "visibility_rules": ["SkyFortress_Spider_2F_Incentive"],
             "hosted_item": "skyFortressIncentive"
           },
           {
             "name": "Provides (3F) - Greed 1",
-            "visibility_rules": ["SkyFortress_Provides_3F_Greed1", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_Greed1"]
           },
           {
             "name": "Provides (3F) - Greed 2",
-            "visibility_rules": ["SkyFortress_Provides_3F_Greed2", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_Greed2"]
           },
           {
             "name": "Provides (3F) - Greed 3",
-            "visibility_rules": ["SkyFortress_Provides_3F_Greed3", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_Greed3"]
           },
           {
             "name": "Provides (3F) - Greed 4",
-            "visibility_rules": ["SkyFortress_Provides_3F_Greed4", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_Greed4"]
           },
           {
             "name": "Provides (3F) - Six-Pack 1",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack1", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_SixPack1"]
           },
           {
             "name": "Provides (3F) - Six-Pack 2",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack2", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_SixPack2"]
           },
           {
             "name": "Provides (3F) - Six-Pack 3",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack3", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_SixPack3"]
           },
           {
             "name": "Provides (3F) - Six-Pack 4",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack4", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_SixPack4"]
           },
           {
             "name": "Provides (3F) - Six-Pack 5",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack5", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_SixPack5"]
           },
           {
             "name": "Provides (3F) - Six-Pack 6",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack6", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_SixPack6"]
           },
           {
             "name": "Provides (3F) - CC's Gambit 1",
-            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit1", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit1"]
           },
           {
             "name": "Provides (3F) - CC's Gambit 2",
-            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit2", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit2"]
           },
           {
             "name": "Provides (3F) - CC's Gambit 3",
-            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit3", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit3"]
           },
           {
             "name": "Provides (3F) - CC's Gambit 4",
-            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit4", "showAllChests"]
+            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit4"]
           },
           {
             "name": "Air Orb",
             "hosted_item": "airorb"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 3110,
-            "y": 904
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 3110, "y": 904}]
       }
     ]
   },
@@ -1344,36 +1115,30 @@
           },
           {
             "name": "Chest 1",
-            "visibility_rules": ["WaterfallCave_Chest1", "showAllChests"]
+            "visibility_rules": ["WaterfallCave_Chest1"]
           },
           {
             "name": "Chest 2",
-            "visibility_rules": ["WaterfallCave_Chest2", "showAllChests"]
+            "visibility_rules": ["WaterfallCave_Chest2"]
           },
           {
             "name": "Chest 3",
-            "visibility_rules": ["WaterfallCave_Chest3", "showAllChests"]
+            "visibility_rules": ["WaterfallCave_Chest3"]
           },
           {
             "name": "Chest 4",
-            "visibility_rules": ["WaterfallCave_Chest4", "showAllChests"]
+            "visibility_rules": ["WaterfallCave_Chest4"]
           },
           {
             "name": "Chest 5",
-            "visibility_rules": ["WaterfallCave_Chest5", "showAllChests"]
+            "visibility_rules": ["WaterfallCave_Chest5"]
           },
           {
             "name": "Chest 6",
-            "visibility_rules": ["WaterfallCave_Chest6", "showAllChests"]
+            "visibility_rules": ["WaterfallCave_Chest6"]
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 872,
-            "y": 472
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 872, "y": 472}]
       },
       {
         "name": "Sea Shrine",
@@ -1381,146 +1146,140 @@
         "sections": [
           {
             "name": "Split Floor (B3) - Kraken Side",
-            "visibility_rules": ["SeaShrine_SplitFloor_B3_KrakenSide", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SplitFloor_B3_KrakenSide"]
           },
           {
             "name": "Split Floor (B3) - Mermaid Side",
-            "visibility_rules": ["SeaShrine_SplitFloor_B3_MermaidSide", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SplitFloor_B3_MermaidSide"]
           },
           {
             "name": "TFC Floor (B2) - TFC North",
-            "visibility_rules": ["SeaShrine_TFCFloor_B2_TFCNorth", "showAllChests"]
+            "visibility_rules": ["SeaShrine_TFCFloor_B2_TFCNorth"]
           },
           {
             "name": "TFC Floor (B2) - TFC",
-            "visibility_rules": ["SeaShrine_TFCFloor_B2_TFC", "showAllChests"],
+            "visibility_rules": ["SeaShrine_TFCFloor_B2_TFC"],
             "access_rules": [ "key" ]
           },
           {
             "name": "TFC Floor (B2) - Side Corner",
-            "visibility_rules": ["SeaShrine_TFCFloor_B2_SideCorner", "showAllChests"]
+            "visibility_rules": ["SeaShrine_TFCFloor_B2_SideCorner"]
           },
           {
             "name": "TFC Floor (B2) - First Greed",
-            "visibility_rules": ["SeaShrine_TFCFloor_B2_FirstGreed", "showAllChests"]
+            "visibility_rules": ["SeaShrine_TFCFloor_B2_FirstGreed"]
           },
           {
             "name": "TFC Floor (B2) - Second Greed",
-            "visibility_rules": ["SeaShrine_TFCFloor_B2_SecondGreed", "showAllChests"]
+            "visibility_rules": ["SeaShrine_TFCFloor_B2_SecondGreed"]
           },
           {
             "name": "Mermaids (B1) - Entrance 1",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Entrance1", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_Entrance1"]
           },
           {
             "name": "Mermaids (B1) - Entrance 2",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Entrance2", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_Entrance2"]
           },
           {
             "name": "Mermaids (B1) - Entrance 3",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Entrance3", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_Entrance3"]
           },
           {
             "name": "Mermaids (B1) - Passby",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Passby", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_Passby"]
           },
           {
             "name": "Mermaids (B1) - Bubbles 1",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Bubbles1", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_Bubbles1"]
           },
           {
             "name": "Mermaids (B1) - Bubbles 2",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Bubbles2", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_Bubbles2"]
           },
           {
             "name": "Mermaids (B1) - Four-Corner First",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerFirst", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerFirst"]
           },
           {
             "name": "Mermaids (B1) - Four-Corner Second",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerSecond", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerSecond"]
           },
           {
             "name": "Mermaids (B1) - Four-Corner Third",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerThird", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerThird"]
           },
           {
             "name": "Mermaids (B1) - Four-Corner Fourth",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerFourth", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerFourth"]
           },
           {
             "name": "Mermaids (B1) - Incentive 1",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Incentive1", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_Incentive1"]
           },
           {
             "name": "Mermaids (B1) - Incentive 2",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Incentive2", "showAllChests"]
+            "visibility_rules": ["SeaShrine_Mermaids_B1_Incentive2"]
           },
           {
             "name": "Mermaids (B1) - Incentive Major",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_IncentiveMajor", "showAllChests"],
+            "visibility_rules": ["SeaShrine_Mermaids_B1_IncentiveMajor"],
             "hosted_item": "seaShrineIncentive"
           },
           {
             "name": "Greed Floor (B3) - Chest 1",
-            "visibility_rules": ["SeaShrine_GreedFloor_B3_Chest1", "showAllChests"]
+            "visibility_rules": ["SeaShrine_GreedFloor_B3_Chest1"]
           },
           {
             "name": "Greed Floor (B3) - Chest 2",
-            "visibility_rules": ["SeaShrine_GreedFloor_B3_Chest2", "showAllChests"]
+            "visibility_rules": ["SeaShrine_GreedFloor_B3_Chest2"]
           },
           {
             "name": "Sharknado Floor (B4) - Dengbait 1",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_Dengbait1", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_Dengbait1"]
           },
           {
             "name": "Sharknado Floor (B4) - Dengbait 2",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_Dengbait2", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_Dengbait2"]
           },
           {
             "name": "Sharknado Floor (B4) - Side Corner 1",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner1", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner1"]
           },
           {
             "name": "Sharknado Floor (B4) - Side Corner 2",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner2", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner2"]
           },
           {
             "name": "Sharknado Floor (B4) - Side Corner 3",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner3", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner3"]
           },
           {
             "name": "Sharknado Floor (B4) - Exit",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_Exit", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_Exit"]
           },
           {
             "name": "Sharknado Floor (B4) - Greed Room 1",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom1", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom1"]
           },
           {
             "name": "Sharknado Floor (B4) - Greed Room 2",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom2", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom2"]
           },
           {
             "name": "Sharknado Floor (B4) - Greed Room 3",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom3", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom3"]
           },
           {
             "name": "Sharknado Floor (B4) - Greed Room 4",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom4", "showAllChests"]
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom4"]
           },
           {
             "name": "Water Orb",
             "hosted_item": "waterorb"
           }
         ],
-        "map_locations": [
-          {
-            "map": "overworld",
-            "x": 1012,
-            "y": 940
-          }
-        ]
+        "map_locations": [{"map": "overworld", "x": 1012, "y": 940}]
       }
     ]
   }

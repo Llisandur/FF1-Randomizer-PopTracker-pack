@@ -35,6 +35,8 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
   -- Locations
   Tracker:AddLocations("locations/locations.jsonc")
   Tracker:AddLocations("locations/dungeons/matoyas_cave.jsonc")
+  Tracker:AddLocations("locations/dungeons/dwarf_cave.jsonc")
+  Tracker:AddLocations("locations/dungeons/coneria_castle.jsonc")
 end
 
 -- Layout
