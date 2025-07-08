@@ -301,54 +301,80 @@ function visibleLocations()
   checkLocationVisible("TempleOfFiendsRevisited_3F_Validation2", 510)
 end
 
-function updateOverworldChestCount(locationRefList, chestRefList, callback)
+local chestLocationTable = {
+  ["@Matoya's Cave/Chest 1/"] = {"@Aldi Sea/Matoya's Cave/Chests"},
+  ["@Matoya's Cave/Chest 2/"] = {"@Aldi Sea/Matoya's Cave/Chests"},
+  ["@Matoya's Cave/Chest 3/"] = {"@Aldi Sea/Matoya's Cave/Chests"},
+  ["@Dwarf Cave/Entrance 1/"] = {"@Aldi Sea/Dwarf Cave/Entrance"},
+  ["@Dwarf Cave/Entrance 2/"] = {"@Aldi Sea/Dwarf Cave/Entrance"},
+  ["@Dwarf Cave/Treasury 1/"] = {"@Aldi Sea/Dwarf Cave/Treasury"},
+  ["@Dwarf Cave/Treasury 2/"] = {"@Aldi Sea/Dwarf Cave/Treasury"},
+  ["@Dwarf Cave/Treasury 3/"] = {"@Aldi Sea/Dwarf Cave/Treasury"},
+  ["@Dwarf Cave/Treasury 4/"] = {"@Aldi Sea/Dwarf Cave/Treasury"},
+  ["@Dwarf Cave/Treasury 5/"] = {"@Aldi Sea/Dwarf Cave/Treasury"},
+  ["@Dwarf Cave/Treasury 6/"] = {"@Aldi Sea/Dwarf Cave/Treasury"},
+  ["@Dwarf Cave/Treasury 7/"] = {"@Aldi Sea/Dwarf Cave/Treasury"},
+  ["@Dwarf Cave/Treasury 8/"] = {"@Aldi Sea/Dwarf Cave/Treasury"},
+  ["@Coneria Castle/Treasury 1/"] = {"@Aldi Sea/Coneria Castle/Treasury"},
+  ["@Coneria Castle/Treasury 2/"] = {"@Aldi Sea/Coneria Castle/Treasury"},
+  ["@Coneria Castle/Treasury 3/"] = {"@Aldi Sea/Coneria Castle/Treasury"},
+  ["@Coneria Castle/Treasury 4/"] = {"@Aldi Sea/Coneria Castle/Treasury"},
+  ["@Coneria Castle/Treasury 5/"] = {"@Aldi Sea/Coneria Castle/Treasury"},
+  ["@Elf Castle/Treasury 1/"] = {"@Aldi Sea/Elf Castle/Treasury"},
+  ["@Elf Castle/Treasury 2/"] = {"@Aldi Sea/Elf Castle/Treasury"},
+  ["@Elf Castle/Treasury 3/"] = {"@Aldi Sea/Elf Castle/Treasury"},
+  ["@Elf Castle/Treasury 4/"] = {"@Aldi Sea/Elf Castle/Treasury"},
+}
+local worldChestTable = {
+  ["@Aldi Sea/Matoya's Cave/Chests"] = {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}},
+  ["@Aldi Sea/Dwarf Cave/Entrance"] = {{"@Dwarf Cave/Entrance 1/","DwarfCave_Entrance1"},{"@Dwarf Cave/Entrance 2/","DwarfCave_Entrance2"}},
+  ["@Aldi Sea/Dwarf Cave/Treasury"] = {{"@Dwarf Cave/Treasury 1/","DwarfCave_Treasury1"},{"@Dwarf Cave/Treasury 2/","DwarfCave_Treasury2"},{"@Dwarf Cave/Treasury 3/","DwarfCave_Treasury3"},{"@Dwarf Cave/Treasury 4/","DwarfCave_Treasury4"},{"@Dwarf Cave/Treasury 5/","DwarfCave_Treasury5"},{"@Dwarf Cave/Treasury 6/","DwarfCave_Treasury6"},{"@Dwarf Cave/Treasury 7/","DwarfCave_Treasury7"},{"@Dwarf Cave/Treasury 8/","DwarfCave_Treasury8"}},
+  ["@Aldi Sea/Coneria Castle/Treasury"] = {{"@Coneria Castle/Treasury 1/","ConeriaCastle_Treasury1"},{"@Coneria Castle/Treasury 2/","ConeriaCastle_Treasury2"},{"@Coneria Castle/Treasury 3/","ConeriaCastle_Treasury3"},{"@Coneria Castle/Treasury 4/","ConeriaCastle_Treasury4"},{"@Coneria Castle/Treasury 5/","ConeriaCastle_Treasury5"}},
+  ["@Aldi Sea/Elf Castle/Treasury"] = {{"@Elf Castle/Treasury 1/","ElflandCastle_Treasury1"},{"@Elf Castle/Treasury 2/","ElflandCastle_Treasury2"},{"@Elf Castle/Treasury 3/","ElflandCastle_Treasury3"},{"@Elf Castle/Treasury 4/","ElflandCastle_Treasury4"}}
+}
+
+function updateOverworldChestCount(locationID, chestLocationTable, worldChestTable, callback)
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
     print("Called updateOverworldChestCount")
   end
-  for h,locationRef in pairs(locationRefList) do
-    local location = Tracker:FindObjectForCode(locationRef)
-    if location then
-      -- Do not auto-track this the user has manually modified it
-      if location.Owner.ModifiedByUser then
-          return
-      end
-      if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-        print(string.format("updateOverworldChestCount: locationRef %s, location.AvailableChestCount %s/%s", locationRef, location.AvailableChestCount, location.ChestCount))
-      end
+  local clearedCount = 0
+  local worldChestName = chestLocationTable["@"..locationID.FullID][1]
+  local worldChestCode = Tracker:FindObjectForCode(chestLocationTable["@"..locationID.FullID][1])
+  if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+    print(string.format("updateOverworldChestCount: locationID %s, worldChestName %s, worldChestCode.ChestCount %s", locationID.FullID, worldChestName, worldChestCode.ChestCount))
+  end
+  for _, chest in pairs(worldChestTable[worldChestName]) do
+    local chestHasItem = Tracker:FindObjectForCode(chest[1])
+    local chestIsVisible = Tracker:FindObjectForCode(chest[2])
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+      print(string.format("updateOverworldChestCount: %s chestHasItem %s, chestIsVisible %s", chest[1], chestHasItem.AvailableChestCount, chestIsVisible.Active))
+    end
+    if chestHasItem.AvailableChestCount == 0 or chestIsVisible.Active == false then
+      clearedCount = clearedCount + 1
+    end
+  end
+  if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+    print(string.format("updateOverworldChestCount: clearedCount %s", clearedCount))
+  end
+  worldChestCode.AvailableChestCount = worldChestCode.ChestCount - clearedCount
+  if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+    print(string.format("updateOverworldChestCount: worldChestCode.AvailableChestCount %s", worldChestCode.AvailableChestCount))
+  end
+  if callback then
+    callback(clearedCount > 0)
+  end
+end
 
-      local clearedCount = 0
---      print(string.format("updateOverworldChestCount: chestRefList:\n%s", dump_table(chestRefList)))
-      for _, chestRef in pairs(chestRefList) do
-        local chestLoc  = Tracker:FindObjectForCode(chestRef[1])
-        local chestCode = Tracker:FindObjectForCode(chestRef[2])
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-          print(string.format("updateOverworldChestCount: chestRefList %s, chestLoc.AvailableChestCount %s, chestCode.Active %s", chestRefList[_][1], chestLoc.AvailableChestCount, chestCode.Active))
-        end
-        if chestLoc.AvailableChestCount == 0 or chestCode.Active == false then
-          clearedCount = clearedCount + 1
-          if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-            print(string.format("updateOverworldChestCount: clearedCount %s", clearedCount))
-          end
-        end
-      end
-
-      location.AvailableChestCount = location.ChestCount - clearedCount
-
-      if callback then
-        callback(clearedCount > 0)
-      end
+function updateOverworld(locationID)
+  if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+    print(string.format("Called updateOverworld: locationID %s [%s]", locationID.FullID, locationID))
+  end
+  if locationID then
+    if chestLocationTable["@"..locationID.FullID] ~= nil then
+      updateOverworldChestCount(locationID, chestLocationTable, worldChestTable)
     end
   end
 end
 
-function updateOverworld()
-  print("Called updateOverworld")
-  updateOverworldChestCount({"@Aldi Sea/Matoya's Cave/Chests"}, {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}})
-  updateOverworldChestCount({"@Aldi Sea/Dwarf Cave/Entrance"}, {{"@Dwarf Cave/Entrance 1/","DwarfCave_Entrance1"},{"@Dwarf Cave/Entrance 2/","DwarfCave_Entrance2"}})
-  updateOverworldChestCount({"@Aldi Sea/Dwarf Cave/Treasury"}, {{"@Dwarf Cave/Treasury 1/","DwarfCave_Treasury1"},{"@Dwarf Cave/Treasury 2/","DwarfCave_Treasury2"},{"@Dwarf Cave/Treasury 3/","DwarfCave_Treasury3"},{"@Dwarf Cave/Treasury 4/","DwarfCave_Treasury4"},{"@Dwarf Cave/Treasury 5/","DwarfCave_Treasury5"},{"@Dwarf Cave/Treasury 6/","DwarfCave_Treasury6"},{"@Dwarf Cave/Treasury 7/","DwarfCave_Treasury7"},{"@Dwarf Cave/Treasury 8/","DwarfCave_Treasury8"}})
-  updateOverworldChestCount({"@Aldi Sea/Coneria Castle/Treasury"}, {{"@Coneria Castle/Treasury 1/","ConeriaCastle_Treasury1"},{"@Coneria Castle/Treasury 2/","ConeriaCastle_Treasury2"},{"@Coneria Castle/Treasury 3/","ConeriaCastle_Treasury3"},{"@Coneria Castle/Treasury 4/","ConeriaCastle_Treasury4"},{"@Coneria Castle/Treasury 5/","ConeriaCastle_Treasury5"}})
-  updateOverworldChestCount({"@Aldi Sea/Elf Castle/Treasury"}, {{"@Elf Castle/Treasury 1/","ElflandCastle_Treasury1"},{"@Elf Castle/Treasury 2/","ElflandCastle_Treasury2"},{"@Elf Castle/Treasury 3/","ElflandCastle_Treasury3"},{"@Elf Castle/Treasury 4/","ElflandCastle_Treasury4"}})
-end
-
---ScriptHost:AddOnLocationSectionChangedHandler("overworldChestWatcher", updateOverworld)
+ScriptHost:AddOnLocationSectionChangedHandler("overworldChestWatcher", updateOverworld)
 ScriptHost:AddWatchForCode("locationVisibleWatcher", "showAllChests", visibleLocations)
