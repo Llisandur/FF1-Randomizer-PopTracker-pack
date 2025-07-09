@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Cardia Bahamut's Island",
+    "access_rules": [ "airship","cardiaDock,ship,canal" ],
+    "children": [
+      {
+        "name": "Bahamut",
+        "sections": [{
+          "access_rules": [ "tail" ],
+          "hosted_item": "bahamut"
+        }]
+      },
+      {
+        "name": "Bahamut's Hoard",
+        "sections": [{
+          "visibility_rules" : [ "bahamutHoard" ],
+          "hosted_item" : "cardiaIncentive"
+        }]
+      }
+    ]
+  },
+  {
+    "name": "Cardia Grass Island",
+    "access_rules": [ "airship" ],
+    "children": [
+      {
+        "name": "Entrance",
+        "sections": [{"visibility_rules": ["CardiaGrassIsland_Entrance"]}]
+      },
+      {
+        "name": "Duo Room 1",
+        "sections": [{"visibility_rules": ["CardiaGrassIsland_DuoRoom1"]}]
+      },
+      {
+        "name": "Duo Rooom 2",
+        "sections": [{"visibility_rules": ["CardiaGrassIsland_DuoRoom2"]}]
+      }
+    ]
+  },
+  {
+    "name": "Cardia Swamp Island",
+    "access_rules": [ "airship" ],
+    "children": [
+      {
+        "name": "Chest 1",
+        "sections": [{"visibility_rules": ["CardiaSwampIsland_Chest1"]}]
+      },
+      {
+        "name": "Chest 2",
+        "sections": [{"visibility_rules": ["CardiaSwampIsland_Chest2"]}]
+      },
+      {
+        "name": "Chest 3",
+        "sections": [{"visibility_rules": ["CardiaSwampIsland_Chest3"]}]
+      }
+    ]
+  },
+  {
+    "name": "Cardia Forest Island",
+    "access_rules": [ "airship" ],
+    "children": [
+      {
+        "name": "Entrance 1",
+        "sections": [{"visibility_rules": ["CardiaForestIsland_Entrance1"]}]
+      },
+      {
+        "name": "Entrance 2",
+        "sections": [{"visibility_rules": ["CardiaForestIsland_Entrance2"]}]
+      },
+      {
+        "name": "Entrance 3",
+        "sections": [{"visibility_rules": ["CardiaForestIsland_Entrance3"]}]
+      },
+      {
+        "name": "Incentive 1",
+        "sections": [{"visibility_rules": ["CardiaForestIsland_Incentive1"]}]
+      },
+      {
+        "name": "Incentive 2",
+        "sections": [{"visibility_rules": ["CardiaForestIsland_Incentive2"]}]
+      },
+      {
+        "name": "Incentive 3",
+        "sections": [{"visibility_rules": ["CardiaForestIsland_Incentive3"]}]
+      },
+      {
+        "name": "Incentive Major",
+        "sections": [{
+          "visibility_rules": ["CardiaForestIsland_IncentiveMajor"],
+          "hosted_item": "cardiaIncentive"
+        }]
+      }
+    ]
+  }
+]

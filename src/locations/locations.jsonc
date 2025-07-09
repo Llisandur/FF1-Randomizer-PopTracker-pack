@@ -688,8 +688,7 @@
       }
     ]
   },
-  {
-    "name": "Cardia Islands",
+  {"name": "Cardia Islands",
     "children": [
       {
         "name": "Bahamut's Cave",
@@ -697,88 +696,60 @@
         "sections": [
           {
             "name": "Bahamut",
-            "access_rules": [ "tail" ],
-            "hosted_item": "bahamut"
+            "ref": "Cardia Bahamut's Island/Bahamut/"
           },
           {
-            "name" : "Cardia Incentive - Hoard",
-            "visibility_rules" : [ "bahamutHoard" ],
-            "access_rules" : [],
-            "hosted_item" : "cardiaIncentive"
+            "name" : "Bahamut's Hoard",
+            "ref" : "Cardia Bahamut's Island/Bahamut's Hoard/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1544, "y": 826}]
       },
       {
-        "name": "Cardia Grass Island",
+        "name": "Grass Island",
         "access_rules": [ "airship" ],
         "sections": [
           {
-            "name": "Entrance",
-            "visibility_rules": ["CardiaGrassIsland_Entrance"]
-          },
-          {
-            "name": "Duo Room 1",
-            "visibility_rules": ["CardiaGrassIsland_DuoRoom1"]
-          },
-          {
-            "name": "Duo Room 2",
-            "visibility_rules": ["CardiaGrassIsland_DuoRoom2"]
+            "name": "Chests",
+            "visibility_rules": ["CardiaGrassIsland_Entrance","CardiaGrassIsland_DuoRoom1","CardiaGrassIsland_DuoRoom2"],
+            "clear_as_group": true,
+            "item_count": 3
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1272, "y": 794}]
       },
       {
-        "name": "Cardia Swamp Island",
+        "name": "Swamp Island",
         "access_rules": [ "airship" ],
         "sections": [
           {
-            "name": "Chest 1",
-            "visibility_rules": ["CardiaSwampIsland_Chest1"]
-          },
-          {
-            "name": "Chest 2",
-            "visibility_rules": ["CardiaSwampIsland_Chest2"]
-          },
-          {
-            "name": "Chest 3",
-            "visibility_rules": ["CardiaSwampIsland_Chest3"]
+            "name": "Chests",
+            "visibility_rules": ["CardiaSwampIsland_Chest1","CardiaSwampIsland_Chest2","CardiaSwampIsland_Chest3"],
+            "clear_as_group": true,
+            "item_count": 3
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1496, "y": 938}]
       },
       {
-        "name": "Cardia Forest Island",
+        "name": "Forest Island",
         "access_rules": [ "airship" ],
         "sections": [
           {
-            "name": "Entrance 1",
-            "visibility_rules": ["CardiaForestIsland_Entrance1"]
+            "name": "Entrance",
+            "visibility_rules": ["CardiaForestIsland_Entrance1","CardiaForestIsland_Entrance2","CardiaForestIsland_Entrance3"],
+            "clear_as_group": true,
+            "item_count": 3
           },
           {
-            "name": "Entrance 2",
-            "visibility_rules": ["CardiaForestIsland_Entrance2"]
-          },
-          {
-            "name": "Entrance 3",
-            "visibility_rules": ["CardiaForestIsland_Entrance3"]
-          },
-          {
-            "name": "Incentive 1",
-            "visibility_rules": ["CardiaForestIsland_Incentive1"]
-          },
-          {
-            "name": "Incentive 2",
-            "visibility_rules": ["CardiaForestIsland_Incentive2"]
-          },
-          {
-            "name": "Incentive 3",
-            "visibility_rules": ["CardiaForestIsland_Incentive3"]
+            "name": "Incentive",
+            "visibility_rules": ["CardiaForestIsland_Incentive1","CardiaForestIsland_Incentive2","CardiaForestIsland_Incentive3"],
+            "clear_as_group": true,
+            "item_count": 3
           },
           {
             "name": "Incentive Major",
-            "visibility_rules": ["CardiaForestIsland_IncentiveMajor"],
-            "hosted_item": "cardiaIncentive"
+            "ref": "Cardia Forest Island/Incentive Major/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1864, "y": 1066}]
