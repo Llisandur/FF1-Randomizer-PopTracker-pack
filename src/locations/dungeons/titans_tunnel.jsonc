@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Titan's Tunnel",
+    "access_rules": [ "ruby,airship", "ruby,ship,canal" ],
+    "children": [
+      {
+        "name": "Major",
+//        "map_locations": [{"map": "", "x": 152, "y": 37}],
+        "sections": [{
+          "visibility_rules": ["TitansTunnel_Major"],
+          "hosted_item": "titansTrove"
+        }]
+      },
+      {
+        "name": "Chest 1",
+//        "map_locations": [{"map": "", "x": 40, "y": 88}],
+        "sections": [{
+          "visibility_rules": ["TitansTunnel_Chest1"]
+        }]
+      },
+      {
+        "name": "Chest 2",
+//        "map_locations": [{"map": "", "x": 40, "y": 104}],
+        "sections": [{
+          "visibility_rules": ["TitansTunnel_Chest2"]
+        }]
+      },
+      {
+        "name": "Chest 3",
+//        "map_locations":[{"map": "", "x": 40, "y": 136}],
+        "sections": [{
+          "visibility_rules": ["TitansTunnel_Chest3"]
+        }]
+      }
+    ]
+  }
+]

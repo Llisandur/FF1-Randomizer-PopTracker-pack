@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Northwest Castle",
+    "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
+    "children": [
+      {
+        "name": "Astos",
+//        "map_locations": [{"map": "", "x": 152, "y": 37}],
+        "sections": [{
+          "access_rules": [ "crown" ],
+          "hosted_item": "astos"
+        }]
+      },
+      {
+        "name": "Treasury 1",
+//        "map_locations": [{"map": "", "x": 40, "y": 88}],
+        "sections": [{
+          "visibility_rules": ["NorthwestCastle_Treasury1"],
+          "access_rules": [ "key" ]
+          }]
+      },
+      {
+        "name": "Treasury 2",
+//        "map_locations": [{"map": "", "x": 40, "y": 104}],
+        "sections": [{
+          "visibility_rules": ["NorthwestCastle_Treasury2"],
+          "access_rules": [ "key" ]
+          }]
+      },
+      {
+        "name": "Treasury 3",
+//        "map_locations":[{"map": "", "x": 40, "y": 136}],
+        "sections": [{
+          "visibility_rules": ["NorthwestCastle_Treasury3"],
+          "access_rules": [ "key" ]
+        }]
+      }
+    ]
+  }
+]

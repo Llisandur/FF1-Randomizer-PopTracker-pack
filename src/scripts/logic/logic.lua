@@ -80,6 +80,13 @@ function visibleLocations()
   checkLocationVisible("ElflandCastle_Treasury2", 270)
   checkLocationVisible("ElflandCastle_Treasury3", 271)
   checkLocationVisible("ElflandCastle_Treasury4", 272)
+  checkLocationVisible("NorthwestCastle_Treasury1", 273)
+  checkLocationVisible("NorthwestCastle_Treasury2", 275)
+  checkLocationVisible("NorthwestCastle_Treasury3", 274)
+  checkLocationVisible("TitansTunnel_Chest1", 327)
+  checkLocationVisible("TitansTunnel_Chest2", 328)
+  checkLocationVisible("TitansTunnel_Chest3", 329)
+  checkLocationVisible("TitansTunnel_Major", 326)
 
   checkLocationVisible("TempleOfFiends_UnlockedDuo1", 263)
   checkLocationVisible("TempleOfFiends_UnlockedDuo2", 264)
@@ -87,9 +94,6 @@ function visibleLocations()
   checkLocationVisible("TempleOfFiends_LockedSingle", 266)
   checkLocationVisible("TempleOfFiends_LockedDuo1", 267)
   checkLocationVisible("TempleOfFiends_LockedDuo2", 268)
-  checkLocationVisible("NorthwestCastle_Treasury1", 273)
-  checkLocationVisible("NorthwestCastle_Treasury3", 274)
-  checkLocationVisible("NorthwestCastle_Treasury2", 275)
   checkLocationVisible("MarshCave_Bottom_B2_Distant", 276)
   checkLocationVisible("MarshCave_Bottom_B2_TetrisZFirst", 277)
   checkLocationVisible("MarshCave_Bottom_B2_TetrisZMiddle1", 278)
@@ -127,10 +131,6 @@ function visibleLocations()
   checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory4", 323)
   checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory5", 324)
   checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory3", 325)
-  checkLocationVisible("TitansTunnel_Major", 326)
-  checkLocationVisible("TitansTunnel_Chest1", 327)
-  checkLocationVisible("TitansTunnel_Chest2", 328)
-  checkLocationVisible("TitansTunnel_Chest3", 329)
   checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory2", 330)
   checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory3", 331)
   checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory6", 332)
@@ -299,6 +299,7 @@ function visibleLocations()
   checkLocationVisible("TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks2", 508)
   checkLocationVisible("TempleOfFiendsRevisited_3F_Validation1", 509)
   checkLocationVisible("TempleOfFiendsRevisited_3F_Validation2", 510)
+  onClearUpdateWorldChestCount()
 end
 
 local chestLocationTable = {
@@ -324,13 +325,21 @@ local chestLocationTable = {
   ["@Elf Castle/Treasury 2/"] = {"@Aldi Sea/Elf Castle/Treasury"},
   ["@Elf Castle/Treasury 3/"] = {"@Aldi Sea/Elf Castle/Treasury"},
   ["@Elf Castle/Treasury 4/"] = {"@Aldi Sea/Elf Castle/Treasury"},
+  ["@Northwest Castle/Treasury 1/"] = {"@Aldi Sea/Northwest Castle/Treasury"},
+  ["@Northwest Castle/Treasury 2/"] = {"@Aldi Sea/Northwest Castle/Treasury"},
+  ["@Northwest Castle/Treasury 3/"] = {"@Aldi Sea/Northwest Castle/Treasury"},
+  ["@Titan's Tunnel/Chest 1/"] = {"@Melmond Peninsula/Titan's Tunnel/Chests"},
+  ["@Titan's Tunnel/Chest 2/"] = {"@Melmond Peninsula/Titan's Tunnel/Chests"},
+  ["@Titan's Tunnel/Chest 3/"] = {"@Melmond Peninsula/Titan's Tunnel/Chests"},
 }
 local worldChestTable = {
   ["@Aldi Sea/Matoya's Cave/Chests"] = {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}},
   ["@Aldi Sea/Dwarf Cave/Entrance"] = {{"@Dwarf Cave/Entrance 1/","DwarfCave_Entrance1"},{"@Dwarf Cave/Entrance 2/","DwarfCave_Entrance2"}},
   ["@Aldi Sea/Dwarf Cave/Treasury"] = {{"@Dwarf Cave/Treasury 1/","DwarfCave_Treasury1"},{"@Dwarf Cave/Treasury 2/","DwarfCave_Treasury2"},{"@Dwarf Cave/Treasury 3/","DwarfCave_Treasury3"},{"@Dwarf Cave/Treasury 4/","DwarfCave_Treasury4"},{"@Dwarf Cave/Treasury 5/","DwarfCave_Treasury5"},{"@Dwarf Cave/Treasury 6/","DwarfCave_Treasury6"},{"@Dwarf Cave/Treasury 7/","DwarfCave_Treasury7"},{"@Dwarf Cave/Treasury 8/","DwarfCave_Treasury8"}},
   ["@Aldi Sea/Coneria Castle/Treasury"] = {{"@Coneria Castle/Treasury 1/","ConeriaCastle_Treasury1"},{"@Coneria Castle/Treasury 2/","ConeriaCastle_Treasury2"},{"@Coneria Castle/Treasury 3/","ConeriaCastle_Treasury3"},{"@Coneria Castle/Treasury 4/","ConeriaCastle_Treasury4"},{"@Coneria Castle/Treasury 5/","ConeriaCastle_Treasury5"}},
-  ["@Aldi Sea/Elf Castle/Treasury"] = {{"@Elf Castle/Treasury 1/","ElflandCastle_Treasury1"},{"@Elf Castle/Treasury 2/","ElflandCastle_Treasury2"},{"@Elf Castle/Treasury 3/","ElflandCastle_Treasury3"},{"@Elf Castle/Treasury 4/","ElflandCastle_Treasury4"}}
+  ["@Aldi Sea/Elf Castle/Treasury"] = {{"@Elf Castle/Treasury 1/","ElflandCastle_Treasury1"},{"@Elf Castle/Treasury 2/","ElflandCastle_Treasury2"},{"@Elf Castle/Treasury 3/","ElflandCastle_Treasury3"},{"@Elf Castle/Treasury 4/","ElflandCastle_Treasury4"}},
+  ["@Aldi Sea/Northwest Castle/Treasury"] = {{"@Northwest Castle/Treasury 1/","NorthwestCastle_Treasury1"},{"@Northwest Castle/Treasury 2/","NorthwestCastle_Treasury2"},{"@Northwest Castle/Treasury 3/","NorthwestCastle_Treasury3"}},
+  ["@Melmond Peninsula/Titan's Tunnel/Chests"] = {{"@Titan's Tunnel/Chest 1/","TitansTunnel_Chest1"},{"@Titan's Tunnel/Chest 2/","TitansTunnel_Chest2"},{"@Titan's Tunnel/Chest 3/","TitansTunnel_Chest3"}}
 }
 
 function getWorldChestLocation(locationID, chestLocationTable, worldChestTable)

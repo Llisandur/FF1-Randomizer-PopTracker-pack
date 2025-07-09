@@ -136,7 +136,6 @@ function onClear(slot_data)
   apply_slot_data(slot_data)
 
   visibleLocations()
-  onClearUpdateWorldChestCount()
 
   PLAYER_NUMBER = Archipelago.PlayerNumber or -1
   TEAM_NUMBER = Archipelago.TeamNumber or 0
