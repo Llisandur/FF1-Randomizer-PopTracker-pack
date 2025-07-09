@@ -333,45 +333,60 @@ local worldChestTable = {
   ["@Aldi Sea/Elf Castle/Treasury"] = {{"@Elf Castle/Treasury 1/","ElflandCastle_Treasury1"},{"@Elf Castle/Treasury 2/","ElflandCastle_Treasury2"},{"@Elf Castle/Treasury 3/","ElflandCastle_Treasury3"},{"@Elf Castle/Treasury 4/","ElflandCastle_Treasury4"}}
 }
 
-function updateOverworldChestCount(locationID, chestLocationTable, worldChestTable, callback)
+function getWorldChestLocation(locationID, chestLocationTable, worldChestTable)
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-    print("Called updateOverworldChestCount")
+    print("Called getWorldChestLocation")
   end
-  local clearedCount = 0
   local worldChestName = chestLocationTable["@"..locationID.FullID][1]
   local worldChestCode = Tracker:FindObjectForCode(chestLocationTable["@"..locationID.FullID][1])
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-    print(string.format("updateOverworldChestCount: locationID %s, worldChestName %s, worldChestCode.ChestCount %s", locationID.FullID, worldChestName, worldChestCode.ChestCount))
+    print(string.format("getWorldChestLocation: locationID %s, worldChestName %s, worldChestCode.ChestCount %s", locationID.FullID, worldChestName, worldChestCode.ChestCount))
   end
+  updateWorldChestCount(worldChestTable, worldChestName, worldChestCode)
+end
+
+function updateWorldChestCount(worldChestTable, worldChestName, worldChestCode)
+  if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+    print("Called updateWorldChestCount")
+  end
+  local clearedCount = 0
   for _, chest in pairs(worldChestTable[worldChestName]) do
     local chestHasItem = Tracker:FindObjectForCode(chest[1])
     local chestIsVisible = Tracker:FindObjectForCode(chest[2])
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-      print(string.format("updateOverworldChestCount: %s chestHasItem %s, chestIsVisible %s", chest[1], chestHasItem.AvailableChestCount, chestIsVisible.Active))
+      print(string.format("updateWorldChestCount: %s chestHasItem %s, chestIsVisible %s", chest[1], chestHasItem.AvailableChestCount, chestIsVisible.Active))
     end
     if chestHasItem.AvailableChestCount == 0 or chestIsVisible.Active == false then
       clearedCount = clearedCount + 1
     end
   end
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-    print(string.format("updateOverworldChestCount: clearedCount %s", clearedCount))
+    print(string.format("updateWorldChestCount: clearedCount %s", clearedCount))
   end
   worldChestCode.AvailableChestCount = worldChestCode.ChestCount - clearedCount
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-    print(string.format("updateOverworldChestCount: worldChestCode.AvailableChestCount %s", worldChestCode.AvailableChestCount))
+    print(string.format("updateWorldChestCount: worldChestCode.AvailableChestCount %s", worldChestCode.AvailableChestCount))
   end
-  if callback then
-    callback(clearedCount > 0)
+end
+
+function onClearUpdateWorldChestCount()
+  for key, _ in pairs(worldChestTable) do
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+      print(string.format("onClearUpdateWorldChestCount: key %s, keyCode %s", key, Tracker:FindObjectForCode(key)))
+    end
+    updateWorldChestCount(worldChestTable, key, Tracker:FindObjectForCode(key))
   end
 end
 
 function updateOverworld(locationID)
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
-    print(string.format("Called updateOverworld: locationID %s [%s]", locationID.FullID, locationID))
+    print(string.format("Called updateOverworld: locationID %s", locationID))
   end
   if locationID then
     if chestLocationTable["@"..locationID.FullID] ~= nil then
-      updateOverworldChestCount(locationID, chestLocationTable, worldChestTable)
+      getWorldChestLocation(locationID, chestLocationTable, worldChestTable)
+    elseif worldChestTable["@"..locationID.FullID] ~= nil then
+      updateWorldChestCount(worldChestTable, "@"..locationID.FullID, Tracker:FindObjectForCode("@"..locationID.FullID))
     end
   end
 end
