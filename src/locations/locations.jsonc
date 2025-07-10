@@ -138,6 +138,60 @@
         ],
         "map_locations": [{"map": "overworld", "x": 2080, "y": 1970}]
       },
+      {"name": "Marsh Cave",
+        "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
+        "sections": [
+          {
+            "name": "Top (B1) - Single",
+            "ref": "Marsh Cave Top (B1)/Single/"
+          },
+          {
+            "name": "Top (B1) - Corner",
+            "ref": "Marsh Cave Top (B1)/Corner/"
+          },
+          {
+            "name": "Top (B1) - Duo",
+            "visibility_rules": ["MarshCave_Top_B1_Duo1","MarshCave_Top_B1_Duo2"],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Bottom (B2) - Distant",
+            "ref": "Marsh Cave Bottom (B2)/Distant/"
+          },
+          {
+            "name": "Bottom (B2) - Tetris-Z First",
+            "ref": "Marsh Cave Bottom (B2)/Tetris-Z First/"
+          },
+          {
+            "name": "Bottom (B2) - Tetris-Z Middle",
+            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZMiddle1","MarshCave_Bottom_B2_TetrisZMiddle2"],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Bottom (B2) - Tetris-Z Incentive",
+            "ref": "Marsh Cave Bottom (B2)/Tetris-Z Incentive/"
+          },
+          {
+            "name": "Bottom (B2) - Tetris-Z Last",
+            "ref": "Marsh Cave Bottom (B2)/Tetris-Z Last/"
+          },
+          {
+            "name": "Bottom (B2) - Locked Corner",
+            "ref": "Marsh Cave Bottom (B2)/Locked Corner/"
+          },
+          {
+            "name": "Bottom (B2) - Locked Middle",
+            "ref": "Marsh Cave Bottom (B2)/Locked Middle/"
+          },
+          {
+            "name": "Bottom (B2) - Locked Incentive",
+            "ref": "Marsh Cave Bottom (B2)/Locked Incentive/"
+          }
+        ],
+        "map_locations": [{"map": "overworld", "x": 1640, "y": 3784}]
+      },
       {
         "name": "Temple of Fiends Revisited",
         "access_rules": [ "$canBreakOrb,lute,key" ],
@@ -193,70 +247,6 @@
           }
         ],
         "map_locations": [{"map": "overworld", "x": 3368, "y": 2408}]
-      },
-      {
-        "name": "Marsh Cave",
-        "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
-        "sections": [
-          {
-            "name": "Top (B1) - Single",
-            "visibility_rules": ["MarshCave_Top_B1_Single"]
-          },
-          {
-            "name": "Top (B1) - Corner",
-            "visibility_rules": ["MarshCave_Top_B1_Corner"]
-          },
-          {
-            "name": "Top (B1) - Duo 1",
-            "visibility_rules": ["MarshCave_Top_B1_Duo1"]
-          },
-          {
-            "name": "Top (B1) - Duo 2",
-            "visibility_rules": ["MarshCave_Top_B1_Duo2"]
-          },
-          {
-            "name": "Bottom (B2) - Tetris-Z First",
-            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZFirst"]
-          },
-          {
-            "name": "Bottom (B2) - Tetris-Z Middle 1",
-            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZMiddle1"]
-          },
-          {
-            "name": "Bottom (B2) - Tetris-Z Middle 2",
-            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZMiddle2"]
-          },
-          {
-            "name": "Bottom (B2) - Tetris-Z Incentive",
-            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZIncentive"],
-            "hosted_item": "marshIncentive"
-          },
-          {
-            "name": "Bottom (B2) - Tetris-Z Last",
-            "visibility_rules": ["MarshCave_Bottom_B2_TetrisZLast"]
-          },
-          {
-            "name": "Bottom (B2) - Distant",
-            "visibility_rules": ["MarshCave_Bottom_B2_Distant"]
-          },
-          {
-            "name": "Bottom (B2) - Locked Corner",
-            "visibility_rules": ["MarshCave_Bottom_B2_LockedCorner"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Bottom (B2) - Locked Middle",
-            "visibility_rules": ["MarshCave_Bottom_B2_LockedMiddle"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "Bottom (B2) - Locked Incentive",
-            "visibility_rules": ["MarshCave_Bottom_B2_LockedIncentive"],
-            "access_rules": [ "key" ],
-            "hosted_item": "marshLockedIncentive"
-          }
-        ],
-        "map_locations": [{"map": "overworld", "x": 1640, "y": 3784}]
       }
     ]
   },

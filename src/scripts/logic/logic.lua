@@ -331,9 +331,9 @@ local chestLocationTable = {
   ["@Titan's Tunnel/Chest 1/"] = {"@Melmond Peninsula/Titan's Tunnel/Chests"},
   ["@Titan's Tunnel/Chest 2/"] = {"@Melmond Peninsula/Titan's Tunnel/Chests"},
   ["@Titan's Tunnel/Chest 3/"] = {"@Melmond Peninsula/Titan's Tunnel/Chests"},
-  ["@Cardia Grass Island/Entrance/"] = {"@Cardia Grass Island/Chests"},
-  ["@Cardia Grass Island/Duo Room 1/"] = {"@Cardia Grass Island/Chests"},
-  ["@Cardia Grass Island/Duo Rooom 2/"] = {"@Cardia Grass Island/Chests"},
+  ["@Cardia Grass Island/Entrance/"] = {"@Cardia Islands/Grass Island/Chests"},
+  ["@Cardia Grass Island/Duo Room 1/"] = {"@Cardia Islands/Grass Island/Chests"},
+  ["@Cardia Grass Island/Duo Rooom 2/"] = {"@Cardia Islands/Grass Island/Chests"},
   ["@Cardia Swamp Island/Chest 1/"] = {"@Cardia Islands/Swamp Island/Chests"},
   ["@Cardia Swamp Island/Chest 2/"] = {"@Cardia Islands/Swamp Island/Chests"},
   ["@Cardia Swamp Island/Chest 3/"] = {"@Cardia Islands/Swamp Island/Chests"},
@@ -347,6 +347,10 @@ local chestLocationTable = {
   ["@Temple of Fiends/Unlocked Duo 2/"] = {"@Aldi Sea/Temple of Fiends/Unlocked Duo"},
   ["@Temple of Fiends/Locked Duo 1/"] = {"@Aldi Sea/Temple of Fiends/Locked Duo"},
   ["@Temple of Fiends/Locked Duo 2/"] = {"@Aldi Sea/Temple of Fiends/Locked Duo"},
+  ["@Marsh Cave Top (B1)/Duo 1/"] = {"@Aldi Sea/Marsh Cave/Top (B1) - Duo"},
+  ["@Marsh Cave Top (B1)/Duo 2/"] = {"@Aldi Sea/Marsh Cave/Top (B1) - Duo"},
+  ["@Marsh Cave Bottom (B2)/Tetris-Z Middle 1/"] = {"@Aldi Sea/Marsh Cave/Bottom (B2) - Tetris-Z Middle"},
+  ["@Marsh Cave Bottom (B2)/Tetris-Z Middle 2/"] = {"@Aldi Sea/Marsh Cave/Bottom (B2) - Tetris-Z Middle"},
 }
 local worldChestTable = {
   ["@Aldi Sea/Matoya's Cave/Chests"] = {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}},
@@ -356,12 +360,14 @@ local worldChestTable = {
   ["@Aldi Sea/Elf Castle/Treasury"] = {{"@Elf Castle/Treasury 1/","ElflandCastle_Treasury1"},{"@Elf Castle/Treasury 2/","ElflandCastle_Treasury2"},{"@Elf Castle/Treasury 3/","ElflandCastle_Treasury3"},{"@Elf Castle/Treasury 4/","ElflandCastle_Treasury4"}},
   ["@Aldi Sea/Northwest Castle/Treasury"] = {{"@Northwest Castle/Treasury 1/","NorthwestCastle_Treasury1"},{"@Northwest Castle/Treasury 2/","NorthwestCastle_Treasury2"},{"@Northwest Castle/Treasury 3/","NorthwestCastle_Treasury3"}},
   ["@Melmond Peninsula/Titan's Tunnel/Chests"] = {{"@Titan's Tunnel/Chest 1/","TitansTunnel_Chest1"},{"@Titan's Tunnel/Chest 2/","TitansTunnel_Chest2"},{"@Titan's Tunnel/Chest 3/","TitansTunnel_Chest3"}},
-  ["@CardiaIslands/Grass Island/Chests"] = {{"@Cardia Grass Island/Entrance/","CardiaGrassIsland_Entrance"},{"@Cardia Grass Island/Duo Room 1/","CardiaGrassIsland_DuoRoom1"},{"@Cardia Grass Island/Duo Rooom 2/","CardiaGrassIsland_DuoRoom2"}},
+  ["@Cardia Islands/Grass Island/Chests"] = {{"@Cardia Grass Island/Entrance/","CardiaGrassIsland_Entrance"},{"@Cardia Grass Island/Duo Room 1/","CardiaGrassIsland_DuoRoom1"},{"@Cardia Grass Island/Duo Rooom 2/","CardiaGrassIsland_DuoRoom2"}},
   ["@Cardia Islands/Swamp Island/Chests"] = {{"@Cardia Swamp Island/Chest 1/","CardiaSwampIsland_Chest1"},{"@Cardia Swamp Island/Chest 2/","CardiaSwampIsland_Chest2"},{"@Cardia Swamp Island/Chest 3/","CardiaSwampIsland_Chest3"}},
   ["@Cardia Islands/Forest Island/Entrance"] = {{"@Cardia Forest Island/Entrance 1/","CardiaForestIsland_Entrance1"},{"@Cardia Forest Island/Entrance 2/","CardiaForestIsland_Entrance2"},{"@Cardia Forest Island/Entrance 3/","CardiaForestIsland_Entrance3"}},
   ["@Cardia Islands/Forest Island/Incentive"] = {{"@Cardia Forest Island/Incentive 1/","CardiaForestIsland_Incentive1"},{"@Cardia Forest Island/Incentive 2/","CardiaForestIsland_Incentive2"},{"@Cardia Forest Island/Incentive 3/","CardiaForestIsland_Incentive3"}},
   ["@Aldi Sea/Temple of Fiends/Unlocked Duo"] = {{"@Temple of Fiends/Unlocked Duo 1/","TempleOfFiends_UnlockedDuo1"},{"@Temple of Fiends/Unlocked Duo 2/","TempleOfFiends_UnlockedDuo2"}},
   ["@Aldi Sea/Temple of Fiends/Locked Duo"] = {{"@Temple of Fiends/Locked Duo 1/","TempleOfFiends_LockedDuo1"},{"@Temple of Fiends/Locked Duo 2/","TempleOfFiends_LockedDuo2"}},
+  ["@Aldi Sea/Marsh Cave/Top (B1) - Duo"] = {{"@Marsh Cave Top (B1)/Duo 1/","MarshCave_Top_B1_Duo1"},{"@Marsh Cave Top (B1)/Duo 2/","MarshCave_Top_B1_Duo2"}},
+  ["@Aldi Sea/Marsh Cave/Bottom (B2) - Tetris-Z Middle"] = {{"@Marsh Cave Bottom (B2)/Tetris-Z Middle 1/","MarshCave_Bottom_B2_TetrisZMiddle1"},{"@Marsh Cave Bottom (B2)/Tetris-Z Middle 2/","MarshCave_Bottom_B2_TetrisZMiddle2"}},
 }
 
 function getWorldChestLocation(locationID, chestLocationTable, worldChestTable)
