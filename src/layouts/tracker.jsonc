@@ -113,7 +113,7 @@
                     "title": "Temple of Fiends",
                     "content": {
                       "type": "map",
-                      "maps": [ "temple_of_fiends_present" ]
+                      "maps": [ "temple_of_fiends" ]
                     }
                   },
                   {

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Temple of Fiends",
+    "children": [
+      {
+        "name": "Garland",
+        "sections": [{"hosted_item": "garland"}]
+      },
+      {
+        "name": "Unlocked Single",
+        "sections": [{"visibility_rules": ["TempleOfFiends_UnlockedSingle"]}],
+        "map_locations": [{"map": "temple_of_fiends", "x": 55, "y": 536}]
+      },
+      {
+        "name": "Unlocked Duo 1",
+        "sections": [{"visibility_rules": ["TempleOfFiends_UnlockedDuo1"]}],
+        "map_locations": [{"map": "temple_of_fiends", "x": 55, "y": 72}]
+      },
+      {
+        "name": "Unlocked Duo 2",
+        "sections": [{"visibility_rules": ["TempleOfFiends_UnlockedDuo2"]}],
+        "map_locations": [{"map": "temple_of_fiends", "x": 71, "y": 72}]
+      },
+      {
+        "name": "Locked Single",
+        "sections": [{
+          "visibility_rules": ["TempleOfFiends_LockedSingle"],
+          "access_rules": [ "key" ]
+        }],
+        "map_locations": [{"map": "temple_of_fiends", "x": 647, "y": 536}]
+      },
+      {
+        "name": "Locked Duo 1",
+        "sections": [{
+          "visibility_rules": ["TempleOfFiends_LockedDuo1"],
+          "access_rules": [ "key" ]
+        }],
+        "map_locations": [{"map": "temple_of_fiends", "x": 631, "y": 72}]
+      },
+      {
+        "name": "Locked Duo 2",
+        "sections": [{
+          "visibility_rules": ["TempleOfFiends_LockedDuo2"],
+          "access_rules": [ "key" ]
+        }],
+        "map_locations": [{"map": "temple_of_fiends", "x": 647, "y": 72}]
+      }
+    ]
+  }
+]

@@ -343,6 +343,10 @@ local chestLocationTable = {
   ["@Cardia Forest Island/Incentive 1/"] = {"@Cardia Islands/Forest Island/Incentive"},
   ["@Cardia Forest Island/Incentive 2/"] = {"@Cardia Islands/Forest Island/Incentive"},
   ["@Cardia Forest Island/Incentive 3/"] = {"@Cardia Islands/Forest Island/Incentive"},
+  ["@Temple of Fiends/Unlocked Duo 1/"] = {"@Aldi Sea/Temple of Fiends/Unlocked Duo"},
+  ["@Temple of Fiends/Unlocked Duo 2/"] = {"@Aldi Sea/Temple of Fiends/Unlocked Duo"},
+  ["@Temple of Fiends/Locked Duo 1/"] = {"@Aldi Sea/Temple of Fiends/Locked Duo"},
+  ["@Temple of Fiends/Locked Duo 2/"] = {"@Aldi Sea/Temple of Fiends/Locked Duo"},
 }
 local worldChestTable = {
   ["@Aldi Sea/Matoya's Cave/Chests"] = {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}},
@@ -356,6 +360,8 @@ local worldChestTable = {
   ["@Cardia Islands/Swamp Island/Chests"] = {{"@Cardia Swamp Island/Chest 1/","CardiaSwampIsland_Chest1"},{"@Cardia Swamp Island/Chest 2/","CardiaSwampIsland_Chest2"},{"@Cardia Swamp Island/Chest 3/","CardiaSwampIsland_Chest3"}},
   ["@Cardia Islands/Forest Island/Entrance"] = {{"@Cardia Forest Island/Entrance 1/","CardiaForestIsland_Entrance1"},{"@Cardia Forest Island/Entrance 2/","CardiaForestIsland_Entrance2"},{"@Cardia Forest Island/Entrance 3/","CardiaForestIsland_Entrance3"}},
   ["@Cardia Islands/Forest Island/Incentive"] = {{"@Cardia Forest Island/Incentive 1/","CardiaForestIsland_Incentive1"},{"@Cardia Forest Island/Incentive 2/","CardiaForestIsland_Incentive2"},{"@Cardia Forest Island/Incentive 3/","CardiaForestIsland_Incentive3"}},
+  ["@Aldi Sea/Temple of Fiends/Unlocked Duo"] = {{"@Temple of Fiends/Unlocked Duo 1/","TempleOfFiends_UnlockedDuo1"},{"@Temple of Fiends/Unlocked Duo 2/","TempleOfFiends_UnlockedDuo2"}},
+  ["@Aldi Sea/Temple of Fiends/Locked Duo"] = {{"@Temple of Fiends/Locked Duo 1/","TempleOfFiends_LockedDuo1"},{"@Temple of Fiends/Locked Duo 2/","TempleOfFiends_LockedDuo2"}},
 }
 
 function getWorldChestLocation(locationID, chestLocationTable, worldChestTable)

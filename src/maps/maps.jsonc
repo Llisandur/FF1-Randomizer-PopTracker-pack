@@ -312,10 +312,10 @@
         "img": "images/maps/dungeons/templeoffiends_past_f3.png"
     },
     {
-        "name": "temple_of_fiends_present",
+        "name": "temple_of_fiends",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/templeoffiends_present.png"
+        "img": "images/maps/dungeons/temple_of_fiends.png"
     },
     {
         "name": "titans_cave",
