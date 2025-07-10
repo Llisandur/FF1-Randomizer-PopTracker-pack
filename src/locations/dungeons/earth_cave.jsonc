@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Earth Cave Giant's Floor (B1)",
+    "access_rules": [ "airship", "ship,canal" ],
+    "children": [
+      {
+        "name": "Single",
+        "sections": [{"visibility_rules": ["EarthCave_GiantsFloor_B1_Single"]}],
+        "map_locations": [{"map": "earth_cave_b1", "x": 488, "y": 120}]
+      },
+      {
+        "name": "Appendix 1",
+        "sections": [{"visibility_rules": ["EarthCave_GiantsFloor_B1_Appendix1"]}],
+        "map_locations": [{"map": "earth_cave_b1", "x": 409, "y": 712}]
+      },
+      {
+        "name": "Appendix 2",
+        "sections": [{"visibility_rules": ["EarthCave_GiantsFloor_B1_Appendix2"]}],
+        "map_locations": [{"map": "earth_cave_b1", "x": 425, "y": 712}]
+      },
+      {
+        "name": "Side Path 1",
+        "sections": [{"visibility_rules": ["EarthCave_GiantsFloor_B1_SidePath1"]}],
+        "map_locations": [{"map": "earth_cave_b1", "x": 585, "y": 600}]
+      },
+      {
+        "name": "Side Path 2",
+        "sections": [{"visibility_rules": ["EarthCave_GiantsFloor_B1_SidePath2"]}],
+        "map_locations": [{"map": "earth_cave_b1", "x": 601, "y": 616}]
+      }
+    ]
+  },
+  {
+    "name": "Earth Cave (B2)",
+    "access_rules": [ "airship", "ship,canal" ],
+    "children": [
+      {
+        "name": "Side Room 1",
+        "sections": [{"visibility_rules": ["EarthCave_B2_SideRoom1"]}],
+        "map_locations": [{"map": "earth_cave_b2", "x": 520, "y": 120}]
+      },
+      {
+        "name": "Side Room 2",
+        "sections": [{"visibility_rules": ["EarthCave_B2_SideRoom2"]}],
+        "map_locations": [{"map": "earth_cave_b2", "x": 536, "y": 120}]
+      },
+      {
+        "name": "Side Room 3",
+        "sections": [{"visibility_rules": ["EarthCave_B2_SideRoom3"]}],
+        "map_locations": [{"map": "earth_cave_b2", "x": 568, "y": 152}]
+      },
+      {
+        "name": "Guarded 1",
+        "sections": [{"visibility_rules": ["EarthCave_B2_Guarded1"]}],
+        "map_locations": [{"map": "earth_cave_b2", "x": 232, "y": 552}]
+      },
+      {
+        "name": "Guarded 2",
+        "sections": [{"visibility_rules": ["EarthCave_B2_Guarded2"]}],
+        "map_locations": [{"map": "earth_cave_b2", "x": 248, "y": 584}]
+      },
+      {
+        "name": "Guarded 3",
+        "sections": [{"visibility_rules": ["EarthCave_B2_Guarded3"]}],
+        "map_locations": [{"map": "earth_cave_b2", "x": 280, "y": 584}]
+      }
+    ]
+  },
+  {
+    "name": "Earth Cave Vampire Floor (B3)",
+    "access_rules": [ "airship", "ship,canal" ],
+    "children": [
+      {
+        "name": "Side Room",
+        "sections": [{"visibility_rules": ["EarthCave_VampireFloor_B3_SideRoom"]}],
+        "map_locations": [{"map": "earth_cave_b3", "x": 680, "y": 488}]
+      },
+      {
+        "name": "TFC",
+        "sections": [{"visibility_rules": ["EarthCave_VampireFloor_B3_TFC"]}],
+        "map_locations": [{"map": "earth_cave_b3", "x": 680, "y": 280}]
+      },
+      {
+        "name": "Asher Trunk",
+        "sections": [{"visibility_rules": ["EarthCave_VampireFloor_B3_AsherTrunk"]}],
+        "map_locations": [{"map": "earth_cave_b3", "x": 376, "y": 104}]
+      },
+      {
+        "name": "Vampire's Closet",
+        "sections": [{"visibility_rules": ["EarthCave_VampireFloor_B3_VampiresCloset"]}],
+        "map_locations": [{"map": "earth_cave_b3", "x": 152, "y": 296}]
+      },
+      {
+        "name": "Incentive",
+        "sections": [{
+          "visibility_rules": ["EarthCave_VampireFloor_B3_Incentive"],
+          "hosted_item": "earthCaveIncentive"
+        }],
+        "map_locations": [{"map": "earth_cave_b3", "x": 264, "y": 488}]
+      }
+    ]
+  },
+  {
+    "name": "Earth Cave Rod Locked Floor (B4)",
+    "access_rules": [ "airship,rod", "ship,canal,rod" ],
+    "children": [
+      {
+        "name": "Armory 1",
+        "sections": [{"visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory1"]}],
+        "map_locations": [{"map": "earth_cave_b4", "x": 488, "y": 88}]
+      },
+      {
+        "name": "Armory 2",
+        "sections": [{"visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory2"]}],
+        "map_locations": [{"map": "earth_cave_b4", "x": 504, "y": 88}]
+      },
+      {
+        "name": "Armory 3",
+        "sections": [{"visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory3"]}],
+        "map_locations": [{"map": "earth_cave_b4", "x": 488, "y": 120}]
+      },
+      {
+        "name": "Armory 4",
+        "sections": [{"visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory4"]}],
+        "map_locations": [{"map": "earth_cave_b4", "x": 568, "y": 88}]
+      },
+      {
+        "name": "Armory 5",
+        "sections": [{"visibility_rules": ["EarthCave_RodLockedFloor_B4_Armory5"]}],
+        "map_locations": [{"map": "earth_cave_b4", "x": 600, "y": 88}]
+      },
+      {
+        "name": "Lich's Closet 1",
+        "sections": [{"visibility_rules": ["EarthCave_RodLockedFloor_B4_LichsCloset1"]}],
+        "map_locations": [{"map": "earth_cave_b4", "x": 168, "y": 488}]
+      },
+      {
+        "name": "Lich's Closet 2",
+        "sections": [{"visibility_rules": ["EarthCave_RodLockedFloor_B4_LichsCloset2"]}],
+        "map_locations": [{"map": "earth_cave_b4", "x": 200, "y": 504}]
+      },
+      {
+        "name": "Lich's Closet 3",
+        "sections": [{"visibility_rules": ["EarthCave_RodLockedFloor_B4_LichsCloset3"]}],
+        "map_locations": [{"map": "earth_cave_b4", "x": 152, "y": 536}]
+      }
+    ]
+  },
+  {
+    "name": "Earth Cave (B5)",
+    "access_rules": [ "airship,rod", "ship,canal,rod" ],
+    "children": [
+      {
+        "name": "Earth Orb",
+        "sections": [{
+          "visibility_rules": [],
+          "hosted_item": "earthorb"
+          }],
+        "map_locations": [{"map": "earth_cave_b5", "x": 88, "y": 296}]
+      }
+    ]
+  }
+]

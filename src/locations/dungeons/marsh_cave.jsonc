@@ -30,16 +30,16 @@
     "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
     "children": [
       {
+        "name": "Top (B1) - Corner ",
         "sections": [{
-          "name": "Top (B1) - Corner ",
           "ref": "Marsh Cave Top (B1)/Corner/"
         }],
         "map_locations": [{"map": "marsh_cave_b1_middle", "x": 136, "y": 360}]
       },
       {
+        "name": "Top (B1) - Duo 1 ",
         "sections": [{
-          "name": "Top (B1) - Duo 1 ",
-          "ref": "Marsh Cave Top (B1)/Duo 1/",
+          "ref": "Marsh Cave Top (B1)/Duo 1/"
         }],
         "map_locations": [
           {"map": "marsh_cave_b1_middle", "x": 328, "y": 344},
