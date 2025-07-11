@@ -250,14 +250,14 @@
         "access_rules": [ "ruby,airship", "ruby,ship,canal" ],
         "sections": [
           {
-            "name": "Major",
-            "ref": "Titan's Tunnel/Major/"
-          },
-          {
             "name": "Chests",
             "visibility_rules": [ "TitansTunnel_Chest1","TitansTunnel_Chest2","TitansTunnel_Chest3" ],
             "clear_as_group": true,
             "item_count": 3
+          },
+          {
+            "name": "Major",
+            "ref": "Titan's Tunnel/Major/"
           }
         ],
         "map_locations": [
@@ -448,6 +448,46 @@
         ],
         "map_locations": [{"map": "overworld", "x": 3024, "y": 3260}]
       },
+      { "name": "Ice Cave",
+        "access_rules": [ "airship", "ship,canoe", "bridge,canoe", "openProgression,canoe", "extendedOpen,canoe" ],
+        "sections": [
+          {
+            "name": "Incentive Floor (B2) - Chest",
+            "visibility_rules": [ "IceCave_IncentiveFloor_B2_Chest1","IceCave_IncentiveFloor_B2_Chest2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Incentive Floor (B2) - Major",
+            "ref": "Ice Cave Incentive Floor (B2)/Major/"
+          },
+          {
+            "name": "Bottom (B3) - IceD Room",
+            "visibility_rules": [ "IceCave_Bottom_B3_IceDRoom1","IceCave_Bottom_B3_IceDRoom2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Bottom (B3) - Six-Pack",
+            "visibility_rules": [ "IceCave_Bottom_B3_SixPack1","IceCave_Bottom_B3_SixPack2","IceCave_Bottom_B3_SixPack3","IceCave_Bottom_B3_SixPack4","IceCave_Bottom_B3_SixPack5","IceCave_Bottom_B3_SixPack6" ],
+            "clear_as_group": true,
+            "item_count": 6
+          },
+          {
+            "name": "Exit Floor (B1) - Greeds Checks",
+            "visibility_rules": [ "IceCave_ExitFloor_B1_GreedsChecks1","IceCave_ExitFloor_B1_GreedsChecks2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Exit Floor (B1) - Drop Room",
+            "visibility_rules": [ "IceCave_ExitFloor_B1_DropRoom1","IceCave_ExitFloor_B1_DropRoom2","IceCave_ExitFloor_B1_DropRoom3" ],
+            "clear_as_group": true,
+            "item_count": 3
+          }
+        ],
+        "map_locations": [{"map": "overworld", "x": 3160, "y": 2934}]
+      },
       {
         "name": "Crescent Lake",
         "access_rules": [ "airship", "openProgression,canoe", "ship,canal", "extendedOpen,canoe", "ship,canoe"
@@ -459,84 +499,6 @@
           }
         ],
         "map_locations": [{"map": "overworld", "x": 3512, "y": 3480}]
-      },
-      {
-        "name": "Ice Cave",
-        "access_rules": [
-          "airship",
-          "ship,canoe",
-          "bridge,canoe",
-          "openProgression,canoe",
-          "extendedOpen,canoe"
-        ],
-        "sections": [
-          {
-            "name": "Incentive Floor (B2) - Chest 1",
-            "visibility_rules": ["IceCave_IncentiveFloor_B2_Chest1"]
-          },
-          {
-            "name": "Incentive Floor (B2) - Chest 2",
-            "visibility_rules": ["IceCave_IncentiveFloor_B2_Chest2"]
-          },
-          {
-            "name": "Incentive Floor (B2) - Major",
-            "visibility_rules": ["IceCave_IncentiveFloor_B2_Major"],
-            "hosted_item": "iceCaveIncentive"
-          },
-          {
-            "name": "Bottom (B3) - IceD Room 1",
-            "visibility_rules": ["IceCave_Bottom_B3_IceDRoom1"]
-          },
-          {
-            "name": "Bottom (B3) - IceD Room 2",
-            "visibility_rules": ["IceCave_Bottom_B3_IceDRoom2"]
-          },
-          {
-            "name": "Bottom (B3) - Six-Pack 1",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack1"]
-          },
-          {
-            "name": "Bottom (B3) - Six-Pack 2",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack2"]
-          },
-          {
-            "name": "Bottom (B3) - Six-Pack 3",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack3"]
-          },
-          {
-            "name": "Bottom (B3) - Six-Pack 4",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack4"]
-          },
-          {
-            "name": "Bottom (B3) - Six-Pack 5",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack5"]
-          },
-          {
-            "name": "Bottom (B3) - Six-Pack 6",
-            "visibility_rules": ["IceCave_Bottom_B3_SixPack6"]
-          },
-          {
-            "name": "Exit Floor (B1) - Greeds Checks 1",
-            "visibility_rules": ["IceCave_ExitFloor_B1_GreedsChecks1"]
-          },
-          {
-            "name": "Exit Floor (B1) - Greeds Checks 2",
-            "visibility_rules": ["IceCave_ExitFloor_B1_GreedsChecks2"]
-          },
-          {
-            "name": "Exit Floor (B1) - Drop Room 1",
-            "visibility_rules": ["IceCave_ExitFloor_B1_DropRoom1"]
-          },
-          {
-            "name": "Exit Floor (B1) - Drop Room 2",
-            "visibility_rules": ["IceCave_ExitFloor_B1_DropRoom2"]
-          },
-          {
-            "name": "Exit Floor (B1) - Drop Room 3",
-            "visibility_rules": ["IceCave_ExitFloor_B1_DropRoom3"]
-          }
-        ],
-        "map_locations": [{"map": "overworld", "x": 3160, "y": 2934}]
       },
       {
         "name": "Ryukahn Desert",

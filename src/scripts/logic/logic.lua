@@ -407,6 +407,21 @@ local chestLocationTable = {
   ["@Gurgu Volcano Agama Floor (B4)/Side Room 2/"]       = {"@Gurgu Mountains/Gurgu Volcano/Agama Floor (B4) - Side Room"},
   ["@Gurgu Volcano Agama Floor (B4)/Grind Room 1/"]      = {"@Gurgu Mountains/Gurgu Volcano/Agama Floor (B4) - Grind Room"},
   ["@Gurgu Volcano Agama Floor (B4)/Grind Room 2/"]      = {"@Gurgu Mountains/Gurgu Volcano/Agama Floor (B4) - Grind Room"},
+  ["@Ice Cave Incentive Floor (B2)/Chest 1/"]            = {"@Gurgu Mountains/Ice Cave/Incentive Floor (B2) - Chest"},
+  ["@Ice Cave Incentive Floor (B2)/Chest 2/"]            = {"@Gurgu Mountains/Ice Cave/Incentive Floor (B2) - Chest"},
+  ["@Ice Cave Bottom (B3)/IceD Room 1/"]                 = {"@Gurgu Mountains/Ice Cave/Bottom (B3) - IceD Room"},
+  ["@Ice Cave Bottom (B3)/IceD Room 2/"]                 = {"@Gurgu Mountains/Ice Cave/Bottom (B3) - IceD Room"},
+  ["@Ice Cave Bottom (B3)/Six-Pack 1/"]                  = {"@Gurgu Mountains/Ice Cave/Bottom (B3) - Six-Pack"},
+  ["@Ice Cave Bottom (B3)/Six-Pack 2/"]                  = {"@Gurgu Mountains/Ice Cave/Bottom (B3) - Six-Pack"},
+  ["@Ice Cave Bottom (B3)/Six-Pack 3/"]                  = {"@Gurgu Mountains/Ice Cave/Bottom (B3) - Six-Pack"},
+  ["@Ice Cave Bottom (B3)/Six-Pack 4/"]                  = {"@Gurgu Mountains/Ice Cave/Bottom (B3) - Six-Pack"},
+  ["@Ice Cave Bottom (B3)/Six-Pack 5/"]                  = {"@Gurgu Mountains/Ice Cave/Bottom (B3) - Six-Pack"},
+  ["@Ice Cave Bottom (B3)/Six-Pack 6/"]                  = {"@Gurgu Mountains/Ice Cave/Bottom (B3) - Six-Pack"},
+  ["@Ice Cave Exit Floor (B1)/Greeds Checks 1/"]         = {"@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Greeds Checks"},
+  ["@Ice Cave Exit Floor (B1)/Greeds Checks 2/"]         = {"@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Greeds Checks"},
+  ["@Ice Cave Exit Floor (B1)/Drop Room 1/"]             = {"@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Drop Room"},
+  ["@Ice Cave Exit Floor (B1)/Drop Room 2/"]             = {"@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Drop Room"},
+  ["@Ice Cave Exit Floor (B1)/Drop Room 3/"]             = {"@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Drop Room"},
 }
 local worldChestTable = {
   ["@Aldi Sea/Matoya's Cave/Chests"]                                      = {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}},
@@ -437,6 +452,11 @@ local worldChestTable = {
   ["@Gurgu Mountains/Gurgu Volcano/Agama Floor (B4) - Second Greed"]      = {{"@Gurgu Volcano Agama Floor (B4)/Second Greed 1/","GurguVolcano_AgamaFloor_B4_SecondGreed1"},{"@Gurgu Volcano Agama Floor (B4)/Second Greed 2/","GurguVolcano_AgamaFloor_B4_SecondGreed2"}},
   ["@Gurgu Mountains/Gurgu Volcano/Agama Floor (B4) - Side Room"]         = {{"@Gurgu Volcano Agama Floor (B4)/Side Room 1/","GurguVolcano_AgamaFloor_B4_SideRoom1"},{"@Gurgu Volcano Agama Floor (B4)/Side Room 2/","GurguVolcano_AgamaFloor_B4_SideRoom2"}},
   ["@Gurgu Mountains/Gurgu Volcano/Agama Floor (B4) - Grind Room"]        = {{"@Gurgu Volcano Agama Floor (B4)/Grind Room 1/","GurguVolcano_AgamaFloor_B4_GrindRoom1"},{"@Gurgu Volcano Agama Floor (B4)/Grind Room 2/","GurguVolcano_AgamaFloor_B4_GrindRoom2"}},
+  ["@Gurgu Mountains/Ice Cave/Incentive Floor (B2) - Chest"]              = {{"@Ice Cave Incentive Floor (B2)/Chest 1/","IceCave_IncentiveFloor_B2_Chest1"},{"@Ice Cave Incentive Floor (B2)/Chest 2/","IceCave_IncentiveFloor_B2_Chest2"}},
+  ["@Gurgu Mountains/Ice Cave/Bottom (B3) - IceD Room"]                   = {{"@Ice Cave Bottom (B3)/IceD Room 1/","IceCave_Bottom_B3_IceDRoom1"},{"@Ice Cave Bottom (B3)/IceD Room 2/","IceCave_Bottom_B3_IceDRoom2"}},
+  ["@Gurgu Mountains/Ice Cave/Bottom (B3) - Six-Pack"]                    = {{"@Ice Cave Bottom (B3)/Six-Pack 1/","IceCave_Bottom_B3_SixPack1"},{"@Ice Cave Bottom (B3)/Six-Pack 2/","IceCave_Bottom_B3_SixPack2"},{"@Ice Cave Bottom (B3)/Six-Pack 3/","IceCave_Bottom_B3_SixPack3"},{"@Ice Cave Bottom (B3)/Six-Pack 4/","IceCave_Bottom_B3_SixPack4"},{"@Ice Cave Bottom (B3)/Six-Pack 5/","IceCave_Bottom_B3_SixPack5"},{"@Ice Cave Bottom (B3)/Six-Pack 6/","IceCave_Bottom_B3_SixPack6"}},
+  ["@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Greeds Checks"]           = {{"@Ice Cave Exit Floor (B1)/Greeds Checks 1/","IceCave_ExitFloor_B1_GreedsChecks1"},{"@Ice Cave Exit Floor (B1)/Greeds Checks 2/","IceCave_ExitFloor_B1_GreedsChecks2"}},
+  ["@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Drop Room"]               = {{"@Ice Cave Exit Floor (B1)/Drop Room 1/","IceCave_ExitFloor_B1_DropRoom1"},{"@Ice Cave Exit Floor (B1)/Drop Room 2/","IceCave_ExitFloor_B1_DropRoom2"},{"@Ice Cave Exit Floor (B1)/Drop Room 3/","IceCave_ExitFloor_B1_DropRoom3"}},
 }
 
 function getWorldChestLocation(locationID, chestLocationTable, worldChestTable)

@@ -45,6 +45,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
   Tracker:AddLocations("locations/dungeons/marsh_cave.jsonc")
   Tracker:AddLocations("locations/dungeons/earth_cave.jsonc")
   Tracker:AddLocations("locations/dungeons/gurgu_volcano.jsonc")
+  Tracker:AddLocations("locations/dungeons/ice_cave.jsonc")
 end
 
 -- Layout
