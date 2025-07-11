@@ -548,8 +548,7 @@
   },
   { "name": "Cardia Islands",
     "children": [
-      {
-        "name": "Bahamut's Cave",
+      { "name": "Bahamut's Cave",
         "access_rules": [ "airship","cardiaDock,ship,canal" ],
         "sections": [
           {
@@ -563,8 +562,7 @@
         ],
         "map_locations": [{"map": "overworld", "x": 1544, "y": 826}]
       },
-      {
-        "name": "Grass Island",
+      { "name": "Grass Island",
         "access_rules": [ "airship" ],
         "sections": [
           {
@@ -576,8 +574,7 @@
         ],
         "map_locations": [{"map": "overworld", "x": 1272, "y": 794}]
       },
-      {
-        "name": "Swamp Island",
+      { "name": "Swamp Island",
         "access_rules": [ "airship" ],
         "sections": [
           {
@@ -589,8 +586,7 @@
         ],
         "map_locations": [{"map": "overworld", "x": 1496, "y": 938}]
       },
-      {
-        "name": "Forest Island",
+      { "name": "Forest Island",
         "access_rules": [ "airship" ],
         "sections": [
           {
