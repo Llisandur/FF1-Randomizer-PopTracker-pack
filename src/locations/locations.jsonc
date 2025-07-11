@@ -371,20 +371,7 @@
   },
   { "name": "Gurgu Mountains",
     "children": [
-      {
-        "name": "Crescent Lake",
-        "access_rules": [ "airship", "openProgression,canoe", "ship,canal", "extendedOpen,canoe", "ship,canoe"
-        ],
-        "sections": [
-          {
-            "name": "Canoe Sage",
-            "hosted_item": "sages"
-          }
-        ],
-        "map_locations": [{"map": "overworld", "x": 3512, "y": 3480}]
-      },
-      {
-        "name": "Gurgu Volcano",
+      { "name": "Gurgu Volcano",
         "access_rules": [ "airship", "openProgression,canoe", "extendedOpen,canoe", "ship,canoe"
         ],
         "sections": [
@@ -460,6 +447,18 @@
           }
         ],
         "map_locations": [{"map": "overworld", "x": 3024, "y": 3260}]
+      },
+      {
+        "name": "Crescent Lake",
+        "access_rules": [ "airship", "openProgression,canoe", "ship,canal", "extendedOpen,canoe", "ship,canoe"
+        ],
+        "sections": [
+          {
+            "name": "Canoe Sage",
+            "hosted_item": "sages"
+          }
+        ],
+        "map_locations": [{"map": "overworld", "x": 3512, "y": 3480}]
       },
       {
         "name": "Ice Cave",
