@@ -135,6 +135,7 @@ function onClear(slot_data)
   end
   apply_slot_data(slot_data)
 
+  getActiveAPLocations()
   visibleLocations()
 
   PLAYER_NUMBER = Archipelago.PlayerNumber or -1

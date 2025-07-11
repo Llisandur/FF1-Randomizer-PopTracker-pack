@@ -32,21 +32,32 @@ function canBreakOrb()
   end
 end
 
+ARCHIPELAGO_ACTIVE_LOCATIONS = {}
+local runOnceAAL = true
+
+function getActiveAPLocations()
+  if runOnceAAL == true then
+    for _, v in pairs(Archipelago.MissingLocations) do
+      ARCHIPELAGO_ACTIVE_LOCATIONS[v] = ""
+    end
+    for _, v in pairs(Archipelago.CheckedLocations) do
+      ARCHIPELAGO_ACTIVE_LOCATIONS[v] = ""
+    end
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+      print(string.format("getActiveAPLocations:\n%s", dump_table(ARCHIPELAGO_ACTIVE_LOCATIONS)))
+    end
+    runOnceAAL = false
+  end
+end
+
 function checkLocationVisible(code, locationMap)
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
     print(string.format("Called checkLocationVisible: %s, %s", code, locationMap))
   end
   if Tracker:FindObjectForCode("showAllChests").CurrentStage == 0 then
     Tracker:FindObjectForCode(code).Active = false
-    for _, v in pairs(Archipelago.MissingLocations) do
-      if v == locationMap then
-        Tracker:FindObjectForCode(code).Active = true
-      end
-    end
-    for _, v in pairs(Archipelago.CheckedLocations) do
-      if v == locationMap then
-        Tracker:FindObjectForCode(code).Active = true
-      end
+    if ARCHIPELAGO_ACTIVE_LOCATIONS[locationMap] then
+      Tracker:FindObjectForCode(code).Active = true
     end
   else
     Tracker:FindObjectForCode(code).Active = true
@@ -87,83 +98,96 @@ function visibleLocations()
   checkLocationVisible("TitansTunnel_Chest2", 328)
   checkLocationVisible("TitansTunnel_Chest3", 329)
   checkLocationVisible("TitansTunnel_Major", 326)
-
+  checkLocationVisible("CardiaGrassIsland_Entrance", 398)
+  checkLocationVisible("CardiaGrassIsland_DuoRoom1", 396)
+  checkLocationVisible("CardiaGrassIsland_DuoRoom2", 397)
+  checkLocationVisible("CardiaSwampIsland_Chest1", 393)
+  checkLocationVisible("CardiaSwampIsland_Chest2", 395)
+  checkLocationVisible("CardiaSwampIsland_Chest3", 394)
+  checkLocationVisible("CardiaForestIsland_Entrance1", 389)
+  checkLocationVisible("CardiaForestIsland_Entrance2", 388)
+  checkLocationVisible("CardiaForestIsland_Entrance3", 390)
+  checkLocationVisible("CardiaForestIsland_Incentive1", 400)
+  checkLocationVisible("CardiaForestIsland_Incentive2", 399)
+  checkLocationVisible("CardiaForestIsland_Incentive3", 392)
+  checkLocationVisible("CardiaForestIsland_IncentiveMajor", 391)
+  checkLocationVisible("TempleOfFiends_UnlockedSingle", 265)
   checkLocationVisible("TempleOfFiends_UnlockedDuo1", 263)
   checkLocationVisible("TempleOfFiends_UnlockedDuo2", 264)
-  checkLocationVisible("TempleOfFiends_UnlockedSingle", 265)
   checkLocationVisible("TempleOfFiends_LockedSingle", 266)
   checkLocationVisible("TempleOfFiends_LockedDuo1", 267)
   checkLocationVisible("TempleOfFiends_LockedDuo2", 268)
+  checkLocationVisible("MarshCave_Top_B1_Single", 283)
+  checkLocationVisible("MarshCave_Top_B1_Corner", 282)
+  checkLocationVisible("MarshCave_Top_B1_Duo1", 281)
+  checkLocationVisible("MarshCave_Top_B1_Duo2", 280)
   checkLocationVisible("MarshCave_Bottom_B2_Distant", 276)
   checkLocationVisible("MarshCave_Bottom_B2_TetrisZFirst", 277)
   checkLocationVisible("MarshCave_Bottom_B2_TetrisZMiddle1", 278)
-  checkLocationVisible("MarshCave_Bottom_B2_TetrisZLast", 279)
-  checkLocationVisible("MarshCave_Top_B1_Duo2", 280)
-  checkLocationVisible("MarshCave_Top_B1_Duo1", 281)
-  checkLocationVisible("MarshCave_Top_B1_Corner", 282)
-  checkLocationVisible("MarshCave_Top_B1_Single", 283)
-  checkLocationVisible("MarshCave_Bottom_B2_TetrisZIncentive", 284)
   checkLocationVisible("MarshCave_Bottom_B2_TetrisZMiddle2", 285)
+  checkLocationVisible("MarshCave_Bottom_B2_TetrisZIncentive", 284)
+  checkLocationVisible("MarshCave_Bottom_B2_TetrisZLast", 279)
   checkLocationVisible("MarshCave_Bottom_B2_LockedCorner", 286)
   checkLocationVisible("MarshCave_Bottom_B2_LockedMiddle", 287)
   checkLocationVisible("MarshCave_Bottom_B2_LockedIncentive", 288)
+  checkLocationVisible("EarthCave_GiantsFloor_B1_Single", 306)
   checkLocationVisible("EarthCave_GiantsFloor_B1_Appendix1", 302)
   checkLocationVisible("EarthCave_GiantsFloor_B1_Appendix2", 303)
   checkLocationVisible("EarthCave_GiantsFloor_B1_SidePath1", 304)
   checkLocationVisible("EarthCave_GiantsFloor_B1_SidePath2", 305)
-  checkLocationVisible("EarthCave_GiantsFloor_B1_Single", 306)
   checkLocationVisible("EarthCave_B2_SideRoom1", 307)
   checkLocationVisible("EarthCave_B2_SideRoom2", 308)
   checkLocationVisible("EarthCave_B2_SideRoom3", 309)
   checkLocationVisible("EarthCave_B2_Guarded1", 310)
   checkLocationVisible("EarthCave_B2_Guarded2", 311)
   checkLocationVisible("EarthCave_B2_Guarded3", 312)
-  checkLocationVisible("EarthCave_VampireFloor_B3_VampiresCloset", 313)
-  checkLocationVisible("EarthCave_VampireFloor_B3_AsherTrunk", 314)
   checkLocationVisible("EarthCave_VampireFloor_B3_SideRoom", 315)
   checkLocationVisible("EarthCave_VampireFloor_B3_TFC", 316)
+  checkLocationVisible("EarthCave_VampireFloor_B3_AsherTrunk", 314)
+  checkLocationVisible("EarthCave_VampireFloor_B3_VampiresCloset", 313)
   checkLocationVisible("EarthCave_VampireFloor_B3_Incentive", 317)
+  checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory1", 321)
+  checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory2", 322)
+  checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory3", 325)
+  checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory4", 323)
+  checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory5", 324)
   checkLocationVisible("EarthCave_RodLockedFloor_B4_LichsCloset1", 318)
   checkLocationVisible("EarthCave_RodLockedFloor_B4_LichsCloset2", 319)
   checkLocationVisible("EarthCave_RodLockedFloor_B4_LichsCloset3", 320)
-  checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory1", 321)
-  checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory2", 322)
-  checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory4", 323)
-  checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory5", 324)
-  checkLocationVisible("EarthCave_RodLockedFloor_B4_Armory3", 325)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Guarded", 346)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Center", 347)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Hairpins", 344)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Shortpins", 345)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Vertpins1", 342)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Vertpins2", 343)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory1", 338)
   checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory2", 330)
   checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory3", 331)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory4", 337)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory5", 335)
   checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory6", 332)
   checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory7", 333)
   checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory8", 334)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory5", 335)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory10", 336)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory4", 337)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory1", 338)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory12", 339)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory11", 340)
   checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory9", 341)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Vertpins1", 342)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Vertpins2", 343)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Hairpins", 344)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Shortpins", 345)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Guarded", 346)
-  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Center", 347)
-  checkLocationVisible("GurguVolcano_AgamaFloor_B4_Entrance2", 348)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory10", 336)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory11", 340)
+  checkLocationVisible("GurguVolcano_ArmoryFloor_B2_Armory12", 339)
   checkLocationVisible("GurguVolcano_AgamaFloor_B4_Entrance1", 349)
+  checkLocationVisible("GurguVolcano_AgamaFloor_B4_Entrance2", 348)
   checkLocationVisible("GurguVolcano_AgamaFloor_B4_FirstGreed", 350)
-  checkLocationVisible("GurguVolcano_AgamaFloor_B4_GrindRoom1", 351)
-  checkLocationVisible("GurguVolcano_AgamaFloor_B4_GrindRoom2", 352)
+  checkLocationVisible("GurguVolcano_AgamaFloor_B4_WormRoom1", 361)
+  checkLocationVisible("GurguVolcano_AgamaFloor_B4_WormRoom2", 359)
+  checkLocationVisible("GurguVolcano_AgamaFloor_B4_WormRoom3", 360)
+  checkLocationVisible("GurguVolcano_AgamaFloor_B4_WormRoom4", 357)
+  checkLocationVisible("GurguVolcano_AgamaFloor_B4_WormRoom5", 358)
   checkLocationVisible("GurguVolcano_AgamaFloor_B4_SecondGreed1", 353)
   checkLocationVisible("GurguVolcano_AgamaFloor_B4_SecondGreed2", 354)
   checkLocationVisible("GurguVolcano_AgamaFloor_B4_SideRoom1", 355)
   checkLocationVisible("GurguVolcano_AgamaFloor_B4_SideRoom2", 356)
-  checkLocationVisible("GurguVolcano_AgamaFloor_B4_WormRoom4", 357)
-  checkLocationVisible("GurguVolcano_AgamaFloor_B4_WormRoom5", 358)
-  checkLocationVisible("GurguVolcano_AgamaFloor_B4_WormRoom2", 359)
-  checkLocationVisible("GurguVolcano_AgamaFloor_B4_WormRoom3", 360)
-  checkLocationVisible("GurguVolcano_AgamaFloor_B4_WormRoom1", 361)
+  checkLocationVisible("GurguVolcano_AgamaFloor_B4_GrindRoom1", 351)
+  checkLocationVisible("GurguVolcano_AgamaFloor_B4_GrindRoom2", 352)
   checkLocationVisible("GurguVolcano_KaryFloor_B5_Incentive", 362)
+
   checkLocationVisible("IceCave_ExitFloor_B1_GreedsChecks1", 363)
   checkLocationVisible("IceCave_ExitFloor_B1_GreedsChecks2", 364)
   checkLocationVisible("IceCave_ExitFloor_B1_DropRoom1", 365)
@@ -189,19 +213,6 @@ function visibleLocations()
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_ThreePack3", 385)
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_Single", 386)
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_Incentive", 387)
-  checkLocationVisible("CardiaForestIsland_Entrance2", 388)
-  checkLocationVisible("CardiaForestIsland_Entrance1", 389)
-  checkLocationVisible("CardiaForestIsland_Entrance3", 390)
-  checkLocationVisible("CardiaForestIsland_IncentiveMajor", 391)
-  checkLocationVisible("CardiaForestIsland_Incentive3", 392)
-  checkLocationVisible("CardiaSwampIsland_Chest1", 393)
-  checkLocationVisible("CardiaSwampIsland_Chest3", 394)
-  checkLocationVisible("CardiaSwampIsland_Chest2", 395)
-  checkLocationVisible("CardiaGrassIsland_DuoRoom1", 396)
-  checkLocationVisible("CardiaGrassIsland_DuoRoom2", 397)
-  checkLocationVisible("CardiaGrassIsland_Entrance", 398)
-  checkLocationVisible("CardiaForestIsland_Incentive2", 399)
-  checkLocationVisible("CardiaForestIsland_Incentive1", 400)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom1", 405)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom2", 406)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom3", 407)
