@@ -1,5 +1,5 @@
 [
-  {"name": "Aldi Sea",
+  { "name": "Aldi Sea",
     "children": [
       { "name": "Matoya's Cave",
         "access_rules": [ "bridge", "ship", "airship", "extendedOpen,canoe", "openProgression,canoe" ],
@@ -244,7 +244,7 @@
       }
     ]
   },
-  {"name": "Melmond Peninsula",
+  { "name": "Melmond Peninsula",
     "children": [
       { "name": "Titan's Tunnel",
         "access_rules": [ "ruby,airship", "ruby,ship,canal" ],
@@ -306,23 +306,23 @@
           },
           {
             "name": "Vampire Floor (B3) - Side Room",
-            "ref": "Earth Cave Vampire Floor (B3)/Side Room"
+            "ref": "Earth Cave Vampire Floor (B3)/Side Room/"
           },
           {
             "name": "Vampire Floor (B3) - TFC",
-            "ref": "Earth Cave Vampire Floor (B3)/TFC"
+            "ref": "Earth Cave Vampire Floor (B3)/TFC/"
           },
           {
             "name": "Vampire Floor (B3) - Asher Trunk",
-            "ref": "Earth Cave Vampire Floor (B3)/Asher Trunk"
+            "ref": "Earth Cave Vampire Floor (B3)/Asher Trunk/"
           },
           {
             "name": "Vampire Floor (B3) - Vampire's Closet",
-            "ref": "Earth Cave Vampire Floor (B3)/Vampire's Closet"
+            "ref": "Earth Cave Vampire Floor (B3)/Vampire's Closet/"
           },
           {
             "name": "Vampire Floor (B3) - Incentive",
-            "ref": "Earth Cave Vampire Floor (B3)/Incentive"
+            "ref": "Earth Cave Vampire Floor (B3)/Incentive/"
           },
           {
             "name": "Rod Locked Floor (B4) - Armory",
@@ -369,17 +369,11 @@
       }
     ]
   },
-  {
-    "name": "Crescent Lake Area",
+  { "name": "Gurgu Mountains",
     "children": [
       {
         "name": "Crescent Lake",
-        "access_rules": [
-          "airship",
-          "openProgression,canoe",
-          "ship,canal",
-          "extendedOpen,canoe",
-          "ship,canoe"
+        "access_rules": [ "airship", "openProgression,canoe", "ship,canal", "extendedOpen,canoe", "ship,canoe"
         ],
         "sections": [
           {
@@ -391,149 +385,78 @@
       },
       {
         "name": "Gurgu Volcano",
-        "access_rules": [
-          "airship",
-          "openProgression,canoe",
-          "extendedOpen,canoe",
-          "ship,canoe"
+        "access_rules": [ "airship", "openProgression,canoe", "extendedOpen,canoe", "ship,canoe"
         ],
         "sections": [
           {
             "name": "Armory Floor (B2) - Guarded",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Guarded"]
+            "ref": "Gurgu Volcano Armory Floor (B2)/Guarded/"
           },
           {
             "name": "Armory Floor (B2) - Center",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Center"]
+            "ref": "Gurgu Volcano Armory Floor (B2)/Center/"
           },
           {
             "name": "Armory Floor (B2) - Hairpins",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Hairpins"]
+            "ref": "Gurgu Volcano Armory Floor (B2)/Hairpins/"
           },
           {
             "name": "Armory Floor (B2) - Shortpins",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Shortpins"]
+            "ref": "Gurgu Volcano Armory Floor (B2)/Shortpins/"
           },
           {
-            "name": "Armory Floor (B2) - Vertpins 1",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Vertpins1"]
+            "name": "Armory Floor (B2) - Vertpins",
+            "visibility_rules": [ "GurguVolcano_ArmoryFloor_B2_Vertpins1","GurguVolcano_ArmoryFloor_B2_Vertpins2" ],
+            "clear_as_group": true,
+            "item_count": 2
           },
           {
-            "name": "Armory Floor (B2) - Vertpins 2",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Vertpins2"]
+            "name": "Armory Floor (B2) - Armory",
+            "visibility_rules": [ "GurguVolcano_ArmoryFloor_B2_Armory1","GurguVolcano_ArmoryFloor_B2_Armory2","GurguVolcano_ArmoryFloor_B2_Armory3","GurguVolcano_ArmoryFloor_B2_Armory4","GurguVolcano_ArmoryFloor_B2_Armory5","GurguVolcano_ArmoryFloor_B2_Armory6","GurguVolcano_ArmoryFloor_B2_Armory7","GurguVolcano_ArmoryFloor_B2_Armory8","GurguVolcano_ArmoryFloor_B2_Armory9","GurguVolcano_ArmoryFloor_B2_Armory10","GurguVolcano_ArmoryFloor_B2_Armory11","GurguVolcano_ArmoryFloor_B2_Armory12" ],
+            "clear_as_group": true,
+            "item_count": 12
           },
           {
-            "name": "Armory Floor (B2) - Armory 1",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory1"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 2",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory2"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 3",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory3"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 4",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory4"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 5",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory5"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 6",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory6"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 7",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory7"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 8",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory8"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 9",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory9"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 10",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory10"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 11",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory11"]
-          },
-          {
-            "name": "Armory Floor (B2) - Armory 12",
-            "visibility_rules": ["GurguVolcano_ArmoryFloor_B2_Armory12"]
-          },
-          {
-            "name": "Agama Floor (B4) - Entrance 1",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_Entrance1"]
-          },
-          {
-            "name": "Agama Floor (B4) - Entrance 2",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_Entrance2"]
+            "name": "Agama Floor (B4) - Entrance",
+            "visibility_rules": [ "GurguVolcano_AgamaFloor_B4_Entrance1","GurguVolcano_AgamaFloor_B4_Entrance2" ],
+            "clear_as_group": true,
+            "item_count": 2
           },
           {
             "name": "Agama Floor (B4) - First Greed",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_FirstGreed"]
+            "ref": "Gurgu Volcano Agama Floor (B4)/First Greed/"
           },
           {
-            "name": "Agama Floor (B4) - Worm Room 1",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom1"]
+            "name": "Agama Floor (B4) - Worm Room",
+            "visibility_rules": [ "GurguVolcano_AgamaFloor_B4_WormRoom1","GurguVolcano_AgamaFloor_B4_WormRoom2","GurguVolcano_AgamaFloor_B4_WormRoom3","GurguVolcano_AgamaFloor_B4_WormRoom4","GurguVolcano_AgamaFloor_B4_WormRoom5" ],
+            "clear_as_group": true,
+            "item_count": 5
           },
           {
-            "name": "Agama Floor (B4) - Worm Room 2",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom2"]
+            "name": "Agama Floor (B4) - Second Greed",
+            "visibility_rules": [ "GurguVolcano_AgamaFloor_B4_SecondGreed1","GurguVolcano_AgamaFloor_B4_SecondGreed2" ],
+            "clear_as_group": true,
+            "item_count": 2
           },
           {
-            "name": "Agama Floor (B4) - Worm Room 3",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom3"]
+            "name": "Agama Floor (B4) - Side Room",
+            "visibility_rules": [ "GurguVolcano_AgamaFloor_B4_SideRoom1","GurguVolcano_AgamaFloor_B4_SideRoom2" ],
+            "clear_as_group": true,
+            "item_count": 2
           },
           {
-            "name": "Agama Floor (B4) - Worm Room 4",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom4"]
-          },
-          {
-            "name": "Agama Floor (B4) - Worm Room 5",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_WormRoom5"]
-          },
-          {
-            "name": "Agama Floor (B4) - Second Greed 1",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SecondGreed1"]
-          },
-          {
-            "name": "Agama Floor (B4) - Second Greed 2",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SecondGreed2"]
-          },
-          {
-            "name": "Agama Floor (B4) - Side Room 1",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SideRoom1"]
-          },
-          {
-            "name": "Agama Floor (B4) - Side Room 2",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_SideRoom2"]
-          },
-          {
-            "name": "Agama Floor (B4) - Grind Room 1",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_GrindRoom1"]
-          },
-          {
-            "name": "Agama Floor (B4) - Grind Room 2",
-            "visibility_rules": ["GurguVolcano_AgamaFloor_B4_GrindRoom2"]
+            "name": "Agama Floor (B4) - Grind Room",
+            "visibility_rules": [ "GurguVolcano_AgamaFloor_B4_GrindRoom1","GurguVolcano_AgamaFloor_B4_GrindRoom2" ],
+            "clear_as_group": true,
+            "item_count": 2
           },
           {
             "name": "Kary Floor (B5) - Incentive",
-            "visibility_rules": ["GurguVolcano_KaryFloor_B5_Incentive"],
-            "hosted_item": "volcanoIncentive"
+            "ref": "Gurgu Volcano Kary Floor (B5)/Incentive/"
           },
           {
             "name": "Fire Orb",
-            "hosted_item": "fireorb"
+            "ref": "Gurgu Volcano Kary Floor (B5)/Fire Orb/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 3024, "y": 3260}]
@@ -624,7 +547,7 @@
       }
     ]
   },
-  {"name": "Cardia Islands",
+  { "name": "Cardia Islands",
     "children": [
       {
         "name": "Bahamut's Cave",

@@ -1,6 +1,5 @@
 [
-  {
-    "name": "Earth Cave Giant's Floor (B1)",
+  { "name": "Earth Cave Giant's Floor (B1)",
     "access_rules": [ "airship", "ship,canal" ],
     "children": [
       {
@@ -30,8 +29,7 @@
       }
     ]
   },
-  {
-    "name": "Earth Cave (B2)",
+  { "name": "Earth Cave (B2)",
     "access_rules": [ "airship", "ship,canal" ],
     "children": [
       {
@@ -66,8 +64,7 @@
       }
     ]
   },
-  {
-    "name": "Earth Cave Vampire Floor (B3)",
+  { "name": "Earth Cave Vampire Floor (B3)",
     "access_rules": [ "airship", "ship,canal" ],
     "children": [
       {
@@ -100,8 +97,7 @@
       }
     ]
   },
-  {
-    "name": "Earth Cave Rod Locked Floor (B4)",
+  { "name": "Earth Cave Rod Locked Floor (B4)",
     "access_rules": [ "airship,rod", "ship,canal,rod" ],
     "children": [
       {
@@ -146,8 +142,7 @@
       }
     ]
   },
-  {
-    "name": "Earth Cave (B5)",
+  { "name": "Earth Cave (B5)",
     "access_rules": [ "airship,rod", "ship,canal,rod" ],
     "children": [
       {
@@ -155,7 +150,7 @@
         "sections": [{
           "visibility_rules": [],
           "hosted_item": "earthorb"
-          }],
+        }],
         "map_locations": [{"map": "earth_cave_b5", "x": 88, "y": 296}]
       }
     ]
