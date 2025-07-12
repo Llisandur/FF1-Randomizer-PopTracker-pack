@@ -33,10 +33,12 @@ function canBreakOrb()
 end
 
 ARCHIPELAGO_ACTIVE_LOCATIONS = {}
-local runOnceAAL = true
 
 function getActiveAPLocations()
-  if runOnceAAL == true then
+  if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+    print("Called getActiveAPLocations")
+  end
+  if next(ARCHIPELAGO_ACTIVE_LOCATIONS) == nil then
     for _, v in pairs(Archipelago.MissingLocations) do
       ARCHIPELAGO_ACTIVE_LOCATIONS[v] = ""
     end
@@ -46,7 +48,6 @@ function getActiveAPLocations()
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
       print(string.format("getActiveAPLocations:\n%s", dump_table(ARCHIPELAGO_ACTIVE_LOCATIONS)))
     end
-    runOnceAAL = false
   end
 end
 
