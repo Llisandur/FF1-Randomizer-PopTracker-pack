@@ -188,32 +188,32 @@ function visibleLocations()
   checkLocationVisible("GurguVolcano_AgamaFloor_B4_GrindRoom1", 351)
   checkLocationVisible("GurguVolcano_AgamaFloor_B4_GrindRoom2", 352)
   checkLocationVisible("GurguVolcano_KaryFloor_B5_Incentive", 362)
-
-  checkLocationVisible("IceCave_ExitFloor_B1_GreedsChecks1", 363)
-  checkLocationVisible("IceCave_ExitFloor_B1_GreedsChecks2", 364)
-  checkLocationVisible("IceCave_ExitFloor_B1_DropRoom1", 365)
-  checkLocationVisible("IceCave_ExitFloor_B1_DropRoom2", 366)
-  checkLocationVisible("IceCave_ExitFloor_B1_DropRoom3", 367)
   checkLocationVisible("IceCave_IncentiveFloor_B2_Chest1", 368)
   checkLocationVisible("IceCave_IncentiveFloor_B2_Chest2", 369)
   checkLocationVisible("IceCave_IncentiveFloor_B2_Major", 370)
+  checkLocationVisible("IceCave_Bottom_B3_IceDRoom1", 377)
+  checkLocationVisible("IceCave_Bottom_B3_IceDRoom2", 378)
   checkLocationVisible("IceCave_Bottom_B3_SixPack1", 371)
   checkLocationVisible("IceCave_Bottom_B3_SixPack2", 372)
   checkLocationVisible("IceCave_Bottom_B3_SixPack4", 373)
   checkLocationVisible("IceCave_Bottom_B3_SixPack5", 374)
   checkLocationVisible("IceCave_Bottom_B3_SixPack3", 375)
   checkLocationVisible("IceCave_Bottom_B3_SixPack6", 376)
-  checkLocationVisible("IceCave_Bottom_B3_IceDRoom1", 377)
-  checkLocationVisible("IceCave_Bottom_B3_IceDRoom2", 378)
+  checkLocationVisible("IceCave_ExitFloor_B1_GreedsChecks1", 363)
+  checkLocationVisible("IceCave_ExitFloor_B1_GreedsChecks2", 364)
+  checkLocationVisible("IceCave_ExitFloor_B1_DropRoom1", 365)
+  checkLocationVisible("IceCave_ExitFloor_B1_DropRoom2", 366)
+  checkLocationVisible("IceCave_ExitFloor_B1_DropRoom3", 367)
+  checkLocationVisible("CastleOfOrdeals_TopFloor_3F_Single", 386)
+  checkLocationVisible("CastleOfOrdeals_TopFloor_3F_ThreePack1", 383)
+  checkLocationVisible("CastleOfOrdeals_TopFloor_3F_ThreePack2", 384)
+  checkLocationVisible("CastleOfOrdeals_TopFloor_3F_ThreePack3", 385)
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_FourPack1", 379)
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_FourPack2", 380)
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_FourPack3", 381)
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_FourPack4", 382)
-  checkLocationVisible("CastleOfOrdeals_TopFloor_3F_ThreePack1", 383)
-  checkLocationVisible("CastleOfOrdeals_TopFloor_3F_ThreePack2", 384)
-  checkLocationVisible("CastleOfOrdeals_TopFloor_3F_ThreePack3", 385)
-  checkLocationVisible("CastleOfOrdeals_TopFloor_3F_Single", 386)
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_Incentive", 387)
+
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom1", 405)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom2", 406)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom3", 407)
@@ -423,6 +423,13 @@ local chestLocationTable = {
   ["@Ice Cave Exit Floor (B1)/Drop Room 1/"]             = {"@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Drop Room"},
   ["@Ice Cave Exit Floor (B1)/Drop Room 2/"]             = {"@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Drop Room"},
   ["@Ice Cave Exit Floor (B1)/Drop Room 3/"]             = {"@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Drop Room"},
+  ["@Castle of Ordeals Top Floor (3F)/Three-Pack 1/"]    = {"@Bird Continent/Castle of Ordeals/Top Floor (3F) - Three-Pack"},
+  ["@Castle of Ordeals Top Floor (3F)/Three-Pack 2/"]    = {"@Bird Continent/Castle of Ordeals/Top Floor (3F) - Three-Pack"},
+  ["@Castle of Ordeals Top Floor (3F)/Three-Pack 3/"]    = {"@Bird Continent/Castle of Ordeals/Top Floor (3F) - Three-Pack"},
+  ["@Castle of Ordeals Top Floor (3F)/Four-Pack 1/"]     = {"@Bird Continent/Castle of Ordeals/Top Floor (3F) - Four-Pack"},
+  ["@Castle of Ordeals Top Floor (3F)/Four-Pack 2/"]     = {"@Bird Continent/Castle of Ordeals/Top Floor (3F) - Four-Pack"},
+  ["@Castle of Ordeals Top Floor (3F)/Four-Pack 3/"]     = {"@Bird Continent/Castle of Ordeals/Top Floor (3F) - Four-Pack"},
+  ["@Castle of Ordeals Top Floor (3F)/Four-Pack 4/"]     = {"@Bird Continent/Castle of Ordeals/Top Floor (3F) - Four-Pack"},
 }
 local worldChestTable = {
   ["@Aldi Sea/Matoya's Cave/Chests"]                                      = {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}},
@@ -458,6 +465,8 @@ local worldChestTable = {
   ["@Gurgu Mountains/Ice Cave/Bottom (B3) - Six-Pack"]                    = {{"@Ice Cave Bottom (B3)/Six-Pack 1/","IceCave_Bottom_B3_SixPack1"},{"@Ice Cave Bottom (B3)/Six-Pack 2/","IceCave_Bottom_B3_SixPack2"},{"@Ice Cave Bottom (B3)/Six-Pack 3/","IceCave_Bottom_B3_SixPack3"},{"@Ice Cave Bottom (B3)/Six-Pack 4/","IceCave_Bottom_B3_SixPack4"},{"@Ice Cave Bottom (B3)/Six-Pack 5/","IceCave_Bottom_B3_SixPack5"},{"@Ice Cave Bottom (B3)/Six-Pack 6/","IceCave_Bottom_B3_SixPack6"}},
   ["@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Greeds Checks"]           = {{"@Ice Cave Exit Floor (B1)/Greeds Checks 1/","IceCave_ExitFloor_B1_GreedsChecks1"},{"@Ice Cave Exit Floor (B1)/Greeds Checks 2/","IceCave_ExitFloor_B1_GreedsChecks2"}},
   ["@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Drop Room"]               = {{"@Ice Cave Exit Floor (B1)/Drop Room 1/","IceCave_ExitFloor_B1_DropRoom1"},{"@Ice Cave Exit Floor (B1)/Drop Room 2/","IceCave_ExitFloor_B1_DropRoom2"},{"@Ice Cave Exit Floor (B1)/Drop Room 3/","IceCave_ExitFloor_B1_DropRoom3"}},
+  ["@Bird Continent/Castle of Ordeals/Top Floor (3F) - Three-Pack"]       = {{"@Castle of Ordeals Top Floor (3F)/Three-Pack 1/","CastleOfOrdeals_TopFloor_3F_ThreePack1"},{"@Castle of Ordeals Top Floor (3F)/Three-Pack 2/","CastleOfOrdeals_TopFloor_3F_ThreePack2"},{"@Castle of Ordeals Top Floor (3F)/Three-Pack 3/","CastleOfOrdeals_TopFloor_3F_ThreePack3"}},
+  ["@Bird Continent/Castle of Ordeals/Top Floor (3F) - Four-Pack"]        = {{"@Castle of Ordeals Top Floor (3F)/Four-Pack 1/","CastleOfOrdeals_TopFloor_3F_FourPack1"},{"@Castle of Ordeals Top Floor (3F)/Four-Pack 2/","CastleOfOrdeals_TopFloor_3F_FourPack2"},{"@Castle of Ordeals Top Floor (3F)/Four-Pack 3/","CastleOfOrdeals_TopFloor_3F_FourPack3"},{"@Castle of Ordeals Top Floor (3F)/Four-Pack 4/","CastleOfOrdeals_TopFloor_3F_FourPack4"}},
 }
 
 function getWorldChestLocation(locationID, chestLocationTable, worldChestTable)

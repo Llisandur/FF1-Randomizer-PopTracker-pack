@@ -1,0 +1,65 @@
+[
+  { "name": "Castle of Ordeals (2F)",
+    "access_rules": [ "airship,canoe", "ship,canal,canoe" ],
+    "children": [
+      {
+        "name": "Top Floor (3F) - Four-Pack 1 ",
+        "sections": [{"ref": "Castle of Ordeals Top Floor (3F)/Four-Pack 1/"}],
+        "map_locations": [{"map": "castle_of_ordeals_f2", "x": 376, "y": 40}]
+      }
+    ]
+  },
+  { "name": "Castle of Ordeals Top Floor (3F)",
+    "access_rules": [ "airship,canoe", "ship,canal,canoe" ],
+    "children": [
+      {
+        "name": "Single",
+        "sections": [{"visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Single"]}],
+        "map_locations": [{"map": "castle_of_ordeals_f3", "x": 376, "y": 40}]
+      },
+      {
+        "name": "Three-Pack 1",
+        "sections": [{"visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack1"]}],
+        "map_locations": [{"map": "castle_of_ordeals_f3", "x": 40, "y": 40}]
+      },
+      {
+        "name": "Three-Pack 2",
+        "sections": [{"visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack2"]}],
+        "map_locations": [{"map": "castle_of_ordeals_f3", "x": 40, "y": 56}]
+      },
+      {
+        "name": "Three-Pack 3",
+        "sections": [{"visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack3"]}],
+        "map_locations": [{"map": "castle_of_ordeals_f3", "x": 40, "y": 72}]
+      },
+      {
+        "name": "Four-Pack 1",
+        "sections": [{"visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack1"]}],
+        "map_locations": [{"map": "castle_of_ordeals_f3", "x": 40, "y": 376}]
+      },
+      {
+        "name": "Four-Pack 2",
+        "sections": [{"visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack2"]}],
+        "map_locations": [{"map": "castle_of_ordeals_f3", "x": 56, "y": 376}]
+      },
+      {
+        "name": "Four-Pack 3",
+        "sections": [{"visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack3"]}],
+        "map_locations": [{"map": "castle_of_ordeals_f3", "x": 72, "y": 376}]
+      },
+      {
+        "name": "Four-Pack 4",
+        "sections": [{"visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack4"]}],
+        "map_locations": [{"map": "castle_of_ordeals_f3", "x": 88, "y": 376}]
+      },
+      {
+        "name": "Incentive",
+        "sections": [{
+          "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Incentive"],
+          "hosted_item": "castleOfOrdealsIncentive"
+        }],
+        "map_locations": [{"map": "castle_of_ordeals_f3", "x": 264, "y": 312}]
+      }
+    ]
+  }
+]

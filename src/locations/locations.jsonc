@@ -575,6 +575,33 @@
   {
     "name": "Bird Continent",
     "children": [
+      { "name": "Castle of Ordeals",
+        "access_rules": [ "airship,canoe", "ship,canal,canoe" ],
+        "sections": [
+          {
+            "name": "Top Floor (3F) - Single",
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Single"]
+          },
+          {
+            "name": "Top Floor (3F) - Three-Pack",
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack1","CastleOfOrdeals_TopFloor_3F_ThreePack2","CastleOfOrdeals_TopFloor_3F_ThreePack3"],
+            "clear_as_group": true,
+            "item_count": 3
+          },
+          {
+            "name": "Top Floor (3F) - Four-Pack",
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack1","CastleOfOrdeals_TopFloor_3F_FourPack2","CastleOfOrdeals_TopFloor_3F_FourPack3","CastleOfOrdeals_TopFloor_3F_FourPack4"],
+            "clear_as_group": true,
+            "item_count": 4
+          },
+          {
+            "name": "Top Floor (3F) - Incentive",
+            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Incentive"],
+            "hosted_item": "castleOfOrdealsIncentive"
+          }
+        ],
+        "map_locations": [{"map": "overworld", "x": 2080, "y": 724}]
+      },
       {
         "name": "Gaia",
         "access_rules": [ "airship","gaiaMountain,ship,canoe,lefeinRiver,canal" ],
@@ -586,50 +613,6 @@
         "access_rules": [ "airship","lefeinRiver,canoe,ship,canal" ],
         "sections": [{"name": "Incentive", "access_rules": [ "slabTranslated" ], "hosted_item": "lefein"}],
         "map_locations": [{"map": "overworld", "x": 3768, "y": 1586}]
-      },
-      {
-        "name": "Castle of Ordeals",
-        "access_rules": [ "airship,canoe", "ship,canal,canoe" ],
-        "sections": [
-          {
-            "name": "Top Floor (3F) - Single",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Single"]
-          },
-          {
-            "name": "Top Floor (3F) - Three-Pack 1",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack1"]
-          },
-          {
-            "name": "Top Floor (3F) - Three-Pack 2",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack2"]
-          },
-          {
-            "name": "Top Floor (3F) - Three-Pack 3",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack3"]
-          },
-          {
-            "name": "Top Floor (3F) - Four-Pack 1",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack1"]
-          },
-          {
-            "name": "Top Floor (3F) - Four-Pack 2",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack2"]
-          },
-          {
-            "name": "Top Floor (3F) - Four-Pack 3",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack3"]
-          },
-          {
-            "name": "Top Floor (3F) - Four-Pack 4",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack4"]
-          },
-          {
-            "name": "Top Floor (3F) - Incentive",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Incentive"],
-            "hosted_item": "castleOfOrdealsIncentive"
-          }
-        ],
-        "map_locations": [{"map": "overworld", "x": 2080, "y": 724}]
       },
       {
         "name": "Mirage Tower",
