@@ -370,10 +370,10 @@
                     }
                   },
                   {
-                    "title": "Waterfall",
+                    "title": "Waterfall Cave",
                     "content": {
                       "type": "map",
-                      "maps": [ "waterfall" ]
+                      "maps": [ "waterfall_cave" ]
                     }
                   }
                 ]

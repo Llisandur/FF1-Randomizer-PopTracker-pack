@@ -324,9 +324,9 @@
         "img": "images/maps/dungeons/titanscave.png"
     },
     {
-        "name": "waterfall",
+        "name": "waterfall_cave",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/waterfall.png"
+        "img": "images/maps/dungeons/waterfall_cave.png"
     }
 ]

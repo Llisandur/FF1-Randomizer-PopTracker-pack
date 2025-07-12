@@ -245,13 +245,13 @@ function visibleLocations()
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom2", 406)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom3", 407)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom4", 408)
-
   checkLocationVisible("WaterfallCave_Chest1", 437)
   checkLocationVisible("WaterfallCave_Chest2", 438)
   checkLocationVisible("WaterfallCave_Chest3", 439)
   checkLocationVisible("WaterfallCave_Chest4", 440)
   checkLocationVisible("WaterfallCave_Chest5", 441)
   checkLocationVisible("WaterfallCave_Chest6", 442)
+
   checkLocationVisible("MirageTower_1F_Chest2", 452)
   checkLocationVisible("MirageTower_1F_Chest3", 453)
   checkLocationVisible("MirageTower_1F_Chest5", 454)
@@ -448,6 +448,12 @@ local chestLocationTable = {
   ["@Sea Shrine Sharknado Floor (B4)/Greed Room 2/"]     = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Greed Room"},
   ["@Sea Shrine Sharknado Floor (B4)/Greed Room 3/"]     = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Greed Room"},
   ["@Sea Shrine Sharknado Floor (B4)/Greed Room 4/"]     = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Greed Room"},
+  ["@Waterfall Cave/Chest 1/"]                           = {"@Seahorse Continent/Waterfall Cave/Chest"},
+  ["@Waterfall Cave/Chest 2/"]                           = {"@Seahorse Continent/Waterfall Cave/Chest"},
+  ["@Waterfall Cave/Chest 3/"]                           = {"@Seahorse Continent/Waterfall Cave/Chest"},
+  ["@Waterfall Cave/Chest 4/"]                           = {"@Seahorse Continent/Waterfall Cave/Chest"},
+  ["@Waterfall Cave/Chest 5/"]                           = {"@Seahorse Continent/Waterfall Cave/Chest"},
+  ["@Waterfall Cave/Chest 6/"]                           = {"@Seahorse Continent/Waterfall Cave/Chest"},
 }
 local worldChestTable = {
   ["@Aldi Sea/Matoya's Cave/Chests"]                                      = {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}},
@@ -492,6 +498,7 @@ local worldChestTable = {
   ["@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Dengbait"]      = {{"@Sea Shrine Sharknado Floor (B4)/Dengbait 1/","SeaShrine_SharknadoFloor_B4_Dengbait1"},{"@Sea Shrine Sharknado Floor (B4)/Dengbait 2/","SeaShrine_SharknadoFloor_B4_Dengbait2"}},
   ["@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Side Corner"]   = {{"@Sea Shrine Sharknado Floor (B4)/Side Corner 1/","SeaShrine_SharknadoFloor_B4_SideCorner1"},{"@Sea Shrine Sharknado Floor (B4)/Side Corner 2/","SeaShrine_SharknadoFloor_B4_SideCorner2"},{"@Sea Shrine Sharknado Floor (B4)/Side Corner 3/","SeaShrine_SharknadoFloor_B4_SideCorner3"}},
   ["@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Greed Room"]    = {{"@Sea Shrine Sharknado Floor (B4)/Greed Room 1/","SeaShrine_SharknadoFloor_B4_GreedRoom1"},{"@Sea Shrine Sharknado Floor (B4)/Greed Room 2/","SeaShrine_SharknadoFloor_B4_GreedRoom2"},{"@Sea Shrine Sharknado Floor (B4)/Greed Room 3/","SeaShrine_SharknadoFloor_B4_GreedRoom3"},{"@Sea Shrine Sharknado Floor (B4)/Greed Room 4/","SeaShrine_SharknadoFloor_B4_GreedRoom4"}},
+  ["@Seahorse Continent/Waterfall Cave/Chest"]                            = {{"@Waterfall Cave/Chest 1/","WaterfallCave_Chest1"},{"@Waterfall Cave/Chest 2/","WaterfallCave_Chest2"},{"@Waterfall Cave/Chest 3/","WaterfallCave_Chest3"},{"@Waterfall Cave/Chest 4/","WaterfallCave_Chest4"},{"@Waterfall Cave/Chest 5/","WaterfallCave_Chest5"},{"@Waterfall Cave/Chest 6/","WaterfallCave_Chest6"}},
 }
 
 function getWorldChestLocation(locationID, chestLocationTable, worldChestTable)

@@ -959,31 +959,13 @@
         "sections": [
           {
             "name": "CubeBot",
-            "hosted_item": "robot"
+            "ref": "Waterfall Cave/CubeBot/"
           },
           {
-            "name": "Chest 1",
-            "visibility_rules": ["WaterfallCave_Chest1"]
-          },
-          {
-            "name": "Chest 2",
-            "visibility_rules": ["WaterfallCave_Chest2"]
-          },
-          {
-            "name": "Chest 3",
-            "visibility_rules": ["WaterfallCave_Chest3"]
-          },
-          {
-            "name": "Chest 4",
-            "visibility_rules": ["WaterfallCave_Chest4"]
-          },
-          {
-            "name": "Chest 5",
-            "visibility_rules": ["WaterfallCave_Chest5"]
-          },
-          {
-            "name": "Chest 6",
-            "visibility_rules": ["WaterfallCave_Chest6"]
+            "name": "Chest",
+            "visibility_rules": ["WaterfallCave_Chest1","WaterfallCave_Chest2","WaterfallCave_Chest3","WaterfallCave_Chest4","WaterfallCave_Chest5","WaterfallCave_Chest6"],
+            "clear_as_group": true,
+            "item_count": 6
           }
         ],
         "map_locations": [{"map": "overworld", "x": 872, "y": 472}]

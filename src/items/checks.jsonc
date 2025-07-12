@@ -158,7 +158,7 @@
     {
         "name": "Waterfall Robot",
         "type": "toggle",
-        "img": "images/checks/waterfall.png",
+        "img": "images/checks/waterfall_robot.png",
         "codes": "robot"
     },
     {

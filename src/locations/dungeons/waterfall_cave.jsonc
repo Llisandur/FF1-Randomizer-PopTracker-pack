@@ -1,0 +1,42 @@
+[
+  { "name": "Waterfall Cave",
+    "access_rules": [ "airship,canoe", "northernDocks,ship,canal,canoe" ],
+    "children": [
+      {
+        "name": "CubeBot",
+        "sections": [{"hosted_item": "robot"}],
+        "map_locations": [{"map": "waterfall_cave", "x": 296, "y": 872}]
+      },
+      {
+        "name": "Chest 1",
+        "sections": [{"visibility_rules": ["WaterfallCave_Chest1"]}],
+        "map_locations": [{"map": "waterfall_cave", "x": 248, "y": 840}]
+      },
+      {
+        "name": "Chest 2",
+        "sections": [{"visibility_rules": ["WaterfallCave_Chest2"]}],
+        "map_locations": [{"map": "waterfall_cave", "x": 264, "y": 840}]
+      },
+      {
+        "name": "Chest 3",
+        "sections": [{"visibility_rules": ["WaterfallCave_Chest3"]}],
+        "map_locations": [{"map": "waterfall_cave", "x": 280, "y": 840}]
+      },
+      {
+        "name": "Chest 4",
+        "sections": [{"visibility_rules": ["WaterfallCave_Chest4"]}],
+        "map_locations": [{"map": "waterfall_cave", "x": 296, "y": 840}]
+      },
+      {
+        "name": "Chest 5",
+        "sections": [{"visibility_rules": ["WaterfallCave_Chest5"]}],
+        "map_locations": [{"map": "waterfall_cave", "x": 312, "y": 840}]
+      },
+      {
+        "name": "Chest 6",
+        "sections": [{"visibility_rules": ["WaterfallCave_Chest6"]}],
+        "map_locations": [{"map": "waterfall_cave", "x": 328, "y": 840}]
+      }
+    ]
+  }
+]
