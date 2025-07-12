@@ -244,7 +244,7 @@
       }
     ]
   },
-  { "name": "Melmond Peninsula",
+  { "name": "Earth Peninsula",
     "children": [
       { "name": "Titan's Tunnel",
         "access_rules": [ "ruby,airship", "ruby,ship,canal" ],
@@ -580,23 +580,23 @@
         "sections": [
           {
             "name": "Top Floor (3F) - Single",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Single"]
+            "visibility_rules": [ "CastleOfOrdeals_TopFloor_3F_Single" ]
           },
           {
             "name": "Top Floor (3F) - Three-Pack",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_ThreePack1","CastleOfOrdeals_TopFloor_3F_ThreePack2","CastleOfOrdeals_TopFloor_3F_ThreePack3"],
+            "visibility_rules": [ "CastleOfOrdeals_TopFloor_3F_ThreePack1","CastleOfOrdeals_TopFloor_3F_ThreePack2","CastleOfOrdeals_TopFloor_3F_ThreePack3" ],
             "clear_as_group": true,
             "item_count": 3
           },
           {
             "name": "Top Floor (3F) - Four-Pack",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_FourPack1","CastleOfOrdeals_TopFloor_3F_FourPack2","CastleOfOrdeals_TopFloor_3F_FourPack3","CastleOfOrdeals_TopFloor_3F_FourPack4"],
+            "visibility_rules": [ "CastleOfOrdeals_TopFloor_3F_FourPack1","CastleOfOrdeals_TopFloor_3F_FourPack2","CastleOfOrdeals_TopFloor_3F_FourPack3","CastleOfOrdeals_TopFloor_3F_FourPack4" ],
             "clear_as_group": true,
             "item_count": 4
           },
           {
             "name": "Top Floor (3F) - Incentive",
-            "visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Incentive"],
+            "visibility_rules": [ "CastleOfOrdeals_TopFloor_3F_Incentive" ],
             "hosted_item": "castleOfOrdealsIncentive"
           }
         ],
@@ -843,9 +843,116 @@
       }
     ]
   },
-  {
-    "name": "Onrac Continent",
+  { "name": "Seahorse Continent",
     "children": [
+      { "name": "Sea Shrine",
+        "access_rules": [ "airship,canoe,oxyale", "northernDocks,ship,canal,oxyale" ],
+        "sections": [
+          {
+            "name": "Split Floor (B3) - Kraken Side",
+            "ref": "Sea Shrine Split Floor (B3)/Kraken Side/"
+          },
+          {
+            "name": "Split Floor (B3) - Mermaid Side",
+            "ref": "Sea Shrine Split Floor (B3)/Mermaid Side/"
+          },
+          {
+            "name": "TFC Floor (B2) - TFC",
+            "ref": "Sea Shrine TFC Floor (B2)/TFC/"
+          },
+          {
+            "name": "TFC Floor (B2) - TFC North",
+            "ref": "Sea Shrine TFC Floor (B2)/TFC North/"
+          },
+          {
+            "name": "TFC Floor (B2) - Side Corner",
+            "ref": "Sea Shrine TFC Floor (B2)/Side Corner/"
+          },
+          {
+            "name": "TFC Floor (B2) - First Greed",
+            "ref": "Sea Shrine TFC Floor (B2)/First Greed/"
+          },
+          {
+            "name": "TFC Floor (B2) - Second Greed",
+            "ref": "Sea Shrine TFC Floor (B2)/Second Greed/"
+          },
+          {
+            "name": "Mermaids (B1) - Passby",
+            "ref": "Sea Shrine Mermaids (B1)/Passby/"
+          },
+          {
+            "name": "Mermaids (B1) - Bubbles",
+            "visibility_rules": [ "SeaShrine_Mermaids_B1_Bubbles1","SeaShrine_Mermaids_B1_Bubbles2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Mermaids (B1) - Incentive",
+            "visibility_rules": [ "SeaShrine_Mermaids_B1_Incentive1","SeaShrine_Mermaids_B1_Incentive2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Mermaids (B1) - Incentive Major",
+            "ref": "Sea Shrine Mermaids (B1)/Incentive Major/"
+          },
+          {
+            "name": "Mermaids (B1) - Entrance",
+            "visibility_rules": [ "SeaShrine_Mermaids_B1_Entrance1","SeaShrine_Mermaids_B1_Entrance2","SeaShrine_Mermaids_B1_Entrance3" ],
+            "clear_as_group": true,
+            "item_count": 3
+          },
+          {
+            "name": "Mermaids (B1) - Four-Corner First",
+            "ref": "Sea Shrine Mermaids (B1)/Four-Corner First/"
+          },
+          {
+            "name": "Mermaids (B1) - Four-Corner Second",
+            "ref": "Sea Shrine Mermaids (B1)/Four-Corner Second/"
+          },
+          {
+            "name": "Mermaids (B1) - Four-Corner Third",
+            "ref": "Sea Shrine Mermaids (B1)/Four-Corner Third/"
+          },
+          {
+            "name": "Mermaids (B1) - Four-Corner Fourth",
+            "ref": "Sea Shrine Mermaids (B1)/Four-Corner Fourth/"
+          },
+          {
+            "name": "Greed Floor (B3) - Chest",
+            "visibility_rules": [ "SeaShrine_GreedFloor_B3_Chest1","SeaShrine_GreedFloor_B3_Chest2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Sharknado Floor (B4) - Dengbait",
+            "visibility_rules": [ "SeaShrine_SharknadoFloor_B4_Dengbait1","SeaShrine_SharknadoFloor_B4_Dengbait2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Sharknado Floor (B4) - Side Corner",
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner1","SeaShrine_SharknadoFloor_B4_SideCorner2","SeaShrine_SharknadoFloor_B4_SideCorner3"],
+            "clear_as_group": true,
+            "item_count": 3
+          },
+          {
+            "name": "Sharknado Floor (B4) - Exit",
+            "ref": "Sea Shrine Sharknado Floor (B4)/Exit/"
+          },
+          {
+            "name": "Sharknado Floor (B4) - Greed Room",
+            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom1","SeaShrine_SharknadoFloor_B4_GreedRoom2","SeaShrine_SharknadoFloor_B4_GreedRoom3","SeaShrine_SharknadoFloor_B4_GreedRoom4"],
+            "clear_as_group": true,
+            "item_count": 4
+          },
+          {
+            "name": "Water Orb",
+            "ref": "Sea Shrine (B5)/Water Orb/"
+          }
+        ],
+        "map_locations": [{"map": "overworld", "x": 1012, "y": 940}]
+      },
       {
         "name": "Waterfall Cave",
         "access_rules": [ "airship,canoe", "northernDocks,ship,canal,canoe" ],
@@ -880,147 +987,6 @@
           }
         ],
         "map_locations": [{"map": "overworld", "x": 872, "y": 472}]
-      },
-      {
-        "name": "Sea Shrine",
-        "access_rules": [ "airship,canoe,oxyale", "northernDocks,ship,canal,oxyale" ],
-        "sections": [
-          {
-            "name": "Split Floor (B3) - Kraken Side",
-            "visibility_rules": ["SeaShrine_SplitFloor_B3_KrakenSide"]
-          },
-          {
-            "name": "Split Floor (B3) - Mermaid Side",
-            "visibility_rules": ["SeaShrine_SplitFloor_B3_MermaidSide"]
-          },
-          {
-            "name": "TFC Floor (B2) - TFC North",
-            "visibility_rules": ["SeaShrine_TFCFloor_B2_TFCNorth"]
-          },
-          {
-            "name": "TFC Floor (B2) - TFC",
-            "visibility_rules": ["SeaShrine_TFCFloor_B2_TFC"],
-            "access_rules": [ "key" ]
-          },
-          {
-            "name": "TFC Floor (B2) - Side Corner",
-            "visibility_rules": ["SeaShrine_TFCFloor_B2_SideCorner"]
-          },
-          {
-            "name": "TFC Floor (B2) - First Greed",
-            "visibility_rules": ["SeaShrine_TFCFloor_B2_FirstGreed"]
-          },
-          {
-            "name": "TFC Floor (B2) - Second Greed",
-            "visibility_rules": ["SeaShrine_TFCFloor_B2_SecondGreed"]
-          },
-          {
-            "name": "Mermaids (B1) - Entrance 1",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Entrance1"]
-          },
-          {
-            "name": "Mermaids (B1) - Entrance 2",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Entrance2"]
-          },
-          {
-            "name": "Mermaids (B1) - Entrance 3",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Entrance3"]
-          },
-          {
-            "name": "Mermaids (B1) - Passby",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Passby"]
-          },
-          {
-            "name": "Mermaids (B1) - Bubbles 1",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Bubbles1"]
-          },
-          {
-            "name": "Mermaids (B1) - Bubbles 2",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Bubbles2"]
-          },
-          {
-            "name": "Mermaids (B1) - Four-Corner First",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerFirst"]
-          },
-          {
-            "name": "Mermaids (B1) - Four-Corner Second",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerSecond"]
-          },
-          {
-            "name": "Mermaids (B1) - Four-Corner Third",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerThird"]
-          },
-          {
-            "name": "Mermaids (B1) - Four-Corner Fourth",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerFourth"]
-          },
-          {
-            "name": "Mermaids (B1) - Incentive 1",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Incentive1"]
-          },
-          {
-            "name": "Mermaids (B1) - Incentive 2",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_Incentive2"]
-          },
-          {
-            "name": "Mermaids (B1) - Incentive Major",
-            "visibility_rules": ["SeaShrine_Mermaids_B1_IncentiveMajor"],
-            "hosted_item": "seaShrineIncentive"
-          },
-          {
-            "name": "Greed Floor (B3) - Chest 1",
-            "visibility_rules": ["SeaShrine_GreedFloor_B3_Chest1"]
-          },
-          {
-            "name": "Greed Floor (B3) - Chest 2",
-            "visibility_rules": ["SeaShrine_GreedFloor_B3_Chest2"]
-          },
-          {
-            "name": "Sharknado Floor (B4) - Dengbait 1",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_Dengbait1"]
-          },
-          {
-            "name": "Sharknado Floor (B4) - Dengbait 2",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_Dengbait2"]
-          },
-          {
-            "name": "Sharknado Floor (B4) - Side Corner 1",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner1"]
-          },
-          {
-            "name": "Sharknado Floor (B4) - Side Corner 2",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner2"]
-          },
-          {
-            "name": "Sharknado Floor (B4) - Side Corner 3",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner3"]
-          },
-          {
-            "name": "Sharknado Floor (B4) - Exit",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_Exit"]
-          },
-          {
-            "name": "Sharknado Floor (B4) - Greed Room 1",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom1"]
-          },
-          {
-            "name": "Sharknado Floor (B4) - Greed Room 2",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom2"]
-          },
-          {
-            "name": "Sharknado Floor (B4) - Greed Room 3",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom3"]
-          },
-          {
-            "name": "Sharknado Floor (B4) - Greed Room 4",
-            "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom4"]
-          },
-          {
-            "name": "Water Orb",
-            "hosted_item": "waterorb"
-          }
-        ],
-        "map_locations": [{"map": "overworld", "x": 1012, "y": 940}]
       }
     ]
   }

@@ -213,39 +213,39 @@ function visibleLocations()
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_FourPack3", 381)
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_FourPack4", 382)
   checkLocationVisible("CastleOfOrdeals_TopFloor_3F_Incentive", 387)
-
-  checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom1", 405)
-  checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom2", 406)
-  checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom3", 407)
-  checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom4", 408)
+  checkLocationVisible("SeaShrine_SplitFloor_B3_KrakenSide", 415)
+  checkLocationVisible("SeaShrine_SplitFloor_B3_MermaidSide", 416)
+  checkLocationVisible("SeaShrine_TFCFloor_B2_TFC", 421)
+  checkLocationVisible("SeaShrine_TFCFloor_B2_TFCNorth", 420)
+  checkLocationVisible("SeaShrine_TFCFloor_B2_SideCorner", 419)
+  checkLocationVisible("SeaShrine_TFCFloor_B2_FirstGreed", 422)
+  checkLocationVisible("SeaShrine_TFCFloor_B2_SecondGreed", 423)
+  checkLocationVisible("SeaShrine_Mermaids_B1_Passby", 427)
+  checkLocationVisible("SeaShrine_Mermaids_B1_Bubbles1", 428)
+  checkLocationVisible("SeaShrine_Mermaids_B1_Bubbles2", 429)
+  checkLocationVisible("SeaShrine_Mermaids_B1_Incentive1", 434)
+  checkLocationVisible("SeaShrine_Mermaids_B1_Incentive2", 435)
+  checkLocationVisible("SeaShrine_Mermaids_B1_IncentiveMajor", 436)
+  checkLocationVisible("SeaShrine_Mermaids_B1_Entrance1", 424)
+  checkLocationVisible("SeaShrine_Mermaids_B1_Entrance2", 425)
+  checkLocationVisible("SeaShrine_Mermaids_B1_Entrance3", 426)
+  checkLocationVisible("SeaShrine_Mermaids_B1_FourCornerFirst", 430)
+  checkLocationVisible("SeaShrine_Mermaids_B1_FourCornerSecond", 431)
+  checkLocationVisible("SeaShrine_Mermaids_B1_FourCornerThird", 432)
+  checkLocationVisible("SeaShrine_Mermaids_B1_FourCornerFourth", 433)
+  checkLocationVisible("SeaShrine_GreedFloor_B3_Chest1", 418)
+  checkLocationVisible("SeaShrine_GreedFloor_B3_Chest2", 417)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_Dengbait1", 409)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_Dengbait2", 410)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_SideCorner1", 411)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_SideCorner2", 412)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_SideCorner3", 413)
   checkLocationVisible("SeaShrine_SharknadoFloor_B4_Exit", 414)
-  checkLocationVisible("SeaShrine_SplitFloor_B3_KrakenSide", 415)
-  checkLocationVisible("SeaShrine_SplitFloor_B3_MermaidSide", 416)
-  checkLocationVisible("SeaShrine_GreedFloor_B3_Chest2", 417)
-  checkLocationVisible("SeaShrine_GreedFloor_B3_Chest1", 418)
-  checkLocationVisible("SeaShrine_TFCFloor_B2_SideCorner", 419)
-  checkLocationVisible("SeaShrine_TFCFloor_B2_TFCNorth", 420)
-  checkLocationVisible("SeaShrine_TFCFloor_B2_TFC", 421)
-  checkLocationVisible("SeaShrine_TFCFloor_B2_FirstGreed", 422)
-  checkLocationVisible("SeaShrine_TFCFloor_B2_SecondGreed", 423)
-  checkLocationVisible("SeaShrine_Mermaids_B1_Entrance1", 424)
-  checkLocationVisible("SeaShrine_Mermaids_B1_Entrance2", 425)
-  checkLocationVisible("SeaShrine_Mermaids_B1_Entrance3", 426)
-  checkLocationVisible("SeaShrine_Mermaids_B1_Passby", 427)
-  checkLocationVisible("SeaShrine_Mermaids_B1_Bubbles1", 428)
-  checkLocationVisible("SeaShrine_Mermaids_B1_Bubbles2", 429)
-  checkLocationVisible("SeaShrine_Mermaids_B1_FourCornerFirst", 430)
-  checkLocationVisible("SeaShrine_Mermaids_B1_FourCornerSecond", 431)
-  checkLocationVisible("SeaShrine_Mermaids_B1_FourCornerThird", 432)
-  checkLocationVisible("SeaShrine_Mermaids_B1_FourCornerFourth", 433)
-  checkLocationVisible("SeaShrine_Mermaids_B1_Incentive1", 434)
-  checkLocationVisible("SeaShrine_Mermaids_B1_Incentive2", 435)
-  checkLocationVisible("SeaShrine_Mermaids_B1_IncentiveMajor", 436)
+  checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom1", 405)
+  checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom2", 406)
+  checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom3", 407)
+  checkLocationVisible("SeaShrine_SharknadoFloor_B4_GreedRoom4", 408)
+
   checkLocationVisible("WaterfallCave_Chest1", 437)
   checkLocationVisible("WaterfallCave_Chest2", 438)
   checkLocationVisible("WaterfallCave_Chest3", 439)
@@ -340,9 +340,9 @@ local chestLocationTable = {
   ["@Northwest Castle/Treasury 1/"]                      = {"@Aldi Sea/Northwest Castle/Treasury"},
   ["@Northwest Castle/Treasury 2/"]                      = {"@Aldi Sea/Northwest Castle/Treasury"},
   ["@Northwest Castle/Treasury 3/"]                      = {"@Aldi Sea/Northwest Castle/Treasury"},
-  ["@Titan's Tunnel/Chest 1/"]                           = {"@Melmond Peninsula/Titan's Tunnel/Chests"},
-  ["@Titan's Tunnel/Chest 2/"]                           = {"@Melmond Peninsula/Titan's Tunnel/Chests"},
-  ["@Titan's Tunnel/Chest 3/"]                           = {"@Melmond Peninsula/Titan's Tunnel/Chests"},
+  ["@Titan's Tunnel/Chest 1/"]                           = {"@Earth Peninsula/Titan's Tunnel/Chests"},
+  ["@Titan's Tunnel/Chest 2/"]                           = {"@Earth Peninsula/Titan's Tunnel/Chests"},
+  ["@Titan's Tunnel/Chest 3/"]                           = {"@Earth Peninsula/Titan's Tunnel/Chests"},
   ["@Cardia Grass Island/Entrance/"]                     = {"@Cardia Islands/Grass Island/Chests"},
   ["@Cardia Grass Island/Duo Room 1/"]                   = {"@Cardia Islands/Grass Island/Chests"},
   ["@Cardia Grass Island/Duo Rooom 2/"]                  = {"@Cardia Islands/Grass Island/Chests"},
@@ -363,24 +363,24 @@ local chestLocationTable = {
   ["@Marsh Cave Top (B1)/Duo 2/"]                        = {"@Aldi Sea/Marsh Cave/Top (B1) - Duo"},
   ["@Marsh Cave Bottom (B2)/Tetris-Z Middle 1/"]         = {"@Aldi Sea/Marsh Cave/Bottom (B2) - Tetris-Z Middle"},
   ["@Marsh Cave Bottom (B2)/Tetris-Z Middle 2/"]         = {"@Aldi Sea/Marsh Cave/Bottom (B2) - Tetris-Z Middle"},
-  ["@Earth Cave Giant's Floor (B1)/Appendix 1/"]         = {"@Melmond Peninsula/Earth Cave/Giant's Floor (B1) - Appendix"},
-  ["@Earth Cave Giant's Floor (B1)/Appendix 2/"]         = {"@Melmond Peninsula/Earth Cave/Giant's Floor (B1) - Appendix"},
-  ["@Earth Cave Giant's Floor (B1)/Side Path 1/"]        = {"@Melmond Peninsula/Earth Cave/Giant's Floor (B1) - Side Path"},
-  ["@Earth Cave Giant's Floor (B1)/Side Path 2/"]        = {"@Melmond Peninsula/Earth Cave/Giant's Floor (B1) - Side Path"},
-  ["@Earth Cave (B2)/Side Room 1/"]                      = {"@Melmond Peninsula/Earth Cave/(B2) - Side Room"},
-  ["@Earth Cave (B2)/Side Room 2/"]                      = {"@Melmond Peninsula/Earth Cave/(B2) - Side Room"},
-  ["@Earth Cave (B2)/Side Room 3/"]                      = {"@Melmond Peninsula/Earth Cave/(B2) - Side Room"},
-  ["@Earth Cave (B2)/Guarded 1/"]                        = {"@Melmond Peninsula/Earth Cave/(B2) - Guarded"},
-  ["@Earth Cave (B2)/Guarded 2/"]                        = {"@Melmond Peninsula/Earth Cave/(B2) - Guarded"},
-  ["@Earth Cave (B2)/Guarded 3/"]                        = {"@Melmond Peninsula/Earth Cave/(B2) - Guarded"},
-  ["@Earth Cave Rod Locked Floor (B4)/Armory 1/"]        = {"@Melmond Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"},
-  ["@Earth Cave Rod Locked Floor (B4)/Armory 2/"]        = {"@Melmond Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"},
-  ["@Earth Cave Rod Locked Floor (B4)/Armory 3/"]        = {"@Melmond Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"},
-  ["@Earth Cave Rod Locked Floor (B4)/Armory 4/"]        = {"@Melmond Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"},
-  ["@Earth Cave Rod Locked Floor (B4)/Armory 5/"]        = {"@Melmond Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"},
-  ["@Earth Cave Rod Locked Floor (B4)/Lich's Closet 1/"] = {"@Melmond Peninsula/Earth Cave/Rod Locked Floor (B4) - Lich's Closet"},
-  ["@Earth Cave Rod Locked Floor (B4)/Lich's Closet 2/"] = {"@Melmond Peninsula/Earth Cave/Rod Locked Floor (B4) - Lich's Closet"},
-  ["@Earth Cave Rod Locked Floor (B4)/Lich's Closet 3/"] = {"@Melmond Peninsula/Earth Cave/Rod Locked Floor (B4) - Lich's Closet"},
+  ["@Earth Cave Giant's Floor (B1)/Appendix 1/"]         = {"@Earth Peninsula/Earth Cave/Giant's Floor (B1) - Appendix"},
+  ["@Earth Cave Giant's Floor (B1)/Appendix 2/"]         = {"@Earth Peninsula/Earth Cave/Giant's Floor (B1) - Appendix"},
+  ["@Earth Cave Giant's Floor (B1)/Side Path 1/"]        = {"@Earth Peninsula/Earth Cave/Giant's Floor (B1) - Side Path"},
+  ["@Earth Cave Giant's Floor (B1)/Side Path 2/"]        = {"@Earth Peninsula/Earth Cave/Giant's Floor (B1) - Side Path"},
+  ["@Earth Cave (B2)/Side Room 1/"]                      = {"@Earth Peninsula/Earth Cave/(B2) - Side Room"},
+  ["@Earth Cave (B2)/Side Room 2/"]                      = {"@Earth Peninsula/Earth Cave/(B2) - Side Room"},
+  ["@Earth Cave (B2)/Side Room 3/"]                      = {"@Earth Peninsula/Earth Cave/(B2) - Side Room"},
+  ["@Earth Cave (B2)/Guarded 1/"]                        = {"@Earth Peninsula/Earth Cave/(B2) - Guarded"},
+  ["@Earth Cave (B2)/Guarded 2/"]                        = {"@Earth Peninsula/Earth Cave/(B2) - Guarded"},
+  ["@Earth Cave (B2)/Guarded 3/"]                        = {"@Earth Peninsula/Earth Cave/(B2) - Guarded"},
+  ["@Earth Cave Rod Locked Floor (B4)/Armory 1/"]        = {"@Earth Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"},
+  ["@Earth Cave Rod Locked Floor (B4)/Armory 2/"]        = {"@Earth Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"},
+  ["@Earth Cave Rod Locked Floor (B4)/Armory 3/"]        = {"@Earth Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"},
+  ["@Earth Cave Rod Locked Floor (B4)/Armory 4/"]        = {"@Earth Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"},
+  ["@Earth Cave Rod Locked Floor (B4)/Armory 5/"]        = {"@Earth Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"},
+  ["@Earth Cave Rod Locked Floor (B4)/Lich's Closet 1/"] = {"@Earth Peninsula/Earth Cave/Rod Locked Floor (B4) - Lich's Closet"},
+  ["@Earth Cave Rod Locked Floor (B4)/Lich's Closet 2/"] = {"@Earth Peninsula/Earth Cave/Rod Locked Floor (B4) - Lich's Closet"},
+  ["@Earth Cave Rod Locked Floor (B4)/Lich's Closet 3/"] = {"@Earth Peninsula/Earth Cave/Rod Locked Floor (B4) - Lich's Closet"},
   ["@Gurgu Volcano Armory Floor (B2)/Vertpins 1/"]       = {"@Gurgu Mountains/Gurgu Volcano/Armory Floor (B2) - Vertpins"},
   ["@Gurgu Volcano Armory Floor (B2)/Vertpins 2/"]       = {"@Gurgu Mountains/Gurgu Volcano/Armory Floor (B2) - Vertpins"},
   ["@Gurgu Volcano Armory Floor (B2)/Armory 1/"]         = {"@Gurgu Mountains/Gurgu Volcano/Armory Floor (B2) - Armory"},
@@ -430,6 +430,24 @@ local chestLocationTable = {
   ["@Castle of Ordeals Top Floor (3F)/Four-Pack 2/"]     = {"@Bird Continent/Castle of Ordeals/Top Floor (3F) - Four-Pack"},
   ["@Castle of Ordeals Top Floor (3F)/Four-Pack 3/"]     = {"@Bird Continent/Castle of Ordeals/Top Floor (3F) - Four-Pack"},
   ["@Castle of Ordeals Top Floor (3F)/Four-Pack 4/"]     = {"@Bird Continent/Castle of Ordeals/Top Floor (3F) - Four-Pack"},
+  ["@Sea Shrine Mermaids (B1)/Bubbles 1/"]               = {"@Seahorse Continent/Sea Shrine/Mermaids (B1) - Bubbles"},
+  ["@Sea Shrine Mermaids (B1)/Bubbles 2/"]               = {"@Seahorse Continent/Sea Shrine/Mermaids (B1) - Bubbles"},
+  ["@Sea Shrine Mermaids (B1)/Incentive 1/"]             = {"@Seahorse Continent/Sea Shrine/Mermaids (B1) - Incentive"},
+  ["@Sea Shrine Mermaids (B1)/Incentive 2/"]             = {"@Seahorse Continent/Sea Shrine/Mermaids (B1) - Incentive"},
+  ["@Sea Shrine Mermaids (B1)/Entrance 1/"]              = {"@Seahorse Continent/Sea Shrine/Mermaids (B1) - Entrance"},
+  ["@Sea Shrine Mermaids (B1)/Entrance 2/"]              = {"@Seahorse Continent/Sea Shrine/Mermaids (B1) - Entrance"},
+  ["@Sea Shrine Mermaids (B1)/Entrance 3/"]              = {"@Seahorse Continent/Sea Shrine/Mermaids (B1) - Entrance"},
+  ["@Sea Shrine Greed Floor (B3)/Chest 1/"]              = {"@Seahorse Continent/Sea Shrine/Greed Floor (B3) - Chest"},
+  ["@Sea Shrine Greed Floor (B3)/Chest 2/"]              = {"@Seahorse Continent/Sea Shrine/Greed Floor (B3) - Chest"},
+  ["@Sea Shrine Sharknado Floor (B4)/Dengbait 1/"]       = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Dengbait"},
+  ["@Sea Shrine Sharknado Floor (B4)/Dengbait 2/"]       = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Dengbait"},
+  ["@Sea Shrine Sharknado Floor (B4)/Side Corner 1/"]    = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Side Corner"},
+  ["@Sea Shrine Sharknado Floor (B4)/Side Corner 2/"]    = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Side Corner"},
+  ["@Sea Shrine Sharknado Floor (B4)/Side Corner 3/"]    = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Side Corner"},
+  ["@Sea Shrine Sharknado Floor (B4)/Greed Room 1/"]     = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Greed Room"},
+  ["@Sea Shrine Sharknado Floor (B4)/Greed Room 2/"]     = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Greed Room"},
+  ["@Sea Shrine Sharknado Floor (B4)/Greed Room 3/"]     = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Greed Room"},
+  ["@Sea Shrine Sharknado Floor (B4)/Greed Room 4/"]     = {"@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Greed Room"},
 }
 local worldChestTable = {
   ["@Aldi Sea/Matoya's Cave/Chests"]                                      = {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}},
@@ -438,7 +456,7 @@ local worldChestTable = {
   ["@Aldi Sea/Coneria Castle/Treasury"]                                   = {{"@Coneria Castle/Treasury 1/","ConeriaCastle_Treasury1"},{"@Coneria Castle/Treasury 2/","ConeriaCastle_Treasury2"},{"@Coneria Castle/Treasury 3/","ConeriaCastle_Treasury3"},{"@Coneria Castle/Treasury 4/","ConeriaCastle_Treasury4"},{"@Coneria Castle/Treasury 5/","ConeriaCastle_Treasury5"}},
   ["@Aldi Sea/Elf Castle/Treasury"]                                       = {{"@Elf Castle/Treasury 1/","ElflandCastle_Treasury1"},{"@Elf Castle/Treasury 2/","ElflandCastle_Treasury2"},{"@Elf Castle/Treasury 3/","ElflandCastle_Treasury3"},{"@Elf Castle/Treasury 4/","ElflandCastle_Treasury4"}},
   ["@Aldi Sea/Northwest Castle/Treasury"]                                 = {{"@Northwest Castle/Treasury 1/","NorthwestCastle_Treasury1"},{"@Northwest Castle/Treasury 2/","NorthwestCastle_Treasury2"},{"@Northwest Castle/Treasury 3/","NorthwestCastle_Treasury3"}},
-  ["@Melmond Peninsula/Titan's Tunnel/Chests"]                            = {{"@Titan's Tunnel/Chest 1/","TitansTunnel_Chest1"},{"@Titan's Tunnel/Chest 2/","TitansTunnel_Chest2"},{"@Titan's Tunnel/Chest 3/","TitansTunnel_Chest3"}},
+  ["@Earth Peninsula/Titan's Tunnel/Chests"]                              = {{"@Titan's Tunnel/Chest 1/","TitansTunnel_Chest1"},{"@Titan's Tunnel/Chest 2/","TitansTunnel_Chest2"},{"@Titan's Tunnel/Chest 3/","TitansTunnel_Chest3"}},
   ["@Cardia Islands/Grass Island/Chests"]                                 = {{"@Cardia Grass Island/Entrance/","CardiaGrassIsland_Entrance"},{"@Cardia Grass Island/Duo Room 1/","CardiaGrassIsland_DuoRoom1"},{"@Cardia Grass Island/Duo Rooom 2/","CardiaGrassIsland_DuoRoom2"}},
   ["@Cardia Islands/Swamp Island/Chests"]                                 = {{"@Cardia Swamp Island/Chest 1/","CardiaSwampIsland_Chest1"},{"@Cardia Swamp Island/Chest 2/","CardiaSwampIsland_Chest2"},{"@Cardia Swamp Island/Chest 3/","CardiaSwampIsland_Chest3"}},
   ["@Cardia Islands/Forest Island/Entrance"]                              = {{"@Cardia Forest Island/Entrance 1/","CardiaForestIsland_Entrance1"},{"@Cardia Forest Island/Entrance 2/","CardiaForestIsland_Entrance2"},{"@Cardia Forest Island/Entrance 3/","CardiaForestIsland_Entrance3"}},
@@ -447,12 +465,12 @@ local worldChestTable = {
   ["@Aldi Sea/Temple of Fiends/Locked Duo"]                               = {{"@Temple of Fiends/Locked Duo 1/","TempleOfFiends_LockedDuo1"},{"@Temple of Fiends/Locked Duo 2/","TempleOfFiends_LockedDuo2"}},
   ["@Aldi Sea/Marsh Cave/Top (B1) - Duo"]                                 = {{"@Marsh Cave Top (B1)/Duo 1/","MarshCave_Top_B1_Duo1"},{"@Marsh Cave Top (B1)/Duo 2/","MarshCave_Top_B1_Duo2"}},
   ["@Aldi Sea/Marsh Cave/Bottom (B2) - Tetris-Z Middle"]                  = {{"@Marsh Cave Bottom (B2)/Tetris-Z Middle 1/","MarshCave_Bottom_B2_TetrisZMiddle1"},{"@Marsh Cave Bottom (B2)/Tetris-Z Middle 2/","MarshCave_Bottom_B2_TetrisZMiddle2"}},
-  ["@Melmond Peninsula/Earth Cave/Giant's Floor (B1) - Appendix"]         = {{"@Earth Cave Giant's Floor (B1)/Appendix 1/","EarthCave_GiantsFloor_B1_Appendix1"},{"@Earth Cave Giant's Floor (B1)/Appendix 2/","EarthCave_GiantsFloor_B1_Appendix2"}},
-  ["@Melmond Peninsula/Earth Cave/Giant's Floor (B1) - Side Path"]        = {{"@Earth Cave Giant's Floor (B1)/Side Path 1/","EarthCave_GiantsFloor_B1_SidePath1"},{"@Earth Cave Giant's Floor (B1)/Side Path 2/","EarthCave_GiantsFloor_B1_SidePath2"}},
-  ["@Melmond Peninsula/Earth Cave/(B2) - Side Room"]                      = {{"@Earth Cave (B2)/Side Room 1/","EarthCave_B2_SideRoom1"},{"@Earth Cave (B2)/Side Room 2/","EarthCave_B2_SideRoom2"},{"@Earth Cave (B2)/Side Room 3/","EarthCave_B2_SideRoom3"}},
-  ["@Melmond Peninsula/Earth Cave/(B2) - Guarded"]                        = {{"@Earth Cave (B2)/Guarded 1/","EarthCave_B2_Guarded1"},{"@Earth Cave (B2)/Guarded 2/","EarthCave_B2_Guarded2"},{"@Earth Cave (B2)/Guarded 3/","EarthCave_B2_Guarded3"}},
-  ["@Melmond Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"]        = {{"@Earth Cave Rod Locked Floor (B4)/Armory 1/","EarthCave_RodLockedFloor_B4_Armory1"},{"@Earth Cave Rod Locked Floor (B4)/Armory 2/","EarthCave_RodLockedFloor_B4_Armory2"},{"@Earth Cave Rod Locked Floor (B4)/Armory 3/","EarthCave_RodLockedFloor_B4_Armory3"},{"@Earth Cave Rod Locked Floor (B4)/Armory 4/","EarthCave_RodLockedFloor_B4_Armory4"},{"@Earth Cave Rod Locked Floor (B4)/Armory 5/","EarthCave_RodLockedFloor_B4_Armory5"}},
-  ["@Melmond Peninsula/Earth Cave/Rod Locked Floor (B4) - Lich's Closet"] = {{"@Earth Cave Rod Locked Floor (B4)/Lich's Closet 1/","EarthCave_RodLockedFloor_B4_LichsCloset1"},{"@Earth Cave Rod Locked Floor (B4)/Lich's Closet 2/","EarthCave_RodLockedFloor_B4_LichsCloset2"},{"@Earth Cave Rod Locked Floor (B4)/Lich's Closet 3/","EarthCave_RodLockedFloor_B4_LichsCloset3"}},
+  ["@Earth Peninsula/Earth Cave/Giant's Floor (B1) - Appendix"]           = {{"@Earth Cave Giant's Floor (B1)/Appendix 1/","EarthCave_GiantsFloor_B1_Appendix1"},{"@Earth Cave Giant's Floor (B1)/Appendix 2/","EarthCave_GiantsFloor_B1_Appendix2"}},
+  ["@Earth Peninsula/Earth Cave/Giant's Floor (B1) - Side Path"]          = {{"@Earth Cave Giant's Floor (B1)/Side Path 1/","EarthCave_GiantsFloor_B1_SidePath1"},{"@Earth Cave Giant's Floor (B1)/Side Path 2/","EarthCave_GiantsFloor_B1_SidePath2"}},
+  ["@Earth Peninsula/Earth Cave/(B2) - Side Room"]                        = {{"@Earth Cave (B2)/Side Room 1/","EarthCave_B2_SideRoom1"},{"@Earth Cave (B2)/Side Room 2/","EarthCave_B2_SideRoom2"},{"@Earth Cave (B2)/Side Room 3/","EarthCave_B2_SideRoom3"}},
+  ["@Earth Peninsula/Earth Cave/(B2) - Guarded"]                          = {{"@Earth Cave (B2)/Guarded 1/","EarthCave_B2_Guarded1"},{"@Earth Cave (B2)/Guarded 2/","EarthCave_B2_Guarded2"},{"@Earth Cave (B2)/Guarded 3/","EarthCave_B2_Guarded3"}},
+  ["@Earth Peninsula/Earth Cave/Rod Locked Floor (B4) - Armory"]          = {{"@Earth Cave Rod Locked Floor (B4)/Armory 1/","EarthCave_RodLockedFloor_B4_Armory1"},{"@Earth Cave Rod Locked Floor (B4)/Armory 2/","EarthCave_RodLockedFloor_B4_Armory2"},{"@Earth Cave Rod Locked Floor (B4)/Armory 3/","EarthCave_RodLockedFloor_B4_Armory3"},{"@Earth Cave Rod Locked Floor (B4)/Armory 4/","EarthCave_RodLockedFloor_B4_Armory4"},{"@Earth Cave Rod Locked Floor (B4)/Armory 5/","EarthCave_RodLockedFloor_B4_Armory5"}},
+  ["@Earth Peninsula/Earth Cave/Rod Locked Floor (B4) - Lich's Closet"]   = {{"@Earth Cave Rod Locked Floor (B4)/Lich's Closet 1/","EarthCave_RodLockedFloor_B4_LichsCloset1"},{"@Earth Cave Rod Locked Floor (B4)/Lich's Closet 2/","EarthCave_RodLockedFloor_B4_LichsCloset2"},{"@Earth Cave Rod Locked Floor (B4)/Lich's Closet 3/","EarthCave_RodLockedFloor_B4_LichsCloset3"}},
   ["@Gurgu Mountains/Gurgu Volcano/Armory Floor (B2) - Vertpins"]         = {{"@Gurgu Volcano Armory Floor (B2)/Vertpins 1/","GurguVolcano_ArmoryFloor_B2_Vertpins1"},{"@Gurgu Volcano Armory Floor (B2)/Vertpins 2/","GurguVolcano_ArmoryFloor_B2_Vertpins2"}},
   ["@Gurgu Mountains/Gurgu Volcano/Armory Floor (B2) - Armory"]           = {{"@Gurgu Volcano Armory Floor (B2)/Armory 1/","GurguVolcano_ArmoryFloor_B2_Armory1"},{"@Gurgu Volcano Armory Floor (B2)/Armory 2/","GurguVolcano_ArmoryFloor_B2_Armory2"},{"@Gurgu Volcano Armory Floor (B2)/Armory 3/","GurguVolcano_ArmoryFloor_B2_Armory3"},{"@Gurgu Volcano Armory Floor (B2)/Armory 4/","GurguVolcano_ArmoryFloor_B2_Armory4"},{"@Gurgu Volcano Armory Floor (B2)/Armory 5/","GurguVolcano_ArmoryFloor_B2_Armory5"},{"@Gurgu Volcano Armory Floor (B2)/Armory 6/","GurguVolcano_ArmoryFloor_B2_Armory6"},{"@Gurgu Volcano Armory Floor (B2)/Armory 7/","GurguVolcano_ArmoryFloor_B2_Armory7"},{"@Gurgu Volcano Armory Floor (B2)/Armory 8/","GurguVolcano_ArmoryFloor_B2_Armory8"},{"@Gurgu Volcano Armory Floor (B2)/Armory 9/","GurguVolcano_ArmoryFloor_B2_Armory9"},{"@Gurgu Volcano Armory Floor (B2)/Armory 10/","GurguVolcano_ArmoryFloor_B2_Armory10"},{"@Gurgu Volcano Armory Floor (B2)/Armory 11/","GurguVolcano_ArmoryFloor_B2_Armory11"},{"@Gurgu Volcano Armory Floor (B2)/Armory 12/","GurguVolcano_ArmoryFloor_B2_Armory12"}},
   ["@Gurgu Mountains/Gurgu Volcano/Agama Floor (B4) - Entrance"]          = {{"@Gurgu Volcano Agama Floor (B4)/Entrance 1/","GurguVolcano_AgamaFloor_B4_Entrance1"},{"@Gurgu Volcano Agama Floor (B4)/Entrance 2/","GurguVolcano_AgamaFloor_B4_Entrance2"}},
@@ -467,6 +485,13 @@ local worldChestTable = {
   ["@Gurgu Mountains/Ice Cave/Exit Floor (B1) - Drop Room"]               = {{"@Ice Cave Exit Floor (B1)/Drop Room 1/","IceCave_ExitFloor_B1_DropRoom1"},{"@Ice Cave Exit Floor (B1)/Drop Room 2/","IceCave_ExitFloor_B1_DropRoom2"},{"@Ice Cave Exit Floor (B1)/Drop Room 3/","IceCave_ExitFloor_B1_DropRoom3"}},
   ["@Bird Continent/Castle of Ordeals/Top Floor (3F) - Three-Pack"]       = {{"@Castle of Ordeals Top Floor (3F)/Three-Pack 1/","CastleOfOrdeals_TopFloor_3F_ThreePack1"},{"@Castle of Ordeals Top Floor (3F)/Three-Pack 2/","CastleOfOrdeals_TopFloor_3F_ThreePack2"},{"@Castle of Ordeals Top Floor (3F)/Three-Pack 3/","CastleOfOrdeals_TopFloor_3F_ThreePack3"}},
   ["@Bird Continent/Castle of Ordeals/Top Floor (3F) - Four-Pack"]        = {{"@Castle of Ordeals Top Floor (3F)/Four-Pack 1/","CastleOfOrdeals_TopFloor_3F_FourPack1"},{"@Castle of Ordeals Top Floor (3F)/Four-Pack 2/","CastleOfOrdeals_TopFloor_3F_FourPack2"},{"@Castle of Ordeals Top Floor (3F)/Four-Pack 3/","CastleOfOrdeals_TopFloor_3F_FourPack3"},{"@Castle of Ordeals Top Floor (3F)/Four-Pack 4/","CastleOfOrdeals_TopFloor_3F_FourPack4"}},
+  ["@Seahorse Continent/Sea Shrine/Mermaids (B1) - Bubbles"]              = {{"@Sea Shrine Mermaids (B1)/Bubbles 1/","SeaShrine_Mermaids_B1_Bubbles1"},{"@Sea Shrine Mermaids (B1)/Bubbles 2/","SeaShrine_Mermaids_B1_Bubbles2"}},
+  ["@Seahorse Continent/Sea Shrine/Mermaids (B1) - Incentive"]            = {{"@Sea Shrine Mermaids (B1)/Incentive 1/","SeaShrine_Mermaids_B1_Incentive1"},{"@Sea Shrine Mermaids (B1)/Incentive 2/","SeaShrine_Mermaids_B1_Incentive2"}},
+  ["@Seahorse Continent/Sea Shrine/Mermaids (B1) - Entrance"]             = {{"@Sea Shrine Mermaids (B1)/Entrance 1/","SeaShrine_Mermaids_B1_Entrance1"},{"@Sea Shrine Mermaids (B1)/Entrance 2/","SeaShrine_Mermaids_B1_Entrance2"},{"@Sea Shrine Mermaids (B1)/Entrance 3/","SeaShrine_Mermaids_B1_Entrance3"}},
+  ["@Seahorse Continent/Sea Shrine/Greed Floor (B3) - Chest"]             = {{"@Sea Shrine Greed Floor (B3)/Chest 1/","SeaShrine_GreedFloor_B3_Chest1"},{"@Sea Shrine Greed Floor (B3)/Chest 2/","SeaShrine_GreedFloor_B3_Chest2"}},
+  ["@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Dengbait"]      = {{"@Sea Shrine Sharknado Floor (B4)/Dengbait 1/","SeaShrine_SharknadoFloor_B4_Dengbait1"},{"@Sea Shrine Sharknado Floor (B4)/Dengbait 2/","SeaShrine_SharknadoFloor_B4_Dengbait2"}},
+  ["@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Side Corner"]   = {{"@Sea Shrine Sharknado Floor (B4)/Side Corner 1/","SeaShrine_SharknadoFloor_B4_SideCorner1"},{"@Sea Shrine Sharknado Floor (B4)/Side Corner 2/","SeaShrine_SharknadoFloor_B4_SideCorner2"},{"@Sea Shrine Sharknado Floor (B4)/Side Corner 3/","SeaShrine_SharknadoFloor_B4_SideCorner3"}},
+  ["@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Greed Room"]    = {{"@Sea Shrine Sharknado Floor (B4)/Greed Room 1/","SeaShrine_SharknadoFloor_B4_GreedRoom1"},{"@Sea Shrine Sharknado Floor (B4)/Greed Room 2/","SeaShrine_SharknadoFloor_B4_GreedRoom2"},{"@Sea Shrine Sharknado Floor (B4)/Greed Room 3/","SeaShrine_SharknadoFloor_B4_GreedRoom3"},{"@Sea Shrine Sharknado Floor (B4)/Greed Room 4/","SeaShrine_SharknadoFloor_B4_GreedRoom4"}},
 }
 
 function getWorldChestLocation(locationID, chestLocationTable, worldChestTable)

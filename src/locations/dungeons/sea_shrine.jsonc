@@ -1,0 +1,206 @@
+[
+  { "name": "Sea Shrine Split Floor (B3)",
+    "access_rules": [ "airship,canoe,oxyale", "northernDocks,ship,canal,oxyale" ],
+    "children": [
+      {
+        "name": "Kraken Side",
+        "sections": [{"visibility_rules": ["SeaShrine_SplitFloor_B3_KrakenSide"]}],
+        "map_locations": [{"map": "sea_shrine_b3", "x": 104, "y": 216}]
+      },
+      {
+        "name": "Mermaid Side",
+        "sections": [{"visibility_rules": ["SeaShrine_SplitFloor_B3_MermaidSide"]}],
+        "map_locations": [{"map": "sea_shrine_b3", "x": 568, "y": 392}]
+      }
+    ]
+  },
+  { "name": "Sea Shrine TFC Floor (B2)",
+    "access_rules": [ "airship,canoe,oxyale", "northernDocks,ship,canal,oxyale" ],
+    "children": [
+      {
+        "name": "TFC",
+        "sections": [{
+          "visibility_rules": ["SeaShrine_TFCFloor_B2_TFC"],
+          "access_rules": [ "key" ]
+        }],
+        "map_locations": [{"map": "sea_shrine_b2", "x": 408, "y": 392}]
+      },
+      {
+        "name": "TFC North",
+        "sections": [{"visibility_rules": ["SeaShrine_TFCFloor_B2_TFCNorth"]}],
+        "map_locations": [{"map": "sea_shrine_b2", "x": 312, "y": 40}]
+      },
+      {
+        "name": "Side Corner",
+        "sections": [{"visibility_rules": ["SeaShrine_TFCFloor_B2_SideCorner"]}],
+        "map_locations": [{"map": "sea_shrine_b2", "x": 72, "y": 680}]
+      },
+      {
+        "name": "First Greed",
+        "sections": [{"visibility_rules": ["SeaShrine_TFCFloor_B2_FirstGreed"]}],
+        "map_locations": [{"map": "sea_shrine_b2", "x": 408, "y": 616}]
+      },
+      {
+        "name": "Second Greed",
+        "sections": [{"visibility_rules": ["SeaShrine_TFCFloor_B2_SecondGreed"]}],
+        "map_locations": [{"map": "sea_shrine_b2", "x": 568, "y": 728}]
+      }
+    ]
+  },
+  { "name": "Sea Shrine Mermaids (B1)",
+    "access_rules": [ "airship,canoe,oxyale", "northernDocks,ship,canal,oxyale" ],
+    "children": [
+      {
+        "name": "Passby",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Passby"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 440, "y": 104}]
+      },
+      {
+        "name": "Bubbles 1",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Bubbles1"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 536, "y": 104}]
+      },
+      {
+        "name": "Bubbles 2",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Bubbles2"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 568, "y": 104}]
+      },
+      {
+        "name": "Incentive 1",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Incentive1"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 648, "y": 104}]
+      },
+      {
+        "name": "Incentive 2",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Incentive2"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 664, "y": 104}]
+      },
+      {
+        "name": "Incentive Major",
+        "sections": [{
+          "visibility_rules": ["SeaShrine_Mermaids_B1_IncentiveMajor"],
+          "hosted_item": "seaShrineIncentive"
+        }],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 680, "y": 104}]
+      },
+      {
+        "name": "Entrance 1",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Entrance1"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 424, "y": 328}]
+      },
+      {
+        "name": "Entrance 2",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Entrance2"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 440, "y": 328}]
+      },
+      {
+        "name": "Entrance 3",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Entrance3"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 456, "y": 328}]
+      },
+      {
+        "name": "Four-Corner First",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerFirst"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 552, "y": 216}]
+      },
+      {
+        "name": "Four-Corner Second",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerSecond"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 664, "y": 216}]
+      },
+      {
+        "name": "Four-Corner Third",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerThird"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 552, "y": 440}]
+      },
+      {
+        "name": "Four-Corner Fourth",
+        "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerFourth"]}],
+        "map_locations": [{"map": "sea_shrine_b1", "x": 664, "y": 440}]
+      }
+    ]
+  },
+  { "name": "Sea Shrine Greed Floor (B3)",
+    "access_rules": [ "airship,canoe,oxyale", "northernDocks,ship,canal,oxyale" ],
+    "children": [
+      {
+        "name": "Chest 1",
+        "sections": [{"visibility_rules": ["SeaShrine_GreedFloor_B3_Chest1"]}],
+        "map_locations": [{"map": "sea_shrine_b3", "x": 808, "y": 56}]
+      },
+      {
+        "name": "Chest 2",
+        "sections": [{"visibility_rules": ["SeaShrine_GreedFloor_B3_Chest2"]}],
+        "map_locations": [{"map": "sea_shrine_b3", "x": 760, "y": 184}]
+      }
+    ]
+  },
+  { "name": "Sea Shrine Sharknado Floor (B4)",
+    "access_rules": [ "airship,canoe,oxyale", "northernDocks,ship,canal,oxyale" ],
+    "children": [
+      {
+        "name": "Dengbait 1",
+        "sections": [{"visibility_rules": ["SeaShrine_SharknadoFloor_B4_Dengbait1"]}],
+        "map_locations": [{"map": "sea_shrine_b4", "x": 616, "y": 392}]
+      },
+      {
+        "name": "Dengbait 2",
+        "sections": [{"visibility_rules": ["SeaShrine_SharknadoFloor_B4_Dengbait2"]}],
+        "map_locations": [{"map": "sea_shrine_b4", "x": 664, "y": 392}]
+      },
+      {
+        "name": "Side Corner 1",
+        "sections": [{"visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner1"]}],
+        "map_locations": [{"map": "sea_shrine_b4", "x": 56, "y": 376}]
+      },
+      {
+        "name": "Side Corner 2",
+        "sections": [{"visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner2"]}],
+        "map_locations": [{"map": "sea_shrine_b4", "x": 104, "y": 392}]
+      },
+      {
+        "name": "Side Corner 3",
+        "sections": [{"visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner3"]}],
+        "map_locations": [{"map": "sea_shrine_b4", "x": 120, "y": 376}]
+      },
+      {
+        "name": "Exit",
+        "sections": [{"visibility_rules": ["SeaShrine_SharknadoFloor_B4_Exit"]}],
+        "map_locations": [{"map": "sea_shrine_b4", "x": 216, "y": 152}]
+      },
+      {
+        "name": "Greed Room 1",
+        "sections": [{"visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom1"]}],
+        "map_locations": [{"map": "sea_shrine_b4", "x": 488, "y": 104}]
+      },
+      {
+        "name": "Greed Room 2",
+        "sections": [{"visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom2"]}],
+        "map_locations": [{"map": "sea_shrine_b4", "x": 504, "y": 104}]
+      },
+      {
+        "name": "Greed Room 3",
+        "sections": [{"visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom3"]}],
+        "map_locations": [{"map": "sea_shrine_b4", "x": 536, "y": 104}]
+      },
+      {
+        "name": "Greed Room 4",
+        "sections": [{"visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom4"]}],
+        "map_locations": [{"map": "sea_shrine_b4", "x": 536, "y": 136}]
+      }
+    ]
+  },
+  { "name": "Sea Shrine (B5)",
+    "access_rules": [ "airship,canoe,oxyale", "northernDocks,ship,canal,oxyale" ],
+    "children": [
+      {
+        "name": "Water Orb",
+        "sections": [{
+          "visibility_rules": [],
+          "hosted_item": "waterorb"
+        }],
+        "map_locations": [{"map": "sea_shrine_b5", "x": 184, "y": 85}]
+      }
+    ]
+  }
+]
