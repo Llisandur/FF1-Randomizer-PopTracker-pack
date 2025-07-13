@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Crescent Lake",
+    "access_rules": [ "airship", "openProgression,canoe", "ship,canal", "extendedOpen,canoe", "ship,canoe" ],
+    "children": [
+      {
+        "name": "Canoe Sage",
+        "sections": [{"hosted_item": "sages"}]
+      }
+    ]
+  }
+]

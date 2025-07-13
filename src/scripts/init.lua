@@ -34,13 +34,13 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
   Tracker:AddMaps("maps/maps.jsonc")
   -- Locations
   Tracker:AddLocations("locations/locations.jsonc")
-  Tracker:AddLocations("locations/dungeons/matoyas_cave.jsonc")
-  Tracker:AddLocations("locations/dungeons/dwarf_cave.jsonc")
-  Tracker:AddLocations("locations/dungeons/coneria_castle.jsonc")
-  Tracker:AddLocations("locations/dungeons/elf_castle.jsonc")
+  Tracker:AddLocations("locations/towns/matoyas_cave.jsonc")
+  Tracker:AddLocations("locations/towns/dwarf_cave.jsonc")
+  Tracker:AddLocations("locations/towns/coneria_castle.jsonc")
+  Tracker:AddLocations("locations/towns/elf_castle.jsonc")
   Tracker:AddLocations("locations/dungeons/northwest_castle.jsonc")
   Tracker:AddLocations("locations/dungeons/titans_tunnel.jsonc")
-  Tracker:AddLocations("locations/dungeons/cardia_islands.jsonc")
+  Tracker:AddLocations("locations/towns/cardia_islands.jsonc")
   Tracker:AddLocations("locations/dungeons/temple_of_fiends.jsonc")
   Tracker:AddLocations("locations/dungeons/marsh_cave.jsonc")
   Tracker:AddLocations("locations/dungeons/earth_cave.jsonc")
@@ -52,6 +52,12 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
   Tracker:AddLocations("locations/dungeons/mirage_tower.jsonc")
   Tracker:AddLocations("locations/dungeons/sky_fortress.jsonc")
   Tracker:AddLocations("locations/dungeons/temple_of_fiends_revisited.jsonc")
+  Tracker:AddLocations("locations/towns/pravoka.jsonc")
+  Tracker:AddLocations("locations/towns/sardas_cave.jsonc")
+  Tracker:AddLocations("locations/towns/melmond.jsonc")
+  Tracker:AddLocations("locations/towns/crescent_lake.jsonc")
+  Tracker:AddLocations("locations/towns/gaia.jsonc")
+  Tracker:AddLocations("locations/towns/lefein.jsonc")
 end
 
 -- Layout

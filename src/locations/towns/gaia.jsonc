@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Gaia",
+    "access_rules": [ "airship","gaiaMountain,ship,canoe,lefeinRiver,canal" ],
+    "children": [
+      {
+        "name": "Fairy",
+        "access_rules": [ "bottle" ],
+        "sections": [{"hosted_item": "fairy"}]
+      }
+    ]
+  }
+]

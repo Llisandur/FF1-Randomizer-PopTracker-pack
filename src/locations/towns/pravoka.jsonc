@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Pravoka",
+    "access_rules": [ "bridge", "ship", "airship", "extendedOpen,canoe", "openProgression,canoe" ],
+    "children": [
+      {
+        "name": "Bikke",
+        "sections": [{"hosted_item": "bikke"}]
+      }
+    ]
+  }
+]

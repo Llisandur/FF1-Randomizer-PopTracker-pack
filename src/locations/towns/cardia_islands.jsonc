@@ -13,7 +13,15 @@
       {
         "name": "Bahamut's Hoard",
         "sections": [{
-          "visibility_rules" : [ "bahamutHoard" ],
+          "visibility_rules" : [ "bahamutHoard,CardiaGrassIsland_Entrance","bahamutHoard,CardiaGrassIsland_DuoRoom1","bahamutHoard,CardiaGrassIsland_DuoRoom2","bahamutHoard,CardiaSwampIsland_Chest1","bahamutHoard,CardiaSwampIsland_Chest2","bahamutHoard,CardiaSwampIsland_Chest3","bahamutHoard,CardiaForestIsland_Entrance1","bahamutHoard,CardiaForestIsland_Entrance2","bahamutHoard,CardiaForestIsland_Entrance3","bahamutHoard,CardiaForestIsland_Incentive1","bahamutHoard,CardiaForestIsland_Incentive2","bahamutHoard,CardiaForestIsland_Incentive3" ],
+          "clear_as_group": true,
+          "item_count": 12
+          }]
+      },
+      {
+        "name": "Bahamut's Hoard - Incentive",
+        "sections": [{
+          "visibility_rules" : [ "bahamutHoard,CardiaForestIsland_IncentiveMajor" ],
           "hosted_item" : "cardiaIncentive"
         }]
       }

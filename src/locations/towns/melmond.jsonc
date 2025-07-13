@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Melmond",
+    "access_rules": [ "ship,canal,slab", "airship,slab" ],
+    "children": [
+      {
+        "name": "Dr. Unne",
+        "sections": [{"hosted_item": "slabTranslated"}]
+      }
+    ]
+  }
+]

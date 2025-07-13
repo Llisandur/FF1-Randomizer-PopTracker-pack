@@ -222,19 +222,12 @@
         ],
         "map_locations": [{"map": "overworld", "x": 2080, "y": 1925}]
       },
-      {
-        "name": "Pravoka",
-        "access_rules": [
-          "bridge",
-          "ship",
-          "airship",
-          "extendedOpen,canoe",
-          "openProgression,canoe"
-        ],
+      { "name": "Pravoka",
+        "access_rules": [ "bridge", "ship", "airship", "extendedOpen,canoe", "openProgression,canoe" ],
         "sections": [
           {
             "name": "Bikke",
-            "hosted_item": "bikke"
+            "ref": "Pravoka/Bikke/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 3368, "y": 2408}]
@@ -342,24 +335,22 @@
         ],
         "map_locations": [{"map": "overworld", "x": 1048, "y": 2982}]
       },
-      {
-        "name": "Sarda's Cave",
+      { "name": "Sarda's Cave",
         "access_rules": [ "airship", "ruby,ship,canal" ],
         "sections": [
           {
             "name": "Sarda",
-            "hosted_item": "sarda"
+            "ref": "Sarda's Cave/Sarda/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 488, "y": 3048}]
       },
-      {
-        "name": "Melmond",
+      { "name": "Melmond",
         "access_rules": [ "ship,canal,slab", "airship,slab" ],
         "sections": [
           {
             "name": "Dr. Unne",
-            "hosted_item": "slabTranslated"
+            "ref": "Melmond/Dr.Unne/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1310, "y": 2560}]
@@ -485,22 +476,23 @@
         ],
         "map_locations": [{"map": "overworld", "x": 3160, "y": 2934}]
       },
-      {
-        "name": "Crescent Lake",
-        "access_rules": [ "airship", "openProgression,canoe", "ship,canal", "extendedOpen,canoe", "ship,canoe"
-        ],
+      { "name": "Crescent Lake",
+        "access_rules": [ "airship", "openProgression,canoe", "ship,canal", "extendedOpen,canoe", "ship,canoe" ],
         "sections": [
           {
             "name": "Canoe Sage",
-            "hosted_item": "sages"
+            "ref": "Crescent Lake/Canoe Sage/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 3512, "y": 3480}]
       },
-      {
-        "name": "Ryukahn Desert",
+      { "name": "Ryukahn Desert",
         "access_rules": [ "canoe,openProgression", "ship,canoe", "canoe,extendedOpen" ],
-        "sections": [{"name": "Floater Turn In", "access_rules": [ "inactiveFloater" ], "hosted_item": "airship"}],
+        "sections": [
+          {"name": "Airship",
+          "access_rules": [ "inactiveFloater" ],
+          "hosted_item": "airship"}
+        ],
         "map_locations": [{"map": "overworld", "x": 3530, "y": 3786}]
       }
     ]
@@ -517,6 +509,10 @@
           {
             "name" : "Bahamut's Hoard",
             "ref" : "Cardia Bahamut's Island/Bahamut's Hoard/"
+          },
+          {
+            "name" : "Bahamut's Hoard - Incentive",
+            "ref" : "Cardia Bahamut's Island/Bahamut's Hoard - Incentive/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1544, "y": 826}]
@@ -525,10 +521,14 @@
         "access_rules": [ "airship" ],
         "sections": [
           {
-            "name": "Chests",
-            "visibility_rules": ["CardiaGrassIsland_Entrance","CardiaGrassIsland_DuoRoom1","CardiaGrassIsland_DuoRoom2"],
+            "name": "Entrance",
+            "ref": "Cardia Grass Island/Entrance/"
+          },
+          {
+            "name": "Duo Room",
+            "visibility_rules": ["CardiaGrassIsland_DuoRoom1","CardiaGrassIsland_DuoRoom2"],
             "clear_as_group": true,
-            "item_count": 3
+            "item_count": 2
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1272, "y": 794}]
@@ -537,7 +537,7 @@
         "access_rules": [ "airship" ],
         "sections": [
           {
-            "name": "Chests",
+            "name": "Chest",
             "visibility_rules": ["CardiaSwampIsland_Chest1","CardiaSwampIsland_Chest2","CardiaSwampIsland_Chest3"],
             "clear_as_group": true,
             "item_count": 3
@@ -569,8 +569,7 @@
       }
     ]
   },
-  {
-    "name": "Bird Continent",
+  { "name": "Bird Continent",
     "children": [
       { "name": "Castle of Ordeals",
         "access_rules": [ "airship,canoe", "ship,canal,canoe" ],
@@ -699,16 +698,20 @@
         ],
         "map_locations": [{"map": "overworld", "x": 3110, "y": 904}]
       },
-      {
-        "name": "Gaia",
+      { "name": "Gaia",
         "access_rules": [ "airship","gaiaMountain,ship,canoe,lefeinRiver,canal" ],
-        "sections": [{"name": "Fairy", "access_rules": [ "bottle" ], "hosted_item": "fairy"}],
+        "sections": [{
+          "name": "Fairy",
+          "ref": "Gaia/Fairy/"
+        }],
         "map_locations": [{"map": "overworld", "x": 3560, "y": 448}]
       },
-      {
-        "name": "Lefein",
+      { "name": "Lefein",
         "access_rules": [ "airship","lefeinRiver,canoe,ship,canal" ],
-        "sections": [{"name": "Incentive", "access_rules": [ "slabTranslated" ], "hosted_item": "lefein"}],
+        "sections": [{
+          "name": "Incentive",
+          "ref": "Lefein/Incentive/"
+        }],
         "map_locations": [{"map": "overworld", "x": 3768, "y": 1586}]
       }
     ]
@@ -823,8 +826,7 @@
         ],
         "map_locations": [{"map": "overworld", "x": 1012, "y": 940}]
       },
-      {
-        "name": "Waterfall Cave",
+      { "name": "Waterfall Cave",
         "access_rules": [ "airship,canoe", "northernDocks,ship,canal,canoe" ],
         "sections": [
           {

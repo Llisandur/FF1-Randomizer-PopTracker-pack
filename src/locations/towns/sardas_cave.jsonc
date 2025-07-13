@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Sarda's Cave",
+    "access_rules": [ "airship", "ruby,ship,canal" ],
+    "children": [
+      {
+        "name": "Sarda",
+        "sections": [{"hosted_item": "sarda"}]
+      }
+    ]
+  }
+]

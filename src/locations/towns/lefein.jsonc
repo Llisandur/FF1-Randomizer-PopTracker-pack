@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Lefein",
+    "access_rules": [ "airship","lefeinRiver,canoe,ship,canal" ],
+    "children": [
+      {
+        "name": "Incentive",
+        "access_rules": [ "slabTranslated" ],
+        "sections": [{"hosted_item": "lefein"}]
+      }
+    ]
+  }
+]
