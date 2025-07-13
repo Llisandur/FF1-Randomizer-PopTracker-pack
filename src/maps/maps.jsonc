@@ -267,49 +267,49 @@
         "name": "temple_of_fiends_past_b1",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/templeoffiends_past_b1.png"
+        "img": "images/maps/dungeons/temple_of_fiends_revisited_b1.png"
     },
     {
         "name": "temple_of_fiends_past_b2",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/templeoffiends_past_b2.png"
+        "img": "images/maps/dungeons/temple_of_fiends_revisited_b2.png"
     },
     {
         "name": "temple_of_fiends_past_b3",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/templeoffiends_past_b3.png"
+        "img": "images/maps/dungeons/temple_of_fiends_revisited_b3.png"
     },
     {
         "name": "temple_of_fiends_past_b4",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/templeoffiends_past_b4.png"
+        "img": "images/maps/dungeons/temple_of_fiends_revisited_b4.png"
     },
     {
         "name": "temple_of_fiends_past_b5",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/templeoffiends_past_b5.png"
+        "img": "images/maps/dungeons/temple_of_fiends_revisited_b5.png"
     },
     {
         "name": "temple_of_fiends_past_f1",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/templeoffiends_past_f1.png"
+        "img": "images/maps/dungeons/temple_of_fiends_revisited_f1.png"
     },
     {
         "name": "temple_of_fiends_past_f2",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/templeoffiends_past_f2.png"
+        "img": "images/maps/dungeons/temple_of_fiends_revisited_f2.png"
     },
     {
         "name": "temple_of_fiends_past_f3",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/templeoffiends_past_f3.png"
+        "img": "images/maps/dungeons/temple_of_fiends_revisited_f3.png"
     },
     {
         "name": "temple_of_fiends",
