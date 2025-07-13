@@ -16,7 +16,7 @@ end
 
 function canBreakOrb()
   if Tracker.ActiveVariantUID == "shardHunt" then
-    local shardCountItem = Tracker:FindObjectForCode("shards")
+    local shardCountItem = Tracker:FindObjectForCode("shard")
     local shardCountMax = Tracker:FindObjectForCode("shardsRequired")
     local goalShardCount = shardCountMax.CurrentStage + 16
     return shardCountItem.CurrentStage >= goalShardCount

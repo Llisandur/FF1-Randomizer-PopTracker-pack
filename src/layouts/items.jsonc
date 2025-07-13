@@ -3,6 +3,7 @@
   {
     "type": "itemgrid",
     "h_alignment": "center",
+    "v_alignment": "center",
     "item_margin": "1,2",
     "rows":
     [
@@ -28,12 +29,12 @@
   "shared_manual_grid":
   {
     "type": "itemgrid",
-    "h_alignment": "center",
     "item_margin": "1,2",
     "rows":
     [
       [ "earthorb", "fireorb", "waterorb", "airorb" ],
-      [ "unne", "bahamut" ]
+      [ "garland", "unne", "bahamut" ],
+      [ "shard" ]
     ]
   },
   "shared_flags_grid":
@@ -57,7 +58,7 @@
     "item_margin": "1,2",
     "rows":
     [
-      [ "showAllChests" ]
+      [ "showAllChests", "shardsRequired" ]
     ]
   }
 }

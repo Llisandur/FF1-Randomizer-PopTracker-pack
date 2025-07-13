@@ -58,6 +58,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
   Tracker:AddLocations("locations/towns/crescent_lake.jsonc")
   Tracker:AddLocations("locations/towns/gaia.jsonc")
   Tracker:AddLocations("locations/towns/lefein.jsonc")
+  Tracker:AddLocations("locations/towns/shop_item.jsonc")
 end
 
 -- Layout

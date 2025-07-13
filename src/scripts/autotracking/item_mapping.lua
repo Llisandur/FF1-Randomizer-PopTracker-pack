@@ -1,6 +1,6 @@
 BASE_ITEM_ID = 256
 ITEM_MAPPING = {
-	[BASE_ITEM_ID + 000] = {{"none", "toggle"}},
+--	[BASE_ITEM_ID + 000] = {{"none", "toggle"}},
 	[BASE_ITEM_ID + 001] = {{"lute", "toggle"}},
 	[BASE_ITEM_ID + 002] = {{"crown", "toggle"}},
 	[BASE_ITEM_ID + 003] = {{"crystal", "toggle"}},

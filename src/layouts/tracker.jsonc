@@ -1,496 +1,512 @@
 ﻿{
-  "tracker_horizontal" : {
-    "type" : "container",
-    "background" : "#5f6393",
-    "content" : {
-      "type" : "dock",
-      "dropshadow" : false,
-      "content" : [
+  "layouts": {
+    "settings_popup": {
+      "type": "array",
+      "orientation": "vertical",
+      "margin": "0,0",
+      "content": [
         {
-          "type" : "dock",
-          "dock" : "bottom",
-          "content" : [
-            {
-              "type" : "group",
-              "header" : "Items",
-              "dock" : "left",
-              "margin" : "0,0,3,0",
-              "content" : {
-                "type" : "layout",
-                "h_alignment" : "center",
-                "v_alignment" : "center",
-                "key" : "shared_item_grid"
-              }
-            },
-            {
-              "type" : "group",
-              "header" : "Locations",
-              "dock" : "left",
-              "margin" : "0,0,3,0",
-              "content" : {
-                "type" : "layout",
-                "h_alignment" : "center",
-                "v_alignment" : "center",
-                "key" : "shared_locations_grid"
-              }
-            },
-            {
-              "type" : "group",
-              "header" : "Manual Checks",
-              "dock" : "left",
-              "margin" : "0,0,3,0",
-              "content" : {
-                "type" : "layout",
-                "h_alignment" : "center",
-                "v_alignment" : "center",
-                "key" : "shared_manual_grid"
-              }
-            },
-            {
-              "type" : "group",
-              "header" : "Flags",
-              "dock" : "left",
-              "margin" : "0,0,3,0",
-              "content" : {
-                "type" : "layout",
-                "h_alignment" : "center",
-                "v_alignment" : "center",
-                "key" : "shared_flags_grid"
-              }
-            },
-            {
-              "type" : "group",
-              "header" : "Options",
-              "dock" : "left",
-              "margin" : "0,0,3,0",
-              "content" : {
-                "type" : "layout",
-                "h_alignment" : "center",
-                "v_alignment" : "center",
-                "key" : "shared_buttons_grid"
-              }
-            }
-          ]
+          "type" : "group",
+          "header" : "Flags",
+          "margin" : "0,0,3,0",
+          "content" : {
+            "type" : "layout",
+            "key" : "shared_flags_grid"
+          }
         },
         {
-          "type" : "tabbed",
-          "tabs" : [
-            {
-              "title" : "Overworld",
-              "content" : {
-                "type" : "map",
-                "maps" : [ "overworld" ]
-              }
-            },
-            {
-              "title": "Aldi Sea",
-              "content": {
-                "type": "tabbed",
-                "tabs": [
-                  {
-                    "title": "Coneria Castle",
-                    "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "F1 - Courtyard",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "coneria_castle_f1" ]
-                          }
-                        },
-                        {
-                          "title": "F2 - Throne Room",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "coneria_castle_f2" ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Temple of Fiends",
-                    "content": {
-                      "type": "map",
-                      "maps": [ "temple_of_fiends" ]
-                    }
-                  },
-                  {
-                    "title": "Matoya's Cave",
-                    "content": {
-                      "type": "map",
-                      "maps": [ "matoyas_cave" ]
-                    }
-                  },
-                  {
-                    "title": "Dwarf Cave",
-                    "content": {
-                      "type": "map",
-                      "maps": [ "dwarf_cave" ]
-                    }
-                  },
-                  {
-                    "title": "Elf Castle",
-                    "content": {
-                      "type": "map",
-                      "maps": [ "elf_castle" ]
-                    }
-                  },
-                  {
-                    "title": "Marsh Cave",
-                    "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "F1 - Entrance",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "marsh_cave_f1" ]
-                          }
-                        },
-                        {
-                          "title": "B1 - Top",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "marsh_cave_b1_top" ]
-                          }
-                        },
-                        {
-                          "title": "B1 - Middle",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "marsh_cave_b1_middle" ]
-                          }
-                        },
-                        {
-                          "title": "B2 - Bottom",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "marsh_cave_b2" ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "title": "Earth Peninsula",
-              "content": {
-                "type": "tabbed",
-                "tabs": [
-                  {
-                    "title": "Earth Cave",
-                    "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "B1 - Giant's Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "earth_cave_b1" ]
-                          }
-                        },
-                        {
-                          "title": "B2 - Loot Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "earth_cave_b2" ]
-                          }
-                        },
-                        {
-                          "title": "B3 - Vampire Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "earth_cave_b3" ]
-                          }
-                        },
-                        {
-                          "title": "B4 - Rod Locked Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "earth_cave_b4" ]
-                          }
-                        },
-                        {
-                          "title": "B5 - Lich Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "earth_cave_b5" ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "title": "Gurgu Mountains",
-              "content": {
-                "type": "tabbed",
-                "tabs": [
-                  {
-                    "title": "Gurgu Volcano",
-                    "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "B1 - Caldera",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "gurgu_volcano_b1" ]
-                          }
-                        },
-                        {
-                          "title": "B2 - Armory Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "gurgu_volcano_b2" ]
-                          }
-                        },
-                        {
-                          "title": "B3 - Lava Tubes",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "gurgu_volcano_b3" ]
-                          }
-                        },
-                        {
-                          "title": "B4 - Agama Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "gurgu_volcano_b4" ]
-                          }
-                        },
-                        {
-                          "title": "B5 - Kary Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "gurgu_volcano_b5" ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Ice Cave",
-                    "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "B1 - Exit Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "ice_cave_b1" ]
-                          }
-                        },
-                        {
-                          "title": "B2 - Hallway",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "ice_cave_b2_hallway" ]
-                          }
-                        },
-                        {
-                          "title": "B3 - Stairs",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "ice_cave_b3_stairs"  ]
-                          }
-                        },
-                        {
-                          "title": "B2 - Incentive Room",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "ice_cave_b2" ]
-                          }
-                        },
-                        {
-                          "title": "B3 - Bottom Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "ice_cave_b3" ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "title": "Seahorse Continent",
-              "content": {
-                "type": "tabbed",
-                "tabs": [
-                  {
-                    "title": "Sea Shrine",
-                    "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "F1 - Mermaids Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "sea_shrine_b1" ]
-                          }
-                        },
-                        {
-                          "title": "F2 - TFC Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "sea_shrine_b2" ]
-                          }
-                        },
-                        {
-                          "title": "F3 - Split Floor - Entrance",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "sea_shrine_b3" ]
-                          }
-                        },
-                        {
-                          "title": "F4 - Sharknado Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "sea_shrine_b4" ]
-                          }
-                        },
-                        {
-                          "title": "F5 - Kraken Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "sea_shrine_b5" ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Waterfall Cave",
-                    "content": {
-                      "type": "map",
-                      "maps": [ "waterfall_cave" ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "title": "Bird Continent",
-              "content": {
-                "type": "tabbed",
-                "tabs": [
-                  {
-                    "title": "Castle of Ordeals",
-                    "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "F1 - Entrance",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "castle_of_ordeals_f1" ]
-                          }
-                        },
-                        {
-                          "title": "F2 - Pillar Maze",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "castle_of_ordeals_f2" ]
-                          }
-                        },
-                        {
-                          "title": "F3 - Top Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "castle_of_ordeals_f3" ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Mirage Tower",
-                    "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "F1",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "miragetower_f1" ]
-                          }
-                        },
-                        {
-                          "title": "F2",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "miragetower_f2" ]
-                          }
-                        },
-                        {
-                          "title": "F3",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "miragetower_f3" ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Sky Fortress",
-                    "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "F1 - Plus",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "sky_fortress_f1" ]
-                          }
-                        },
-                        {
-                          "title": "F2 - Spider",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "sky_fortress_f2" ]
-                          }
-                        },
-                        {
-                          "title": "F3 - Provides",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "sky_fortress_f3" ]
-                          }
-                        },
-                        {
-                          "title": "F4 - Endless",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "sky_fortress_f4" ]
-                          }
-                        },
-                        {
-                          "title": "F5 - Tiamat Floor",
-                          "content": {
-                            "type": "map",
-                            "maps": [ "sky_fortress_f5" ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
+          "type" : "group",
+          "header" : "Options",
+          "margin" : "0,0,3,0",
+          "content" : {
+            "type" : "layout",
+            "key" : "shared_buttons_grid"
+          }
         }
       ]
+    },
+    "all_maps": {
+      "type" : "tabbed",
+      "tabs" : [
+        { "title" : "Overworld",
+          "content" : {
+            "type" : "map",
+            "maps" : [ "overworld" ]
+          }
+        },
+        { "title": "Aldi Sea",
+          "content": {
+            "type": "tabbed",
+            "tabs": [
+              { "title": "Coneria Castle",
+                "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "F1 - Courtyard",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "coneria_castle_f1" ]
+                      }
+                    },
+                    { "title": "F2 - Throne Room",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "coneria_castle_f2" ]
+                      }
+                    }
+                  ]
+                }
+              },
+              { "title": "Temple of Fiends",
+                "content": {
+                  "type": "map",
+                  "maps": [ "temple_of_fiends" ]
+                }
+              },
+              { "title": "Matoya's Cave",
+                "content": {
+                  "type": "map",
+                  "maps": [ "matoyas_cave" ]
+                }
+              },
+              { "title": "Dwarf Cave",
+                "content": {
+                  "type": "map",
+                  "maps": [ "dwarf_cave" ]
+                }
+              },
+              { "title": "Elf Castle",
+                "content": {
+                  "type": "map",
+                  "maps": [ "elf_castle" ]
+                }
+              },
+              { "title": "Marsh Cave",
+                "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "F1 - Entrance",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "marsh_cave_f1" ]
+                      }
+                    },
+                    { "title": "B1 - Top",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "marsh_cave_b1_top" ]
+                      }
+                    },
+                    { "title": "B1 - Middle",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "marsh_cave_b1_middle" ]
+                      }
+                    },
+                    { "title": "B2 - Bottom",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "marsh_cave_b2" ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        { "title": "Earth Peninsula",
+          "content": {
+            "type": "tabbed",
+            "tabs": [
+              { "title": "Earth Cave",
+                "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "B1 - Giant's Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "earth_cave_b1" ]
+                      }
+                    },
+                    { "title": "B2 - Loot Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "earth_cave_b2" ]
+                      }
+                    },
+                    { "title": "B3 - Vampire Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "earth_cave_b3" ]
+                      }
+                    },
+                    { "title": "B4 - Rod Locked Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "earth_cave_b4" ]
+                      }
+                    },
+                    { "title": "B5 - Lich Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "earth_cave_b5" ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        { "title": "Gurgu Mountains",
+          "content": {
+            "type": "tabbed",
+            "tabs": [
+              { "title": "Gurgu Volcano",
+                "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "B1 - Caldera",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "gurgu_volcano_b1" ]
+                      }
+                    },
+                    { "title": "B2 - Armory Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "gurgu_volcano_b2" ]
+                      }
+                    },
+                    { "title": "B3 - Lava Tubes",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "gurgu_volcano_b3" ]
+                      }
+                    },
+                    { "title": "B4 - Agama Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "gurgu_volcano_b4" ]
+                      }
+                    },
+                    { "title": "B5 - Kary Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "gurgu_volcano_b5" ]
+                      }
+                    }
+                  ]
+                }
+              },
+              { "title": "Ice Cave",
+                "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "B1 - Exit Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "ice_cave_b1" ]
+                      }
+                    },
+                    { "title": "B2 - Hallway",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "ice_cave_b2_hallway" ]
+                      }
+                    },
+                    { "title": "B3 - Stairs",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "ice_cave_b3_stairs"  ]
+                      }
+                    },
+                    { "title": "B2 - Incentive Room",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "ice_cave_b2" ]
+                      }
+                    },
+                    { "title": "B3 - Bottom Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "ice_cave_b3" ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        { "title": "Seahorse Continent",
+          "content": {
+            "type": "tabbed",
+            "tabs": [
+              { "title": "Sea Shrine",
+                "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "F1 - Mermaids Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "sea_shrine_b1" ]
+                      }
+                    },
+                    { "title": "F2 - TFC Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "sea_shrine_b2" ]
+                      }
+                    },
+                    { "title": "F3 - Split Floor - Entrance",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "sea_shrine_b3" ]
+                      }
+                    },
+                    { "title": "F4 - Sharknado Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "sea_shrine_b4" ]
+                      }
+                    },
+                    { "title": "F5 - Kraken Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "sea_shrine_b5" ]
+                      }
+                    }
+                  ]
+                }
+              },
+              { "title": "Waterfall Cave",
+                "content": {
+                  "type": "map",
+                  "maps": [ "waterfall_cave" ]
+                }
+              }
+            ]
+          }
+        },
+        { "title": "Bird Continent",
+          "content": {
+            "type": "tabbed",
+            "tabs": [
+              { "title": "Castle of Ordeals",
+                "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "F1 - Entrance",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "castle_of_ordeals_f1" ]
+                      }
+                    },
+                    { "title": "F2 - Pillar Maze",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "castle_of_ordeals_f2" ]
+                      }
+                    },
+                    { "title": "F3 - Top Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "castle_of_ordeals_f3" ]
+                      }
+                    }
+                  ]
+                }
+              },
+              { "title": "Mirage Tower",
+                "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "F1",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "miragetower_f1" ]
+                      }
+                    },
+                    { "title": "F2",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "miragetower_f2" ]
+                      }
+                    },
+                    { "title": "F3",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "miragetower_f3" ]
+                      }
+                    }
+                  ]
+                }
+              },
+              { "title": "Sky Fortress",
+                "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                    { "title": "F1 - Plus",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "sky_fortress_f1" ]
+                      }
+                    },
+                    { "title": "F2 - Spider",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "sky_fortress_f2" ]
+                      }
+                    },
+                    { "title": "F3 - Provides",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "sky_fortress_f3" ]
+                      }
+                    },
+                    { "title": "F4 - Endless",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "sky_fortress_f4" ]
+                      }
+                    },
+                    { "title": "F5 - Tiamat Floor",
+                      "content": {
+                        "type": "map",
+                        "maps": [ "sky_fortress_f5" ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "tracker_horizontal" : {
+      "type" : "container",
+      "background" : "#5f6393",
+      "content" : {
+        "type" : "dock",
+        "dropshadow" : false,
+        "content" : [
+          {
+            "type" : "dock",
+            "dock" : "left",
+            "v_alignment": "stretch",
+            "content" : [
+              {
+                "type" : "group",
+                "header" : "Items",
+                "dock" : "top",
+                "margin" : "0,0,3,0",
+                "content" : {
+                  "type" : "layout",
+                  "key" : "shared_item_grid"
+                }
+              },
+              {
+                "type" : "group",
+                "header" : "Locations",
+                "dock" : "top",
+                "margin" : "0,0,3,0",
+                "content" : {
+                  "type" : "layout",
+                  "key" : "shared_locations_grid"
+                }
+              },
+              {
+                "type" : "group",
+                "header" : "Manual Checks",
+                "dock" : "top",
+                "margin" : "0,0,3,0",
+                "content" : {
+                  "type" : "layout",
+                  "h_alignment": "stretch",
+                  "key" : "shared_manual_grid"
+                }
+              }
+            ]
+          },
+          {
+            "type": "layout",
+            "key": "all_maps"
+          }
+        ]
+      }
+    },
+    "tracker_vertical" : {
+      "type" : "container",
+      "background" : "#5f6393",
+      "content" : {
+        "type" : "dock",
+        "dropshadow" : false,
+        "content" : [
+          {
+            "type" : "dock",
+            "dock" : "bottom",
+            "content" : [
+              {
+                "type" : "group",
+                "header" : "Items",
+                "dock" : "left",
+                "margin" : "0,0,3,0",
+                "content" : {
+                  "type" : "layout",
+                  "key" : "shared_item_grid"
+                }
+              },
+              {
+                "type" : "group",
+                "header" : "Locations",
+                "dock" : "left",
+                "margin" : "0,0,3,0",
+                "content" : {
+                  "type" : "layout",
+                  "key" : "shared_locations_grid"
+                }
+              },
+              {
+                "type" : "group",
+                "header" : "Manual Checks",
+                "dock" : "left",
+                "margin" : "0,0,3,0",
+                "content" : {
+                  "type" : "layout",
+                  "key" : "shared_manual_grid"
+                }
+              },
+              {
+                "type" : "group",
+                "header" : "Flags",
+                "dock" : "left",
+                "margin" : "0,0,3,0",
+                "content" : {
+                  "type" : "layout",
+                  "key" : "shared_flags_grid"
+                }
+              },
+              {
+                "type" : "group",
+                "header" : "Options",
+                "dock" : "left",
+                "margin" : "0,0,3,0",
+                "content" : {
+                  "type" : "layout",
+                  "key" : "shared_buttons_grid"
+                }
+              }
+            ]
+          },
+          {
+            "type": "layout",
+            "key": "all_maps"
+          }
+        ]
+      }
     }
   }
 }

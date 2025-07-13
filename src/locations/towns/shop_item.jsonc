@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Caravan",
+    "children": [
+      {
+        "name": "Shop Item",
+        "sections": [{"hosted_item": "shopItem"}]
+      }
+    ]
+  }
+]

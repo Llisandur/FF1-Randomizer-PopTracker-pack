@@ -1,156 +1,1189 @@
 [
-    {
-        "name": "Adamant",
-        "type": "toggle",
-        "img": "images/items/adamant.png",
-        "codes": "adamant"
-    },
-    {
-        "name": "Bottle",
-        "type": "toggle",
-        "img": "images/items/bottle.png",
-        "codes": "bottle"
-    },
-    {
-        "name": "Bridge",
-        "type": "toggle",
-        "img": "images/items/bridge.png",
-        "codes": "bridge"
-    },
-    {
-        "name": "Canal",
-        "type": "toggle",
-        "img": "images/items/canal.png",
-        "codes": "canal"
-    },
-    {
-        "name": "Canoe",
-        "type": "toggle",
-        "img": "images/items/canoe.png",
-        "codes": "canoe"
-    },
-    {
-        "name": "Chime",
-        "type": "toggle",
-        "img": "images/items/chime.png",
-        "codes": "chime"
-    },
-    {
-        "name": "Crown",
-        "type": "toggle",
-        "img": "images/items/crown.png",
-        "codes": "crown"
-    },
-    {
-        "name": "Crystal",
-        "type": "toggle",
-        "img": "images/items/crystal.png",
-        "codes": "crystal"
-    },
-    {
-        "name": "Cube",
-        "type": "toggle",
-        "img": "images/items/cube.png",
-        "codes": "cube"
-    },
-    {
-        "name": "Floater",
-        "type": "toggle",
-        "img": "images/items/floater.png",
-        "codes": "floater,inactiveFloater,airship"
-    },
-    {
-        "name": "Herb",
-        "type": "toggle",
-        "img": "images/items/herb.png",
-        "codes": "herb"
-    },
-    {
-        "name": "Mystic Key",
-        "type": "toggle",
-        "img": "images/items/key.png",
-        "codes": "key"
-    },
-    {
-        "name": "Lute",
-        "type": "toggle",
-        "img": "images/items/lute.png",
-        "codes": "lute"
-    },
-    {
-        "name": "Air Orb",
-        "type": "toggle",
-        "img": "images/items/orb-air-yes.png",
-        "disabled_img": "images/items/orb-air-no.png",
-        "codes": "airorb"
-    },
-    {
-        "name": "Earth Orb",
-        "type": "toggle",
-        "img": "images/items/orb-earth-yes.png",
-        "disabled_img": "images/items/orb-earth-no.png",
-        "codes": "earthorb"
-    },
-    {
-        "name": "Fire Orb",
-        "type": "toggle",
-        "img": "images/items/orb-fire-yes.png",
-        "disabled_img": "images/items/orb-fire-no.png",
-        "codes": "fireorb"
-    },
-    {
-        "name": "Water Orb",
-        "type": "toggle",
-        "img": "images/items/orb-water-yes.png",
-        "disabled_img": "images/items/orb-water-no.png",
-        "codes": "waterorb"
-    },
-    {
-        "name": "Oxyale",
-        "type": "toggle",
-        "img": "images/items/oxyale.png",
-        "codes": "oxyale"
-    },
-    {
-        "name": "Rod",
-        "type": "toggle",
-        "img": "images/items/rod.png",
-        "codes": "rod"
-    },
-    {
-        "name": "Ruby",
-        "type": "toggle",
-        "img": "images/items/ruby.png",
-        "codes": "ruby,titan"
-    },
-    {
-        "name": "Ship",
-        "type": "toggle",
-        "img": "images/items/ship.png",
-        "codes": "ship"
-    },
-    {
-        "name": "Slab",
-        "type": "toggle",
-        "img": "images/items/slab-found.png",
-        "codes": "slab"
-    },
-    {
-        "name": "Tail",
-        "type": "toggle",
-        "img": "images/items/tail.png",
-        "codes": "tail"
-    },
-    {
-        "name": "TNT",
-        "type": "toggle",
-        "img": "images/items/tnt.png",
-        "codes": "tnt"
-    },
-    {
-        "name" : "Bahamut - Class Change",
-        "type" : "toggle",
-        "img" : "images/checks/bahamut.png",
-        "codes" : "bahamut"
-    }
+  {
+    "name": "Adamant",
+    "type": "toggle",
+    "img": "images/items/adamant.png",
+    "codes": "adamant"
+  },
+  {
+    "name": "Bottle",
+    "type": "toggle",
+    "img": "images/items/bottle.png",
+    "codes": "bottle"
+  },
+  {
+    "name": "Bridge",
+    "type": "toggle",
+    "img": "images/items/bridge.png",
+    "codes": "bridge"
+  },
+  {
+    "name": "Canal",
+    "type": "toggle",
+    "img": "images/items/canal.png",
+    "codes": "canal"
+  },
+  {
+    "name": "Canoe",
+    "type": "toggle",
+    "img": "images/items/canoe.png",
+    "codes": "canoe"
+  },
+  {
+    "name": "Chime",
+    "type": "toggle",
+    "img": "images/items/chime.png",
+    "codes": "chime"
+  },
+  {
+    "name": "Crown",
+    "type": "toggle",
+    "img": "images/items/crown.png",
+    "codes": "crown"
+  },
+  {
+    "name": "Crystal",
+    "type": "toggle",
+    "img": "images/items/crystal.png",
+    "codes": "crystal"
+  },
+  {
+    "name": "Cube",
+    "type": "toggle",
+    "img": "images/items/cube.png",
+    "codes": "cube"
+  },
+  {
+    "name": "Floater",
+    "type": "toggle",
+    "img": "images/items/floater.png",
+    "codes": "floater,inactiveFloater,airship"
+  },
+  {
+    "name": "Herb",
+    "type": "toggle",
+    "img": "images/items/herb.png",
+    "codes": "herb"
+  },
+  {
+    "name": "Mystic Key",
+    "type": "toggle",
+    "img": "images/items/key.png",
+    "codes": "key"
+  },
+  {
+    "name": "Lute",
+    "type": "toggle",
+    "img": "images/items/lute.png",
+    "codes": "lute"
+  },
+  {
+    "name": "Air Orb",
+    "type": "toggle",
+    "img": "images/items/orb-air-yes.png",
+    "disabled_img": "images/items/orb-air-no.png",
+    "codes": "airorb"
+  },
+  {
+    "name": "Earth Orb",
+    "type": "toggle",
+    "img": "images/items/orb-earth-yes.png",
+    "disabled_img": "images/items/orb-earth-no.png",
+    "codes": "earthorb"
+  },
+  {
+    "name": "Fire Orb",
+    "type": "toggle",
+    "img": "images/items/orb-fire-yes.png",
+    "disabled_img": "images/items/orb-fire-no.png",
+    "codes": "fireorb"
+  },
+  {
+    "name": "Water Orb",
+    "type": "toggle",
+    "img": "images/items/orb-water-yes.png",
+    "disabled_img": "images/items/orb-water-no.png",
+    "codes": "waterorb"
+  },
+  {
+    "name": "Oxyale",
+    "type": "toggle",
+    "img": "images/items/oxyale.png",
+    "codes": "oxyale"
+  },
+  {
+    "name": "Rod",
+    "type": "toggle",
+    "img": "images/items/rod.png",
+    "codes": "rod"
+  },
+  {
+    "name": "Ruby",
+    "type": "toggle",
+    "img": "images/items/ruby.png",
+    "codes": "ruby,titan"
+  },
+  {
+    "name": "Ship",
+    "type": "toggle",
+    "img": "images/items/ship.png",
+    "codes": "ship"
+  },
+  {
+    "name": "Slab",
+    "type": "toggle",
+    "img": "images/items/slab-found.png",
+    "codes": "slab"
+  },
+  {
+    "name": "Tail",
+    "type": "toggle",
+    "img": "images/items/tail.png",
+    "codes": "tail"
+  },
+  {
+    "name": "TNT",
+    "type": "toggle",
+    "img": "images/items/tnt.png",
+    "codes": "tnt"
+  },
+  {
+    "name" : "Bahamut - Class Change",
+    "type" : "toggle",
+    "img" : "images/checks/bahamut.png",
+    "codes" : "bahamut"
+  },
+  {
+    "name" : "Shop Item",
+    "type" : "toggle",
+    "img" : "images/checks/gil-shop-item.png",
+    "codes" : "shopItem"
+  },
+  {
+    "name": "Shards",
+    "type": "consumable",
+    "img": "images/items/shard.png",
+    "codes": "shard",
+    "max_quantity": 36,
+    "overlay_font_size": 16
+  },
+
+  {
+    "name": "Required Shards",
+    "type": "consumable",
+    "img": "images/items/shard.png",
+    "codes": "shardsRequired",
+    "initial_quantity": 16,
+    "max_quantity": 36,
+    "overlay_font_size": 16
+  },
+  {
+    "name" : "Sigil",
+    "type" : "toggle",
+    "img" : "images/items/shard.png",
+    "codes" : "sigil"
+  },
+  {
+    "name" : "Mark",
+    "type" : "toggle",
+    "img" : "images/items/shard.png",
+    "codes" : "mark"
+  },
+
+  {
+    "name": "Tent",
+    "type": "consumable",
+    "codes": "tent",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Cabin",
+    "type": "consumable",
+    "codes": "cabin",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "House",
+    "type": "consumable",
+    "codes": "house",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Heal",
+    "type": "consumable",
+    "codes": "heal",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Pure",
+    "type": "consumable",
+    "codes": "pure",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Soft",
+    "type": "consumable",
+    "codes": "soft",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Wooden Nunchucks",
+    "type": "consumable",
+    "codes": "woodennunchucks",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Small Knife",
+    "type": "consumable",
+    "codes": "smallknife",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Wooden Rod",
+    "type": "consumable",
+    "codes": "woodenrod",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Rapier",
+    "type": "consumable",
+    "codes": "rapier",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Iron Hammer",
+    "type": "consumable",
+    "codes": "ironhammer",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Short Sword",
+    "type": "consumable",
+    "codes": "shortsword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Handaxe",
+    "type": "consumable",
+    "codes": "handaxe",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Scimitar",
+    "type": "consumable",
+    "codes": "scimitar",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Iron Nunchucks",
+    "type": "consumable",
+    "codes": "ironnunchucks",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Large Knife",
+    "type": "consumable",
+    "codes": "largeknife",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Iron Staff",
+    "type": "consumable",
+    "codes": "ironstaff",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Sabre",
+    "type": "consumable",
+    "codes": "sabre",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Longsword",
+    "type": "consumable",
+    "codes": "longsword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Greataxe",
+    "type": "consumable",
+    "codes": "greataxe",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Falchon",
+    "type": "consumable",
+    "codes": "falchon",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Silver Knife",
+    "type": "consumable",
+    "codes": "silverknife",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Silver Sword",
+    "type": "consumable",
+    "codes": "silversword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Silver Hammer",
+    "type": "consumable",
+    "codes": "silverhammer",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Silver Axe",
+    "type": "consumable",
+    "codes": "silveraxe",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Flame Sword",
+    "type": "consumable",
+    "codes": "flamesword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Ice Sword",
+    "type": "consumable",
+    "codes": "icesword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Dragon Sword",
+    "type": "consumable",
+    "codes": "dragonsword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Giant Sword",
+    "type": "consumable",
+    "codes": "giantsword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Sun Sword",
+    "type": "consumable",
+    "codes": "sunsword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Coral Sword",
+    "type": "consumable",
+    "codes": "coralsword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Were Sword",
+    "type": "consumable",
+    "codes": "weresword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Rune Sword",
+    "type": "consumable",
+    "codes": "runesword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Power Rod",
+    "type": "consumable",
+    "codes": "powerrod",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Light Axe",
+    "type": "consumable",
+    "codes": "lightaxe",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Heal Rod",
+    "type": "consumable",
+    "codes": "healrod",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Mage Rod",
+    "type": "consumable",
+    "codes": "magerod",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Defense Sword",
+    "type": "consumable",
+    "codes": "defense",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Wizard Rod",
+    "type": "consumable",
+    "codes": "wizardrod",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Vorpal Sword",
+    "type": "consumable",
+    "codes": "vorpal",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Catclaw",
+    "type": "consumable",
+    "codes": "catclaw",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Thor Hammer",
+    "type": "consumable",
+    "codes": "thorhammer",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Bane Sword",
+    "type": "consumable",
+    "codes": "banesword",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Katana",
+    "type": "consumable",
+    "codes": "katana",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Xcalber",
+    "type": "consumable",
+    "codes": "xcalber",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Masamune",
+    "type": "consumable",
+    "codes": "masamune",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Cloth",
+    "type": "consumable",
+    "codes": "cloth",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Wooden Armor",
+    "type": "consumable",
+    "codes": "woodenarmor",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Chain Armor",
+    "type": "consumable",
+    "codes": "chainarmor",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Iron Armor",
+    "type": "consumable",
+    "codes": "ironarmor",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Steel Armor",
+    "type": "consumable",
+    "codes": "steelarmor",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Silver Armor",
+    "type": "consumable",
+    "codes": "silverarmor",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Flame Armor",
+    "type": "consumable",
+    "codes": "flamearmor",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Ice Armor",
+    "type": "consumable",
+    "codes": "icearmor",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Opal Armor",
+    "type": "consumable",
+    "codes": "opalarmor",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Dragon Armor",
+    "type": "consumable",
+    "codes": "dragonarmor",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Copper Bracelet",
+    "type": "consumable",
+    "codes": "copper",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Silver Bracelet",
+    "type": "consumable",
+    "codes": "silver",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold Bracelet",
+    "type": "consumable",
+    "codes": "gold",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Opal Bracelet",
+    "type": "consumable",
+    "codes": "opal",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "White Shirt",
+    "type": "consumable",
+    "codes": "whiteshirt",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Black Shirt",
+    "type": "consumable",
+    "codes": "blackshirt",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Wooden Shield",
+    "type": "consumable",
+    "codes": "woodenshield",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Iron Shield",
+    "type": "consumable",
+    "codes": "ironshield",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Silver Shield",
+    "type": "consumable",
+    "codes": "silvershield",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Flame Shield",
+    "type": "consumable",
+    "codes": "flameshield",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Ice Shield",
+    "type": "consumable",
+    "codes": "iceshield",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Opal Shield",
+    "type": "consumable",
+    "codes": "opalshield",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Aegis Shield",
+    "type": "consumable",
+    "codes": "aegisshield",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Buckler",
+    "type": "consumable",
+    "codes": "buckler",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Procape",
+    "type": "consumable",
+    "codes": "procape",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Cap",
+    "type": "consumable",
+    "codes": "cap",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Wooden Helm",
+    "type": "consumable",
+    "codes": "woodenhelm",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Iron Helm",
+    "type": "consumable",
+    "codes": "ironhelm",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Silver Helm",
+    "type": "consumable",
+    "codes": "silverhelm",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Opal Helm",
+    "type": "consumable",
+    "codes": "opalhelm",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Heal Helm",
+    "type": "consumable",
+    "codes": "healhelm",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Ribbon",
+    "type": "consumable",
+    "codes": "ribbon",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gloves",
+    "type": "consumable",
+    "codes": "gloves",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Copper Gauntlets",
+    "type": "consumable",
+    "codes": "coppergauntlets",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Iron Gauntlets",
+    "type": "consumable",
+    "codes": "irongauntlets",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Silver Gauntlets",
+    "type": "consumable",
+    "codes": "silvergauntlets",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Zeus Gauntlets",
+    "type": "consumable",
+    "codes": "zeusgauntlets",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Power Gauntlets",
+    "type": "consumable",
+    "codes": "powergauntlets",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Opal Gauntlets",
+    "type": "consumable",
+    "codes": "opalgauntlets",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Proring",
+    "type": "consumable",
+    "codes": "proring",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 10",
+    "type": "toggle",
+    "codes": "gold10",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 20",
+    "type": "toggle",
+    "codes": "gold20",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 25",
+    "type": "toggle",
+    "codes": "gold25",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 30",
+    "type": "toggle",
+    "codes": "gold30",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 55",
+    "type": "toggle",
+    "codes": "gold55",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 70",
+    "type": "toggle",
+    "codes": "gold70",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 85",
+    "type": "toggle",
+    "codes": "gold85",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 110",
+    "type": "toggle",
+    "codes": "gold110",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 135",
+    "type": "toggle",
+    "codes": "gold135",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 155",
+    "type": "toggle",
+    "codes": "gold155",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 160",
+    "type": "toggle",
+    "codes": "gold160",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 180",
+    "type": "toggle",
+    "codes": "gold180",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 240",
+    "type": "toggle",
+    "codes": "gold240",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 255",
+    "type": "toggle",
+    "codes": "gold255",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 260",
+    "type": "toggle",
+    "codes": "gold260",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 295",
+    "type": "toggle",
+    "codes": "gold295",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 300",
+    "type": "toggle",
+    "codes": "gold300",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 315",
+    "type": "toggle",
+    "codes": "gold315",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 330",
+    "type": "toggle",
+    "codes": "gold330",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 350",
+    "type": "toggle",
+    "codes": "gold350",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 385",
+    "type": "toggle",
+    "codes": "gold385",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 400",
+    "type": "toggle",
+    "codes": "gold400",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 450",
+    "type": "toggle",
+    "codes": "gold450",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 500",
+    "type": "toggle",
+    "codes": "gold500",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 530",
+    "type": "toggle",
+    "codes": "gold530",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 575",
+    "type": "toggle",
+    "codes": "gold575",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 620",
+    "type": "toggle",
+    "codes": "gold620",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 680",
+    "type": "toggle",
+    "codes": "gold680",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 750",
+    "type": "toggle",
+    "codes": "gold750",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 795",
+    "type": "toggle",
+    "codes": "gold795",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 880",
+    "type": "toggle",
+    "codes": "gold880",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 1020",
+    "type": "toggle",
+    "codes": "gold1020",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 1250",
+    "type": "toggle",
+    "codes": "gold1250",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 1455",
+    "type": "toggle",
+    "codes": "gold1455",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 1520",
+    "type": "toggle",
+    "codes": "gold1520",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 1760",
+    "type": "toggle",
+    "codes": "gold1760",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 1975",
+    "type": "toggle",
+    "codes": "gold1975",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 2000",
+    "type": "toggle",
+    "codes": "gold2000",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 2750",
+    "type": "toggle",
+    "codes": "gold2750",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 3400",
+    "type": "toggle",
+    "codes": "gold3400",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 4150",
+    "type": "toggle",
+    "codes": "gold4150",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 5000",
+    "type": "toggle",
+    "codes": "gold5000",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 5450",
+    "type": "toggle",
+    "codes": "gold5450",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 6400",
+    "type": "toggle",
+    "codes": "gold6400",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 6720",
+    "type": "toggle",
+    "codes": "gold6720",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 7340",
+    "type": "toggle",
+    "codes": "gold7340",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 7690",
+    "type": "toggle",
+    "codes": "gold7690",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 7900",
+    "type": "toggle",
+    "codes": "gold7900",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 8135",
+    "type": "toggle",
+    "codes": "gold8135",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 9000",
+    "type": "toggle",
+    "codes": "gold9000",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 9300",
+    "type": "toggle",
+    "codes": "gold9300",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 9500",
+    "type": "toggle",
+    "codes": "gold9500",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 9900",
+    "type": "toggle",
+    "codes": "gold9900",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 10000",
+    "type": "toggle",
+    "codes": "gold10000",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 12350",
+    "type": "toggle",
+    "codes": "gold12350",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 13000",
+    "type": "toggle",
+    "codes": "gold13000",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 13450",
+    "type": "toggle",
+    "codes": "gold13450",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 14050",
+    "type": "toggle",
+    "codes": "gold14050",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 14720",
+    "type": "toggle",
+    "codes": "gold14720",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 15000",
+    "type": "toggle",
+    "codes": "gold15000",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 17490",
+    "type": "toggle",
+    "codes": "gold17490",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 18010",
+    "type": "toggle",
+    "codes": "gold18010",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 19990",
+    "type": "toggle",
+    "codes": "gold19990",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 20000",
+    "type": "toggle",
+    "codes": "gold20000",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 20010",
+    "type": "toggle",
+    "codes": "gold20010",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 26000",
+    "type": "toggle",
+    "codes": "gold26000",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 45000",
+    "type": "toggle",
+    "codes": "gold45000",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Gold 65000",
+    "type": "toggle",
+    "codes": "gold65000",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Full Cure",
+    "type": "consumable",
+    "codes": "fullcure",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Phoenix Down",
+    "type": "consumable",
+    "codes": "phoenix",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Blast",
+    "type": "consumable",
+    "codes": "blast",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Smoke",
+    "type": "consumable",
+    "codes": "smoke",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Refresh",
+    "type": "consumable",
+    "codes": "refresh",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Flare",
+    "type": "consumable",
+    "codes": "flare",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Black",
+    "type": "consumable",
+    "codes": "black",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Guard",
+    "type": "consumable",
+    "codes": "guard",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Quick",
+    "type": "consumable",
+    "codes": "quick",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "High Potion",
+    "type": "consumable",
+    "codes": "highpotion",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Wizard",
+    "type": "consumable",
+    "codes": "wizard",
+    "overlay_font_size": 16
+  },
+  {
+    "name": "Cloak",
+    "type": "consumable",
+    "codes": "cloak",
+    "overlay_font_size": 16
+  }
 ]
