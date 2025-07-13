@@ -174,19 +174,19 @@
         "img": "images/maps/dungeons/matoyascave.png"
     },
     {
-        "name": "mirage_tower_f1",
+        "name": "miragetower_f1",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dungeons/miragetower_f1.png"
     },
     {
-        "name": "mirage_tower_f2",
+        "name": "miragetower_f2",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dungeons/miragetower_f2.png"
     },
     {
-        "name": "mirage_tower_f3",
+        "name": "miragetower_f3",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/dungeons/miragetower_f3.png"

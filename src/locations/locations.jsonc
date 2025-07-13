@@ -602,6 +602,30 @@
         ],
         "map_locations": [{"map": "overworld", "x": 2080, "y": 724}]
       },
+      { "name": "Mirage Tower",
+        "access_rules": [ "airship,chime", "northernDocks,chime,ship,canal" ],
+        "sections": [
+          {
+            "name": "(1F) - Chest",
+            "visibility_rules": [ "MirageTower_1F_Chest1","MirageTower_1F_Chest2","MirageTower_1F_Chest3","MirageTower_1F_Chest4","MirageTower_1F_Chest5","MirageTower_1F_Chest6","MirageTower_1F_Chest7","MirageTower_1F_Chest8" ],
+            "clear_as_group": true,
+            "item_count": 8
+          },
+          {
+            "name": "(2F) - Lesser",
+            "visibility_rules": [ "MirageTower_2F_Lesser1","MirageTower_2F_Lesser2","MirageTower_2F_Lesser3","MirageTower_2F_Lesser4","MirageTower_2F_Lesser5" ],
+            "clear_as_group": true,
+            "item_count": 5
+          },
+          {
+            "name": "(2F) - Greater",
+            "visibility_rules": [ "MirageTower_2F_Greater1","MirageTower_2F_Greater2","MirageTower_2F_Greater3","MirageTower_2F_Greater4","MirageTower_2F_Greater5" ],
+            "clear_as_group": true,
+            "item_count": 5
+          }
+        ],
+        "map_locations": [{"map": "overworld", "x": 3110, "y": 950}]
+      },
       {
         "name": "Gaia",
         "access_rules": [ "airship","gaiaMountain,ship,canoe,lefeinRiver,canal" ],
@@ -613,85 +637,6 @@
         "access_rules": [ "airship","lefeinRiver,canoe,ship,canal" ],
         "sections": [{"name": "Incentive", "access_rules": [ "slabTranslated" ], "hosted_item": "lefein"}],
         "map_locations": [{"map": "overworld", "x": 3768, "y": 1586}]
-      },
-      {
-        "name": "Mirage Tower",
-        "access_rules": [ "airship,chime", "northernDocks,chime,ship,canal" ],
-        "sections": [
-          {
-            "name": "(1F) - Chest 1",
-            "visibility_rules": ["MirageTower_1F_Chest1"]
-          },
-          {
-            "name": "(1F) - Chest 2",
-            "visibility_rules": ["MirageTower_1F_Chest2"]
-          },
-          {
-            "name": "(1F) - Chest 3",
-            "visibility_rules": ["MirageTower_1F_Chest3"]
-          },
-          {
-            "name": "(1F) - Chest 4",
-            "visibility_rules": ["MirageTower_1F_Chest4"]
-          },
-          {
-            "name": "(1F) - Chest 5",
-            "visibility_rules": ["MirageTower_1F_Chest5"]
-          },
-          {
-            "name": "(1F) - Chest 6",
-            "visibility_rules": ["MirageTower_1F_Chest6"]
-          },
-          {
-            "name": "(1F) - Chest 7",
-            "visibility_rules": ["MirageTower_1F_Chest7"]
-          },
-          {
-            "name": "(1F) - Chest 8",
-            "visibility_rules": ["MirageTower_1F_Chest8"]
-          },
-          {
-            "name": "(2F) - Greater 1",
-            "visibility_rules": ["MirageTower_2F_Greater1"]
-          },
-          {
-            "name": "(2F) - Greater 2",
-            "visibility_rules": ["MirageTower_2F_Greater2"]
-          },
-          {
-            "name": "(2F) - Greater 3",
-            "visibility_rules": ["MirageTower_2F_Greater3"]
-          },
-          {
-            "name": "(2F) - Greater 4",
-            "visibility_rules": ["MirageTower_2F_Greater4"]
-          },
-          {
-            "name": "(2F) - Greater 5",
-            "visibility_rules": ["MirageTower_2F_Greater5"]
-          },
-          {
-            "name": "(2F) - Lesser 1",
-            "visibility_rules": ["MirageTower_2F_Lesser1"]
-          },
-          {
-            "name": "(2F) - Lesser 2",
-            "visibility_rules": ["MirageTower_2F_Lesser2"]
-          },
-          {
-            "name": "(2F) - Lesser 3",
-            "visibility_rules": ["MirageTower_2F_Lesser3"]
-          },
-          {
-            "name": "(2F) - Lesser 4",
-            "visibility_rules": ["MirageTower_2F_Lesser4"]
-          },
-          {
-            "name": "(2F) - Lesser 5",
-            "visibility_rules": ["MirageTower_2F_Lesser5"]
-          }
-        ],
-        "map_locations": [{"map": "overworld", "x": 3110, "y": 950}]
       },
       {
         "name": "Sky Fortress",

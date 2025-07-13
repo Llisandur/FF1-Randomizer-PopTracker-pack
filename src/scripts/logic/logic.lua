@@ -251,25 +251,25 @@ function visibleLocations()
   checkLocationVisible("WaterfallCave_Chest4", 440)
   checkLocationVisible("WaterfallCave_Chest5", 441)
   checkLocationVisible("WaterfallCave_Chest6", 442)
-
+  checkLocationVisible("MirageTower_1F_Chest1", 456)
   checkLocationVisible("MirageTower_1F_Chest2", 452)
   checkLocationVisible("MirageTower_1F_Chest3", 453)
-  checkLocationVisible("MirageTower_1F_Chest5", 454)
   checkLocationVisible("MirageTower_1F_Chest4", 455)
-  checkLocationVisible("MirageTower_1F_Chest1", 456)
+  checkLocationVisible("MirageTower_1F_Chest5", 454)
+  checkLocationVisible("MirageTower_1F_Chest6", 459)
   checkLocationVisible("MirageTower_1F_Chest7", 457)
   checkLocationVisible("MirageTower_1F_Chest8", 458)
-  checkLocationVisible("MirageTower_1F_Chest6", 459)
+  checkLocationVisible("MirageTower_2F_Lesser1", 469)
+  checkLocationVisible("MirageTower_2F_Lesser2", 468)
+  checkLocationVisible("MirageTower_2F_Lesser3", 467)
+  checkLocationVisible("MirageTower_2F_Lesser4", 466)
+  checkLocationVisible("MirageTower_2F_Lesser5", 465)
   checkLocationVisible("MirageTower_2F_Greater1", 460)
   checkLocationVisible("MirageTower_2F_Greater2", 461)
   checkLocationVisible("MirageTower_2F_Greater3", 462)
   checkLocationVisible("MirageTower_2F_Greater4", 463)
   checkLocationVisible("MirageTower_2F_Greater5", 464)
-  checkLocationVisible("MirageTower_2F_Lesser5", 465)
-  checkLocationVisible("MirageTower_2F_Lesser4", 466)
-  checkLocationVisible("MirageTower_2F_Lesser3", 467)
-  checkLocationVisible("MirageTower_2F_Lesser2", 468)
-  checkLocationVisible("MirageTower_2F_Lesser1", 469)
+
   checkLocationVisible("SkyFortress_Plus_1F_FourPack1", 470)
   checkLocationVisible("SkyFortress_Plus_1F_FourPack2", 471)
   checkLocationVisible("SkyFortress_Plus_1F_FourPack3", 472)
@@ -454,6 +454,24 @@ local chestLocationTable = {
   ["@Waterfall Cave/Chest 4/"]                           = {"@Seahorse Continent/Waterfall Cave/Chest"},
   ["@Waterfall Cave/Chest 5/"]                           = {"@Seahorse Continent/Waterfall Cave/Chest"},
   ["@Waterfall Cave/Chest 6/"]                           = {"@Seahorse Continent/Waterfall Cave/Chest"},
+  ["@Mirage Tower (1F)/Chest 1/"]                        = {"@Bird Continent/Mirage Tower/(1F) - Chest"},
+  ["@Mirage Tower (1F)/Chest 2/"]                        = {"@Bird Continent/Mirage Tower/(1F) - Chest"},
+  ["@Mirage Tower (1F)/Chest 3/"]                        = {"@Bird Continent/Mirage Tower/(1F) - Chest"},
+  ["@Mirage Tower (1F)/Chest 4/"]                        = {"@Bird Continent/Mirage Tower/(1F) - Chest"},
+  ["@Mirage Tower (1F)/Chest 5/"]                        = {"@Bird Continent/Mirage Tower/(1F) - Chest"},
+  ["@Mirage Tower (1F)/Chest 6/"]                        = {"@Bird Continent/Mirage Tower/(1F) - Chest"},
+  ["@Mirage Tower (1F)/Chest 7/"]                        = {"@Bird Continent/Mirage Tower/(1F) - Chest"},
+  ["@Mirage Tower (1F)/Chest 8/"]                        = {"@Bird Continent/Mirage Tower/(1F) - Chest"},
+  ["@Mirage Tower (2F)/Lesser 1/"]                       = {"@Bird Continent/Mirage Tower/(2F) - Lesser"},
+  ["@Mirage Tower (2F)/Lesser 2/"]                       = {"@Bird Continent/Mirage Tower/(2F) - Lesser"},
+  ["@Mirage Tower (2F)/Lesser 3/"]                       = {"@Bird Continent/Mirage Tower/(2F) - Lesser"},
+  ["@Mirage Tower (2F)/Lesser 4/"]                       = {"@Bird Continent/Mirage Tower/(2F) - Lesser"},
+  ["@Mirage Tower (2F)/Lesser 5/"]                       = {"@Bird Continent/Mirage Tower/(2F) - Lesser"},
+  ["@Mirage Tower (2F)/Greater 1/"]                      = {"@Bird Continent/Mirage Tower/(2F) - Greater"},
+  ["@Mirage Tower (2F)/Greater 2/"]                      = {"@Bird Continent/Mirage Tower/(2F) - Greater"},
+  ["@Mirage Tower (2F)/Greater 3/"]                      = {"@Bird Continent/Mirage Tower/(2F) - Greater"},
+  ["@Mirage Tower (2F)/Greater 4/"]                      = {"@Bird Continent/Mirage Tower/(2F) - Greater"},
+  ["@Mirage Tower (2F)/Greater 5/"]                      = {"@Bird Continent/Mirage Tower/(2F) - Greater"},
 }
 local worldChestTable = {
   ["@Aldi Sea/Matoya's Cave/Chests"]                                      = {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}},
@@ -499,6 +517,9 @@ local worldChestTable = {
   ["@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Side Corner"]   = {{"@Sea Shrine Sharknado Floor (B4)/Side Corner 1/","SeaShrine_SharknadoFloor_B4_SideCorner1"},{"@Sea Shrine Sharknado Floor (B4)/Side Corner 2/","SeaShrine_SharknadoFloor_B4_SideCorner2"},{"@Sea Shrine Sharknado Floor (B4)/Side Corner 3/","SeaShrine_SharknadoFloor_B4_SideCorner3"}},
   ["@Seahorse Continent/Sea Shrine/Sharknado Floor (B4) - Greed Room"]    = {{"@Sea Shrine Sharknado Floor (B4)/Greed Room 1/","SeaShrine_SharknadoFloor_B4_GreedRoom1"},{"@Sea Shrine Sharknado Floor (B4)/Greed Room 2/","SeaShrine_SharknadoFloor_B4_GreedRoom2"},{"@Sea Shrine Sharknado Floor (B4)/Greed Room 3/","SeaShrine_SharknadoFloor_B4_GreedRoom3"},{"@Sea Shrine Sharknado Floor (B4)/Greed Room 4/","SeaShrine_SharknadoFloor_B4_GreedRoom4"}},
   ["@Seahorse Continent/Waterfall Cave/Chest"]                            = {{"@Waterfall Cave/Chest 1/","WaterfallCave_Chest1"},{"@Waterfall Cave/Chest 2/","WaterfallCave_Chest2"},{"@Waterfall Cave/Chest 3/","WaterfallCave_Chest3"},{"@Waterfall Cave/Chest 4/","WaterfallCave_Chest4"},{"@Waterfall Cave/Chest 5/","WaterfallCave_Chest5"},{"@Waterfall Cave/Chest 6/","WaterfallCave_Chest6"}},
+  ["@Bird Continent/Mirage Tower/(1F) - Chest"]                           = {{"@Mirage Tower (1F)/Chest 1/","MirageTower_1F_Chest1"},{"@Mirage Tower (1F)/Chest 2/","MirageTower_1F_Chest2"},{"@Mirage Tower (1F)/Chest 3/","MirageTower_1F_Chest3"},{"@Mirage Tower (1F)/Chest 4/","MirageTower_1F_Chest4"},{"@Mirage Tower (1F)/Chest 5/","MirageTower_1F_Chest5"},{"@Mirage Tower (1F)/Chest 6/","MirageTower_1F_Chest6"},{"@Mirage Tower (1F)/Chest 7/","MirageTower_1F_Chest7"},{"@Mirage Tower (1F)/Chest 8/","MirageTower_1F_Chest8"}},
+  ["@Bird Continent/Mirage Tower/(2F) - Lesser"]                          = {{"@Mirage Tower (2F)/Lesser 1/","MirageTower_2F_Lesser1"},{"@Mirage Tower (2F)/Lesser 2/","MirageTower_2F_Lesser2"},{"@Mirage Tower (2F)/Lesser 3/","MirageTower_2F_Lesser3"},{"@Mirage Tower (2F)/Lesser 4/","MirageTower_2F_Lesser4"},{"@Mirage Tower (2F)/Lesser 5/","MirageTower_2F_Lesser5"}},
+  ["@Bird Continent/Mirage Tower/(2F) - Greater"]                         = {{"@Mirage Tower (2F)/Greater 1/","MirageTower_2F_Greater1"},{"@Mirage Tower (2F)/Greater 2/","MirageTower_2F_Greater2"},{"@Mirage Tower (2F)/Greater 3/","MirageTower_2F_Greater3"},{"@Mirage Tower (2F)/Greater 4/","MirageTower_2F_Greater4"},{"@Mirage Tower (2F)/Greater 5/","MirageTower_2F_Greater5"}},
 }
 
 function getWorldChestLocation(locationID, chestLocationTable, worldChestTable)

@@ -422,21 +422,21 @@
                           "title": "F1",
                           "content": {
                             "type": "map",
-                            "maps": [ "mirage_tower_f1" ]
+                            "maps": [ "miragetower_f1" ]
                           }
                         },
                         {
                           "title": "F2",
                           "content": {
                             "type": "map",
-                            "maps": [ "mirage_tower_f2" ]
+                            "maps": [ "miragetower_f2" ]
                           }
                         },
                         {
                           "title": "F3",
                           "content": {
                             "type": "map",
-                            "maps": [ "mirage_tower_f3" ]
+                            "maps": [ "miragetower_f3" ]
                           }
                         }
                       ]
