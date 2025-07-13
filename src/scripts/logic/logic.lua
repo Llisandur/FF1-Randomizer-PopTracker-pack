@@ -269,41 +269,41 @@ function visibleLocations()
   checkLocationVisible("MirageTower_2F_Greater3", 462)
   checkLocationVisible("MirageTower_2F_Greater4", 463)
   checkLocationVisible("MirageTower_2F_Greater5", 464)
-
-  checkLocationVisible("SkyFortress_Plus_1F_FourPack1", 470)
-  checkLocationVisible("SkyFortress_Plus_1F_FourPack2", 471)
-  checkLocationVisible("SkyFortress_Plus_1F_FourPack3", 472)
-  checkLocationVisible("SkyFortress_Plus_1F_FourPack4", 473)
+  checkLocationVisible("SkyFortress_Plus_1F_Solo", 479)
   checkLocationVisible("SkyFortress_Plus_1F_FivePack1", 474)
   checkLocationVisible("SkyFortress_Plus_1F_FivePack2", 475)
   checkLocationVisible("SkyFortress_Plus_1F_FivePack3", 476)
   checkLocationVisible("SkyFortress_Plus_1F_FivePack4", 477)
   checkLocationVisible("SkyFortress_Plus_1F_FivePack5", 478)
-  checkLocationVisible("SkyFortress_Plus_1F_Solo", 479)
-  checkLocationVisible("SkyFortress_Spider_2F_Wardrobe1", 480)
-  checkLocationVisible("SkyFortress_Spider_2F_Wardrobe2", 481)
-  checkLocationVisible("SkyFortress_Spider_2F_RibbonRoom1", 482)
-  checkLocationVisible("SkyFortress_Spider_2F_GauntletRoom", 483)
-  checkLocationVisible("SkyFortress_Spider_2F_RibbonRoom2", 484)
+  checkLocationVisible("SkyFortress_Plus_1F_FourPack1", 470)
+  checkLocationVisible("SkyFortress_Plus_1F_FourPack2", 471)
+  checkLocationVisible("SkyFortress_Plus_1F_FourPack3", 472)
+  checkLocationVisible("SkyFortress_Plus_1F_FourPack4", 473)
   checkLocationVisible("SkyFortress_Spider_2F_CheapRoom1", 485)
   checkLocationVisible("SkyFortress_Spider_2F_CheapRoom2", 486)
   checkLocationVisible("SkyFortress_Spider_2F_Vault1", 487)
   checkLocationVisible("SkyFortress_Spider_2F_Vault2", 488)
   checkLocationVisible("SkyFortress_Spider_2F_Incentive", 489)
-  checkLocationVisible("SkyFortress_Provides_3F_Greed2", 490)
-  checkLocationVisible("SkyFortress_Provides_3F_Greed1", 491)
-  checkLocationVisible("SkyFortress_Provides_3F_Greed3", 492)
-  checkLocationVisible("SkyFortress_Provides_3F_Greed4", 493)
-  checkLocationVisible("SkyFortress_Provides_3F_SixPack3", 494)
-  checkLocationVisible("SkyFortress_Provides_3F_SixPack2", 495)
-  checkLocationVisible("SkyFortress_Provides_3F_SixPack5", 496)
-  checkLocationVisible("SkyFortress_Provides_3F_SixPack4", 497)
+  checkLocationVisible("SkyFortress_Spider_2F_GauntletRoom", 483)
+  checkLocationVisible("SkyFortress_Spider_2F_RibbonRoom1", 482)
+  checkLocationVisible("SkyFortress_Spider_2F_RibbonRoom2", 484)
+  checkLocationVisible("SkyFortress_Spider_2F_Wardrobe1", 480)
+  checkLocationVisible("SkyFortress_Spider_2F_Wardrobe2", 481)
   checkLocationVisible("SkyFortress_Provides_3F_SixPack1", 498)
+  checkLocationVisible("SkyFortress_Provides_3F_SixPack2", 495)
+  checkLocationVisible("SkyFortress_Provides_3F_SixPack3", 494)
+  checkLocationVisible("SkyFortress_Provides_3F_SixPack4", 497)
+  checkLocationVisible("SkyFortress_Provides_3F_SixPack5", 496)
   checkLocationVisible("SkyFortress_Provides_3F_SixPack6", 499)
   checkLocationVisible("SkyFortress_Provides_3F_CCsGambit1", 500)
   checkLocationVisible("SkyFortress_Provides_3F_CCsGambit2", 501)
   checkLocationVisible("SkyFortress_Provides_3F_CCsGambit3", 502)
   checkLocationVisible("SkyFortress_Provides_3F_CCsGambit4", 503)
+  checkLocationVisible("SkyFortress_Provides_3F_Greed1", 491)
+  checkLocationVisible("SkyFortress_Provides_3F_Greed2", 490)
+  checkLocationVisible("SkyFortress_Provides_3F_Greed3", 492)
+  checkLocationVisible("SkyFortress_Provides_3F_Greed4", 493)
+
   checkLocationVisible("TempleOfFiendsRevisited_TiamatFloor_8F_MasamuneChest", 504)
   checkLocationVisible("TempleOfFiendsRevisited_KaryFloor_6F_Vault", 505)
   checkLocationVisible("TempleOfFiendsRevisited_KaryFloor_6F_KatanaChest", 506)
@@ -472,6 +472,37 @@ local chestLocationTable = {
   ["@Mirage Tower (2F)/Greater 3/"]                      = {"@Bird Continent/Mirage Tower/(2F) - Greater"},
   ["@Mirage Tower (2F)/Greater 4/"]                      = {"@Bird Continent/Mirage Tower/(2F) - Greater"},
   ["@Mirage Tower (2F)/Greater 5/"]                      = {"@Bird Continent/Mirage Tower/(2F) - Greater"},
+  ["@Sky Fortress Plus (1F)/Five-Pack 1/"]               = {"@Bird Continent/Sky Fortress/Plus (1F) - Five-Pack"},
+  ["@Sky Fortress Plus (1F)/Five-Pack 2/"]               = {"@Bird Continent/Sky Fortress/Plus (1F) - Five-Pack"},
+  ["@Sky Fortress Plus (1F)/Five-Pack 3/"]               = {"@Bird Continent/Sky Fortress/Plus (1F) - Five-Pack"},
+  ["@Sky Fortress Plus (1F)/Five-Pack 4/"]               = {"@Bird Continent/Sky Fortress/Plus (1F) - Five-Pack"},
+  ["@Sky Fortress Plus (1F)/Five-Pack 5/"]               = {"@Bird Continent/Sky Fortress/Plus (1F) - Five-Pack"},
+  ["@Sky Fortress Plus (1F)/Four-Pack 1/"]               = {"@Bird Continent/Sky Fortress/Plus (1F) - Four-Pack"},
+  ["@Sky Fortress Plus (1F)/Four-Pack 2/"]               = {"@Bird Continent/Sky Fortress/Plus (1F) - Four-Pack"},
+  ["@Sky Fortress Plus (1F)/Four-Pack 3/"]               = {"@Bird Continent/Sky Fortress/Plus (1F) - Four-Pack"},
+  ["@Sky Fortress Plus (1F)/Four-Pack 4/"]               = {"@Bird Continent/Sky Fortress/Plus (1F) - Four-Pack"},
+  ["@Sky Fortress Spider (2F)/Cheap Room 1/"]            = {"@Bird Continent/Sky Fortress/Spider (2F) - Cheap Room"},
+  ["@Sky Fortress Spider (2F)/Cheap Room 2/"]            = {"@Bird Continent/Sky Fortress/Spider (2F) - Cheap Room"},
+  ["@Sky Fortress Spider (2F)/Vault 1/"]                 = {"@Bird Continent/Sky Fortress/Spider (2F) - Vault"},
+  ["@Sky Fortress Spider (2F)/Vault 2/"]                 = {"@Bird Continent/Sky Fortress/Spider (2F) - Vault"},
+  ["@Sky Fortress Spider (2F)/Ribbon Room 1/"]           = {"@Bird Continent/Sky Fortress/Spider (2F) - Ribbon Room"},
+  ["@Sky Fortress Spider (2F)/Ribbon Room 2/"]           = {"@Bird Continent/Sky Fortress/Spider (2F) - Ribbon Room"},
+  ["@Sky Fortress Spider (2F)/Wardrobe 1/"]              = {"@Bird Continent/Sky Fortress/Spider (2F) - Wardrobe"},
+  ["@Sky Fortress Spider (2F)/Wardrobe 2/"]              = {"@Bird Continent/Sky Fortress/Spider (2F) - Wardrobe"},
+  ["@Sky Fortress Provides (3F)/Six-Pack 1/"]            = {"@Bird Continent/Sky Fortress/Provides (3F) - Six-Pack"},
+  ["@Sky Fortress Provides (3F)/Six-Pack 2/"]            = {"@Bird Continent/Sky Fortress/Provides (3F) - Six-Pack"},
+  ["@Sky Fortress Provides (3F)/Six-Pack 3/"]            = {"@Bird Continent/Sky Fortress/Provides (3F) - Six-Pack"},
+  ["@Sky Fortress Provides (3F)/Six-Pack 4/"]            = {"@Bird Continent/Sky Fortress/Provides (3F) - Six-Pack"},
+  ["@Sky Fortress Provides (3F)/Six-Pack 5/"]            = {"@Bird Continent/Sky Fortress/Provides (3F) - Six-Pack"},
+  ["@Sky Fortress Provides (3F)/Six-Pack 6/"]            = {"@Bird Continent/Sky Fortress/Provides (3F) - Six-Pack"},
+  ["@Sky Fortress Provides (3F)/CC's Gambit 1/"]         = {"@Bird Continent/Sky Fortress/Provides (3F) - CC's Gambit"},
+  ["@Sky Fortress Provides (3F)/CC's Gambit 2/"]         = {"@Bird Continent/Sky Fortress/Provides (3F) - CC's Gambit"},
+  ["@Sky Fortress Provides (3F)/CC's Gambit 3/"]         = {"@Bird Continent/Sky Fortress/Provides (3F) - CC's Gambit"},
+  ["@Sky Fortress Provides (3F)/CC's Gambit 4/"]         = {"@Bird Continent/Sky Fortress/Provides (3F) - CC's Gambit"},
+  ["@Sky Fortress Provides (3F)/Greed 1/"]               = {"@Bird Continent/Sky Fortress/Provides (3F) - Greed"},
+  ["@Sky Fortress Provides (3F)/Greed 2/"]               = {"@Bird Continent/Sky Fortress/Provides (3F) - Greed"},
+  ["@Sky Fortress Provides (3F)/Greed 3/"]               = {"@Bird Continent/Sky Fortress/Provides (3F) - Greed"},
+  ["@Sky Fortress Provides (3F)/Greed 4/"]               = {"@Bird Continent/Sky Fortress/Provides (3F) - Greed"},
 }
 local worldChestTable = {
   ["@Aldi Sea/Matoya's Cave/Chests"]                                      = {{"@Matoya's Cave/Chest 1/","MatoyasCave_Chest1"},{"@Matoya's Cave/Chest 2/","MatoyasCave_Chest2"},{"@Matoya's Cave/Chest 3/","MatoyasCave_Chest3"}},
@@ -520,6 +551,15 @@ local worldChestTable = {
   ["@Bird Continent/Mirage Tower/(1F) - Chest"]                           = {{"@Mirage Tower (1F)/Chest 1/","MirageTower_1F_Chest1"},{"@Mirage Tower (1F)/Chest 2/","MirageTower_1F_Chest2"},{"@Mirage Tower (1F)/Chest 3/","MirageTower_1F_Chest3"},{"@Mirage Tower (1F)/Chest 4/","MirageTower_1F_Chest4"},{"@Mirage Tower (1F)/Chest 5/","MirageTower_1F_Chest5"},{"@Mirage Tower (1F)/Chest 6/","MirageTower_1F_Chest6"},{"@Mirage Tower (1F)/Chest 7/","MirageTower_1F_Chest7"},{"@Mirage Tower (1F)/Chest 8/","MirageTower_1F_Chest8"}},
   ["@Bird Continent/Mirage Tower/(2F) - Lesser"]                          = {{"@Mirage Tower (2F)/Lesser 1/","MirageTower_2F_Lesser1"},{"@Mirage Tower (2F)/Lesser 2/","MirageTower_2F_Lesser2"},{"@Mirage Tower (2F)/Lesser 3/","MirageTower_2F_Lesser3"},{"@Mirage Tower (2F)/Lesser 4/","MirageTower_2F_Lesser4"},{"@Mirage Tower (2F)/Lesser 5/","MirageTower_2F_Lesser5"}},
   ["@Bird Continent/Mirage Tower/(2F) - Greater"]                         = {{"@Mirage Tower (2F)/Greater 1/","MirageTower_2F_Greater1"},{"@Mirage Tower (2F)/Greater 2/","MirageTower_2F_Greater2"},{"@Mirage Tower (2F)/Greater 3/","MirageTower_2F_Greater3"},{"@Mirage Tower (2F)/Greater 4/","MirageTower_2F_Greater4"},{"@Mirage Tower (2F)/Greater 5/","MirageTower_2F_Greater5"}},
+  ["@Bird Continent/Sky Fortress/Plus (1F) - Five-Pack"]                  = {{"@Sky Fortress Plus (1F)/Five-Pack 1/","SkyFortress_Plus_1F_FivePack1"},{"@Sky Fortress Plus (1F)/Five-Pack 2/","SkyFortress_Plus_1F_FivePack2"},{"@Sky Fortress Plus (1F)/Five-Pack 3/","SkyFortress_Plus_1F_FivePack3"},{"@Sky Fortress Plus (1F)/Five-Pack 4/","SkyFortress_Plus_1F_FivePack4"},{"@Sky Fortress Plus (1F)/Five-Pack 5/","SkyFortress_Plus_1F_FivePack5"}},
+  ["@Bird Continent/Sky Fortress/Plus (1F) - Four-Pack"]                  = {{"@Sky Fortress Plus (1F)/Four-Pack 1/","SkyFortress_Plus_1F_FourPack1"},{"@Sky Fortress Plus (1F)/Four-Pack 2/","SkyFortress_Plus_1F_FourPack2"},{"@Sky Fortress Plus (1F)/Four-Pack 3/","SkyFortress_Plus_1F_FourPack3"},{"@Sky Fortress Plus (1F)/Four-Pack 4/","SkyFortress_Plus_1F_FourPack4"}},
+  ["@Bird Continent/Sky Fortress/Spider (2F) - Cheap Room"]               = {{"@Sky Fortress Spider (2F)/Cheap Room 1/","SkyFortress_Spider_2F_CheapRoom1"},{"@Sky Fortress Spider (2F)/Cheap Room 2/","SkyFortress_Spider_2F_CheapRoom2"}},
+  ["@Bird Continent/Sky Fortress/Spider (2F) - Vault"]                    = {{"@Sky Fortress Spider (2F)/Vault 1/","SkyFortress_Spider_2F_Vault1"},{"@Sky Fortress Spider (2F)/Vault 2/","SkyFortress_Spider_2F_Vault2"}},
+  ["@Bird Continent/Sky Fortress/Spider (2F) - Ribbon Room"]              = {{"@Sky Fortress Spider (2F)/Ribbon Room 1/","SkyFortress_Spider_2F_RibbonRoom1"},{"@Sky Fortress Spider (2F)/Ribbon Room 2/","SkyFortress_Spider_2F_RibbonRoom2"}},
+  ["@Bird Continent/Sky Fortress/Spider (2F) - Wardrobe"]                 = {{"@Sky Fortress Spider (2F)/Wardrobe 1/","SkyFortress_Spider_2F_Wardrobe1"},{"@Sky Fortress Spider (2F)/Wardrobe 2/","SkyFortress_Spider_2F_Wardrobe2"}},
+  ["@Bird Continent/Sky Fortress/Provides (3F) - Six-Pack"]               = {{"@Sky Fortress Provides (3F)/Six-Pack 1/","SkyFortress_Provides_3F_SixPack1"},{"@Sky Fortress Provides (3F)/Six-Pack 2/","SkyFortress_Provides_3F_SixPack2"},{"@Sky Fortress Provides (3F)/Six-Pack 3/","SkyFortress_Provides_3F_SixPack3"},{"@Sky Fortress Provides (3F)/Six-Pack 4/","SkyFortress_Provides_3F_SixPack4"},{"@Sky Fortress Provides (3F)/Six-Pack 5/","SkyFortress_Provides_3F_SixPack5"},{"@Sky Fortress Provides (3F)/Six-Pack 6/","SkyFortress_Provides_3F_SixPack6"}},
+  ["@Bird Continent/Sky Fortress/Provides (3F) - CC's Gambit"]            = {{"@Sky Fortress Provides (3F)/CC's Gambit 1/","SkyFortress_Provides_3F_CCsGambit1"},{"@Sky Fortress Provides (3F)/CC's Gambit 2/","SkyFortress_Provides_3F_CCsGambit2"},{"@Sky Fortress Provides (3F)/CC's Gambit 3/","SkyFortress_Provides_3F_CCsGambit3"},{"@Sky Fortress Provides (3F)/CC's Gambit 4/","SkyFortress_Provides_3F_CCsGambit4"}},
+  ["@Bird Continent/Sky Fortress/Provides (3F) - Greed"]                  = {{"@Sky Fortress Provides (3F)/Greed 1/","SkyFortress_Provides_3F_Greed1"},{"@Sky Fortress Provides (3F)/Greed 2/","SkyFortress_Provides_3F_Greed2"},{"@Sky Fortress Provides (3F)/Greed 3/","SkyFortress_Provides_3F_Greed3"},{"@Sky Fortress Provides (3F)/Greed 4/","SkyFortress_Provides_3F_Greed4"}},
 }
 
 function getWorldChestLocation(locationID, chestLocationTable, worldChestTable)

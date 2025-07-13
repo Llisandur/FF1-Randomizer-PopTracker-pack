@@ -1,0 +1,203 @@
+[
+  { "name": "Sky Fortress Plus (1F)",
+    "access_rules": [ "airship,chime,cube", "northernDocks,chime,cube,ship,canal" ],
+    "children": [
+      {
+        "name": "Solo",
+        "sections": [{"visibility_rules": ["SkyFortress_Plus_1F_Solo"]}],
+        "map_locations": [{"map": "sky_fortress_f1", "x": 328, "y": 632}]
+      },
+      {
+        "name": "Five-Pack 1",
+        "sections": [{"visibility_rules": ["SkyFortress_Plus_1F_FivePack1"]}],
+        "map_locations": [{"map": "sky_fortress_f1", "x": 552, "y": 360}]
+      },
+      {
+        "name": "Five-Pack 2",
+        "sections": [{"visibility_rules": ["SkyFortress_Plus_1F_FivePack2"]}],
+        "map_locations": [{"map": "sky_fortress_f1", "x": 568, "y": 344}]
+      },
+      {
+        "name": "Five-Pack 3",
+        "sections": [{"visibility_rules": ["SkyFortress_Plus_1F_FivePack3"]}],
+        "map_locations": [{"map": "sky_fortress_f1", "x": 584, "y": 328}]
+      },
+      {
+        "name": "Five-Pack 4",
+        "sections": [{"visibility_rules": ["SkyFortress_Plus_1F_FivePack4"]}],
+        "map_locations": [{"map": "sky_fortress_f1", "x": 600, "y": 328}]
+      },
+      {
+        "name": "Five-Pack 5",
+        "sections": [{"visibility_rules": ["SkyFortress_Plus_1F_FivePack5"]}],
+        "map_locations": [{"map": "sky_fortress_f1", "x": 616, "y": 376}]
+      },
+      {
+        "name": "Four-Pack 1",
+        "sections": [{"visibility_rules": ["SkyFortress_Plus_1F_FourPack1"]}],
+        "map_locations": [{"map": "sky_fortress_f1", "x": 56, "y": 328}]
+      },
+      {
+        "name": "Four-Pack 2",
+        "sections": [{"visibility_rules": ["SkyFortress_Plus_1F_FourPack2"]}],
+        "map_locations": [{"map": "sky_fortress_f1", "x": 72, "y": 312}]
+      },
+      {
+        "name": "Four-Pack 3",
+        "sections": [{"visibility_rules": ["SkyFortress_Plus_1F_FourPack3"]}],
+        "map_locations": [{"map": "sky_fortress_f1", "x": 88, "y": 328}]
+      },
+      {
+        "name": "Four-Pack 4",
+        "sections": [{"visibility_rules": ["SkyFortress_Plus_1F_FourPack4"]}],
+        "map_locations": [{"map": "sky_fortress_f1", "x": 104, "y": 360}]
+      }
+    ]
+  },
+  { "name": "Sky Fortress Spider (2F)",
+    "access_rules": [ "airship,chime,cube", "northernDocks,chime,cube,ship,canal" ],
+    "children": [
+      {
+        "name": "Cheap Room 1",
+        "sections": [{"visibility_rules": ["SkyFortress_Spider_2F_CheapRoom1"]}],
+        "map_locations": [{"map": "sky_fortress_f2", "x": 152, "y": 168}]
+      },
+      {
+        "name": "Cheap Room 2",
+        "sections": [{"visibility_rules": ["SkyFortress_Spider_2F_CheapRoom2"]}],
+        "map_locations": [{"map": "sky_fortress_f2", "x": 200, "y": 168}]
+      },
+      {
+        "name": "Vault 1",
+        "sections": [{"visibility_rules": ["SkyFortress_Spider_2F_Vault1"]}],
+        "map_locations": [{"map": "sky_fortress_f2", "x": 40, "y": 360}]
+      },
+      {
+        "name": "Vault 2",
+        "sections": [{"visibility_rules": ["SkyFortress_Spider_2F_Vault2"]}],
+        "map_locations": [{"map": "sky_fortress_f2", "x": 88, "y": 328}]
+      },
+      {
+        "name": "Incentive",
+        "sections": [{
+          "visibility_rules": ["SkyFortress_Spider_2F_Incentive"],
+          "hosted_item": "skyFortressIncentive"
+        }],
+        "map_locations": [{"map": "sky_fortress_f2", "x": 184, "y": 552}]
+      },
+      {
+        "name": "Gauntlet Room",
+        "sections": [{"visibility_rules": ["SkyFortress_Spider_2F_GauntletRoom"]}],
+        "map_locations": [{"map": "sky_fortress_f2", "x": 456, "y": 168}]
+      },
+      {
+        "name": "Ribbon Room 1",
+        "sections": [{"visibility_rules": ["SkyFortress_Spider_2F_RibbonRoom1"]}],
+        "map_locations": [{"map": "sky_fortress_f2", "x": 584, "y": 312}]
+      },
+      {
+        "name": "Ribbon Room 2",
+        "sections": [{"visibility_rules": ["SkyFortress_Spider_2F_RibbonRoom2"]}],
+        "map_locations": [{"map": "sky_fortress_f2", "x": 600, "y": 344}]
+      },
+      {
+        "name": "Wardrobe 1",
+        "sections": [{"visibility_rules": ["SkyFortress_Spider_2F_Wardrobe1"]}],
+        "map_locations": [{"map": "sky_fortress_f2", "x": 456, "y": 552}]
+      },
+      {
+        "name": "Wardrobe 2",
+        "sections": [{"visibility_rules": ["SkyFortress_Spider_2F_Wardrobe2"]}],
+        "map_locations": [{"map": "sky_fortress_f2", "x": 472, "y": 552}]
+      }
+    ]
+  },
+  { "name": "Sky Fortress Provides (3F)",
+    "access_rules": [ "airship,chime,cube", "northernDocks,chime,cube,ship,canal" ],
+    "children": [
+      {
+        "name": "Six-Pack 1",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_SixPack1"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 632, "y": 280}]
+      },
+      {
+        "name": "Six-Pack 2",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_SixPack2"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 632, "y": 296}]
+      },
+      {
+        "name": "Six-Pack 3",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_SixPack3"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 632, "y": 312}]
+      },
+      {
+        "name": "Six-Pack 4",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_SixPack4"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 664, "y": 280}]
+      },
+      {
+        "name": "Six-Pack 5",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_SixPack5"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 664, "y": 296}]
+      },
+      {
+        "name": "Six-Pack 6",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_SixPack6"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 664, "y": 312}]
+      },
+      {
+        "name": "CC's Gambit 1",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_CCsGambit1"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 280, "y": 88}]
+      },
+      {
+        "name": "CC's Gambit 2",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_CCsGambit2"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 280, "y": 104}]
+      },
+      {
+        "name": "CC's Gambit 3",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_CCsGambit3"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 312, "y": 88}]
+      },
+      {
+        "name": "CC's Gambit 4",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_CCsGambit4"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 312, "y": 104}]
+      },
+      {
+        "name": "Greed 1",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_Greed1"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 72, "y": 328}]
+      },
+      {
+        "name": "Greed 2",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_Greed2"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 88, "y": 328}]
+      },
+      {
+        "name": "Greed 3",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_Greed3"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 104, "y": 328}]
+      },
+      {
+        "name": "Greed 4",
+        "sections": [{"visibility_rules": ["SkyFortress_Provides_3F_Greed4"]}],
+        "map_locations": [{"map": "sky_fortress_f3", "x": 120, "y": 328}]
+      }
+    ]
+  },
+  { "name": "Sky Fortress (5F)",
+    "access_rules": [ "airship,chime,cube", "northernDocks,chime,cube,ship,canal" ],
+    "children": [
+      {
+        "name": "Air Orb",
+        "sections": [{
+          "visibility_rules": [],
+          "hosted_item": "airorb"
+        }],
+        "map_locations": [{"map": "sky_fortress_f5", "x": 136, "y": 101}]
+      }
+    ]
+  }
+]

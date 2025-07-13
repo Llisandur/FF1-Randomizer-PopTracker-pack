@@ -451,35 +451,35 @@
                           "title": "F1 - Plus",
                           "content": {
                             "type": "map",
-                            "maps": [ "sky_castle_f1" ]
+                            "maps": [ "sky_fortress_f1" ]
                           }
                         },
                         {
                           "title": "F2 - Spider",
                           "content": {
                             "type": "map",
-                            "maps": [ "sky_castle_f2" ]
+                            "maps": [ "sky_fortress_f2" ]
                           }
                         },
                         {
                           "title": "F3 - Provides",
                           "content": {
                             "type": "map",
-                            "maps": [ "sky_castle_f3" ]
+                            "maps": [ "sky_fortress_f3" ]
                           }
                         },
                         {
                           "title": "F4 - Endless",
                           "content": {
                             "type": "map",
-                            "maps": [ "sky_castle_f4" ]
+                            "maps": [ "sky_fortress_f4" ]
                           }
                         },
                         {
                           "title": "F5 - Tiamat Floor",
                           "content": {
                             "type": "map",
-                            "maps": [ "sky_castle_f5" ]
+                            "maps": [ "sky_fortress_f5" ]
                           }
                         }
                       ]

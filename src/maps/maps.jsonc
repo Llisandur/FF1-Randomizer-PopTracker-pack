@@ -234,34 +234,34 @@
         "img": "images/maps/dungeons/seashrine_b5.png"
     },
     {
-        "name": "sky_castle_f1",
+        "name": "sky_fortress_f1",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/skycastle_f1.png"
+        "img": "images/maps/dungeons/sky_fortress_f1.png"
     },
     {
-        "name": "sky_castle_f2",
+        "name": "sky_fortress_f2",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/skycastle_f2.png"
+        "img": "images/maps/dungeons/sky_fortress_f2.png"
     },
     {
-        "name": "sky_castle_f3",
+        "name": "sky_fortress_f3",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/skycastle_f3.png"
+        "img": "images/maps/dungeons/sky_fortress_f3.png"
     },
     {
-        "name": "sky_castle_f4",
+        "name": "sky_fortress_f4",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/skycastle_f4.png"
+        "img": "images/maps/dungeons/sky_fortress_f4.png"
     },
     {
-        "name": "sky_castle_f5",
+        "name": "sky_fortress_f5",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/skycastle_f5.png"
+        "img": "images/maps/dungeons/sky_fortress_f5.png"
     },
     {
         "name": "temple_of_fiends_past_b1",

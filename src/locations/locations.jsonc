@@ -626,6 +626,82 @@
         ],
         "map_locations": [{"map": "overworld", "x": 3110, "y": 950}]
       },
+      { "name": "Sky Fortress",
+        "access_rules": [ "airship,chime,cube", "northernDocks,chime,cube,ship,canal" ],
+        "sections": [
+          {
+            "name": "Plus (1F) - Solo",
+            "ref": "Sky Fortress Plus (1F)/Solo/"
+          },
+          {
+            "name": "Plus (1F) - Five-Pack",
+            "visibility_rules": [ "SkyFortress_Plus_1F_FivePack1","SkyFortress_Plus_1F_FivePack2","SkyFortress_Plus_1F_FivePack3","SkyFortress_Plus_1F_FivePack4","SkyFortress_Plus_1F_FivePack5" ],
+            "clear_as_group": true,
+            "item_count": 5
+          },
+          {
+            "name": "Plus (1F) - Four-Pack",
+            "visibility_rules": [ "SkyFortress_Plus_1F_FourPack1","SkyFortress_Plus_1F_FourPack2","SkyFortress_Plus_1F_FourPack3","SkyFortress_Plus_1F_FourPack4" ],
+            "clear_as_group": true,
+            "item_count": 4
+          },
+          {
+            "name": "Spider (2F) - Cheap Room",
+            "visibility_rules": [ "SkyFortress_Spider_2F_CheapRoom1","SkyFortress_Spider_2F_CheapRoom2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Spider (2F) - Vault",
+            "visibility_rules": [ "SkyFortress_Spider_2F_Vault1","SkyFortress_Spider_2F_Vault2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Spider (2F) - Incentive",
+            "ref": "Sky Fortress Spider (2F)/Incentive/"
+          },
+          {
+            "name": "Spider (2F) - Gauntlet Room",
+            "ref": "Sky Fortress Spider (2F)/Gauntlet Room/"
+          },
+          {
+            "name": "Spider (2F) - Ribbon Room",
+            "visibility_rules": [ "SkyFortress_Spider_2F_RibbonRoom1","SkyFortress_Spider_2F_RibbonRoom2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Spider (2F) - Wardrobe",
+            "visibility_rules": [ "SkyFortress_Spider_2F_Wardrobe1","SkyFortress_Spider_2F_Wardrobe2" ],
+            "clear_as_group": true,
+            "item_count": 2
+          },
+          {
+            "name": "Provides (3F) - Six-Pack",
+            "visibility_rules": [ "SkyFortress_Provides_3F_SixPack1","SkyFortress_Provides_3F_SixPack2","SkyFortress_Provides_3F_SixPack3","SkyFortress_Provides_3F_SixPack4","SkyFortress_Provides_3F_SixPack5","SkyFortress_Provides_3F_SixPack6" ],
+            "clear_as_group": true,
+            "item_count": 6
+          },
+          {
+            "name": "Provides (3F) - CC's Gambit",
+            "visibility_rules": [ "SkyFortress_Provides_3F_CCsGambit1","SkyFortress_Provides_3F_CCsGambit2","SkyFortress_Provides_3F_CCsGambit3","SkyFortress_Provides_3F_CCsGambit4" ],
+            "clear_as_group": true,
+            "item_count": 4
+          },
+          {
+            "name": "Provides (3F) - Greed",
+            "visibility_rules": [ "SkyFortress_Provides_3F_Greed1","SkyFortress_Provides_3F_Greed2","SkyFortress_Provides_3F_Greed3","SkyFortress_Provides_3F_Greed4" ],
+            "clear_as_group": true,
+            "item_count": 4
+          },
+          {
+            "name": "Air Orb",
+            "ref": "Sky Fortress (5F)/Air Orb/"
+          }
+        ],
+        "map_locations": [{"map": "overworld", "x": 3110, "y": 904}]
+      },
       {
         "name": "Gaia",
         "access_rules": [ "airship","gaiaMountain,ship,canoe,lefeinRiver,canal" ],
@@ -637,154 +713,6 @@
         "access_rules": [ "airship","lefeinRiver,canoe,ship,canal" ],
         "sections": [{"name": "Incentive", "access_rules": [ "slabTranslated" ], "hosted_item": "lefein"}],
         "map_locations": [{"map": "overworld", "x": 3768, "y": 1586}]
-      },
-      {
-        "name": "Sky Fortress",
-        "access_rules": [ "airship,chime,cube", "northernDocks,chime,cube,ship,canal" ],
-        "sections": [
-          {
-            "name": "Plus (1F) - Four-Pack 1",
-            "visibility_rules": ["SkyFortress_Plus_1F_FourPack1"]
-          },
-          {
-            "name": "Plus (1F) - Four-Pack 2",
-            "visibility_rules": ["SkyFortress_Plus_1F_FourPack2"]
-          },
-          {
-            "name": "Plus (1F) - Four-Pack 3",
-            "visibility_rules": ["SkyFortress_Plus_1F_FourPack3"]
-          },
-          {
-            "name": "Plus (1F) - Four-Pack 4",
-            "visibility_rules": ["SkyFortress_Plus_1F_FourPack4"]
-          },
-          {
-            "name": "Plus (1F) - Five-Pack 1",
-            "visibility_rules": ["SkyFortress_Plus_1F_FivePack1"]
-          },
-          {
-            "name": "Plus (1F) - Five-Pack 2",
-            "visibility_rules": ["SkyFortress_Plus_1F_FivePack2"]
-          },
-          {
-            "name": "Plus (1F) - Five-Pack 3",
-            "visibility_rules": ["SkyFortress_Plus_1F_FivePack3"]
-          },
-          {
-            "name": "Plus (1F) - Five-Pack 4",
-            "visibility_rules": ["SkyFortress_Plus_1F_FivePack4"]
-          },
-          {
-            "name": "Plus (1F) - Five-Pack 5",
-            "visibility_rules": ["SkyFortress_Plus_1F_FivePack5"]
-          },
-          {
-            "name": "Plus (1F) - Solo",
-            "visibility_rules": ["SkyFortress_Plus_1F_Solo"]
-          },
-          {
-            "name": "Spider (2F) - Wardrobe 1",
-            "visibility_rules": ["SkyFortress_Spider_2F_Wardrobe1"]
-          },
-          {
-            "name": "Spider (2F) - Wardrobe 2",
-            "visibility_rules": ["SkyFortress_Spider_2F_Wardrobe2"]
-          },
-          {
-            "name": "Spider (2F) - Ribbon Room 1",
-            "visibility_rules": ["SkyFortress_Spider_2F_RibbonRoom1"]
-          },
-          {
-            "name": "Spider (2F) - Ribbon Room 2",
-            "visibility_rules": ["SkyFortress_Spider_2F_RibbonRoom2"]
-          },
-          {
-            "name": "Spider (2F) - Gauntlet Room",
-            "visibility_rules": ["SkyFortress_Spider_2F_GauntletRoom"]
-          },
-          {
-            "name": "Spider (2F) - Cheap Room 1",
-            "visibility_rules": ["SkyFortress_Spider_2F_CheapRoom1"]
-          },
-          {
-            "name": "Spider (2F) - Cheap Room 2",
-            "visibility_rules": ["SkyFortress_Spider_2F_CheapRoom2"]
-          },
-          {
-            "name": "Spider (2F) - Vault 1",
-            "visibility_rules": ["SkyFortress_Spider_2F_Vault1"]
-          },
-          {
-            "name": "Spider (2F) - Vault 2",
-            "visibility_rules": ["SkyFortress_Spider_2F_Vault2"]
-          },
-          {
-            "name": "Spider (2F) - Incentive",
-            "visibility_rules": ["SkyFortress_Spider_2F_Incentive"],
-            "hosted_item": "skyFortressIncentive"
-          },
-          {
-            "name": "Provides (3F) - Greed 1",
-            "visibility_rules": ["SkyFortress_Provides_3F_Greed1"]
-          },
-          {
-            "name": "Provides (3F) - Greed 2",
-            "visibility_rules": ["SkyFortress_Provides_3F_Greed2"]
-          },
-          {
-            "name": "Provides (3F) - Greed 3",
-            "visibility_rules": ["SkyFortress_Provides_3F_Greed3"]
-          },
-          {
-            "name": "Provides (3F) - Greed 4",
-            "visibility_rules": ["SkyFortress_Provides_3F_Greed4"]
-          },
-          {
-            "name": "Provides (3F) - Six-Pack 1",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack1"]
-          },
-          {
-            "name": "Provides (3F) - Six-Pack 2",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack2"]
-          },
-          {
-            "name": "Provides (3F) - Six-Pack 3",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack3"]
-          },
-          {
-            "name": "Provides (3F) - Six-Pack 4",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack4"]
-          },
-          {
-            "name": "Provides (3F) - Six-Pack 5",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack5"]
-          },
-          {
-            "name": "Provides (3F) - Six-Pack 6",
-            "visibility_rules": ["SkyFortress_Provides_3F_SixPack6"]
-          },
-          {
-            "name": "Provides (3F) - CC's Gambit 1",
-            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit1"]
-          },
-          {
-            "name": "Provides (3F) - CC's Gambit 2",
-            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit2"]
-          },
-          {
-            "name": "Provides (3F) - CC's Gambit 3",
-            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit3"]
-          },
-          {
-            "name": "Provides (3F) - CC's Gambit 4",
-            "visibility_rules": ["SkyFortress_Provides_3F_CCsGambit4"]
-          },
-          {
-            "name": "Air Orb",
-            "hosted_item": "airorb"
-          }
-        ],
-        "map_locations": [{"map": "overworld", "x": 3110, "y": 904}]
       }
     ]
   },
