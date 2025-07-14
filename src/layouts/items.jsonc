@@ -1,6 +1,5 @@
 {
-  "shared_item_grid":
-  {
+  "shared_item_grid": {
     "type": "itemgrid",
     "h_alignment": "center",
     "v_alignment": "center",
@@ -12,8 +11,7 @@
       [ "tail", "bottle", "oxyale", "slab", "cube", "chime", "adamant" ]
     ]
   },
-  "shared_locations_grid":
-  {
+  "shared_locations_grid": {
     "type": "itemgrid",
     "h_alignment": "center",
     "v_alignment": "center",
@@ -26,8 +24,7 @@
       [ "smith", "", "", "marshLockedIncentive", "titansTrove", "volcanoIncentive", "cardiaIncentive" ]
     ]
   },
-  "shared_manual_grid":
-  {
+  "shared_manual_grid": {
     "type": "itemgrid",
     "item_margin": "1,2",
     "rows":
@@ -37,28 +34,66 @@
       [ "shard" ]
     ]
   },
-  "shared_flags_grid":
-  {
+  "shared_flags_grid": {
     "type": "itemgrid",
     "h_alignment": "center",
     "v_alignment": "center",
     "item_margin": "1,2",
     "rows":
     [
-      [ "extendedOpen", "npcsAreIncentive", "fetchQuestsAreIncentive" ],
-      [ "northernDocks", "gaiaMountain", "lefeinRiver" ,"cardiaDock" ],
+      [ "npcsAreIncentive", "fetchQuestsAreIncentive" ],
       [ "marshIsIncentive", "coneriaLockedIsIncentive", "marshLockedIsIncentive", "earthIsIncentive", "titansTroveIsIncentive", "volcanoIsIncentive", "iceCaveIsIncentive" ],
       [ "ordealsIsIncentive", "cardiaIsIncentive", "seaIsIncentive", "skyIsIncentive", "", "", "" ]
     ]
   },
-  "shared_buttons_grid":
-  {
+  "shared_buttons_grid": {
     "type": "itemgrid",
     "h_alignment": "left",
     "item_margin": "1,2",
     "rows":
     [
       [ "showAllChests", "shardsRequired" ]
+    ]
+  },
+  "overworld_edits_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "item",
+        "item": "progressionFlag"
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "item",
+            "item": "northernDocks"
+          },
+          {
+            "type": "item",
+            "item": "cardiaDock"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "item",
+            "item": "lefeinRiver"
+          },
+          {
+            "type": "item",
+            "item": "gaiaMountain"
+          }
+        ]
+      }
     ]
   }
 }
