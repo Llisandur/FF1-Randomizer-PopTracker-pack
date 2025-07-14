@@ -83,6 +83,7 @@ function onClear(slot_data)
   Tracker.BulkUpdate = true
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
     print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+    print(string.format("called onClear, LOCATION_MAPPING:\n%s", dump_table(LOCATION_MAPPING)))
   end
   CUR_INDEX = -1
   -- reset locations
@@ -262,6 +263,9 @@ function GetHighlightFromStatus(status)
 end
 
 function onNotify(key, value, old_value)
+  if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    print(string.format("onNotify: key %s, value %s, old_value %s", key, value, old_value))
+  end
   if value ~= old_value and key == HINTS_ID then
     for _, hint in ipairs(value) do
       if hint.finding_player == Archipelago.PlayerNumber then
@@ -276,6 +280,9 @@ function onNotify(key, value, old_value)
 end
 
 function onNotifyLaunch(key, value)
+  if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    print(string.format("onNotifyLaunch: key %s, value\n%s", key, dump_table(value)))
+  end
   if key == HINTS_ID then
     for _, hint in ipairs(value) do
       if hint.finding_player == Archipelago.PlayerNumber then
@@ -290,7 +297,10 @@ function onNotifyLaunch(key, value)
 end
 
 function updateHints(locationID, highlight)
-  if not Highlight then
+  if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    print(string.format("updateHints: locationID %s, highlight %s,\n%s", locationID, highlight, dump_table(LOCATION_MAPPING[locationID])))
+  end
+  if not highlight then
     return
   end
 
@@ -298,13 +308,23 @@ function updateHints(locationID, highlight)
     return
   end
 
-  local location_name = LOCATION_MAPPING[locationID][1][1]
-  local obj = Tracker:FindObjectForCode(location_name)
+  for index, location in pairs(LOCATION_MAPPING[locationID]) do
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+      print(string.format("updateHints: index %s, location %s", index, dump_table(location)))
+    end
+    local location_name = LOCATION_MAPPING[locationID][index][1]
+    local obj = Tracker:FindObjectForCode(location_name)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+      print(string.format("updateHints: location_name %s, obj %s", location_name, obj))
+    end
 
-  if obj then
-    obj.Highlight = highlight
-  else
-    print(string.format("No object found for code: %s", location_name))
+    if location_name:sub(1, 1) == "@" then
+      if obj then
+        obj.Highlight = highlight
+      else
+        print(string.format("No object found for code: %s", location_name))
+      end
+    end
   end
 end
 

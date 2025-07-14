@@ -57,7 +57,7 @@
     "name": "Floater",
     "type": "toggle",
     "img": "images/items/floater.png",
-    "codes": "floater,inactiveFloater,airship"
+    "codes": "floater,inactiveFloater"
   },
   {
     "name": "Herb",
@@ -154,10 +154,10 @@
     "codes" : "bahamut"
   },
   {
-    "name" : "Shop Item",
+    "name" : "Airship",
     "type" : "toggle",
-    "img" : "images/checks/gil-shop-item.png",
-    "codes" : "shopItem"
+    "img" : "images/items/airship.png",
+    "codes" : "airship"
   },
   {
     "name": "Shards",
