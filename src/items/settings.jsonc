@@ -14,20 +14,20 @@
   {
     "name" : "Cardia Island (main) Dock",
     "type" : "toggle",
-    "img" : "images/flags/cardiaDock.png",
+    "img" : "images/settings/cardiaDock.png",
     "codes" : "cardiaDock",
-    "disabled_img" : "images/flags/cardiaDock-No.png"
+    "disabled_img" : "images/settings/cardiaDock-No.png"
   },
   {
     "name": "Cardia Island is Incentive",
     "type": "progressive",
      "stages" : [
       {
-        "img" : "images/flags/cardiaIncentive.png",
+        "img" : "images/settings/cardiaIncentive.png",
         "codes" : "cardiaIsIncentive"
       },
       {
-        "img" : "images/flags/cardiaIncentive-Hoard.png",
+        "img" : "images/settings/cardiaIncentive-Hoard.png",
         "codes" : "bahamutHoard"
       }
     ]
@@ -35,35 +35,35 @@
   {
     "name" : "Gaia Mountain Pass",
     "type" : "toggle",
-    "img" : "images/flags/gaiaMountain.png",
+    "img" : "images/settings/gaiaMountain.png",
     "codes" : "gaiaMountain",
-    "disabled_img" : "images/flags/gaiaMountain-No.png"
+    "disabled_img" : "images/settings/gaiaMountain-No.png"
   },
   {
     "name" : "Lefein River Dock",
     "type" : "toggle",
-    "img" : "images/flags/lefeinRiver.png",
+    "img" : "images/settings/lefeinRiver.png",
     "codes" : "lefeinRiver",
-    "disabled_img" : "images/flags/lefeinRiver-No.png"
+    "disabled_img" : "images/settings/lefeinRiver-No.png"
   },
   {
     "name" : "Northern Docks",
     "type" : "toggle",
-    "img" : "images/flags/northernDocks.png",
+    "img" : "images/settings/northernDocks.png",
     "codes" : "northernDocks",
-    "disabled_img" : "images/flags/northernDocks-No.png"
+    "disabled_img" : "images/settings/northernDocks-No.png"
   },
   {
     "name" : "Open Progression",
     "type" : "progressive",
     "stages" : [
       {
-        "img" : "images/flags/openProgression.png",
-        "disabled_img" : "images/flags/openProgression-No.png",
+        "img" : "images/settings/openProgression.png",
+        "disabled_img" : "images/settings/openProgression-No.png",
         "codes" : "progressionFlag,openProgression"
       },
       {
-        "img" : "images/flags/openProgression-Extended.png",
+        "img" : "images/settings/openProgression-Extended.png",
         "codes" : "progressionFlag,extendedOpen"
       }
     ]
