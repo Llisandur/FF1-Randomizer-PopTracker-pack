@@ -35,12 +35,18 @@
     ]
   },
   "shared_buttons_grid": {
-    "type": "itemgrid",
-    "h_alignment": "left",
-    "item_margin": "1,2",
-    "rows":
-    [
-      [ "showAllChests", "shardsRequired" ]
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "item",
+        "item": "showAllChests"
+      },
+      {
+        "type": "item",
+        "item": "shardsRequired"
+      }
     ]
   },
   "overworld_edits_grid": {
@@ -63,7 +69,7 @@
           },
           {
             "type": "item",
-            "item": "cardiaDock"
+            "item": "ryukahnDock"
           }
         ]
       },
@@ -74,11 +80,63 @@
         "content": [
           {
             "type": "item",
+            "item": "cardiaDock"
+          },
+          {
+            "type": "item",
             "item": "lefeinRiver"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "item",
+            "item": "lefeinBridge"
           },
           {
             "type": "item",
             "item": "gaiaMountain"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "item",
+            "item": "ordealsHighway"
+          },
+          {
+            "type": "item",
+            "item": "melmondRiver"
+          }
+        ]
+      }
+    ]
+  },
+  "dungeon_edits_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "item",
+            "item": "mermaidPrison"
+          },
+          {
+            "type": "item",
+            "item": "bahamutHoard"
           }
         ]
       }

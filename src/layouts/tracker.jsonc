@@ -7,12 +7,23 @@
       "content": [
         {
           "type" : "group",
-          "header" : "Overworld Edits",
+          "header" : "Game Mode & Overworld: Overworld Edits",
           "margin" : "0,0,3,0",
           "content" : [
             {
             "type" : "layout",
             "key" : "overworld_edits_grid"
+            }
+          ]
+        },
+        {
+          "type" : "group",
+          "header" : "Maps and Routing: Dungeons",
+          "margin" : "0,0,3,0",
+          "content" : [
+            {
+            "type" : "layout",
+            "key" : "dungeon_edits_grid"
             }
           ]
         },

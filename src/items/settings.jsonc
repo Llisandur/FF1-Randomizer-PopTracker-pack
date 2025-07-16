@@ -1,52 +1,5 @@
 [
   {
-    "name" : "Show all chests",
-    "type" : "progressive",
-    "loop": true,
-    "stages" : [
-      {
-        "img" : "images/checks/coneriaLocked.png",
-        "codes" : "showAllChests",
-        "inherit_codes" : false
-      }
-    ]
-  },
-  {
-    "name" : "Cardia Island (main) Dock",
-    "type" : "toggle",
-    "img" : "images/settings/cardiaDock.png",
-    "codes" : "cardiaDock",
-    "disabled_img" : "images/settings/cardiaDock-No.png"
-  },
-  {
-    "name": "Bahamut's Hoard",
-    "type": "toggle",
-    "img" : "images/settings/cardiaHoard.png",
-    "codes" : "bahamutHoard",
-    "diabled_img" : "images/settings/cardiaHoard-No.png"
-  },
-  {
-    "name" : "Gaia Mountain Pass",
-    "type" : "toggle",
-    "img" : "images/settings/gaiaMountain.png",
-    "codes" : "gaiaMountain",
-    "disabled_img" : "images/settings/gaiaMountain-No.png"
-  },
-  {
-    "name" : "Lefein River Dock",
-    "type" : "toggle",
-    "img" : "images/settings/lefeinRiver.png",
-    "codes" : "lefeinRiver",
-    "disabled_img" : "images/settings/lefeinRiver-No.png"
-  },
-  {
-    "name" : "Northern Docks",
-    "type" : "toggle",
-    "img" : "images/settings/northernDocks.png",
-    "codes" : "northernDocks",
-    "disabled_img" : "images/settings/northernDocks-No.png"
-  },
-  {
     "name" : "Open Progression",
     "type" : "progressive",
     "stages" : [
@@ -58,6 +11,86 @@
       {
         "img" : "images/settings/openProgression-Extended.png",
         "codes" : "progressionFlag,extendedOpen"
+      }
+    ]
+  },
+  {
+    "name" : "Northern Docks",
+    "type" : "toggle",
+    "img" : "images/settings/northernDocks.png",
+    "codes" : "northernDocks",
+    "disabled_img" : "images/settings/northernDocks-No.png"
+  },
+  {
+    "name" : "Ryukahn Desert Dock",
+    "type" : "toggle",
+    "img" : "images/settings/ryukahnDock.png",
+    "codes" : "ryukahnDock",
+    "disabled_img" : "images/settings/ryukahnDock-No.png"
+  },
+  {
+    "name" : "Bahamut Cardia Dock",
+    "type" : "toggle",
+    "img" : "images/settings/cardiaDock.png",
+    "codes" : "cardiaDock",
+    "disabled_img" : "images/settings/cardiaDock-No.png"
+  },
+  {
+    "name" : "Lefein River Dock",
+    "type" : "toggle",
+    "img" : "images/settings/lefeinRiver.png",
+    "codes" : "lefeinRiver",
+    "disabled_img" : "images/settings/lefeinRiver-No.png"
+  },
+  {
+    "name" : "Bridge to Lefein",
+    "type" : "toggle",
+    "img" : "images/settings/lefeinBridge.png",
+    "codes" : "lefeinBridge",
+    "disabled_img" : "images/settings/lefeinBridge-No.png"
+  },
+  {
+    "name" : "Gaia Mountain Pass",
+    "type" : "toggle",
+    "img" : "images/settings/gaiaMountain.png",
+    "codes" : "gaiaMountain",
+    "disabled_img" : "images/settings/gaiaMountain-No.png"
+  },
+  {
+    "name" : "Highway to Ordeals",
+    "type" : "toggle",
+    "img" : "images/settings/ordealsHighway.png",
+    "codes" : "ordealsHighway",
+    "disabled_img" : "images/settings/ordealsHighway-No.png"
+  },
+  {
+    "name" : "River to Melmond",
+    "type" : "toggle",
+    "img" : "images/settings/melmondRiver.png",
+    "codes" : "melmondRiver",
+    "disabled_img" : "images/settings/melmondRiver-No.png"
+  },
+  {
+    "name": "Bahamut's Hoard",
+    "type": "toggle",
+    "img" : "images/settings/cardiaHoard.png",
+    "codes" : "bahamutHoard",
+    "disabled_img" : "images/settings/cardiaHoard-No.png"
+  },
+  {
+    "name" : "Show All Chests",
+    "type" : "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages" : [
+      {
+        "img" : "images/settings/showAPChests.png",
+        "inherit_codes" : false
+      },
+      {
+        "img" : "images/settings/showAllChests.png",
+        "codes" : "showAllChests",
+        "inherit_codes" : false
       }
     ]
   }
