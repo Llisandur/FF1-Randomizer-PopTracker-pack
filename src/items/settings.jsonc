@@ -19,18 +19,11 @@
     "disabled_img" : "images/settings/cardiaDock-No.png"
   },
   {
-    "name": "Cardia Island is Incentive",
-    "type": "progressive",
-     "stages" : [
-      {
-        "img" : "images/settings/cardiaIncentive.png",
-        "codes" : "cardiaIsIncentive"
-      },
-      {
-        "img" : "images/settings/cardiaIncentive-Hoard.png",
-        "codes" : "bahamutHoard"
-      }
-    ]
+    "name": "Bahamut's Hoard",
+    "type": "toggle",
+    "img" : "images/settings/cardiaHoard.png",
+    "codes" : "bahamutHoard",
+    "diabled_img" : "images/settings/cardiaHoard-No.png"
   },
   {
     "name" : "Gaia Mountain Pass",
@@ -67,77 +60,5 @@
         "codes" : "progressionFlag,extendedOpen"
       }
     ]
-  },
-  {
-    "name": "Castle of Ordeals - Tail Chest is Incentive",
-    "type": "toggle",
-    "img": "images/checks/ordeals.png",
-    "codes": "ordealsIsIncentive"
-  },
-  {
-    "name": "Coneria Castle - TNT Chest is Incentive",
-    "type": "toggle",
-    "img": "images/checks/coneriaLocked.png",
-    "codes": "coneriaLockedIsIncentive"
-  },
-  {
-    "name": "Earth Cave - Vampire's Chest is Incentive",
-    "type": "toggle",
-    "img": "images/checks/earth.png",
-    "codes": "earthIsIncentive"
-  },
-  {
-    "name": "Fetch Quests are Incentive",
-    "type": "toggle",
-    "img": "images/checks/matoya.png",
-    "codes": "fetchQuestsAreIncentive"
-  },
-  {
-    "name": "Gurgu Volcano - Dragon's Chest is Incentive",
-    "type": "toggle",
-    "img": "images/checks/redD.png",
-    "codes": "volcanoIsIncentive"
-  },
-  {
-    "name": "Ice Cave - Floater Chest is Incentive",
-    "type": "toggle",
-    "img": "images/checks/iceCave.png",
-    "codes": "iceCaveIsIncentive"
-  },
-  {
-    "name": "Marsh Cave - Crown Chest is Incentive",
-    "type": "toggle",
-    "img": "images/checks/marsh.png",
-    "codes": "marshIsIncentive"
-  },
-  {
-    "name": "Marsh Cave - Locked Chest is Incentive",
-    "type": "toggle",
-    "img": "images/checks/marshLocked.png",
-    "codes": "marshLockedIsIncentive"
-  },
-  {
-    "name": "NPCs are Incentive",
-    "type": "toggle",
-    "img": "images/checks/king.png",
-    "codes": "npcsAreIncentive"
-  },
-  {
-    "name": "Sea Shrine - Slab Chest is Incentive",
-    "type": "toggle",
-    "img": "images/checks/seaShrine.png",
-    "codes": "seaIsIncentive"
-  },
-  {
-    "name": "Sky Palace - Adamant Chest is Incentive",
-    "type": "toggle",
-    "img": "images/checks/skyPalace.png",
-    "codes": "skyIsIncentive"
-  },
-  {
-    "name": "Titan's Trove is Incentive",
-    "type": "toggle",
-    "img": "images/checks/titan.png",
-    "codes": "titansTroveIsIncentive"
   }
 ]

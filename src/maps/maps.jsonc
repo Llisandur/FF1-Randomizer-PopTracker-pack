@@ -9,7 +9,7 @@
         "name": "cardia_islands",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/cardiaislands.png"
+        "img": "images/maps/towns/cardiaislands.png"
     },
     {
         "name": "castle_of_ordeals_f1",
@@ -33,19 +33,19 @@
         "name": "coneria_castle_f1",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/coneriacastle_f1.png"
+        "img": "images/maps/towns/coneriacastle_f1.png"
     },
     {
         "name": "coneria_castle_f2",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/coneriacastle_f2.png"
+        "img": "images/maps/towns/coneriacastle_f2.png"
     },
     {
         "name": "dwarf_cave",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/dwarfcave.png"
+        "img": "images/maps/towns/dwarfcave.png"
     },
     {
         "name": "earth_cave_b1",
@@ -81,7 +81,7 @@
         "name": "elf_castle",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/elf_castle.png"
+        "img": "images/maps/towns/elf_castle.png"
     },
     {
         "name": "gurgu_volcano_b1",
@@ -171,7 +171,7 @@
         "name": "matoyas_cave",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/matoyascave.png"
+        "img": "images/maps/towns/matoyascave.png"
     },
     {
         "name": "miragetower_f1",
@@ -201,7 +201,7 @@
         "name": "sardas_cave",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/dungeons/sardascave.png"
+        "img": "images/maps/towns/sardascave.png"
     },
     {
         "name": "sea_shrine_b1",

@@ -34,18 +34,6 @@
       [ "shard" ]
     ]
   },
-  "shared_flags_grid": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "v_alignment": "center",
-    "item_margin": "1,2",
-    "rows":
-    [
-      [ "npcsAreIncentive", "fetchQuestsAreIncentive" ],
-      [ "marshIsIncentive", "coneriaLockedIsIncentive", "marshLockedIsIncentive", "earthIsIncentive", "titansTroveIsIncentive", "volcanoIsIncentive", "iceCaveIsIncentive" ],
-      [ "ordealsIsIncentive", "cardiaIsIncentive", "seaIsIncentive", "skyIsIncentive", "", "", "" ]
-    ]
-  },
   "shared_buttons_grid": {
     "type": "itemgrid",
     "h_alignment": "left",

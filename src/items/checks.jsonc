@@ -164,7 +164,7 @@
     {
         "name": "Cardia Isle Incentive Chest",
         "type": "toggle",
-        "img": "images/flags/cardiaIncentive.png",
+        "img": "images/checks/cardiaIncentive.png",
         "codes": "cardiaIncentive"
     }
 ]
