@@ -488,7 +488,7 @@
   { "name": "Bird Continent",
     "children": [
       { "name": "Castle of Ordeals",
-        "access_rules": [ "ship,canal,canoe,crown", "ship,canal,canoe,earlyOrdeals", "airship,canoe,crown", "airship,canoe,earlyOrdeals", "lefeinBridge,bridge,ordealsHighway,crown", "lefeinBridge,bridge,ordealsHighway,earlyOrdeals" ],
+        "access_rules": [ "ship,canal,canoe,crown", "ship,canal,canoe,earlyOrdeals", "airship,canoe,crown", "airship,canoe,earlyOrdeals", "lefeinBridge,bridge,ordealsHighway,canoe,crown", "lefeinBridge,bridge,ordealsHighway,canoe,earlyOrdeals" ],
         "sections": [
           { "name": "Top Floor (3F) - Single",
             "visibility_rules": [ "CastleOfOrdeals_TopFloor_3F_Single" ]

@@ -1,6 +1,6 @@
 [
   { "name": "Castle of Ordeals (2F)",
-    "access_rules": [ "ship,canal,canoe,crown", "ship,canal,canoe,earlyOrdeals", "airship,canoe,crown", "airship,canoe,earlyOrdeals", "lefeinBridge,bridge,ordealsHighway,crown", "lefeinBridge,bridge,ordealsHighway,earlyOrdeals" ],
+    "access_rules": [ "ship,canal,canoe,crown", "ship,canal,canoe,earlyOrdeals", "airship,canoe,crown", "airship,canoe,earlyOrdeals", "lefeinBridge,bridge,ordealsHighway,canoe,crown", "lefeinBridge,bridge,ordealsHighway,canoe,earlyOrdeals" ],
     "children": [
       { "name": "Top Floor (3F) - Four-Pack 1 ",
         "sections": [{"ref": "Castle of Ordeals Top Floor (3F)/Four-Pack 1/"}],
@@ -9,7 +9,7 @@
     ]
   },
   { "name": "Castle of Ordeals Top Floor (3F)",
-    "access_rules": [ "ship,canal,canoe,crown", "ship,canal,canoe,earlyOrdeals", "airship,canoe,crown", "airship,canoe,earlyOrdeals", "lefeinBridge,bridge,ordealsHighway,crown", "lefeinBridge,bridge,ordealsHighway,earlyOrdeals" ],
+    "access_rules": [ "ship,canal,canoe,crown", "ship,canal,canoe,earlyOrdeals", "airship,canoe,crown", "airship,canoe,earlyOrdeals", "lefeinBridge,bridge,ordealsHighway,canoe,crown", "lefeinBridge,bridge,ordealsHighway,canoe,earlyOrdeals" ],
     "children": [
       { "name": "Single",
         "sections": [{"visibility_rules": ["CastleOfOrdeals_TopFloor_3F_Single"]}],
