@@ -1,10 +1,9 @@
 [
-  {
-    "name": "Sarda's Cave",
-    "access_rules": [ "airship", "ruby,ship,canal" ],
+  { "name": "Sarda's Cave",
+    "access_rules": [ "ship,canal,ruby", "airship" ],
     "children": [
-      {
-        "name": "Sarda",
+      { "name": "Sarda",
+        "access_rules": [ "earthCaveIncentive", "earlySarda" ],
         "sections": [{"hosted_item": "sarda"}]
       }
     ]

@@ -2,14 +2,12 @@
   { "name": "Aldi Sea",
     "children": [
       { "name": "Matoya's Cave",
-        "access_rules": [ "bridge", "ship", "airship", "extendedOpen,canoe", "openProgression,canoe" ],
+        "access_rules": [ "bridge", "ship", "airship", "openProgression,canoe", "extendedOpen,canoe", "lefeinBridge" ],
         "sections": [
-          {
-            "name": "Matoya",
+          { "name": "Matoya",
             "ref": "Matoya's Cave/Matoya/"
           },
-          {
-            "name": "Chests",
+          { "name": "Chests",
             "visibility_rules": [ "MatoyasCave_Chest1","MatoyasCave_Chest2","MatoyasCave_Chest3" ],
             "clear_as_group": true,
             "item_count": 3
@@ -18,67 +16,57 @@
         "map_locations": [{"map": "overworld", "x": 2696, "y": 1876}]
       },
       { "name": "Dwarf Cave",
-        "access_rules": [ "openProgression", "ship", "airship", "extendedOpen" ],
+        "access_rules": [ "ship", "airship", "openProgression", "extendedOpen" ],
         "sections": [
-          {
-            "name": "Nerrick",
+          { "name": "Nerrick",
             "ref": "Dwarf Cave/Nerrick/"
           },
-          {
-            "name": "Smith",
+          { "name": "Smith",
             "ref": "Dwarf Cave/Smith/"
           },
-          {
-            "name": "Entrance",
+          { "name": "Entrance",
             "visibility_rules": [ "DwarfCave_Entrance1","DwarfCave_Entrance2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Treasury",
+          { "name": "Treasury",
             "visibility_rules": [ "DwarfCave_Treasury1","DwarfCave_Treasury2","DwarfCave_Treasury3","DwarfCave_Treasury4","DwarfCave_Treasury5","DwarfCave_Treasury6","DwarfCave_Treasury7","DwarfCave_Treasury8" ],
             "clear_as_group": true,
             "item_count": 8,
-            "access_rules": [ "key" ]
+            "access_rules": [ "key", "lockpicking" ]
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1608, "y": 2488}]
       },
       { "name": "Coneria Castle",
         "sections": [
-          {
-            "name": "King",
+          { "name": "King",
             "ref": "Coneria Castle/King/"
           },
-          {
-            "name": "Princess Sara",
+          { "name": "Princess Sara",
             "ref": "Coneria Castle/Princess Sara/"
           },
-          {
-            "name": "Treasury",
+          { "name": "Treasury",
             "visibility_rules": [ "ConeriaCastle_Treasury1","ConeriaCastle_Treasury2","ConeriaCastle_Treasury3","ConeriaCastle_Treasury4","ConeriaCastle_Treasury5" ],
-            "access_rules": [ "key" ],
+            "access_rules": [ "key", "lockpicking" ],
             "clear_as_group": true,
             "item_count": 5
           },
-          {
-            "name": "Treasury Major",
+          { "name": "Treasury Major",
             "ref": "Coneria Castle/Treasury Major/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 2448, "y": 2542}]
       },
       { "name": "Elf Castle",
-        "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
+        "access_rules": [ "ship", "airship", "openProgression,canoe", "extendedOpen" ],
         "sections": [
-          {
-            "name": "Elf Prince",
+          { "name": "Elf Prince",
             "ref": "Elf Castle/Elf Prince/"
           },
-          {
-            "name": "Treasury",
+          { "name": "Treasury",
             "visibility_rules": [ "ElflandCastle_Treasury1","ElflandCastle_Treasury2","ElflandCastle_Treasury3","ElflandCastle_Treasury4" ],
-            "access_rules": [ "key" ],
+            "access_rules": [ "key", "lockpicking" ],
             "clear_as_group": true,
             "item_count": 4
           }
@@ -86,16 +74,14 @@
         "map_locations": [{"map": "overworld", "x": 2176, "y": 3540}]
       },
       { "name": "Northwest Castle",
-        "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
+        "access_rules": [ "ship", "airship", "openProgression,canoe", "extendedOpen" ],
         "sections": [
-          {
-            "name": "Astos",
+          { "name": "Astos",
             "ref": "Northwest Castle/Astos/"
           },
-          {
-            "name": "Treasury",
+          { "name": "Treasury",
             "visibility_rules": [ "NorthwestCastle_Treasury1","NorthwestCastle_Treasury2","NorthwestCastle_Treasury3" ],
-            "access_rules": [ "key" ],
+            "access_rules": [ "key", "lockpicking" ],
             "clear_as_group": true,
             "item_count": 3
           }
@@ -104,28 +90,23 @@
       },
       { "name": "Temple of Fiends",
         "sections": [
-          {
-            "name": "Garland",
+          { "name": "Garland",
             "ref": "Temple of Fiends/Garland/"
           },
-          {
-            "name": "Unlocked Single",
+          { "name": "Unlocked Single",
             "ref": "Temple of Fiends/Unlocked Single/"
           },
-          {
-            "name": "Unlocked Duo",
+          { "name": "Unlocked Duo",
             "visibility_rules": [ "TempleOfFiends_UnlockedDuo1","TempleOfFiends_UnlockedDuo2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Locked Single",
+          { "name": "Locked Single",
             "ref": "Temple of Fiends/Locked Single/"
           },
-          {
-            "name": "Locked Duo",
+          { "name": "Locked Duo",
             "visibility_rules": [ "TempleOfFiends_LockedDuo1","TempleOfFiends_LockedDuo2" ],
-            "access_rules": [ "key" ],
+            "access_rules": [ "key", "lockpicking" ],
             "clear_as_group": true,
             "item_count": 2
           }
@@ -133,100 +114,81 @@
         "map_locations": [{"map": "overworld", "x": 2080, "y": 1970}]
       },
       { "name": "Marsh Cave",
-        "access_rules": [ "openProgression,canoe", "ship", "airship", "extendedOpen" ],
+        "access_rules": [ "ship", "airship", "openProgression,canoe", "extendedOpen" ],
         "sections": [
-          {
-            "name": "Top (B1) - Single",
+          { "name": "Top (B1) - Single",
             "ref": "Marsh Cave Top (B1)/Single/"
           },
-          {
-            "name": "Top (B1) - Corner",
+          { "name": "Top (B1) - Corner",
             "ref": "Marsh Cave Top (B1)/Corner/"
           },
-          {
-            "name": "Top (B1) - Duo",
+          { "name": "Top (B1) - Duo",
             "visibility_rules": [ "MarshCave_Top_B1_Duo1","MarshCave_Top_B1_Duo2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Bottom (B2) - Distant",
+          { "name": "Bottom (B2) - Distant",
             "ref": "Marsh Cave Bottom (B2)/Distant/"
           },
-          {
-            "name": "Bottom (B2) - Tetris-Z First",
+          { "name": "Bottom (B2) - Tetris-Z First",
             "ref": "Marsh Cave Bottom (B2)/Tetris-Z First/"
           },
-          {
-            "name": "Bottom (B2) - Tetris-Z Middle",
+          { "name": "Bottom (B2) - Tetris-Z Middle",
             "visibility_rules": [ "MarshCave_Bottom_B2_TetrisZMiddle1","MarshCave_Bottom_B2_TetrisZMiddle2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Bottom (B2) - Tetris-Z Incentive",
+          { "name": "Bottom (B2) - Tetris-Z Incentive",
             "ref": "Marsh Cave Bottom (B2)/Tetris-Z Incentive/"
           },
-          {
-            "name": "Bottom (B2) - Tetris-Z Last",
+          { "name": "Bottom (B2) - Tetris-Z Last",
             "ref": "Marsh Cave Bottom (B2)/Tetris-Z Last/"
           },
-          {
-            "name": "Bottom (B2) - Locked Corner",
+          { "name": "Bottom (B2) - Locked Corner",
             "ref": "Marsh Cave Bottom (B2)/Locked Corner/"
           },
-          {
-            "name": "Bottom (B2) - Locked Middle",
+          { "name": "Bottom (B2) - Locked Middle",
             "ref": "Marsh Cave Bottom (B2)/Locked Middle/"
           },
-          {
-            "name": "Bottom (B2) - Locked Incentive",
+          { "name": "Bottom (B2) - Locked Incentive",
             "ref": "Marsh Cave Bottom (B2)/Locked Incentive/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1640, "y": 3784}]
       },
       { "name": "Temple of Fiends Revisited",
-        "access_rules": [ "$canBreakOrb,key" ],
+        "access_rules": [ "$canBreakOrb,key", "$canBreakOrb,lockpicking" ],
         "sections": [
-          {
-            "name": "(3F) - Validation",
-            "access_rules": [ "$canBreakOrb,key" ],
+          { "name": "(3F) - Validation",
             "visibility_rules": [ "TempleOfFiendsRevisited_3F_Validation1","TempleOfFiendsRevisited_3F_Validation2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Kary Floor (6F) - Greed Checks",
-            "access_rules": [ "$canBreakOrb,lute,key" ],
+          { "name": "Kary Floor (6F) - Greed Checks",
+            "access_rules": [ "lute" ],
             "visibility_rules": [ "TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks1","TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Kary Floor (6F) - Katana Chest",
+          { "name": "Kary Floor (6F) - Katana Chest",
             "ref": "Temple of Fiends Revisited Kary Floor (6F)/Katana Chest/"
           },
-          {
-            "name": "Kary Floor (6F) - Vault",
+          { "name": "Kary Floor (6F) - Vault",
             "ref": "Temple of Fiends Revisited Kary Floor (6F)/Vault/"
           },
-          {
-            "name": "Tiamat Floor (8F) - Masamune Chest",
+          { "name": "Tiamat Floor (8F) - Masamune Chest",
             "ref": "Temple of Fiends Revisited Tiamat Floor (8F)/Masamune Chest/"
           },
-          {
-            "name": "Chaos",
+          { "name": "Chaos",
             "ref": "Temple of Fiends Revisited Chaos Floor (9F)/Chaos/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 2080, "y": 1925}]
       },
       { "name": "Pravoka",
-        "access_rules": [ "bridge", "ship", "airship", "extendedOpen,canoe", "openProgression,canoe" ],
+        "access_rules": [ "bridge", "ship", "airship", "openProgression,canoe", "extendedOpen,canoe", "lefeinBridge" ],
         "sections": [
-          {
-            "name": "Bikke",
+          { "name": "Bikke",
             "ref": "Pravoka/Bikke/"
           }
         ],
@@ -237,16 +199,14 @@
   { "name": "Earth Peninsula",
     "children": [
       { "name": "Titan's Tunnel",
-        "access_rules": [ "ruby,airship", "ruby,ship,canal" ],
+        "access_rules": [ "ship,canal,ruby", "$notTitansTunnel,airship", "airship,ruby" ],
         "sections": [
-          {
-            "name": "Chests",
+          { "name": "Chests",
             "visibility_rules": [ "TitansTunnel_Chest1","TitansTunnel_Chest2","TitansTunnel_Chest3" ],
             "clear_as_group": true,
             "item_count": 3
           },
-          {
-            "name": "Major",
+          { "name": "Major",
             "ref": "Titan's Tunnel/Major/"
           }
         ],
@@ -264,92 +224,77 @@
         ]
       },
       { "name": "Earth Cave",
-        "access_rules": [ "airship", "ship,canal" ],
+        "access_rules": [ "ship,canal", "airship" ],
         "sections": [
-          {
-            "name": "Giant's Floor (B1) - Single",
+          { "name": "Giant's Floor (B1) - Single",
             "ref": "Earth Cave Giant's Floor (B1)/Single/"
           },
-          {
-            "name": "Giant's Floor (B1) - Appendix",
+          { "name": "Giant's Floor (B1) - Appendix",
             "visibility_rules": [ "EarthCave_GiantsFloor_B1_Appendix1","EarthCave_GiantsFloor_B1_Appendix2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Giant's Floor (B1) - Side Path",
+          { "name": "Giant's Floor (B1) - Side Path",
             "visibility_rules": [ "EarthCave_GiantsFloor_B1_SidePath1","EarthCave_GiantsFloor_B1_SidePath2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "(B2) - Side Room",
+          { "name": "(B2) - Side Room",
             "visibility_rules": [ "EarthCave_B2_SideRoom1","EarthCave_B2_SideRoom2","EarthCave_B2_SideRoom3" ],
             "clear_as_group": true,
             "item_count": 3
           },
-          {
-            "name": "(B2) - Guarded",
+          { "name": "(B2) - Guarded",
             "visibility_rules": [ "EarthCave_B2_Guarded1","EarthCave_B2_Guarded2","EarthCave_B2_Guarded3" ],
             "clear_as_group": true,
             "item_count": 3
           },
-          {
-            "name": "Vampire Floor (B3) - Side Room",
+          { "name": "Vampire Floor (B3) - Side Room",
             "ref": "Earth Cave Vampire Floor (B3)/Side Room/"
           },
-          {
-            "name": "Vampire Floor (B3) - TFC",
+          { "name": "Vampire Floor (B3) - TFC",
             "ref": "Earth Cave Vampire Floor (B3)/TFC/"
           },
-          {
-            "name": "Vampire Floor (B3) - Asher Trunk",
+          { "name": "Vampire Floor (B3) - Asher Trunk",
             "ref": "Earth Cave Vampire Floor (B3)/Asher Trunk/"
           },
-          {
-            "name": "Vampire Floor (B3) - Vampire's Closet",
+          { "name": "Vampire Floor (B3) - Vampire's Closet",
             "ref": "Earth Cave Vampire Floor (B3)/Vampire's Closet/"
           },
-          {
-            "name": "Vampire Floor (B3) - Incentive",
+          { "name": "Vampire Floor (B3) - Incentive",
             "ref": "Earth Cave Vampire Floor (B3)/Incentive/"
           },
-          {
-            "name": "Rod Locked Floor (B4) - Armory",
+          { "name": "Rod Locked Floor (B4) - Armory",
             "visibility_rules": [ "EarthCave_RodLockedFloor_B4_Armory1","EarthCave_RodLockedFloor_B4_Armory2","EarthCave_RodLockedFloor_B4_Armory3","EarthCave_RodLockedFloor_B4_Armory4","EarthCave_RodLockedFloor_B4_Armory5" ],
             "access_rules": [ "rod" ],
             "clear_as_group": true,
             "item_count": 5
           },
-          {
-            "name": "Rod Locked Floor (B4) - Lich's Closet",
+          { "name": "Rod Locked Floor (B4) - Lich's Closet",
             "visibility_rules": [ "EarthCave_RodLockedFloor_B4_LichsCloset1","EarthCave_RodLockedFloor_B4_LichsCloset2","EarthCave_RodLockedFloor_B4_LichsCloset3" ],
             "access_rules": [ "rod" ],
             "clear_as_group": true,
             "item_count": 3
           },
-          {
-            "name": "Earth Orb",
+          { "name": "Earth Orb",
             "ref": "Earth Cave (B5)/Earth Orb/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1048, "y": 2982}]
       },
       { "name": "Sarda's Cave",
-        "access_rules": [ "airship", "ruby,ship,canal" ],
+        "access_rules": [ "ship,canal,ruby", "airship" ],
         "sections": [
-          {
-            "name": "Sarda",
+          { "name": "Sarda",
             "ref": "Sarda's Cave/Sarda/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 488, "y": 3048}]
       },
       { "name": "Melmond",
-        "access_rules": [ "ship,canal,slab", "airship,slab" ],
+        "access_rules": [ "ship,canal", "airship" ],
         "sections": [
-          {
-            "name": "Dr. Unne",
+          { "name": "Dr. Unne",
             "ref": "Melmond/Dr. Unne/"
           }
         ],
@@ -360,115 +305,94 @@
   { "name": "Gurgu Mountains",
     "children": [
       { "name": "Gurgu Volcano",
-        "access_rules": [ "airship", "openProgression,canoe", "extendedOpen,canoe", "ship,canoe"
-        ],
+        "access_rules": [ "ship,canoe", "airship", "openProgression,canoe", "extendedOpen,canoe" ],
         "sections": [
-          {
-            "name": "Armory Floor (B2) - Guarded",
+          { "name": "Armory Floor (B2) - Guarded",
             "ref": "Gurgu Volcano Armory Floor (B2)/Guarded/"
           },
-          {
-            "name": "Armory Floor (B2) - Center",
+          { "name": "Armory Floor (B2) - Center",
             "ref": "Gurgu Volcano Armory Floor (B2)/Center/"
           },
-          {
-            "name": "Armory Floor (B2) - Hairpins",
+          { "name": "Armory Floor (B2) - Hairpins",
             "ref": "Gurgu Volcano Armory Floor (B2)/Hairpins/"
           },
-          {
-            "name": "Armory Floor (B2) - Shortpins",
+          { "name": "Armory Floor (B2) - Shortpins",
             "ref": "Gurgu Volcano Armory Floor (B2)/Shortpins/"
           },
-          {
-            "name": "Armory Floor (B2) - Vertpins",
+          { "name": "Armory Floor (B2) - Vertpins",
             "visibility_rules": [ "GurguVolcano_ArmoryFloor_B2_Vertpins1","GurguVolcano_ArmoryFloor_B2_Vertpins2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Armory Floor (B2) - Armory",
+          { "name": "Armory Floor (B2) - Armory",
             "visibility_rules": [ "GurguVolcano_ArmoryFloor_B2_Armory1","GurguVolcano_ArmoryFloor_B2_Armory2","GurguVolcano_ArmoryFloor_B2_Armory3","GurguVolcano_ArmoryFloor_B2_Armory4","GurguVolcano_ArmoryFloor_B2_Armory5","GurguVolcano_ArmoryFloor_B2_Armory6","GurguVolcano_ArmoryFloor_B2_Armory7","GurguVolcano_ArmoryFloor_B2_Armory8","GurguVolcano_ArmoryFloor_B2_Armory9","GurguVolcano_ArmoryFloor_B2_Armory10","GurguVolcano_ArmoryFloor_B2_Armory11","GurguVolcano_ArmoryFloor_B2_Armory12" ],
             "clear_as_group": true,
             "item_count": 12
           },
-          {
-            "name": "Agama Floor (B4) - Entrance",
+          { "name": "Agama Floor (B4) - Entrance",
             "visibility_rules": [ "GurguVolcano_AgamaFloor_B4_Entrance1","GurguVolcano_AgamaFloor_B4_Entrance2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Agama Floor (B4) - First Greed",
+          { "name": "Agama Floor (B4) - First Greed",
             "ref": "Gurgu Volcano Agama Floor (B4)/First Greed/"
           },
-          {
-            "name": "Agama Floor (B4) - Worm Room",
+          { "name": "Agama Floor (B4) - Worm Room",
             "visibility_rules": [ "GurguVolcano_AgamaFloor_B4_WormRoom1","GurguVolcano_AgamaFloor_B4_WormRoom2","GurguVolcano_AgamaFloor_B4_WormRoom3","GurguVolcano_AgamaFloor_B4_WormRoom4","GurguVolcano_AgamaFloor_B4_WormRoom5" ],
             "clear_as_group": true,
             "item_count": 5
           },
-          {
-            "name": "Agama Floor (B4) - Second Greed",
+          { "name": "Agama Floor (B4) - Second Greed",
             "visibility_rules": [ "GurguVolcano_AgamaFloor_B4_SecondGreed1","GurguVolcano_AgamaFloor_B4_SecondGreed2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Agama Floor (B4) - Side Room",
+          { "name": "Agama Floor (B4) - Side Room",
             "visibility_rules": [ "GurguVolcano_AgamaFloor_B4_SideRoom1","GurguVolcano_AgamaFloor_B4_SideRoom2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Agama Floor (B4) - Grind Room",
+          { "name": "Agama Floor (B4) - Grind Room",
             "visibility_rules": [ "GurguVolcano_AgamaFloor_B4_GrindRoom1","GurguVolcano_AgamaFloor_B4_GrindRoom2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Kary Floor (B5) - Incentive",
+          { "name": "Kary Floor (B5) - Incentive",
             "ref": "Gurgu Volcano Kary Floor (B5)/Incentive/"
           },
-          {
-            "name": "Fire Orb",
+          { "name": "Fire Orb",
             "ref": "Gurgu Volcano Kary Floor (B5)/Fire Orb/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 3024, "y": 3260}]
       },
       { "name": "Ice Cave",
-        "access_rules": [ "airship", "ship,canoe", "bridge,canoe", "openProgression,canoe", "extendedOpen,canoe" ],
+        "access_rules": [ "bridge,canoe", "ship,canoe", "ship,canal,canoe", "airship", "openProgression,canoe", "extendedOpen,canoe" ],
         "sections": [
-          {
-            "name": "Incentive Floor (B2) - Chest",
+          { "name": "Incentive Floor (B2) - Chest",
             "visibility_rules": [ "IceCave_IncentiveFloor_B2_Chest1","IceCave_IncentiveFloor_B2_Chest2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Incentive Floor (B2) - Major",
+          { "name": "Incentive Floor (B2) - Major",
             "ref": "Ice Cave Incentive Floor (B2)/Major/"
           },
-          {
-            "name": "Bottom (B3) - IceD Room",
+          { "name": "Bottom (B3) - IceD Room",
             "visibility_rules": [ "IceCave_Bottom_B3_IceDRoom1","IceCave_Bottom_B3_IceDRoom2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Bottom (B3) - Six-Pack",
+          { "name": "Bottom (B3) - Six-Pack",
             "visibility_rules": [ "IceCave_Bottom_B3_SixPack1","IceCave_Bottom_B3_SixPack2","IceCave_Bottom_B3_SixPack3","IceCave_Bottom_B3_SixPack4","IceCave_Bottom_B3_SixPack5","IceCave_Bottom_B3_SixPack6" ],
             "clear_as_group": true,
             "item_count": 6
           },
-          {
-            "name": "Exit Floor (B1) - Greeds Checks",
+          { "name": "Exit Floor (B1) - Greeds Checks",
             "visibility_rules": [ "IceCave_ExitFloor_B1_GreedsChecks1","IceCave_ExitFloor_B1_GreedsChecks2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Exit Floor (B1) - Drop Room",
+          { "name": "Exit Floor (B1) - Drop Room",
             "visibility_rules": [ "IceCave_ExitFloor_B1_DropRoom1","IceCave_ExitFloor_B1_DropRoom2","IceCave_ExitFloor_B1_DropRoom3" ],
             "clear_as_group": true,
             "item_count": 3
@@ -477,21 +401,22 @@
         "map_locations": [{"map": "overworld", "x": 3160, "y": 2934}]
       },
       { "name": "Crescent Lake",
-        "access_rules": [ "airship", "openProgression,canoe", "ship,canal", "extendedOpen,canoe", "ship,canoe" ],
+        "access_rules": [ "ship,canal", "ship,canoe", "airship", "openProgression,canoe", "extendedOpen,canoe" ],
         "sections": [
-          {
-            "name": "Canoe Sage",
+          { "name": "Canoe Sage",
             "ref": "Crescent Lake/Canoe Sage/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 3512, "y": 3480}]
       },
       { "name": "Ryukahn Desert",
-        "access_rules": [ "canoe,openProgression", "ship,canoe", "canoe,extendedOpen" ],
+        "access_rules": [ "ship,canoe", "ship,canal,ryukahnDock", "openProgression,canoe", "extendedOpen,canoe" ],
         "sections": [
-          {"name": "Airship",
-          "access_rules": [ "inactiveFloater" ],
-          "hosted_item": "airship"}
+          { "name": "Airship",
+            "visibility_rules": [ "$notFreeAirship,$notAirBoat" ],
+            "access_rules": [ "floater" ],
+            "hosted_item": "airship"
+          }
         ],
         "map_locations": [{"map": "overworld", "x": 3530, "y": 3786}]
       }
@@ -500,18 +425,15 @@
   { "name": "Cardia Islands",
     "children": [
       { "name": "Bahamut's Cave",
-        "access_rules": [ "airship","cardiaDock,ship,canal" ],
+        "access_rules": [ "airship","ship,canal,cardiaDock" ],
         "sections": [
-          {
-            "name": "Bahamut",
+          { "name": "Bahamut",
             "ref": "Cardia Bahamut's Island/Bahamut/"
           },
-          {
-            "name" : "Bahamut's Hoard",
+          { "name" : "Bahamut's Hoard",
             "ref" : "Cardia Bahamut's Island/Bahamut's Hoard/"
           },
-          {
-            "name" : "Bahamut's Hoard - Incentive",
+          { "name" : "Bahamut's Hoard - Incentive",
             "ref" : "Cardia Bahamut's Island/Bahamut's Hoard - Incentive/"
           }
         ],
@@ -520,12 +442,10 @@
       { "name": "Grass Island",
         "access_rules": [ "airship" ],
         "sections": [
-          {
-            "name": "Entrance",
+          { "name": "Entrance",
             "ref": "Cardia Grass Island/Entrance/"
           },
-          {
-            "name": "Duo Room",
+          { "name": "Duo Room",
             "visibility_rules": ["CardiaGrassIsland_DuoRoom1","CardiaGrassIsland_DuoRoom2"],
             "clear_as_group": true,
             "item_count": 2
@@ -536,8 +456,7 @@
       { "name": "Swamp Island",
         "access_rules": [ "airship" ],
         "sections": [
-          {
-            "name": "Chest",
+          { "name": "Chest",
             "visibility_rules": ["CardiaSwampIsland_Chest1","CardiaSwampIsland_Chest2","CardiaSwampIsland_Chest3"],
             "clear_as_group": true,
             "item_count": 3
@@ -548,20 +467,17 @@
       { "name": "Forest Island",
         "access_rules": [ "airship" ],
         "sections": [
-          {
-            "name": "Entrance",
+          { "name": "Entrance",
             "visibility_rules": ["CardiaForestIsland_Entrance1","CardiaForestIsland_Entrance2","CardiaForestIsland_Entrance3"],
             "clear_as_group": true,
             "item_count": 3
           },
-          {
-            "name": "Incentive",
+          { "name": "Incentive",
             "visibility_rules": ["CardiaForestIsland_Incentive1","CardiaForestIsland_Incentive2","CardiaForestIsland_Incentive3"],
             "clear_as_group": true,
             "item_count": 3
           },
-          {
-            "name": "Incentive Major",
+          { "name": "Incentive Major",
             "ref": "Cardia Forest Island/Incentive Major/"
           }
         ],
@@ -572,26 +488,22 @@
   { "name": "Bird Continent",
     "children": [
       { "name": "Castle of Ordeals",
-        "access_rules": [ "airship,canoe", "ship,canal,canoe" ],
+        "access_rules": [ "ship,canal,canoe,crown", "ship,canal,canoe,earlyOrdeals", "airship,canoe,crown", "airship,canoe,earlyOrdeals", "lefeinBridge,bridge,ordealsHighway,crown", "lefeinBridge,bridge,ordealsHighway,earlyOrdeals" ],
         "sections": [
-          {
-            "name": "Top Floor (3F) - Single",
+          { "name": "Top Floor (3F) - Single",
             "visibility_rules": [ "CastleOfOrdeals_TopFloor_3F_Single" ]
           },
-          {
-            "name": "Top Floor (3F) - Three-Pack",
+          { "name": "Top Floor (3F) - Three-Pack",
             "visibility_rules": [ "CastleOfOrdeals_TopFloor_3F_ThreePack1","CastleOfOrdeals_TopFloor_3F_ThreePack2","CastleOfOrdeals_TopFloor_3F_ThreePack3" ],
             "clear_as_group": true,
             "item_count": 3
           },
-          {
-            "name": "Top Floor (3F) - Four-Pack",
+          { "name": "Top Floor (3F) - Four-Pack",
             "visibility_rules": [ "CastleOfOrdeals_TopFloor_3F_FourPack1","CastleOfOrdeals_TopFloor_3F_FourPack2","CastleOfOrdeals_TopFloor_3F_FourPack3","CastleOfOrdeals_TopFloor_3F_FourPack4" ],
             "clear_as_group": true,
             "item_count": 4
           },
-          {
-            "name": "Top Floor (3F) - Incentive",
+          { "name": "Top Floor (3F) - Incentive",
             "visibility_rules": [ "CastleOfOrdeals_TopFloor_3F_Incentive" ],
             "hosted_item": "castleOfOrdealsIncentive"
           }
@@ -599,22 +511,19 @@
         "map_locations": [{"map": "overworld", "x": 2080, "y": 724}]
       },
       { "name": "Mirage Tower",
-        "access_rules": [ "airship,chime", "northernDocks,chime,ship,canal" ],
+        "access_rules": [ "airship,chime", "ship,canal,northernDocks,chime", "ship,canal,lefeinRiver,ordealsHighway,chime", "lefeinBridge,ordealsHighway,chime" ],
         "sections": [
-          {
-            "name": "(1F) - Chest",
+          { "name": "(1F) - Chest",
             "visibility_rules": [ "MirageTower_1F_Chest1","MirageTower_1F_Chest2","MirageTower_1F_Chest3","MirageTower_1F_Chest4","MirageTower_1F_Chest5","MirageTower_1F_Chest6","MirageTower_1F_Chest7","MirageTower_1F_Chest8" ],
             "clear_as_group": true,
             "item_count": 8
           },
-          {
-            "name": "(2F) - Lesser",
+          { "name": "(2F) - Lesser",
             "visibility_rules": [ "MirageTower_2F_Lesser1","MirageTower_2F_Lesser2","MirageTower_2F_Lesser3","MirageTower_2F_Lesser4","MirageTower_2F_Lesser5" ],
             "clear_as_group": true,
             "item_count": 5
           },
-          {
-            "name": "(2F) - Greater",
+          { "name": "(2F) - Greater",
             "visibility_rules": [ "MirageTower_2F_Greater1","MirageTower_2F_Greater2","MirageTower_2F_Greater3","MirageTower_2F_Greater4","MirageTower_2F_Greater5" ],
             "clear_as_group": true,
             "item_count": 5
@@ -623,95 +532,84 @@
         "map_locations": [{"map": "overworld", "x": 3110, "y": 950}]
       },
       { "name": "Sky Fortress",
-        "access_rules": [ "airship,chime,cube", "northernDocks,chime,cube,ship,canal" ],
+        "access_rules": [ "airship,chime,cube", "ship,canal,northernDocks,chime,cube", "ship,canal,lefeinRiver,ordealsHighway,chime,cube", "lefeinBridge,ordealsHighway,chime,cube" ],
         "sections": [
-          {
-            "name": "Plus (1F) - Solo",
+          { "name": "Plus (1F) - Solo",
             "ref": "Sky Fortress Plus (1F)/Solo/"
           },
-          {
-            "name": "Plus (1F) - Five-Pack",
+          { "name": "Plus (1F) - Five-Pack",
             "visibility_rules": [ "SkyFortress_Plus_1F_FivePack1","SkyFortress_Plus_1F_FivePack2","SkyFortress_Plus_1F_FivePack3","SkyFortress_Plus_1F_FivePack4","SkyFortress_Plus_1F_FivePack5" ],
             "clear_as_group": true,
             "item_count": 5
           },
-          {
-            "name": "Plus (1F) - Four-Pack",
+          { "name": "Plus (1F) - Four-Pack",
             "visibility_rules": [ "SkyFortress_Plus_1F_FourPack1","SkyFortress_Plus_1F_FourPack2","SkyFortress_Plus_1F_FourPack3","SkyFortress_Plus_1F_FourPack4" ],
             "clear_as_group": true,
             "item_count": 4
           },
-          {
-            "name": "Spider (2F) - Cheap Room",
+          { "name": "Spider (2F) - Cheap Room",
             "visibility_rules": [ "SkyFortress_Spider_2F_CheapRoom1","SkyFortress_Spider_2F_CheapRoom2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Spider (2F) - Vault",
+          { "name": "Spider (2F) - Vault",
             "visibility_rules": [ "SkyFortress_Spider_2F_Vault1","SkyFortress_Spider_2F_Vault2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Spider (2F) - Incentive",
+          { "name": "Spider (2F) - Incentive",
             "ref": "Sky Fortress Spider (2F)/Incentive/"
           },
-          {
-            "name": "Spider (2F) - Gauntlet Room",
+          { "name": "Spider (2F) - Gauntlet Room",
             "ref": "Sky Fortress Spider (2F)/Gauntlet Room/"
           },
-          {
-            "name": "Spider (2F) - Ribbon Room",
+          { "name": "Spider (2F) - Ribbon Room",
             "visibility_rules": [ "SkyFortress_Spider_2F_RibbonRoom1","SkyFortress_Spider_2F_RibbonRoom2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Spider (2F) - Wardrobe",
+          { "name": "Spider (2F) - Wardrobe",
             "visibility_rules": [ "SkyFortress_Spider_2F_Wardrobe1","SkyFortress_Spider_2F_Wardrobe2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Provides (3F) - Six-Pack",
+          { "name": "Provides (3F) - Six-Pack",
             "visibility_rules": [ "SkyFortress_Provides_3F_SixPack1","SkyFortress_Provides_3F_SixPack2","SkyFortress_Provides_3F_SixPack3","SkyFortress_Provides_3F_SixPack4","SkyFortress_Provides_3F_SixPack5","SkyFortress_Provides_3F_SixPack6" ],
             "clear_as_group": true,
             "item_count": 6
           },
-          {
-            "name": "Provides (3F) - CC's Gambit",
+          { "name": "Provides (3F) - CC's Gambit",
             "visibility_rules": [ "SkyFortress_Provides_3F_CCsGambit1","SkyFortress_Provides_3F_CCsGambit2","SkyFortress_Provides_3F_CCsGambit3","SkyFortress_Provides_3F_CCsGambit4" ],
             "clear_as_group": true,
             "item_count": 4
           },
-          {
-            "name": "Provides (3F) - Greed",
+          { "name": "Provides (3F) - Greed",
             "visibility_rules": [ "SkyFortress_Provides_3F_Greed1","SkyFortress_Provides_3F_Greed2","SkyFortress_Provides_3F_Greed3","SkyFortress_Provides_3F_Greed4" ],
             "clear_as_group": true,
             "item_count": 4
           },
-          {
-            "name": "Air Orb",
+          { "name": "Air Orb",
             "ref": "Sky Fortress (5F)/Air Orb/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 3110, "y": 904}]
       },
       { "name": "Gaia",
-        "access_rules": [ "airship","gaiaMountain,ship,canoe,lefeinRiver,canal" ],
-        "sections": [{
-          "name": "Fairy",
-          "ref": "Gaia/Fairy/"
-        }],
+        "access_rules": [ "airship","ship,canal,lefeinRiver,canoe,gaiaMountain", "lefeinBridge,bridge,gaiaMountain" ],
+        "sections": [
+          { "name": "Fairy",
+            "ref": "Gaia/Fairy/"
+          }
+        ],
         "map_locations": [{"map": "overworld", "x": 3560, "y": 448}]
       },
       { "name": "Lefein",
-        "access_rules": [ "airship","lefeinRiver,canoe,ship,canal" ],
-        "sections": [{
-          "name": "Incentive",
-          "ref": "Lefein/Incentive/"
-        }],
+        "access_rules": [ "airship", "ship,canal,lefeinRiver,canoe", "lefeinBridge,bridge" ],
+        "sections": [
+          { "name": "Incentive",
+            "ref": "Lefein/Incentive/"
+          }
+        ],
         "map_locations": [{"map": "overworld", "x": 3768, "y": 1586}]
       }
     ]
@@ -719,122 +617,101 @@
   { "name": "Seahorse Continent",
     "children": [
       { "name": "Sea Shrine",
-        "access_rules": [ "airship,canoe,oxyale", "northernDocks,ship,canal,oxyale" ],
+        "access_rules": [ "airship,canoe,oxyale", "ship,canal,northernDocks,oxyale" ],
         "sections": [
-          {
-            "name": "Split Floor (B3) - Kraken Side",
+          { "name": "Split Floor (B3) - Kraken Side",
             "ref": "Sea Shrine Split Floor (B3)/Kraken Side/"
           },
-          {
-            "name": "Split Floor (B3) - Mermaid Side",
+          { "name": "Split Floor (B3) - Mermaid Side",
             "ref": "Sea Shrine Split Floor (B3)/Mermaid Side/"
           },
-          {
-            "name": "TFC Floor (B2) - TFC",
+          { "name": "TFC Floor (B2) - TFC",
             "ref": "Sea Shrine TFC Floor (B2)/TFC/"
           },
-          {
-            "name": "TFC Floor (B2) - TFC North",
+          { "name": "TFC Floor (B2) - TFC North",
             "ref": "Sea Shrine TFC Floor (B2)/TFC North/"
           },
-          {
-            "name": "TFC Floor (B2) - Side Corner",
+          { "name": "TFC Floor (B2) - Side Corner",
             "ref": "Sea Shrine TFC Floor (B2)/Side Corner/"
           },
-          {
-            "name": "TFC Floor (B2) - First Greed",
+          { "name": "TFC Floor (B2) - First Greed",
             "ref": "Sea Shrine TFC Floor (B2)/First Greed/"
           },
-          {
-            "name": "TFC Floor (B2) - Second Greed",
+          { "name": "TFC Floor (B2) - Second Greed",
             "ref": "Sea Shrine TFC Floor (B2)/Second Greed/"
           },
-          {
-            "name": "Mermaids (B1) - Passby",
+          { "name": "Mermaids (B1) - Passby",
             "ref": "Sea Shrine Mermaids (B1)/Passby/"
           },
-          {
-            "name": "Mermaids (B1) - Bubbles",
+          { "name": "Mermaids (B1) - Bubbles",
+            "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
             "visibility_rules": [ "SeaShrine_Mermaids_B1_Bubbles1","SeaShrine_Mermaids_B1_Bubbles2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Mermaids (B1) - Incentive",
+          { "name": "Mermaids (B1) - Incentive",
+            "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
             "visibility_rules": [ "SeaShrine_Mermaids_B1_Incentive1","SeaShrine_Mermaids_B1_Incentive2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Mermaids (B1) - Incentive Major",
+          { "name": "Mermaids (B1) - Incentive Major",
             "ref": "Sea Shrine Mermaids (B1)/Incentive Major/"
           },
-          {
-            "name": "Mermaids (B1) - Entrance",
+          { "name": "Mermaids (B1) - Entrance",
+            "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
             "visibility_rules": [ "SeaShrine_Mermaids_B1_Entrance1","SeaShrine_Mermaids_B1_Entrance2","SeaShrine_Mermaids_B1_Entrance3" ],
             "clear_as_group": true,
             "item_count": 3
           },
-          {
-            "name": "Mermaids (B1) - Four-Corner First",
+          { "name": "Mermaids (B1) - Four-Corner First",
             "ref": "Sea Shrine Mermaids (B1)/Four-Corner First/"
           },
-          {
-            "name": "Mermaids (B1) - Four-Corner Second",
+          { "name": "Mermaids (B1) - Four-Corner Second",
             "ref": "Sea Shrine Mermaids (B1)/Four-Corner Second/"
           },
-          {
-            "name": "Mermaids (B1) - Four-Corner Third",
+          { "name": "Mermaids (B1) - Four-Corner Third",
             "ref": "Sea Shrine Mermaids (B1)/Four-Corner Third/"
           },
-          {
-            "name": "Mermaids (B1) - Four-Corner Fourth",
+          { "name": "Mermaids (B1) - Four-Corner Fourth",
             "ref": "Sea Shrine Mermaids (B1)/Four-Corner Fourth/"
           },
-          {
-            "name": "Greed Floor (B3) - Chest",
+          { "name": "Greed Floor (B3) - Chest",
             "visibility_rules": [ "SeaShrine_GreedFloor_B3_Chest1","SeaShrine_GreedFloor_B3_Chest2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Sharknado Floor (B4) - Dengbait",
+          { "name": "Sharknado Floor (B4) - Dengbait",
             "visibility_rules": [ "SeaShrine_SharknadoFloor_B4_Dengbait1","SeaShrine_SharknadoFloor_B4_Dengbait2" ],
             "clear_as_group": true,
             "item_count": 2
           },
-          {
-            "name": "Sharknado Floor (B4) - Side Corner",
+          { "name": "Sharknado Floor (B4) - Side Corner",
             "visibility_rules": ["SeaShrine_SharknadoFloor_B4_SideCorner1","SeaShrine_SharknadoFloor_B4_SideCorner2","SeaShrine_SharknadoFloor_B4_SideCorner3"],
             "clear_as_group": true,
             "item_count": 3
           },
-          {
-            "name": "Sharknado Floor (B4) - Exit",
+          { "name": "Sharknado Floor (B4) - Exit",
             "ref": "Sea Shrine Sharknado Floor (B4)/Exit/"
           },
-          {
-            "name": "Sharknado Floor (B4) - Greed Room",
+          { "name": "Sharknado Floor (B4) - Greed Room",
             "visibility_rules": ["SeaShrine_SharknadoFloor_B4_GreedRoom1","SeaShrine_SharknadoFloor_B4_GreedRoom2","SeaShrine_SharknadoFloor_B4_GreedRoom3","SeaShrine_SharknadoFloor_B4_GreedRoom4"],
             "clear_as_group": true,
             "item_count": 4
           },
-          {
-            "name": "Water Orb",
+          { "name": "Water Orb",
             "ref": "Sea Shrine (B5)/Water Orb/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 1012, "y": 940}]
       },
       { "name": "Waterfall Cave",
-        "access_rules": [ "airship,canoe", "northernDocks,ship,canal,canoe" ],
+        "access_rules": [ "airship,canoe", "ship,canal,northernDocks,canoe" ],
         "sections": [
-          {
-            "name": "CubeBot",
+          { "name": "CubeBot",
             "ref": "Waterfall Cave/CubeBot/"
           },
-          {
-            "name": "Chest",
+          { "name": "Chest",
             "visibility_rules": ["WaterfallCave_Chest1","WaterfallCave_Chest2","WaterfallCave_Chest3","WaterfallCave_Chest4","WaterfallCave_Chest5","WaterfallCave_Chest6"],
             "clear_as_group": true,
             "item_count": 6

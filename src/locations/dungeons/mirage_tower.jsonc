@@ -1,99 +1,81 @@
 [
   { "name": "Mirage Tower (1F)",
-        "access_rules": [ "airship,chime", "northernDocks,chime,ship,canal" ],
+    "access_rules": [ "airship,chime", "ship,canal,northernDocks,chime", "ship,canal,lefeinRiver,ordealsHighway,chime", "lefeinBridge,ordealsHighway,chime" ],
     "children": [
-      {
-        "name": "Chest 1",
+      { "name": "Chest 1",
         "sections": [{"visibility_rules": ["MirageTower_1F_Chest1"]}],
         "map_locations": [{"map": "miragetower_f1", "x": 184, "y": 264}]
       },
-      {
-        "name": "Chest 2",
+      { "name": "Chest 2",
         "sections": [{"visibility_rules": ["MirageTower_1F_Chest2"]}],
         "map_locations": [{"map": "miragetower_f1", "x": 264, "y": 264}]
       },
-      {
-        "name": "Chest 3",
+      { "name": "Chest 3",
         "sections": [{"visibility_rules": ["MirageTower_1F_Chest3"]}],
         "map_locations": [{"map": "miragetower_f1", "x": 280, "y": 264}]
       },
-      {
-        "name": "Chest 4",
+      { "name": "Chest 4",
         "sections": [{"visibility_rules": ["MirageTower_1F_Chest4"]}],
         "map_locations": [{"map": "miragetower_f1", "x": 296, "y": 280}]
       },
-      {
-        "name": "Chest 5",
+      { "name": "Chest 5",
         "sections": [{"visibility_rules": ["MirageTower_1F_Chest5"]}],
         "map_locations": [{"map": "miragetower_f1", "x": 312, "y": 264}]
       },
-      {
-        "name": "Chest 6",
+      { "name": "Chest 6",
         "sections": [{"visibility_rules": ["MirageTower_1F_Chest6"]}],
         "map_locations": [{"map": "miragetower_f1", "x": 312, "y": 296}]
       },
-      {
-        "name": "Chest 7",
+      { "name": "Chest 7",
         "sections": [{"visibility_rules": ["MirageTower_1F_Chest7"]}],
         "map_locations": [{"map": "miragetower_f1", "x": 360, "y": 264}]
       },
-      {
-        "name": "Chest 8",
+      { "name": "Chest 8",
         "sections": [{"visibility_rules": ["MirageTower_1F_Chest8"]}],
         "map_locations": [{"map": "miragetower_f1", "x": 344, "y": 200}]
       }
     ]
   },
   { "name": "Mirage Tower (2F)",
-        "access_rules": [ "airship,chime", "northernDocks,chime,ship,canal" ],
+    "access_rules": [ "airship,chime", "ship,canal,northernDocks,chime", "ship,canal,lefeinRiver,ordealsHighway,chime", "lefeinBridge,ordealsHighway,chime" ],
     "children": [
-      {
-        "name": "Lesser 1",
+      { "name": "Lesser 1",
         "sections": [{"visibility_rules": ["MirageTower_2F_Lesser1"]}],
         "map_locations": [{"map": "miragetower_f2", "x": 248, "y": 232}]
       },
-      {
-        "name": "Lesser 2",
+      { "name": "Lesser 2",
         "sections": [{"visibility_rules": ["MirageTower_2F_Lesser2"]}],
         "map_locations": [{"map": "miragetower_f2", "x": 232, "y": 248}]
       },
-      {
-        "name": "Lesser 3",
+      { "name": "Lesser 3",
         "sections": [{"visibility_rules": ["MirageTower_2F_Lesser3"]}],
         "map_locations": [{"map": "miragetower_f2", "x": 216, "y": 264}]
       },
-      {
-        "name": "Lesser 4",
+      { "name": "Lesser 4",
         "sections": [{"visibility_rules": ["MirageTower_2F_Lesser4"]}],
         "map_locations": [{"map": "miragetower_f2", "x": 232, "y": 280}]
       },
-      {
-        "name": "Lesser 5",
+      { "name": "Lesser 5",
         "sections": [{"visibility_rules": ["MirageTower_2F_Lesser5"]}],
         "map_locations": [{"map": "miragetower_f2", "x": 248, "y": 296}]
       },
-      {
-        "name": "Greater 1",
+      { "name": "Greater 1",
         "sections": [{"visibility_rules": ["MirageTower_2F_Greater1"]}],
         "map_locations": [{"map": "miragetower_f2", "x": 296, "y": 232}]
       },
-      {
-        "name": "Greater 2",
+      { "name": "Greater 2",
         "sections": [{"visibility_rules": ["MirageTower_2F_Greater2"]}],
         "map_locations": [{"map": "miragetower_f2", "x": 312, "y": 248}]
       },
-      {
-        "name": "Greater 3",
+      { "name": "Greater 3",
         "sections": [{"visibility_rules": ["MirageTower_2F_Greater3"]}],
         "map_locations": [{"map": "miragetower_f2", "x": 328, "y": 264}]
       },
-      {
-        "name": "Greater 4",
+      { "name": "Greater 4",
         "sections": [{"visibility_rules": ["MirageTower_2F_Greater4"]}],
         "map_locations": [{"map": "miragetower_f2", "x": 312, "y": 280}]
       },
-      {
-        "name": "Greater 5",
+      { "name": "Greater 5",
         "sections": [{"visibility_rules": ["MirageTower_2F_Greater5"]}],
         "map_locations": [{"map": "miragetower_f2", "x": 296, "y": 296}]
       }

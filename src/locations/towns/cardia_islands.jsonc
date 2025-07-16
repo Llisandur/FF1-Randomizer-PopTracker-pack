@@ -1,25 +1,21 @@
 [
-  {
-    "name": "Cardia Bahamut's Island",
-    "access_rules": [ "airship","cardiaDock,ship,canal" ],
+  { "name": "Cardia Bahamut's Island",
+    "access_rules": [ "airship","ship,canal,cardiaDock" ],
     "children": [
-      {
-        "name": "Bahamut",
+      { "name": "Bahamut",
         "sections": [{
           "access_rules": [ "tail" ],
           "hosted_item": "bahamut"
         }]
       },
-      {
-        "name": "Bahamut's Hoard",
+      { "name": "Bahamut's Hoard",
         "sections": [{
           "visibility_rules" : [ "bahamutHoard,CardiaGrassIsland_Entrance","bahamutHoard,CardiaGrassIsland_DuoRoom1","bahamutHoard,CardiaGrassIsland_DuoRoom2","bahamutHoard,CardiaSwampIsland_Chest1","bahamutHoard,CardiaSwampIsland_Chest2","bahamutHoard,CardiaSwampIsland_Chest3","bahamutHoard,CardiaForestIsland_Entrance1","bahamutHoard,CardiaForestIsland_Entrance2","bahamutHoard,CardiaForestIsland_Entrance3","bahamutHoard,CardiaForestIsland_Incentive1","bahamutHoard,CardiaForestIsland_Incentive2","bahamutHoard,CardiaForestIsland_Incentive3" ],
           "clear_as_group": true,
           "item_count": 12
           }]
       },
-      {
-        "name": "Bahamut's Hoard - Incentive",
+      { "name": "Bahamut's Hoard - Incentive",
         "sections": [{
           "visibility_rules" : [ "bahamutHoard,CardiaForestIsland_IncentiveMajor" ],
           "hosted_item" : "cardiaIncentive"
@@ -27,72 +23,56 @@
       }
     ]
   },
-  {
-    "name": "Cardia Grass Island",
+  { "name": "Cardia Grass Island",
     "access_rules": [ "airship" ],
     "children": [
-      {
-        "name": "Entrance",
+      { "name": "Entrance",
         "sections": [{"visibility_rules": ["CardiaGrassIsland_Entrance"]}]
       },
-      {
-        "name": "Duo Room 1",
+      { "name": "Duo Room 1",
         "sections": [{"visibility_rules": ["CardiaGrassIsland_DuoRoom1"]}]
       },
-      {
-        "name": "Duo Rooom 2",
+      { "name": "Duo Rooom 2",
         "sections": [{"visibility_rules": ["CardiaGrassIsland_DuoRoom2"]}]
       }
     ]
   },
-  {
-    "name": "Cardia Swamp Island",
+  { "name": "Cardia Swamp Island",
     "access_rules": [ "airship" ],
     "children": [
-      {
-        "name": "Chest 1",
+      { "name": "Chest 1",
         "sections": [{"visibility_rules": ["CardiaSwampIsland_Chest1"]}]
       },
-      {
-        "name": "Chest 2",
+      { "name": "Chest 2",
         "sections": [{"visibility_rules": ["CardiaSwampIsland_Chest2"]}]
       },
-      {
-        "name": "Chest 3",
+      { "name": "Chest 3",
         "sections": [{"visibility_rules": ["CardiaSwampIsland_Chest3"]}]
       }
     ]
   },
-  {
-    "name": "Cardia Forest Island",
+  { "name": "Cardia Forest Island",
     "access_rules": [ "airship" ],
     "children": [
-      {
-        "name": "Entrance 1",
+      { "name": "Entrance 1",
         "sections": [{"visibility_rules": ["CardiaForestIsland_Entrance1"]}]
       },
-      {
-        "name": "Entrance 2",
+      { "name": "Entrance 2",
         "sections": [{"visibility_rules": ["CardiaForestIsland_Entrance2"]}]
       },
-      {
-        "name": "Entrance 3",
+      { "name": "Entrance 3",
         "sections": [{"visibility_rules": ["CardiaForestIsland_Entrance3"]}]
       },
-      {
-        "name": "Incentive 1",
+      { "name": "Incentive 1",
         "sections": [{"visibility_rules": ["CardiaForestIsland_Incentive1"]}]
       },
-      {
-        "name": "Incentive 2",
+      { "name": "Incentive 2",
         "sections": [{"visibility_rules": ["CardiaForestIsland_Incentive2"]}]
       },
-      {
-        "name": "Incentive 3",
+      { "name": "Incentive 3",
         "sections": [{"visibility_rules": ["CardiaForestIsland_Incentive3"]}]
       },
-      {
-        "name": "Incentive Major",
+      { "name": "Incentive Major",
         "sections": [{
           "visibility_rules": ["CardiaForestIsland_IncentiveMajor"],
           "hosted_item": "cardiaIncentive"

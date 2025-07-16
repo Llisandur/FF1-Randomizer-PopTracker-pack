@@ -1,56 +1,44 @@
 [
-  {
-    "name": "Temple of Fiends Revisited (3F)",
-    "access_rules": [ "$canBreakOrb,key" ],
+  { "name": "Temple of Fiends Revisited (3F)",
+    "access_rules": [ "$canBreakOrb,key", "$canBreakOrb,lockpicking" ],
     "children": [
-      {
-        "name": "Validation 1",
+      { "name": "Validation 1",
         "sections": [{"visibility_rules": ["TempleOfFiendsRevisited_3F_Validation1"]}]
       },
-      {
-        "name": "Validation 2",
+      { "name": "Validation 2",
         "sections": [{"visibility_rules": ["TempleOfFiendsRevisited_3F_Validation2"]}]
       }
     ]
   },
-  {
-    "name": "Temple of Fiends Revisited Kary Floor (6F)", //Should be B2F following stairs or 5F
-    "access_rules": [ "$canBreakOrb,lute,key" ],
+  { "name": "Temple of Fiends Revisited Kary Floor (6F)", //Should be B2F following stairs or 5F
+    "access_rules": [ "$canBreakOrb,key,lute", "$canBreakOrb,lockpicking,lute" ],
     "children": [
-      {
-        "name": "Greed Checks 1",
+      { "name": "Greed Checks 1",
         "sections": [{"visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks1"]}]
       },
-      {
-        "name": "Greed Checks 2",
+      { "name": "Greed Checks 2",
         "sections": [{"visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_GreedChecks2"]}]
       },
-      {
-        "name": "Katana Chest",
+      { "name": "Katana Chest",
         "sections": [{"visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_KatanaChest"]}]
       },
-      {
-        "name": "Vault",
+      { "name": "Vault",
         "sections": [{"visibility_rules": ["TempleOfFiendsRevisited_KaryFloor_6F_Vault"]}]
       }
     ]
   },
-  {
-    "name": "Temple of Fiends Revisited Tiamat Floor (8F)", //Should be B4F following stairs or 7F
-    "access_rules": [ "$canBreakOrb,lute,key" ],
+  { "name": "Temple of Fiends Revisited Tiamat Floor (8F)", //Should be B4F following stairs or 7F
+    "access_rules": [ "$canBreakOrb,key,lute", "$canBreakOrb,lockpicking,lute" ],
     "children": [
-      {
-        "name": "Masamune Chest",
+      { "name": "Masamune Chest",
         "sections": [{"visibility_rules": ["TempleOfFiendsRevisited_TiamatFloor_8F_MasamuneChest"]}]
       }
     ]
   },
-  {
-    "name": "Temple of Fiends Revisited Chaos Floor (9F)", //Should be B5F following stairs or 8F
-    "access_rules": [ "$canBreakOrb,lute,key" ],
+  { "name": "Temple of Fiends Revisited Chaos Floor (9F)", //Should be B5F following stairs or 8F
+    "access_rules": [ "$canBreakOrb,key,lute", "$canBreakOrb,lockpicking,lute" ],
     "children": [
-      {
-        "name": "Chaos",
+      { "name": "Chaos",
         "sections": [{"hosted_item": "chaos"}]
       }
     ]

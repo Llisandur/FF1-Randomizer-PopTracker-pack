@@ -1,7 +1,6 @@
 [
-  {
-    "name": "Matoya's Cave",
-    "access_rules": [ "bridge", "ship", "airship", "extendedOpen,canoe", "openProgression,canoe"],
+  { "name": "Matoya's Cave",
+    "access_rules": [ "bridge", "ship", "airship", "openProgression,canoe", "extendedOpen,canoe", "lefeinBridge" ],
     "children": [
       {
         "name": "Matoya",

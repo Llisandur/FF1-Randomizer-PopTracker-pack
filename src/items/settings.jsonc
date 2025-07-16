@@ -78,6 +78,111 @@
     "disabled_img" : "images/settings/cardiaHoard-No.png"
   },
   {
+    "name": "Titan's Trove",
+    "type": "toggle",
+    "img" : "images/settings/titansTunnel.png",
+    "codes" : "titansTunnel",
+    "disabled_img" : "images/settings/titansTunnel-No.png"
+  },
+  {
+    "name": "Mermaid Prison",
+    "type": "toggle",
+    "img" : "images/settings/mermaidPrison.png",
+    "codes" : "mermaidPrison",
+    "disabled_img" : "images/settings/mermaidPrison-No.png"
+  },
+  {
+    "name": "Early King Item",
+    "type": "toggle",
+    "img" : "images/settings/earlyKing.png",
+    "codes" : "earlyKing",
+    "disabled_img" : "images/settings/earlyKing-No.png"
+  },
+  {
+    "name": "Early Sarda Item",
+    "type": "toggle",
+    "img" : "images/settings/earlySarda.png",
+    "codes" : "earlySarda",
+    "disabled_img" : "images/settings/earlySarda-No.png"
+  },
+  {
+    "name": "Early Sage Item",
+    "type": "toggle",
+    "img" : "images/settings/earlySages.png",
+    "codes" : "earlySages",
+    "disabled_img" : "images/settings/earlySages-No.png"
+  },
+  {
+    "name": "Early Ordeals",
+    "type": "toggle",
+    "img" : "images/settings/earlyOrdeals.png",
+    "codes" : "earlyOrdeals",
+    "disabled_img" : "images/settings/earlyOrdeals-No.png"
+  },
+  {
+    "name": "Free Ship",
+    "type": "toggle",
+    "img" : "images/settings/freeShip.png",
+    "codes" : "freeShip",
+    "disabled_img" : "images/settings/freeShip-No.png"
+  },
+  {
+    "name": "Free Airship",
+    "type": "toggle",
+    "img" : "images/settings/freeAirship.png",
+    "codes" : "freeAirship",
+    "disabled_img" : "images/settings/freeAirship-No.png"
+  },
+  {
+    "name": "Free Bridge",
+    "type": "toggle",
+    "img" : "images/settings/freeBridge.png",
+    "codes" : "freeBridge",
+    "disabled_img" : "images/settings/freeBridge-No.png"
+  },
+  {
+    "name": "Free Canal",
+    "type": "toggle",
+    "img" : "images/settings/freeCanal.png",
+    "codes" : "freeCanal",
+    "disabled_img" : "images/settings/freeCanal-No.png"
+  },
+  {
+    "name": "Free Canoe",
+    "type": "toggle",
+    "img" : "images/settings/freeCanoe.png",
+    "codes" : "freeCanoe",
+    "disabled_img" : "images/settings/freeCanoe-No.png"
+  },
+  {
+    "name": "Free Lute",
+    "type": "toggle",
+    "img" : "images/settings/freeLute.png",
+    "codes" : "freeLute",
+    "disabled_img" : "images/settings/freeLute-No.png"
+  },
+  {
+    "name": "Free Tail",
+    "type": "toggle",
+    "img" : "images/settings/freeTail.png",
+    "codes" : "freeTail",
+    "disabled_img" : "images/settings/freeTail-No.png"
+  },
+  {
+    "name": "Free Rod",
+    "type": "toggle",
+    "img" : "images/settings/freeRod.png",
+    "codes" : "freeRod",
+    "disabled_img" : "images/settings/freeRod-No.png"
+  },
+  {
+    "name": "AirBoat",
+    "type": "toggle",
+    "img" : "images/settings/airBoat.png",
+    "codes" : "airBoat",
+    "disabled_img" : "images/settings/airBoat-No.png"
+  },
+  {
     "name" : "Show All Chests",
     "type" : "progressive",
     "loop": true,

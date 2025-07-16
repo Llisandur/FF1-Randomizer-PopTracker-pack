@@ -1,68 +1,60 @@
 [
-  {
-    "name": "Coneria Castle",
+  { "name": "Coneria Castle",
     "children": [
-      {
-        "name": "King",
+      { "name": "King",
         "sections": [{
+          "access_rules": [ "princessSara", "earlyKing" ],
           "hosted_item": "king"
         }],
         "map_locations": [{"map": "coneria_castle_f2", "x": 215, "y": 53}]
       },
-      {
-        "name": "Princess Sara",
+      { "name": "Princess Sara",
         "sections": [{
           "access_rules": [ "garland" ],
-          "hosted_item": "sara"
+          "hosted_item": "princessSara"
         }],
         "map_locations": [{"map": "coneria_castle_f2", "x": 199, "y": 69}]
       },
-      {
-        "name": "Treasury 1",
+      { "name": "Treasury 1",
         "sections": [{
           "visibility_rules": ["ConeriaCastle_Treasury1"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "coneria_castle_f1", "x": 248, "y": 136}]
       },
-      {
-        "name": "Treasury 2",
+      { "name": "Treasury 2",
         "sections": [{
           "visibility_rules": ["ConeriaCastle_Treasury2"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "coneria_castle_f1", "x": 264, "y": 136}]
       },
-      {
-        "name": "Treasury Major",
+      { "name": "Treasury Major",
         "sections": [{
           "visibility_rules": ["ConeriaCastle_TreasuryMajor"],
-          "access_rules": [ "key" ],
+          "access_rules": [ "key", "lockpicking" ],
           "hosted_item": "coneriaIncentive"
         }],
         "map_locations": [{"map": "coneria_castle_f1", "x": 280, "y": 136}]
       },
-      {
-        "name": "Treasury 3",
+      { "name": "Treasury 3",
         "sections": [{
           "visibility_rules": ["ConeriaCastle_Treasury3"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "coneria_castle_f1", "x": 328, "y": 136}]
       },
-      {
-        "name": "Treasury 4",
+      { "name": "Treasury 4",
         "sections": [{
           "visibility_rules": ["ConeriaCastle_Treasury4"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "coneria_castle_f1", "x": 344, "y": 136}]
       },
-      {
-        "name": "Treasury 5",
+      { "name": "Treasury 5",
         "sections": [{
           "visibility_rules": ["ConeriaCastle_Treasury5"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "coneria_castle_f1", "x": 360, "y": 136}]
       }

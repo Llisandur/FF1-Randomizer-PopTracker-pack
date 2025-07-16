@@ -1,19 +1,16 @@
 [
   { "name": "Ice Cave Incentive Floor (B2)",
-    "access_rules": [ "airship", "ship,canoe", "bridge,canoe", "openProgression,canoe", "extendedOpen,canoe" ],
+    "access_rules": [ "bridge,canoe", "ship,canoe", "ship,canal,canoe", "airship", "openProgression,canoe", "extendedOpen,canoe" ],
     "children": [
-      {
-        "name": "Chest 1",
+      { "name": "Chest 1",
         "sections": [{"visibility_rules": ["IceCave_IncentiveFloor_B2_Chest1"]}],
         "map_locations": [{"map": "ice_cave_b2", "x": 200, "y": 152}]
       },
-      {
-        "name": "Chest 2",
+      { "name": "Chest 2",
         "sections": [{"visibility_rules": ["IceCave_IncentiveFloor_B2_Chest2"]}],
         "map_locations": [{"map": "ice_cave_b2", "x": 168, "y": 152}]
       },
-      {
-        "name": "Major",
+      { "name": "Major",
         "sections": [{
           "visibility_rules": ["IceCave_IncentiveFloor_B2_Major"],
           "hosted_item": "iceCaveIncentive"
@@ -23,75 +20,62 @@
     ]
   },
   { "name": "Ice Cave Bottom (B3)",
-    "access_rules": [ "airship", "ship,canoe", "bridge,canoe", "openProgression,canoe", "extendedOpen,canoe" ],
+    "access_rules": [ "bridge,canoe", "ship,canoe", "ship,canal,canoe", "airship", "openProgression,canoe", "extendedOpen,canoe" ],
     "children": [
-      {
-        "name": "IceD Room 1",
+      { "name": "IceD Room 1",
         "sections": [{"visibility_rules": ["IceCave_Bottom_B3_IceDRoom1"]}],
         "map_locations": [{"map": "ice_cave_b3", "x": 40, "y": 136}]
       },
-      {
-        "name": "IceD Room 2",
+      { "name": "IceD Room 2",
         "sections": [{"visibility_rules": ["IceCave_Bottom_B3_IceDRoom2"]}],
         "map_locations": [{"map": "ice_cave_b3", "x": 56, "y": 136}]
       },
-      {
-        "name": "Six-Pack 1",
+      { "name": "Six-Pack 1",
         "sections": [{"visibility_rules": ["IceCave_Bottom_B3_SixPack1"]}],
         "map_locations": [{"map": "ice_cave_b3", "x": 200, "y": 632}]
       },
-      {
-        "name": "Six-Pack 2",
+      { "name": "Six-Pack 2",
         "sections": [{"visibility_rules": ["IceCave_Bottom_B3_SixPack2"]}],
         "map_locations": [{"map": "ice_cave_b3", "x": 216, "y": 632}]
       },
-      {
-        "name": "Six-Pack 3",
+      { "name": "Six-Pack 3",
         "sections": [{"visibility_rules": ["IceCave_Bottom_B3_SixPack3"]}],
         "map_locations": [{"map": "ice_cave_b3", "x": 232, "y": 632}]
       },
-      {
-        "name": "Six-Pack 4",
+      { "name": "Six-Pack 4",
         "sections": [{"visibility_rules": ["IceCave_Bottom_B3_SixPack4"]}],
         "map_locations": [{"map": "ice_cave_b3", "x": 200, "y": 664}]
       },
-      {
-        "name": "Six-Pack 5",
+      { "name": "Six-Pack 5",
         "sections": [{"visibility_rules": ["IceCave_Bottom_B3_SixPack5"]}],
         "map_locations": [{"map": "ice_cave_b3", "x": 216, "y": 664}]
       },
-      {
-        "name": "Six-Pack 6",
+      { "name": "Six-Pack 6",
         "sections": [{"visibility_rules": ["IceCave_Bottom_B3_SixPack6"]}],
         "map_locations": [{"map": "ice_cave_b3", "x": 232, "y": 664}]
       }
     ]
   },
   { "name": "Ice Cave Exit Floor (B1)",
-    "access_rules": [ "airship", "ship,canoe", "bridge,canoe", "openProgression,canoe", "extendedOpen,canoe" ],
+    "access_rules": [ "bridge,canoe", "ship,canoe", "ship,canal,canoe", "airship", "openProgression,canoe", "extendedOpen,canoe" ],
     "children": [
-      {
-        "name": "Greeds Checks 1",
+      { "name": "Greeds Checks 1",
         "sections": [{"visibility_rules": ["IceCave_ExitFloor_B1_GreedsChecks1"]}],
         "map_locations": [{"map": "ice_cave_b1", "x": 120, "y": 376}]
       },
-      {
-        "name": "Greeds Checks 2",
+      { "name": "Greeds Checks 2",
         "sections": [{"visibility_rules": ["IceCave_ExitFloor_B1_GreedsChecks2"]}],
         "map_locations": [{"map": "ice_cave_b1", "x": 168, "y": 456}]
       },
-      {
-        "name": "Drop Room 1",
+      { "name": "Drop Room 1",
         "sections": [{"visibility_rules": ["IceCave_ExitFloor_B1_DropRoom1"]}],
         "map_locations": [{"map": "ice_cave_b1", "x": 328, "y": 344}]
       },
-      {
-        "name": "Drop Room 2",
+      { "name": "Drop Room 2",
         "sections": [{"visibility_rules": ["IceCave_ExitFloor_B1_DropRoom2"]}],
         "map_locations": [{"map": "ice_cave_b1", "x": 344, "y": 344}]
       },
-      {
-        "name": "Drop Room 3",
+      { "name": "Drop Room 3",
         "sections": [{"visibility_rules": ["IceCave_ExitFloor_B1_DropRoom3"]}],
         "map_locations": [{"map": "ice_cave_b1", "x": 360, "y": 344}]
       }

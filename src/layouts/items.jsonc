@@ -18,9 +18,9 @@
     "item_margin": "1,2",
     "rows":
     [
-      [ "garland", "king", "sara", "bikke", "marshIncentive", "astos", "matoya" ],
+      [ "garland", "king", "princessSara", "bikke", "marshIncentive", "astos", "matoya" ],
       [ "elfprince", "coneriaIncentive", "nerrick", "earthCaveIncentive", "sarda", "sages", "iceCaveIncentive" ],
-      [ "castleOfOrdealsIncentive", "shopItem", "fairy", "seaShrineIncentive", "robot", "lefein", "skyFortressIncentive" ],
+      [ "castleOfOrdealsIncentive", "shopItem", "fairy", "seaShrineIncentive", "cubeBot", "lefein", "skyFortressIncentive" ],
       [ "smith", "", "", "marshLockedIncentive", "titansTrove", "volcanoIncentive", "cardiaIncentive" ]
     ]
   },

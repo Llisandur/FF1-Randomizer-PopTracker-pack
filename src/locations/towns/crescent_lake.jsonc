@@ -1,10 +1,9 @@
 [
-  {
-    "name": "Crescent Lake",
-    "access_rules": [ "airship", "openProgression,canoe", "ship,canal", "extendedOpen,canoe", "ship,canoe" ],
+  { "name": "Crescent Lake",
+    "access_rules": [ "ship,canal", "ship,canoe", "airship", "openProgression,canoe", "extendedOpen,canoe" ],
     "children": [
-      {
-        "name": "Canoe Sage",
+      { "name": "Canoe Sage",
+        "access_rules": [ "earthorb", "earlySages" ],
         "sections": [{"hosted_item": "sages"}]
       }
     ]

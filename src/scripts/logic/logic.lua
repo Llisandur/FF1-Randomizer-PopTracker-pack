@@ -14,6 +14,22 @@ function has_more_then_n_consumable(n)
   return 0 -- 0 => no access
 end
 
+function notTitansTunnel()
+  return not Tracker:FindObjectForCode("titansTunnel").Active
+end
+
+function notFreeAirship()
+  return not Tracker:FindObjectForCode("freeAirship").Active
+end
+
+function notAirBoat()
+  return not Tracker:FindObjectForCode("airBoat").Active
+end
+
+function notMermaidPrison()
+  return not Tracker:FindObjectForCode("mermaidPrison").Active
+end
+
 function canBreakOrb()
   if Tracker.ActiveVariantUID == "shardHunt" then
     local shardCountItem = Tracker:FindObjectForCode("shard")

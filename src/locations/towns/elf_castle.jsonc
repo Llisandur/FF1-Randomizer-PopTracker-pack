@@ -1,45 +1,39 @@
 [
-  {
-    "name": "Elf Castle",
-    "access_rules": [ "airship", "ship,canal" ],
+  { "name": "Elf Castle",
+    "access_rules": [ "ship", "airship", "openProgression,canoe", "extendedOpen" ],
     "children": [
-      {
-        "name": "Elf Prince",
+      { "name": "Elf Prince",
         "sections": [{
           "access_rules": [ "herb" ],
           "hosted_item": "elfprince"
         }],
         "map_locations": [{"map": "elf_castle", "x": 168, "y": 150}]
       },
-      {
-        "name": "Treasury 1",
+      { "name": "Treasury 1",
         "sections": [{
           "visibility_rules": ["ElflandCastle_Treasury1"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "elf_castle", "x": 376, "y": 72}]
       },
-      {
-        "name": "Treasury 2",
+      { "name": "Treasury 2",
         "sections": [{
           "visibility_rules": ["ElflandCastle_Treasury2"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "elf_castle", "x": 392, "y": 72}]
       },
-      {
-        "name": "Treasury 3",
+      { "name": "Treasury 3",
         "sections": [{
           "visibility_rules": ["ElflandCastle_Treasury3"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "elf_castle", "x": 408, "y": 72}]
       },
-      {
-        "name": "Treasury 4",
+      { "name": "Treasury 4",
         "sections": [{
           "visibility_rules": ["ElflandCastle_Treasury4"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "elf_castle", "x": 424, "y": 72}]
       }

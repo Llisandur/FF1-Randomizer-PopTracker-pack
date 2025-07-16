@@ -1,6 +1,6 @@
-[{
-    "name": "Dwarf Cave",
-    "access_rules": [ "openProgression", "ship", "airship", "extendedOpen" ],
+[
+  { "name": "Dwarf Cave",
+    "access_rules": [ "ship", "airship", "openProgression", "extendedOpen" ],
     "children": [
       {
         "name": "Smith",
@@ -36,7 +36,7 @@
         "name": "Treasury 1",
         "sections": [{
           "visibility_rules": ["DwarfCave_Treasury1"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "dwarf_cave", "x": 134, "y": 663}]
       },
@@ -44,7 +44,7 @@
         "name": "Treasury 2",
         "sections": [{
           "visibility_rules": ["DwarfCave_Treasury2"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "dwarf_cave", "x": 150, "y": 663}]
       },
@@ -52,7 +52,7 @@
         "name": "Treasury 3",
         "sections": [{
           "visibility_rules": ["DwarfCave_Treasury3"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "dwarf_cave", "x": 214, "y": 711}]
       },
@@ -60,7 +60,7 @@
         "name": "Treasury 4",
         "sections": [{
           "visibility_rules": ["DwarfCave_Treasury4"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "dwarf_cave", "x": 230, "y": 711}]
       },
@@ -68,7 +68,7 @@
         "name": "Treasury 5",
         "sections": [{
           "visibility_rules": ["DwarfCave_Treasury5"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "dwarf_cave", "x": 246, "y": 711}]
       },
@@ -76,7 +76,7 @@
         "name": "Treasury 6",
         "sections": [{
           "visibility_rules": ["DwarfCave_Treasury6"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "dwarf_cave", "x": 310, "y": 711}]
       },
@@ -84,7 +84,7 @@
         "name": "Treasury 7",
         "sections": [{
           "visibility_rules": ["DwarfCave_Treasury7"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "dwarf_cave", "x": 326, "y": 711}]
       },
@@ -92,7 +92,7 @@
         "name": "Treasury 8",
         "sections": [{
           "visibility_rules": ["DwarfCave_Treasury8"],
-          "access_rules": [ "key" ]
+          "access_rules": [ "key", "lockpicking" ]
         }],
         "map_locations": [{"map": "dwarf_cave", "x": 342, "y": 711}]
       }

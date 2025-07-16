@@ -1,7 +1,7 @@
 [
   {
     "name": "Lefein",
-    "access_rules": [ "airship","lefeinRiver,canoe,ship,canal" ],
+    "access_rules": [ "airship", "ship,canal,lefeinRiver,canoe", "lefeinBridge,bridge" ],
     "children": [
       {
         "name": "Incentive",

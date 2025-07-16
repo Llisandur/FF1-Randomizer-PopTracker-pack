@@ -57,7 +57,7 @@
     "name": "Floater",
     "type": "toggle",
     "img": "images/items/floater.png",
-    "codes": "floater,inactiveFloater"
+    "codes": "floater"
   },
   {
     "name": "Herb",
