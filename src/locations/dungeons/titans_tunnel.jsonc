@@ -1,6 +1,6 @@
 [
   { "name": "Titan's Tunnel",
-    "access_rules": [ "ship,canal,ruby", "$notTitansTunnel,airship", "airship,ruby" ],
+    "access_rules": [ "ship,canal,ruby", "$getNot|titansTunnel,airship", "airship,ruby" ],
     "children": [
       { "name": "Chest 1",
         "sections": [{"visibility_rules": ["TitansTunnel_Chest1"]}]

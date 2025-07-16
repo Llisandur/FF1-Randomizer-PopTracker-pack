@@ -199,7 +199,7 @@
   { "name": "Earth Peninsula",
     "children": [
       { "name": "Titan's Tunnel",
-        "access_rules": [ "ship,canal,ruby", "$notTitansTunnel,airship", "airship,ruby" ],
+        "access_rules": [ "ship,canal,ruby", "$getNot|titansTunnel,airship", "airship,ruby" ],
         "sections": [
           { "name": "Chests",
             "visibility_rules": [ "TitansTunnel_Chest1","TitansTunnel_Chest2","TitansTunnel_Chest3" ],
@@ -413,7 +413,7 @@
         "access_rules": [ "ship,canoe", "ship,canal,ryukahnDock", "openProgression,canoe", "extendedOpen,canoe" ],
         "sections": [
           { "name": "Airship",
-            "visibility_rules": [ "$notFreeAirship,$notAirBoat" ],
+            "visibility_rules": [ "$getNot|freeAirship,$getNot|airBoat" ],
             "access_rules": [ "floater" ],
             "hosted_item": "airship"
           }
@@ -644,13 +644,13 @@
             "ref": "Sea Shrine Mermaids (B1)/Passby/"
           },
           { "name": "Mermaids (B1) - Bubbles",
-            "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+            "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
             "visibility_rules": [ "SeaShrine_Mermaids_B1_Bubbles1","SeaShrine_Mermaids_B1_Bubbles2" ],
             "clear_as_group": true,
             "item_count": 2
           },
           { "name": "Mermaids (B1) - Incentive",
-            "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+            "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
             "visibility_rules": [ "SeaShrine_Mermaids_B1_Incentive1","SeaShrine_Mermaids_B1_Incentive2" ],
             "clear_as_group": true,
             "item_count": 2
@@ -659,7 +659,7 @@
             "ref": "Sea Shrine Mermaids (B1)/Incentive Major/"
           },
           { "name": "Mermaids (B1) - Entrance",
-            "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+            "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
             "visibility_rules": [ "SeaShrine_Mermaids_B1_Entrance1","SeaShrine_Mermaids_B1_Entrance2","SeaShrine_Mermaids_B1_Entrance3" ],
             "clear_as_group": true,
             "item_count": 3

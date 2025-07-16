@@ -71,18 +71,18 @@
     "disabled_img" : "images/settings/melmondRiver-No.png"
   },
   {
-    "name": "Bahamut's Hoard",
-    "type": "toggle",
-    "img" : "images/settings/cardiaHoard.png",
-    "codes" : "bahamutHoard",
-    "disabled_img" : "images/settings/cardiaHoard-No.png"
-  },
-  {
     "name": "Titan's Trove",
     "type": "toggle",
     "img" : "images/settings/titansTunnel.png",
     "codes" : "titansTunnel",
     "disabled_img" : "images/settings/titansTunnel-No.png"
+  },
+  {
+    "name": "Bahamut's Hoard",
+    "type": "toggle",
+    "img" : "images/settings/cardiaHoard.png",
+    "codes" : "bahamutHoard",
+    "disabled_img" : "images/settings/cardiaHoard-No.png"
   },
   {
     "name": "Mermaid Prison",

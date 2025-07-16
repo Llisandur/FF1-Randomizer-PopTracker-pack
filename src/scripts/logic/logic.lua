@@ -14,21 +14,37 @@ function has_more_then_n_consumable(n)
   return 0 -- 0 => no access
 end
 
-function notTitansTunnel()
-  return not Tracker:FindObjectForCode("titansTunnel").Active
+function getNot(string)
+  if ENABLE_DEBUG_LOG then
+    print(string.format("called getNot: %s", string))
+  end
+  return not Tracker:FindObjectForCode(string).Active
 end
 
-function notFreeAirship()
-  return not Tracker:FindObjectForCode("freeAirship").Active
-end
+local freeItemTable = {
+  ["freeShip"]    = {"ship"},
+  ["freeAirship"] = {"airship"},
+  ["freeBridge"]  = {"bridge"},
+  ["freeCanal"]   = {"canal"},
+  ["freeCanoe"]   = {"canoe"},
+  ["freeLute"]    = {"lute"},
+  ["freeTail"]    = {"tail"},
+  ["freeRod"]     = {"rod"},
+}
 
-function notAirBoat()
-  return not Tracker:FindObjectForCode("airBoat").Active
+function freeItem(item)
+  if Tracker:FindObjectForCode(item).Active == true then
+    Tracker:FindObjectForCode(freeItemTable[item][1]).Active = true
+  end
 end
-
-function notMermaidPrison()
-  return not Tracker:FindObjectForCode("mermaidPrison").Active
-end
+ScriptHost:AddWatchForCode("freeShipSettingWatcher", "freeShip", freeItem)
+ScriptHost:AddWatchForCode("freeAirshipSettingWatcher", "freeAirship", freeItem)
+ScriptHost:AddWatchForCode("freeBridgeSettingWatcher", "freeBridge", freeItem)
+ScriptHost:AddWatchForCode("freeCanalSettingWatcher", "freeCanal", freeItem)
+ScriptHost:AddWatchForCode("freeCanoeSettingWatcher", "freeCanoe", freeItem)
+ScriptHost:AddWatchForCode("freeLuteSettingWatcher", "freeLute", freeItem)
+ScriptHost:AddWatchForCode("freeTailSettingWatcher", "freeTail", freeItem)
+ScriptHost:AddWatchForCode("freeRodSettingWatcher", "freeRod", freeItem)
 
 function canBreakOrb()
   if Tracker.ActiveVariantUID == "shardHunt" then

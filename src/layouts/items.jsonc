@@ -4,8 +4,7 @@
     "h_alignment": "center",
     "v_alignment": "center",
     "item_margin": "1,2",
-    "rows":
-    [
+    "rows": [
       [ "", "bridge", "lute", "ship", "crown", "crystal", "herb" ],
       [ "key", "tnt", "canal", "ruby", "rod", "canoe", "floater" ],
       [ "tail", "bottle", "oxyale", "slab", "cube", "chime", "adamant" ]
@@ -16,8 +15,7 @@
     "h_alignment": "center",
     "v_alignment": "center",
     "item_margin": "1,2",
-    "rows":
-    [
+    "rows": [
       [ "garland", "king", "princessSara", "bikke", "marshIncentive", "astos", "matoya" ],
       [ "elfprince", "coneriaIncentive", "nerrick", "earthCaveIncentive", "sarda", "sages", "iceCaveIncentive" ],
       [ "castleOfOrdealsIncentive", "shopItem", "fairy", "seaShrineIncentive", "cubeBot", "lefein", "skyFortressIncentive" ],
@@ -27,116 +25,209 @@
   "shared_manual_grid": {
     "type": "itemgrid",
     "item_margin": "1,2",
-    "rows":
-    [
+    "rows": [
       [ "earthorb", "fireorb", "waterorb", "airorb" ],
-      [ "garland", "airship", "unne", "bahamut" ],
+      [ "garland", "airship", "unne", "bahamut", "lockpicking" ],
       [ "shard" ]
     ]
   },
-  "shared_buttons_grid": {
+  "overworld_edits": {
     "type": "array",
     "orientation": "vertical",
-    "margin": "0,0",
     "content": [
-      {
-        "type": "item",
-        "item": "showAllChests"
-      },
-      {
-        "type": "item",
-        "item": "shardsRequired"
-      }
-    ]
-  },
-  "overworld_edits_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "margin": "0,0",
-    "content": [
-      {
-        "type": "item",
-        "item": "progressionFlag"
-      },
-      {
-        "type": "array",
+      { "type": "array",
         "orientation": "horizontal",
-        "margin": "0,0",
+        "margin": "0,-5,0,0",
         "content": [
-          {
-            "type": "item",
-            "item": "northernDocks"
-          },
-          {
-            "type": "item",
-            "item": "ryukahnDock"
+          { "item": "progressionFlag",
+            "type": "item"
           }
         ]
       },
-      {
-        "type": "array",
+      { "type": "array",
         "orientation": "horizontal",
-        "margin": "0,0",
+        "margin": "0,-5,0,0",
         "content": [
-          {
-            "type": "item",
-            "item": "cardiaDock"
+          { "item": "northernDocks",
+            "type": "item"
           },
-          {
-            "type": "item",
-            "item": "lefeinRiver"
+          { "item": "ryukahnDock",
+            "type": "item"
           }
         ]
       },
-      {
-        "type": "array",
+      { "type": "array",
         "orientation": "horizontal",
-        "margin": "0,0",
+        "margin": "0,-5,0,0",
         "content": [
-          {
-            "type": "item",
-            "item": "lefeinBridge"
+          { "item": "cardiaDock",
+            "type": "item"
           },
-          {
-            "type": "item",
-            "item": "gaiaMountain"
+          { "item": "lefeinRiver",
+            "type": "item"
           }
         ]
       },
-      {
-        "type": "array",
+      { "type": "array",
         "orientation": "horizontal",
-        "margin": "0,0",
+        "margin": "0,-5,0,0",
         "content": [
-          {
-            "type": "item",
-            "item": "ordealsHighway"
+          { "item": "lefeinBridge",
+            "type": "item"
           },
-          {
-            "type": "item",
-            "item": "melmondRiver"
+          { "item": "gaiaMountain",
+            "type": "item"
+          }
+        ]
+      },
+      { "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-5,0,0",
+        "content": [
+          { "item": "ordealsHighway",
+            "type": "item"
+          },
+          { "item": "melmondRiver",
+            "type": "item"
           }
         ]
       }
     ]
   },
-  "dungeon_edits_grid": {
+  "dungeon_edits": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      { "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-5,0,0",
+        "content": [
+          { "item": "titansTunnel",
+            "type": "item"
+          },
+          { "item": "bahamutHoard",
+            "type": "item"
+          }
+        ]
+      },
+      { "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-5,0,0",
+        "content": [
+          { "item": "mermaidPrison",
+            "type": "item"
+          }
+        ]
+      }
+    ]
+  },
+  "early_items": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      { "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-5,0,0",
+        "content": [
+          { "item": "earlyKing",
+            "type": "item"
+          },
+          { "item": "earlySarda",
+            "type": "item"
+          }
+        ]
+      },
+      { "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-5,0,0",
+        "content": [
+          { "item": "earlySages",
+            "type": "item"
+          },
+          { "item": "earlyOrdeals",
+            "type": "item"
+          }
+        ]
+      }
+    ]
+  },
+  "free_items": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      { "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-5,0,0",
+        "content": [
+          { "item": "freeShip",
+            "type": "item"
+          },
+          { "item": "freeAirship",
+            "type": "item"
+          }
+        ]
+      },
+      { "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-5,0,0",
+        "content": [
+          { "item": "freeBridge",
+            "type": "item"
+          },
+          { "item": "freeCanal",
+            "type": "item"
+          }
+        ]
+      },
+      { "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-5,0,0",
+        "content": [
+          { "item": "freeCanoe",
+            "type": "item"
+          },
+          { "item": "freeLute",
+            "type": "item"
+          }
+        ]
+      },
+      { "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-5,0,0",
+        "content": [
+          { "item": "freeTail",
+            "type": "item"
+          },
+          { "item": "freeRod",
+            "type": "item"
+          }
+        ]
+      }
+    ]
+  },
+  "option_buttons": {
     "type": "array",
     "orientation": "vertical",
     "margin": "0,0",
     "content": [
-      {
-        "type": "array",
+      { "type": "array",
         "orientation": "horizontal",
-        "margin": "0,0",
+        "margin": "0,-5,0,0",
         "content": [
-          {
-            "type": "item",
-            "item": "mermaidPrison"
+          { "item": "showAllChests",
+            "type": "item"
           },
-          {
-            "type": "item",
-            "item": "bahamutHoard"
+          { "item": "airBoat",
+            "type": "item"
+          }
+        ]
+      },
+      { "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,-5,0,0",
+        "content": [
+          { "item": "shardsRequired",
+            "type": "item"
           }
         ]
       }

@@ -148,16 +148,22 @@
     "codes": "tnt"
   },
   {
-    "name" : "Bahamut - Class Change",
-    "type" : "toggle",
-    "img" : "images/checks/bahamut.png",
-    "codes" : "bahamut"
+    "name": "Bahamut - Class Change",
+    "type": "toggle",
+    "img": "images/checks/bahamut.png",
+    "codes": "bahamut"
   },
   {
-    "name" : "Airship",
-    "type" : "toggle",
-    "img" : "images/items/airship.png",
-    "codes" : "airship"
+    "name": "Airship",
+    "type": "toggle",
+    "img": "images/items/airship.png",
+    "codes": "airship"
+  },
+  {
+    "name": "Lockpicking",
+    "type": "toggle",
+    "img": "images/items/key.png",
+    "codes": "lockpicking"
   },
   {
     "name": "Shards",
@@ -178,16 +184,16 @@
     "overlay_font_size": 16
   },
   {
-    "name" : "Sigil",
-    "type" : "toggle",
-    "img" : "images/items/shard.png",
-    "codes" : "sigil"
+    "name": "Sigil",
+    "type": "toggle",
+    "img": "images/items/shard.png",
+    "codes": "sigil"
   },
   {
-    "name" : "Mark",
-    "type" : "toggle",
-    "img" : "images/items/shard.png",
-    "codes" : "mark"
+    "name": "Mark",
+    "type": "toggle",
+    "img": "images/items/shard.png",
+    "codes": "mark"
   },
 
   {

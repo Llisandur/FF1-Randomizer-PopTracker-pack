@@ -52,37 +52,37 @@
     "children": [
       {
         "name": "Passby",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Passby"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 440, "y": 104}]
       },
       {
         "name": "Bubbles 1",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Bubbles1"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 536, "y": 104}]
       },
       {
         "name": "Bubbles 2",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Bubbles2"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 568, "y": 104}]
       },
       {
         "name": "Incentive 1",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Incentive1"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 648, "y": 104}]
       },
       {
         "name": "Incentive 2",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Incentive2"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 664, "y": 104}]
       },
       {
         "name": "Incentive Major",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{
           "visibility_rules": ["SeaShrine_Mermaids_B1_IncentiveMajor"],
           "hosted_item": "seaShrineIncentive"
@@ -91,43 +91,43 @@
       },
       {
         "name": "Entrance 1",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Entrance1"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 424, "y": 328}]
       },
       {
         "name": "Entrance 2",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Entrance2"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 440, "y": 328}]
       },
       {
         "name": "Entrance 3",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_Entrance3"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 456, "y": 328}]
       },
       {
         "name": "Four-Corner First",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerFirst"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 552, "y": 216}]
       },
       {
         "name": "Four-Corner Second",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerSecond"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 664, "y": 216}]
       },
       {
         "name": "Four-Corner Third",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerThird"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 552, "y": 440}]
       },
       {
         "name": "Four-Corner Fourth",
-        "access_rules": [ "$notMermaidPrison", "key", "lockpicking" ],
+        "access_rules": [ "$getNot|mermaidPrison", "key", "lockpicking" ],
         "sections": [{"visibility_rules": ["SeaShrine_Mermaids_B1_FourCornerFourth"]}],
         "map_locations": [{"map": "sea_shrine_b1", "x": 664, "y": 440}]
       }

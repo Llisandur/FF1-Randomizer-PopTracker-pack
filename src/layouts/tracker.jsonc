@@ -8,32 +8,49 @@
         {
           "type" : "group",
           "header" : "Game Mode & Overworld: Overworld Edits",
-          "margin" : "0,0,3,0",
           "content" : [
             {
             "type" : "layout",
-            "key" : "overworld_edits_grid"
+            "key" : "overworld_edits"
             }
           ]
         },
         {
           "type" : "group",
           "header" : "Maps and Routing: Dungeons",
-          "margin" : "0,0,3,0",
           "content" : [
             {
             "type" : "layout",
-            "key" : "dungeon_edits_grid"
+            "key" : "dungeon_edits"
+            }
+          ]
+        },
+        {
+          "type" : "group",
+          "header" : "Maps and Routing: Progression",
+          "content" : [
+            {
+            "type" : "layout",
+            "key" : "early_items"
+            }
+          ]
+        },
+        {
+          "type" : "group",
+          "header" : "Treasures and Freebies: Freebies",
+          "content" : [
+            {
+            "type" : "layout",
+            "key" : "free_items"
             }
           ]
         },
         {
           "type" : "group",
           "header" : "Options",
-          "margin" : "0,0,3,0",
           "content" : {
             "type" : "layout",
-            "key" : "shared_buttons_grid"
+            "key" : "option_buttons"
           }
         }
       ]
