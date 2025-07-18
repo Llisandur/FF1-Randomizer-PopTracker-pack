@@ -175,15 +175,6 @@
   },
 
   {
-    "name": "Required Shards",
-    "type": "consumable",
-    "img": "images/items/shard.png",
-    "codes": "shardsRequired",
-    "initial_quantity": 16,
-    "max_quantity": 36,
-    "overlay_font_size": 16
-  },
-  {
     "name": "Sigil",
     "type": "toggle",
     "img": "images/items/shard.png",

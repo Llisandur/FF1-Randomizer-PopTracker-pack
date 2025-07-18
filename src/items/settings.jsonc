@@ -176,13 +176,6 @@
     "disabled_img" : "images/settings/freeRod-No.png"
   },
   {
-    "name": "AirBoat",
-    "type": "toggle",
-    "img" : "images/settings/airBoat.png",
-    "codes" : "airBoat",
-    "disabled_img" : "images/settings/airBoat-No.png"
-  },
-  {
     "name" : "Show All Chests",
     "type" : "progressive",
     "loop": true,
@@ -198,5 +191,21 @@
         "inherit_codes" : false
       }
     ]
+  },
+  {
+    "name": "AirBoat",
+    "type": "toggle",
+    "img" : "images/settings/airBoat.png",
+    "codes" : "airBoat",
+    "disabled_img" : "images/settings/airBoat-No.png"
+  },
+  {
+    "name": "Required Shards",
+    "type": "consumable",
+    "img": "images/settings/shardHuntGoal.png",
+    "codes": "shardsRequired",
+    "initial_quantity": 16,
+    "max_quantity": 36,
+    "overlay_font_size": 26
   }
 ]

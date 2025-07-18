@@ -77,6 +77,17 @@ function apply_slot_data(slot_data)
   -- put any code here that slot_data should affect (toggling setting items for example)
 end
 
+function checkFreeSettings()
+  for setting, value in pairs(FREE_ITEM_TABLE) do
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+      print(string.format("checkFreeSettings, setting %s, value %s", setting, value))
+    end
+    if Tracker:FindObjectForCode(setting).Active == true then
+      Tracker:FindObjectForCode(value).Active = true
+    end
+  end
+end
+
 -- called right after an AP slot is connected
 function onClear(slot_data)
   -- use bulk update to pause logic updates until we are done resetting all items/locations
@@ -151,6 +162,7 @@ function onClear(slot_data)
     Archipelago:Get({ HINTS_ID })
   end
 
+  checkFreeSettings()
   Tracker.BulkUpdate = false
 end
 

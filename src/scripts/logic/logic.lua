@@ -21,20 +21,23 @@ function getNot(string)
   return not Tracker:FindObjectForCode(string).Active
 end
 
-local freeItemTable = {
-  ["freeShip"]    = {"ship"},
-  ["freeAirship"] = {"airship"},
-  ["freeBridge"]  = {"bridge"},
-  ["freeCanal"]   = {"canal"},
-  ["freeCanoe"]   = {"canoe"},
-  ["freeLute"]    = {"lute"},
-  ["freeTail"]    = {"tail"},
-  ["freeRod"]     = {"rod"},
+FREE_ITEM_TABLE = {
+  ["freeShip"]    = "ship",
+  ["freeAirship"] = "airship",
+  ["freeBridge"]  = "bridge",
+  ["freeCanal"]   = "canal",
+  ["freeCanoe"]   = "canoe",
+  ["freeLute"]    = "lute",
+  ["freeTail"]    = "tail",
+  ["freeRod"]     = "rod",
 }
 
 function freeItem(item)
+  if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+    print("freeItem: item %s, FREE_ITEM_TABLE[item] %s", item, FREE_ITEM_TABLE[item])
+  end
   if Tracker:FindObjectForCode(item).Active == true then
-    Tracker:FindObjectForCode(freeItemTable[item][1]).Active = true
+    Tracker:FindObjectForCode(FREE_ITEM_TABLE[item]).Active = true
   end
 end
 ScriptHost:AddWatchForCode("freeShipSettingWatcher", "freeShip", freeItem)
