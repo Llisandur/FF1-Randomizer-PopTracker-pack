@@ -504,8 +504,7 @@
             "item_count": 4
           },
           { "name": "Top Floor (3F) - Incentive",
-            "visibility_rules": [ "CastleOfOrdeals_TopFloor_3F_Incentive" ],
-            "hosted_item": "castleOfOrdealsIncentive"
+            "ref": "Castle of Ordeals Top Floor (3F)/Incentive/"
           }
         ],
         "map_locations": [{"map": "overworld", "x": 2080, "y": 724}]
